@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Implicit differentiation. When x and y share an equation, differentiate without isolating y first. Math: x^(2)+y^(2)=25at (3,4)",
+    "ko": "음함수 미분. x와 y가 한 식에 함께 있어도 y를 먼저 풀어내지 않고 미분할 수 있습니다. 수식: x^(2)+y^(2)=25at (3,4)"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. Treat y as a function of x. Differentiating y² needs the chain rule. Math: (d)/(dx)(y^(2))=2y(dy)/(dx)",
+    "ko": "먼저 조건을 확인. y를 x의 함수로 보세요. y²를 미분할 때 연쇄법칙이 필요합니다. 수식: (d)/(dx)(y^(2))=2y(dy)/(dx)"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. On the upper semicircle, the slope becomes more negative as x increases. Graph: upper branch: y=sqrt(25-x**2). x-range [-4.8, 4.8], y-range [0, 5.5]. Filled points: [[3, 4]].",
+    "ko": "개념을 눈으로 연결. 위쪽 반원에서는 x가 커질수록 기울기가 더 음수가 됩니다. 그래프: upper branch: y=sqrt(25-x**2). x 표시구간 [-4.8, 4.8], y 표시구간 [0, 5.5]. 채운 점: [[3, 4]]."
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. Differentiate both sides with respect to x. Math: 2x+2y(dy)/(dx)=0",
+    "ko": "1단계  식을 세우기. 양변을 x에 대해 미분합니다. 수식: 2x+2y(dy)/(dx)=0"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. Solve for the derivative and keep its denominator condition. Math: (dy)/(dx)=−(x)/(y)(y≠0)",
+    "ko": "2단계  이유를 따라 계산. 도함수를 정리하고 분모 조건도 유지합니다. 수식: (dy)/(dx)=−(x)/(y)(y≠0)"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. The tangent falls 3 units for each 4 units to the right. Math: (dy)/(dx)|_((3,4))=−(3)/(4)",
+    "ko": "3단계  결과의 의미. 접선은 오른쪽으로 4만큼 갈 때 3만큼 내려갑니다. 수식: (dy)/(dx)|_((3,4))=−(3)/(4)"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. Writing the derivative of y² as just 2y omits dy/dx. Math: (y^(2))^(′)=2yy^(′)",
+    "ko": "이 실수는 피하세요. y²의 도함수를 2y만 쓰면 dy/dx가 빠집니다. 수식: (y^(2))^(′)=2yy^(′)"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Use both the product rule and implicit differentiation. Math: x^(2)+xy+y^(2)=7; at (1,2)",
+    "ko": "직접 풀어보세요. 곱의 법칙과 음함수 미분을 함께 사용하세요. 수식: x^(2)+xy+y^(2)=7; at (1,2)"
+  }
+]

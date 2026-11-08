@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Riemann sums and sigma notation. A Riemann sum replaces curved accumulation with many narrow rectangles. Math: f(x)=x^(2)on [0,2], n=4",
+    "ko": "리만합과 합 기호. 리만합은 곡선 아래 누적량을 여러 개의 좁은 직사각형으로 근사합니다. 수식: f(x)=x^(2)on [0,2], n=4"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. Choose right endpoints and equal widths for this approximation. Math: Δx=(2−0)/(4)=(1)/(2)",
+    "ko": "먼저 조건을 확인. 이 근사에서는 오른쪽 끝점과 같은 폭을 사용합니다. 수식: Δx=(2−0)/(4)=(1)/(2)"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. Each rectangle contributes height times width; sigma notation adds the contributions. Table (header, then rows): right x, height; 0.5, 0.25; 1.0, 1.00; 1.5, 2.25; 2.0, 4.00.",
+    "ko": "개념을 눈으로 연결. 각 직사각형은 높이와 폭의 곱을 기여하며 합 기호로 모두 더합니다. 표(머리글 다음 각 행): right x, height; 0.5, 0.25; 1.0, 1.00; 1.5, 2.25; 2.0, 4.00."
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. The sample input changes with the index i. Math: x_(i)=(i)/(2),i=1,2,3,4",
+    "ko": "1단계  식을 세우기. 표본 입력은 지표 i에 따라 바뀝니다. 수식: x_(i)=(i)/(2),i=1,2,3,4"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. Use all four right-endpoint heights and one common width. Math: R_(4)=(1)/(2)((1)/(4)+1+(9)/(4)+4)",
+    "ko": "2단계  이유를 따라 계산. 오른쪽 끝점 높이 네 개와 공통 폭을 사용합니다. 수식: R_(4)=(1)/(2)((1)/(4)+1+(9)/(4)+4)"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. Since x² increases here, right rectangles overestimate the integral. Math: R_(4)=(15)/(4)=3.75",
+    "ko": "3단계  결과의 의미. 이 구간에서 x²은 증가하므로 오른쪽 직사각형은 정적분을 과대추정합니다. 수식: R_(4)=(15)/(4)=3.75"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. Forgetting Δx adds heights rather than areas. Math: R_(n)→∫_(a)^(b)f(x)dx; n→∞,Δx=(b−a)/n",
+    "ko": "이 실수는 피하세요. Δx를 빠뜨리면 넓이가 아니라 높이만 더하게 됩니다. 수식: R_(n)→∫_(a)^(b)f(x)dx; n→∞,Δx=(b−a)/n"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Find the left-endpoint sum. Math: f(x)=x, [0,2], n=2",
+    "ko": "직접 풀어보세요. 왼쪽 끝점을 사용한 합을 구하세요. 수식: f(x)=x, [0,2], n=2"
+  }
+]

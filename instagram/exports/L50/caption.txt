@@ -1,0 +1,33 @@
+AP Calculus AB • L50
+Initial values and domains
+
+An initial condition chooses a branch and its valid interval, not just a constant.
+The initial positive value selects the positive square-root branch.
+
+1. Integrate both sides, absorbing constant factors into C.
+2. Use the initial condition before selecting a branch.
+3. This branch stays positive, so the differential equation remains defined.
+
+Remember: Writing ±√(x²+4) as the initial-value solution includes a branch that fails y(0)=2.
+
+CHECK ANSWER — try card 8 first
+(−∞,1). The solution blows up at x=1, so its initial-value interval cannot cross that point.
+
+──────────
+
+AP Calculus AB • 50강
+초기조건과 정의역
+
+초기조건은 상수뿐 아니라 해의 가지와 유효 구간도 결정합니다.
+초기값이 양수이므로 양의 제곱근 가지를 선택합니다.
+
+1. 양변을 적분하고 상수의 배수를 C에 포함합니다.
+2. 초기조건으로 상수를 구한 뒤 가지를 고릅니다.
+3. 이 가지는 항상 양수이므로 방정식이 계속 정의됩니다.
+
+실수 점검: ±√(x²+4)를 답으로 쓰면 초기조건에 맞지 않는 가지도 포함됩니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+(−∞,1)입니다. x=1에서 발산하므로 초기값 해의 구간은 그 점을 넘을 수 없습니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

@@ -1,0 +1,244 @@
+{
+  "id": "L12",
+  "number": 12,
+  "unit": 2,
+  "unit_title": {
+    "ko": "미분의 기초",
+    "en": "Derivative foundations"
+  },
+  "title": {
+    "ko": "미분가능성과 연속",
+    "en": "Differentiability and continuity"
+  },
+  "prerequisites": [
+    "L11"
+  ],
+  "week": 4,
+  "day": "Friday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U2-M05"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "At the corner, the incoming and outgoing tangent slopes disagree.",
+    "ko": "뾰족한 점에서는 들어오는 기울기와 나가는 기울기가 다릅니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "미분가능성과 연속",
+        "en": "Differentiability and continuity"
+      },
+      "notes": {
+        "en": "A continuous graph can still have a corner.",
+        "ko": "연속인 그래프에도 뾰족한 점이 있을 수 있습니다."
+      },
+      "math": [
+        "f(x)=|x-2|\\quad\\mathrm{at}\\ x=2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Differentiability and continuity. A continuous graph can still have a corner.",
+        "ko": "미분가능성과 연속. 연속인 그래프에도 뾰족한 점이 있을 수 있습니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Check continuity first, then compare one-sided slopes.",
+        "ko": "연속성을 먼저 확인하고 좌우 기울기를 비교하세요."
+      },
+      "math": [
+        "\\mathrm{differentiable}\\Rightarrow\\mathrm{continuous}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Check continuity first, then compare one-sided slopes.",
+        "ko": "먼저 조건을 확인. 연속성을 먼저 확인하고 좌우 기울기를 비교하세요."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "At the corner, the incoming and outgoing tangent slopes disagree.",
+        "ko": "뾰족한 점에서는 들어오는 기울기와 나가는 기울기가 다릅니다."
+      },
+      "math": [],
+      "visual": {
+        "kind": "graph",
+        "curves": [
+          {
+            "expr": "Abs(x-2)",
+            "label": "f",
+            "color": "blue"
+          }
+        ],
+        "xlim": [
+          0,
+          4
+        ],
+        "ylim": [
+          -0.3,
+          2.5
+        ],
+        "points": [
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. At the corner, the incoming and outgoing tangent slopes disagree. Graph: f: y=Abs(x-2). x-range [0, 4], y-range [-0.3, 2.5]. Filled points: [[2, 0]].",
+        "ko": "개념을 눈으로 연결. 뾰족한 점에서는 들어오는 기울기와 나가는 기울기가 다릅니다. 그래프: f: y=Abs(x-2). x 표시구간 [0, 4], y 표시구간 [-0.3, 2.5]. 채운 점: [[2, 0]]."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "The nearby outputs match the value, so the function is continuous.",
+        "ko": "주변 출력과 함숫값이 같으므로 연속입니다."
+      },
+      "math": [
+        "\\lim_{x\\to2}|x-2|=0=f(2)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. The nearby outputs match the value, so the function is continuous.",
+        "ko": "1단계  식을 세우기. 주변 출력과 함숫값이 같으므로 연속입니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "The two sides approach the point with different slopes.",
+        "ko": "양쪽에서 서로 다른 기울기로 그 점에 접근합니다."
+      },
+      "math": [
+        "\\mathrm{left\\ slope}=-1",
+        "\\mathrm{right\\ slope}=1"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. The two sides approach the point with different slopes.",
+        "ko": "2단계  이유를 따라 계산. 양쪽에서 서로 다른 기울기로 그 점에 접근합니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "No single finite tangent slope exists at the corner.",
+        "ko": "뾰족한 점에는 하나의 유한한 접선 기울기가 없습니다."
+      },
+      "math": [
+        "f^\\prime(2)\\ \\mathrm{DNE}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. No single finite tangent slope exists at the corner.",
+        "ko": "3단계  결과의 의미. 뾰족한 점에는 하나의 유한한 접선 기울기가 없습니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "Continuity alone does not imply differentiability.",
+        "ko": "연속이라는 사실만으로 미분가능하다고 할 수 없습니다."
+      },
+      "math": [
+        "\\mathrm{continuous}\\ \\not\\Rightarrow\\ \\mathrm{differentiable}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. Continuity alone does not imply differentiability.",
+        "ko": "이 실수는 피하세요. 연속이라는 사실만으로 미분가능하다고 할 수 없습니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Is g continuous? Is it differentiable?",
+        "ko": "g는 연속인가요? 미분가능한가요?"
+      },
+      "math": [
+        "g(x)=|x|\\quad\\mathrm{at}\\ x=0"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Is g continuous? Is it differentiable?",
+        "ko": "직접 풀어보세요. g는 연속인가요? 미분가능한가요?"
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "g(x)=|x|\\quad\\mathrm{at}\\ x=0"
+    ],
+    "prompt": {
+      "en": "Is g continuous? Is it differentiable?",
+      "ko": "g는 연속인가요? 미분가능한가요?"
+    },
+    "answer": {
+      "en": "Continuous, but not differentiable: one-sided slopes are −1 and 1.",
+      "ko": "연속이지만 미분가능하지 않습니다. 좌우 기울기가 −1과 1로 다릅니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "limit(Abs(x-2)/(x-2),x,2,dir='-')",
+      "expected": "-1"
+    },
+    {
+      "expression": "limit(Abs(x-2)/(x-2),x,2,dir='+')",
+      "expected": "1"
+    },
+    {
+      "expression": "limit(Abs(x),x,0)",
+      "expected": "0"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L12\nDifferentiability and continuity\n\nA continuous graph can still have a corner.\nAt the corner, the incoming and outgoing tangent slopes disagree.\n\n1. The nearby outputs match the value, so the function is continuous.\n2. The two sides approach the point with different slopes.\n3. No single finite tangent slope exists at the corner.\n\nRemember: Continuity alone does not imply differentiability.\n\nCHECK ANSWER — try card 8 first\nContinuous, but not differentiable: one-sided slopes are −1 and 1.",
+    "ko": "AP Calculus AB • 12강\n미분가능성과 연속\n\n연속인 그래프에도 뾰족한 점이 있을 수 있습니다.\n뾰족한 점에서는 들어오는 기울기와 나가는 기울기가 다릅니다.\n\n1. 주변 출력과 함숫값이 같으므로 연속입니다.\n2. 양쪽에서 서로 다른 기울기로 그 점에 접근합니다.\n3. 뾰족한 점에는 하나의 유한한 접선 기울기가 없습니다.\n\n실수 점검: 연속이라는 사실만으로 미분가능하다고 할 수 없습니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n연속이지만 미분가능하지 않습니다. 좌우 기울기가 −1과 1로 다릅니다."
+  },
+  "graph_description": null
+}

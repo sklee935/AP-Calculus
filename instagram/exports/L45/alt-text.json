@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Substitution. Substitution reverses the chain rule when an inner derivative is available. Math: ∫_(0)^(1)6x(1+3x^(2))^(2)dx",
+    "ko": "치환적분. 치환적분은 안의 도함수가 있을 때 연쇄법칙을 거꾸로 적용합니다. 수식: ∫_(0)^(1)6x(1+3x^(2))^(2)dx"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. Look for an inside expression whose derivative matches the remaining factor. Math: u=1+3x^(2),du=6xdx",
+    "ko": "먼저 조건을 확인. 남은 인수와 도함수가 일치하는 안의 식을 찾으세요. 수식: u=1+3x^(2),du=6xdx"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. Changing variables changes both the differential and the endpoint values. Math: x=0⇒u=1; x=1⇒u=4",
+    "ko": "개념을 눈으로 연결. 변수를 바꾸면 미분요소와 끝점 값도 함께 바뀝니다. 수식: x=0⇒u=1; x=1⇒u=4"
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. Replace the full differential 6x dx by du. Math: ∫_(0)^(1)6x(1+3x^(2))^(2)dx=∫_(1)^(4)u^(2)du",
+    "ko": "1단계  식을 세우기. 미분요소 6x dx 전체를 du로 바꿉니다. 수식: ∫_(0)^(1)6x(1+3x^(2))^(2)dx=∫_(1)^(4)u^(2)du"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. Evaluate using the new variable and new bounds. Math: [(u^(3))/(3)]_(1)^(4)=(64−1)/(3)",
+    "ko": "2단계  이유를 따라 계산. 새 변수와 새 구간으로 계산합니다. 수식: [(u^(3))/(3)]_(1)^(4)=(64−1)/(3)"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. The positive integrand gives a positive answer. Math: ∫_(0)^(1)6x(1+3x^(2))^(2)dx=21",
+    "ko": "3단계  결과의 의미. 피적분함수가 양수이므로 답도 양수인지 확인합니다. 수식: ∫_(0)^(1)6x(1+3x^(2))^(2)dx=21"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. Do not combine a u-antiderivative with unchanged x-bounds. Math: new variable⇒new bounds",
+    "ko": "이 실수는 피하세요. u로 적분한 식에 원래 x 구간을 그대로 넣지 마세요. 수식: new variable⇒new bounds"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Use u=x². Math: ∫_(0)^(1)2xe^(x^(2))dx",
+    "ko": "직접 풀어보세요. u=x²으로 치환하세요. 수식: ∫_(0)^(1)2xe^(x^(2))dx"
+  }
+]

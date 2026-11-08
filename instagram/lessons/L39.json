@@ -1,0 +1,238 @@
+{
+  "id": "L39",
+  "number": 39,
+  "unit": 6,
+  "unit_title": {
+    "ko": "적분과 누적",
+    "en": "Integration and accumulation"
+  },
+  "title": {
+    "ko": "사다리꼴 근사",
+    "en": "Trapezoidal approximation"
+  },
+  "prerequisites": [
+    "L38"
+  ],
+  "week": 13,
+  "day": "Friday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U6-M03"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "The average of two endpoint rates gives a trapezoid’s mean height.",
+    "ko": "양 끝 변화율의 평균이 사다리꼴의 평균 높이입니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "사다리꼴 근사",
+        "en": "Trapezoidal approximation"
+      },
+      "notes": {
+        "en": "Trapezoids join neighboring data heights and accommodate unequal interval widths.",
+        "ko": "사다리꼴은 이웃한 높이를 연결하며 구간 폭이 달라도 사용할 수 있습니다."
+      },
+      "math": [
+        "\\int_0^3 r(t)\\,dt\\approx?"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Trapezoidal approximation. Trapezoids join neighboring data heights and accommodate unequal interval widths.",
+        "ko": "사다리꼴 근사. 사다리꼴은 이웃한 높이를 연결하며 구간 폭이 달라도 사용할 수 있습니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Use each interval’s own width; the table intervals are not equal.",
+        "ko": "각 구간의 폭을 따로 사용하세요. 표의 시간 간격은 같지 않습니다."
+      },
+      "math": [
+        "\\mathrm{area}\\approx\\frac{\\mathrm{left+right}}2\\cdot\\mathrm{width}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Use each interval’s own width; the table intervals are not equal.",
+        "ko": "먼저 조건을 확인. 각 구간의 폭을 따로 사용하세요. 표의 시간 간격은 같지 않습니다."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "The average of two endpoint rates gives a trapezoid’s mean height.",
+        "ko": "양 끝 변화율의 평균이 사다리꼴의 평균 높이입니다."
+      },
+      "math": [],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "t (h)",
+          "r (L/h)"
+        ],
+        "rows": [
+          [
+            "0",
+            "2"
+          ],
+          [
+            "1",
+            "4"
+          ],
+          [
+            "3",
+            "8"
+          ]
+        ]
+      },
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. The average of two endpoint rates gives a trapezoid’s mean height. Table (header, then rows): t (h), r (L/h); 0, 2; 1, 4; 3, 8.",
+        "ko": "개념을 눈으로 연결. 양 끝 변화율의 평균이 사다리꼴의 평균 높이입니다. 표(머리글 다음 각 행): t (h), r (L/h); 0, 2; 1, 4; 3, 8."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "The first width is one hour.",
+        "ko": "첫 구간의 폭은 1시간입니다."
+      },
+      "math": [
+        "T_{[0,1]}=\\frac{2+4}{2}(1)=3"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. The first width is one hour.",
+        "ko": "1단계  식을 세우기. 첫 구간의 폭은 1시간입니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "The second width is two hours.",
+        "ko": "두 번째 구간의 폭은 2시간입니다."
+      },
+      "math": [
+        "T_{[1,3]}=\\frac{4+8}{2}(2)=12"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. The second width is two hours.",
+        "ko": "2단계  이유를 따라 계산. 두 번째 구간의 폭은 2시간입니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "Adding rate times time produces a volume estimate.",
+        "ko": "변화율과 시간의 곱을 더하면 부피의 추정값이 됩니다."
+      },
+      "math": [
+        "T=3+12=15\\ \\mathrm{L}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. Adding rate times time produces a volume estimate.",
+        "ko": "3단계  결과의 의미. 변화율과 시간의 곱을 더하면 부피의 추정값이 됩니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "Tabular data alone may not justify an overestimate or underestimate claim.",
+        "ko": "표만으로 과대추정 또는 과소추정이라고 단정할 수는 없습니다."
+      },
+      "math": [
+        "T=\\sum\\frac{r_i+r_{i+1}}2\\Delta t_i"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. Tabular data alone may not justify an overestimate or underestimate claim.",
+        "ko": "이 실수는 피하세요. 표만으로 과대추정 또는 과소추정이라고 단정할 수는 없습니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Estimate the integral by trapezoids.",
+        "ko": "사다리꼴로 정적분을 추정하세요."
+      },
+      "math": [
+        "t:0,2,5",
+        "r(t):1,3,5"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Estimate the integral by trapezoids.",
+        "ko": "직접 풀어보세요. 사다리꼴로 정적분을 추정하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "t:0,2,5",
+      "r(t):1,3,5"
+    ],
+    "prompt": {
+      "en": "Estimate the integral by trapezoids.",
+      "ko": "사다리꼴로 정적분을 추정하세요."
+    },
+    "answer": {
+      "en": "16. The contributions are ((1+3)/2)·2=4 and ((3+5)/2)·3=12.",
+      "ko": "16입니다. 각 기여는 ((1+3)/2)·2=4와 ((3+5)/2)·3=12입니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "(2+4)/2*1+(4+8)/2*2",
+      "expected": "15"
+    },
+    {
+      "expression": "(1+3)/2*2+(3+5)/2*3",
+      "expected": "16"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L39\nTrapezoidal approximation\n\nTrapezoids join neighboring data heights and accommodate unequal interval widths.\nThe average of two endpoint rates gives a trapezoid’s mean height.\n\n1. The first width is one hour.\n2. The second width is two hours.\n3. Adding rate times time produces a volume estimate.\n\nRemember: Tabular data alone may not justify an overestimate or underestimate claim.\n\nCHECK ANSWER — try card 8 first\n16. The contributions are ((1+3)/2)·2=4 and ((3+5)/2)·3=12.",
+    "ko": "AP Calculus AB • 39강\n사다리꼴 근사\n\n사다리꼴은 이웃한 높이를 연결하며 구간 폭이 달라도 사용할 수 있습니다.\n양 끝 변화율의 평균이 사다리꼴의 평균 높이입니다.\n\n1. 첫 구간의 폭은 1시간입니다.\n2. 두 번째 구간의 폭은 2시간입니다.\n3. 변화율과 시간의 곱을 더하면 부피의 추정값이 됩니다.\n\n실수 점검: 표만으로 과대추정 또는 과소추정이라고 단정할 수는 없습니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n16입니다. 각 기여는 ((1+3)/2)·2=4와 ((3+5)/2)·3=12입니다."
+  },
+  "graph_description": null
+}

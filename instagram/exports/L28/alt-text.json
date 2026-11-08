@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "L Hospital rule. An indeterminate form can permit a derivative comparison under L’Hospital’s hypotheses. Math: lim_(x→0)(e^(2x)−1)/(x)",
+    "ko": "로피탈의 정리. 로피탈 정리의 조건이 맞으면 부정형을 도함수의 비로 바꾸어 비교할 수 있습니다. 수식: lim_(x→0)(e^(2x)−1)/(x)"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. Check 0/0 or ∞/∞ first. Assume differentiability nearby and a nonzero denominator derivative there. Math: (e^(0)−1)/(0) : 0/0",
+    "ko": "먼저 조건을 확인. 먼저 0/0 또는 ∞/∞인지 확인합니다. 근방에서 미분가능하고 분모 도함수가 0이 아니어야 합니다. 수식: (e^(0)−1)/(0) : 0/0"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. Here the derivative ratio has a finite limit, so L’Hospital’s rule applies. Math: lim(f)/(g)=lim(f^(′))/(g^(′))",
+    "ko": "개념을 눈으로 연결. 여기서는 도함수 비의 극한이 유한하게 존재하므로 로피탈 정리를 적용할 수 있습니다. 수식: lim(f)/(g)=lim(f^(′))/(g^(′))"
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. Differentiate numerator and denominator separately. Math: (e^(2x)−1)^(′)=2e^(2x)",
+    "ko": "1단계  식을 세우기. 분자와 분모를 각각 미분합니다. 수식: (e^(2x)−1)^(′)=2e^(2x)"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. This comparison uses derivatives, not the quotient rule. Math: lim_(x→0)(2e^(2x))/(1)",
+    "ko": "2단계  이유를 따라 계산. 여기서는 도함수의 비를 쓰며 몫의 미분법을 쓰는 것이 아닙니다. 수식: lim_(x→0)(2e^(2x))/(1)"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. The transformed expression is continuous at zero. Math: lim_(x→0)2e^(2x)=2",
+    "ko": "3단계  결과의 의미. 바꾼 식은 0에서 연속이므로 대입합니다. 수식: lim_(x→0)2e^(2x)=2"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. A nonzero number divided by zero is not a 0/0 indeterminate form. Math: check the form first",
+    "ko": "이 실수는 피하세요. 0이 아닌 수를 0으로 나눈 형태는 0/0 부정형이 아닙니다. 수식: check the form first"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Verify the form, then use the derivative ratio. Math: lim_(x→0)(sin(3x))/(2x)",
+    "ko": "직접 풀어보세요. 형태를 확인한 뒤 도함수의 비를 쓰세요. 수식: lim_(x→0)(sin(3x))/(2x)"
+  }
+]

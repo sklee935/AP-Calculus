@@ -1,0 +1,33 @@
+AP Calculus AB • L34
+Concavity and inflection
+
+Concavity describes changing slopes; an inflection point needs a change of concavity.
+The second derivative changes from negative to positive at x=2.
+
+1. Left of 2 the graph is concave down.
+2. Right of 2 the graph is concave up.
+3. The function is continuous and its concavity changes here.
+
+Remember: The equation f″=0 gives a candidate; it does not prove an inflection point.
+
+CHECK ANSWER — try card 8 first
+No. g″=12x² stays positive on both sides of zero, so concavity does not change.
+
+──────────
+
+AP Calculus AB • 34강
+오목성과 변곡점
+
+오목성은 기울기의 변화를 나타내며 변곡점에는 오목성 변화가 필요합니다.
+이계도함수는 x=2에서 음수에서 양수로 바뀝니다.
+
+1. 2의 왼쪽에서는 그래프가 아래로 오목합니다.
+2. 2의 오른쪽에서는 그래프가 위로 오목합니다.
+3. 여기서 함수는 연속이고 오목성이 바뀝니다.
+
+실수 점검: f″=0은 후보를 줄 뿐 변곡점임을 증명하지 않습니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+아니요. g″=12x²은 0의 양쪽에서 양수이므로 오목성이 바뀌지 않습니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

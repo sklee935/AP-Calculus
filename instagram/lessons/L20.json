@@ -1,0 +1,219 @@
+{
+  "id": "L20",
+  "number": 20,
+  "unit": 3,
+  "unit_title": {
+    "ko": "합성함수와 음함수 및 역함수",
+    "en": "Composite implicit and inverse functions"
+  },
+  "title": {
+    "ko": "역삼각함수 미분",
+    "en": "Inverse trigonometric derivatives"
+  },
+  "prerequisites": [
+    "L19"
+  ],
+  "week": 7,
+  "day": "Wednesday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U3-M04"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "Use the inverse-trig rule on the outside and the chain rule on the inside.",
+    "ko": "바깥에는 역삼각함수 공식을, 안에는 연쇄법칙을 적용합니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "역삼각함수 미분",
+        "en": "Inverse trigonometric derivatives"
+      },
+      "notes": {
+        "en": "Inverse trigonometric derivatives are algebraic expressions with specific domains.",
+        "ko": "역삼각함수의 도함수는 정의역 조건을 가진 대수식입니다."
+      },
+      "math": [
+        "f(x)=\\arctan(3x)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Inverse trigonometric derivatives. Inverse trigonometric derivatives are algebraic expressions with specific domains.",
+        "ko": "역삼각함수 미분. 역삼각함수의 도함수는 정의역 조건을 가진 대수식입니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Arctan is an inverse function, not the reciprocal of tangent.",
+        "ko": "arctan은 역함수이며 탄젠트의 역수가 아닙니다."
+      },
+      "math": [
+        "(\\arctan x)^\\prime=\\frac1{1+x^2}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Arctan is an inverse function, not the reciprocal of tangent.",
+        "ko": "먼저 조건을 확인. arctan은 역함수이며 탄젠트의 역수가 아닙니다."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "Use the inverse-trig rule on the outside and the chain rule on the inside.",
+        "ko": "바깥에는 역삼각함수 공식을, 안에는 연쇄법칙을 적용합니다."
+      },
+      "math": [
+        "(\\arcsin x)^\\prime=\\frac1{\\sqrt{1-x^2}}",
+        "-1<x<1"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. Use the inverse-trig rule on the outside and the chain rule on the inside.",
+        "ko": "개념을 눈으로 연결. 바깥에는 역삼각함수 공식을, 안에는 연쇄법칙을 적용합니다."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "Name the inner function to avoid losing its coefficient.",
+        "ko": "안의 함수를 정해 계수를 빠뜨리지 않도록 합니다."
+      },
+      "math": [
+        "u=3x,\\quad u^\\prime=3"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. Name the inner function to avoid losing its coefficient.",
+        "ko": "1단계  식을 세우기. 안의 함수를 정해 계수를 빠뜨리지 않도록 합니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "Square the entire inner expression in the denominator.",
+        "ko": "분모에서는 안의 식 전체를 제곱합니다."
+      },
+      "math": [
+        "f^\\prime(x)=\\frac3{1+9x^2}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. Square the entire inner expression in the denominator.",
+        "ko": "2단계  이유를 따라 계산. 분모에서는 안의 식 전체를 제곱합니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "The slope is positive; arctangent is increasing.",
+        "ko": "기울기가 양수이므로 아크탄젠트는 증가합니다."
+      },
+      "math": [
+        "f^\\prime(0)=3"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. The slope is positive; arctangent is increasing.",
+        "ko": "3단계  결과의 의미. 기울기가 양수이므로 아크탄젠트는 증가합니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "For arcsin, the derivative denominator vanishes at the domain endpoints.",
+        "ko": "arcsin의 정의역 끝점에서는 도함수의 분모가 0입니다."
+      },
+      "math": [
+        "(\\arccos x)^\\prime=-\\frac1{\\sqrt{1-x^2}}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. For arcsin, the derivative denominator vanishes at the domain endpoints.",
+        "ko": "이 실수는 피하세요. arcsin의 정의역 끝점에서는 도함수의 분모가 0입니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Check the derivative domain before substituting.",
+        "ko": "도함수의 정의역을 확인한 뒤 대입하세요."
+      },
+      "math": [
+        "g(x)=\\arcsin x,\\quad g^\\prime(1/2)=?"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Check the derivative domain before substituting.",
+        "ko": "직접 풀어보세요. 도함수의 정의역을 확인한 뒤 대입하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "g(x)=\\arcsin x,\\quad g^\\prime(1/2)=?"
+    ],
+    "prompt": {
+      "en": "Check the derivative domain before substituting.",
+      "ko": "도함수의 정의역을 확인한 뒤 대입하세요."
+    },
+    "answer": {
+      "en": "2/√3. Since 1/2 lies between −1 and 1, use 1/√(1−x²).",
+      "ko": "2/√3입니다. 1/2는 −1과 1 사이이므로 1/√(1−x²)에 대입합니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "diff(atan(3*x),x).subs(x,0)",
+      "expected": "3"
+    },
+    {
+      "expression": "diff(asin(x),x).subs(x,Rational(1,2))",
+      "expected": "2/sqrt(3)"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L20\nInverse trigonometric derivatives\n\nInverse trigonometric derivatives are algebraic expressions with specific domains.\nUse the inverse-trig rule on the outside and the chain rule on the inside.\n\n1. Name the inner function to avoid losing its coefficient.\n2. Square the entire inner expression in the denominator.\n3. The slope is positive; arctangent is increasing.\n\nRemember: For arcsin, the derivative denominator vanishes at the domain endpoints.\n\nCHECK ANSWER — try card 8 first\n2/√3. Since 1/2 lies between −1 and 1, use 1/√(1−x²).",
+    "ko": "AP Calculus AB • 20강\n역삼각함수 미분\n\n역삼각함수의 도함수는 정의역 조건을 가진 대수식입니다.\n바깥에는 역삼각함수 공식을, 안에는 연쇄법칙을 적용합니다.\n\n1. 안의 함수를 정해 계수를 빠뜨리지 않도록 합니다.\n2. 분모에서는 안의 식 전체를 제곱합니다.\n3. 기울기가 양수이므로 아크탄젠트는 증가합니다.\n\n실수 점검: arcsin의 정의역 끝점에서는 도함수의 분모가 0입니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n2/√3입니다. 1/2는 −1과 1 사이이므로 1/√(1−x²)에 대입합니다."
+  },
+  "graph_description": null
+}

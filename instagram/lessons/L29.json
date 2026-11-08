@@ -1,0 +1,239 @@
+{
+  "id": "L29",
+  "number": 29,
+  "unit": 5,
+  "unit_title": {
+    "ko": "함수 분석",
+    "en": "Analyzing functions"
+  },
+  "title": {
+    "ko": "평균값정리",
+    "en": "The mean value theorem"
+  },
+  "prerequisites": [
+    "L28"
+  ],
+  "week": 10,
+  "day": "Wednesday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U5-M01"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "The theorem guarantees an interior tangent parallel to the endpoint secant.",
+    "ko": "정리는 양 끝점을 잇는 할선과 평행한 내부 접선을 보장합니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "평균값정리",
+        "en": "The mean value theorem"
+      },
+      "notes": {
+        "en": "Some instantaneous slope must match the average slope when the Mean Value Theorem applies.",
+        "ko": "평균값정리의 조건이 맞으면 순간 기울기가 평균 기울기와 같은 점이 있습니다."
+      },
+      "math": [
+        "f(x)=x^2\\quad\\mathrm{on}\\ [1,5]"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "The mean value theorem. Some instantaneous slope must match the average slope when the Mean Value Theorem applies.",
+        "ko": "평균값정리. 평균값정리의 조건이 맞으면 순간 기울기가 평균 기울기와 같은 점이 있습니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Check continuity on the closed interval and differentiability on the open interval.",
+        "ko": "닫힌 구간의 연속성과 열린 구간의 미분가능성을 확인하세요."
+      },
+      "math": [
+        "f\\ \\mathrm{continuous\\ on}\\ [1,5]",
+        "f\\ \\mathrm{differentiable\\ on}\\ (1,5)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Check continuity on the closed interval and differentiability on the open interval.",
+        "ko": "먼저 조건을 확인. 닫힌 구간의 연속성과 열린 구간의 미분가능성을 확인하세요."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "The theorem guarantees an interior tangent parallel to the endpoint secant.",
+        "ko": "정리는 양 끝점을 잇는 할선과 평행한 내부 접선을 보장합니다."
+      },
+      "math": [],
+      "visual": {
+        "kind": "graph",
+        "curves": [
+          {
+            "expr": "x**2",
+            "label": "f",
+            "color": "blue"
+          },
+          {
+            "expr": "6*x-5",
+            "label": "secant",
+            "color": "red"
+          }
+        ],
+        "xlim": [
+          0.7,
+          5.2
+        ],
+        "ylim": [
+          0,
+          28
+        ]
+      },
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. The theorem guarantees an interior tangent parallel to the endpoint secant. Graph: f: y=x**2; secant: y=6*x-5. x-range [0.7, 5.2], y-range [0, 28].",
+        "ko": "개념을 눈으로 연결. 정리는 양 끝점을 잇는 할선과 평행한 내부 접선을 보장합니다. 그래프: f: y=x**2; secant: y=6*x-5. x 표시구간 [0.7, 5.2], y 표시구간 [0, 28]."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "Compute the average slope over the entire interval.",
+        "ko": "구간 전체의 평균 기울기를 구합니다."
+      },
+      "math": [
+        "\\frac{f(5)-f(1)}{5-1}=\\frac{25-1}{4}=6"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. Compute the average slope over the entire interval.",
+        "ko": "1단계  식을 세우기. 구간 전체의 평균 기울기를 구합니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "Set an interior derivative equal to that average slope.",
+        "ko": "내부 점의 도함수를 평균 기울기와 같게 놓습니다."
+      },
+      "math": [
+        "f^\\prime(c)=2c=6"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. Set an interior derivative equal to that average slope.",
+        "ko": "2단계  이유를 따라 계산. 내부 점의 도함수를 평균 기울기와 같게 놓습니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "The solution lies inside the required open interval.",
+        "ko": "구한 점이 필요한 열린 구간 안에 있습니다."
+      },
+      "math": [
+        "c=3\\in(1,5)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. The solution lies inside the required open interval.",
+        "ko": "3단계  결과의 의미. 구한 점이 필요한 열린 구간 안에 있습니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "Solving an equation is not enough; verify the theorem’s hypotheses and the location of c.",
+        "ko": "방정식만 풀지 말고 정리의 조건과 c의 위치를 확인하세요."
+      },
+      "math": [
+        "f^\\prime(c)=\\frac{f(b)-f(a)}{b-a}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. Solving an equation is not enough; verify the theorem’s hypotheses and the location of c.",
+        "ko": "이 실수는 피하세요. 방정식만 풀지 말고 정리의 조건과 c의 위치를 확인하세요."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Find the MVT point in (0,2).",
+        "ko": "(0,2) 안의 평균값정리 점을 구하세요."
+      },
+      "math": [
+        "f(x)=x^3\\quad\\mathrm{on}\\ [0,2]"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Find the MVT point in (0,2).",
+        "ko": "직접 풀어보세요. (0,2) 안의 평균값정리 점을 구하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "f(x)=x^3\\quad\\mathrm{on}\\ [0,2]"
+    ],
+    "prompt": {
+      "en": "Find the MVT point in (0,2).",
+      "ko": "(0,2) 안의 평균값정리 점을 구하세요."
+    },
+    "answer": {
+      "en": "c=2/√3. The secant slope is 4, so 3c²=4; choose the positive interior root.",
+      "ko": "c=2/√3입니다. 할선 기울기는 4이므로 3c²=4에서 구간 안의 양의 해를 고릅니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "diff(x**2,x).subs(x,3)",
+      "expected": "6"
+    },
+    {
+      "expression": "diff(x**3,x).subs(x,2/sqrt(3))",
+      "expected": "4"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L29\nThe mean value theorem\n\nSome instantaneous slope must match the average slope when the Mean Value Theorem applies.\nThe theorem guarantees an interior tangent parallel to the endpoint secant.\n\n1. Compute the average slope over the entire interval.\n2. Set an interior derivative equal to that average slope.\n3. The solution lies inside the required open interval.\n\nRemember: Solving an equation is not enough; verify the theorem’s hypotheses and the location of c.\n\nCHECK ANSWER — try card 8 first\nc=2/√3. The secant slope is 4, so 3c²=4; choose the positive interior root.",
+    "ko": "AP Calculus AB • 29강\n평균값정리\n\n평균값정리의 조건이 맞으면 순간 기울기가 평균 기울기와 같은 점이 있습니다.\n정리는 양 끝점을 잇는 할선과 평행한 내부 접선을 보장합니다.\n\n1. 구간 전체의 평균 기울기를 구합니다.\n2. 내부 점의 도함수를 평균 기울기와 같게 놓습니다.\n3. 구한 점이 필요한 열린 구간 안에 있습니다.\n\n실수 점검: 방정식만 풀지 말고 정리의 조건과 c의 위치를 확인하세요.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\nc=2/√3입니다. 할선 기울기는 4이므로 3c²=4에서 구간 안의 양의 해를 고릅니다."
+  },
+  "graph_description": null
+}

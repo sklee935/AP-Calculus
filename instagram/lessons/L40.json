@@ -1,0 +1,217 @@
+{
+  "id": "L40",
+  "number": 40,
+  "unit": 6,
+  "unit_title": {
+    "ko": "적분과 누적",
+    "en": "Integration and accumulation"
+  },
+  "title": {
+    "ko": "적분의 성질",
+    "en": "Properties of integrals"
+  },
+  "prerequisites": [
+    "L39"
+  ],
+  "week": 14,
+  "day": "Monday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [],
+  "example_origin": "independently authored foundational example with symbolic checks",
+  "learning_goal": {
+    "en": "Constants scale signed accumulation; they do not change the interval.",
+    "ko": "상수배는 부호 있는 누적량을 배수로 바꾸며 구간은 그대로입니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "적분의 성질",
+        "en": "Properties of integrals"
+      },
+      "notes": {
+        "en": "Integral properties let us combine known accumulations without finding a formula for f.",
+        "ko": "적분의 성질로 함수식 없이도 알고 있는 누적량을 조합할 수 있습니다."
+      },
+      "math": [
+        "\\int_0^1 f(x)\\,dx=2",
+        "\\int_1^3 f(x)\\,dx=5"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Properties of integrals. Integral properties let us combine known accumulations without finding a formula for f.",
+        "ko": "적분의 성질. 적분의 성질로 함수식 없이도 알고 있는 누적량을 조합할 수 있습니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Adjacent intervals add, and reversing limits changes the sign.",
+        "ko": "이웃한 구간의 적분은 더하고 적분구간을 뒤집으면 부호가 바뀝니다."
+      },
+      "math": [
+        "\\int_a^b f+\\int_b^c f=\\int_a^c f"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Adjacent intervals add, and reversing limits changes the sign.",
+        "ko": "먼저 조건을 확인. 이웃한 구간의 적분은 더하고 적분구간을 뒤집으면 부호가 바뀝니다."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "Constants scale signed accumulation; they do not change the interval.",
+        "ko": "상수배는 부호 있는 누적량을 배수로 바꾸며 구간은 그대로입니다."
+      },
+      "math": [
+        "\\int_a^b kf=k\\int_a^b f"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. Constants scale signed accumulation; they do not change the interval.",
+        "ko": "개념을 눈으로 연결. 상수배는 부호 있는 누적량을 배수로 바꾸며 구간은 그대로입니다."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "Join the two adjacent intervals first.",
+        "ko": "먼저 이웃한 두 구간을 연결합니다."
+      },
+      "math": [
+        "\\int_0^3 f(x)\\,dx=2+5=7"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. Join the two adjacent intervals first.",
+        "ko": "1단계  식을 세우기. 먼저 이웃한 두 구간을 연결합니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "Multiply the entire accumulated value by 2.",
+        "ko": "누적량 전체에 2를 곱합니다."
+      },
+      "math": [
+        "\\int_0^3 2f(x)\\,dx=14"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. Multiply the entire accumulated value by 2.",
+        "ko": "2단계  이유를 따라 계산. 누적량 전체에 2를 곱합니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "Reversing the direction reverses the signed accumulation.",
+        "ko": "적분 방향을 뒤집으면 누적량의 부호가 바뀝니다."
+      },
+      "math": [
+        "\\int_3^0 2f(x)\\,dx=-14"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. Reversing the direction reverses the signed accumulation.",
+        "ko": "3단계  결과의 의미. 적분 방향을 뒤집으면 누적량의 부호가 바뀝니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "An integral over a zero-length interval is zero, regardless of the function height.",
+        "ko": "구간 길이가 0이면 함수의 높이와 관계없이 정적분은 0입니다."
+      },
+      "math": [
+        "\\int_a^a f(x)\\,dx=0"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. An integral over a zero-length interval is zero, regardless of the function height.",
+        "ko": "이 실수는 피하세요. 구간 길이가 0이면 함수의 높이와 관계없이 정적분은 0입니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Find the integral from 4 to 1 of (f(x)+2).",
+        "ko": "4에서 1까지 f(x)+2를 적분한 값을 구하세요."
+      },
+      "math": [
+        "\\int_1^4 f(x)\\,dx=6"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Find the integral from 4 to 1 of (f(x)+2).",
+        "ko": "직접 풀어보세요. 4에서 1까지 f(x)+2를 적분한 값을 구하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "\\int_1^4 f(x)\\,dx=6"
+    ],
+    "prompt": {
+      "en": "Find the integral from 4 to 1 of (f(x)+2).",
+      "ko": "4에서 1까지 f(x)+2를 적분한 값을 구하세요."
+    },
+    "answer": {
+      "en": "−12. The f contribution is −6 and the constant contribution is 2(1−4)=−6.",
+      "ko": "−12입니다. f의 기여는 −6이고 상수의 기여는 2(1−4)=−6입니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "-(2+5)*2",
+      "expected": "-14"
+    },
+    {
+      "expression": "-6+integrate(2,(x,4,1))",
+      "expected": "-12"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L40\nProperties of integrals\n\nIntegral properties let us combine known accumulations without finding a formula for f.\nConstants scale signed accumulation; they do not change the interval.\n\n1. Join the two adjacent intervals first.\n2. Multiply the entire accumulated value by 2.\n3. Reversing the direction reverses the signed accumulation.\n\nRemember: An integral over a zero-length interval is zero, regardless of the function height.\n\nCHECK ANSWER — try card 8 first\n−12. The f contribution is −6 and the constant contribution is 2(1−4)=−6.",
+    "ko": "AP Calculus AB • 40강\n적분의 성질\n\n적분의 성질로 함수식 없이도 알고 있는 누적량을 조합할 수 있습니다.\n상수배는 부호 있는 누적량을 배수로 바꾸며 구간은 그대로입니다.\n\n1. 먼저 이웃한 두 구간을 연결합니다.\n2. 누적량 전체에 2를 곱합니다.\n3. 적분 방향을 뒤집으면 누적량의 부호가 바뀝니다.\n\n실수 점검: 구간 길이가 0이면 함수의 높이와 관계없이 정적분은 0입니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n−12입니다. f의 기여는 −6이고 상수의 기여는 2(1−4)=−6입니다."
+  },
+  "graph_description": null
+}

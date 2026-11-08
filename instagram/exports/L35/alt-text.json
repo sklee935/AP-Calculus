@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Connecting derivative graphs. A graph of f′ records slopes of f, and its own slope records f″. Math: f^(′)(x)=3x^(2)−6x",
+    "ko": "함수와 도함수 그래프. f′의 그래프 높이는 f의 기울기이고, 그 그래프의 기울기는 f″입니다. 수식: f^(′)(x)=3x^(2)−6x"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. Read the derivative graph’s height and slope as different pieces of information. Math: f^(′′)(x)=6x−6",
+    "ko": "먼저 조건을 확인. 도함수 그래프의 높이와 기울기를 서로 다른 정보로 읽으세요. 수식: f^(′′)(x)=6x−6"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. At a zero of f′, a nonzero second derivative classifies the stationary point. Graph: f prime: y=3*x**2-6*x. x-range [-1, 3], y-range [-4, 10]. Filled points: [[0, 0], [2, 0]].",
+    "ko": "개념을 눈으로 연결. f′이 0인 점에서 f″이 0이 아니면 정지점을 판정할 수 있습니다. 그래프: f prime: y=3*x**2-6*x. x 표시구간 [-1, 3], y 표시구간 [-4, 10]. 채운 점: [[0, 0], [2, 0]]."
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. The derivative graph meets the axis at two stationary inputs. Math: f^(′)(0)=f^(′)(2)=0",
+    "ko": "1단계  식을 세우기. 도함수 그래프가 축과 만나는 두 입력이 정지점 후보입니다. 수식: f^(′)(0)=f^(′)(2)=0"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. At 0, the slope of f is decreasing through zero: a local maximum. Math: f^(′′)(0)=−6<0",
+    "ko": "2단계  이유를 따라 계산. 0에서는 f의 기울기가 감소하며 0을 지나므로 국소최대입니다. 수식: f^(′′)(0)=−6<0"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. At 2, the slope increases through zero: a local minimum. Math: f^(′′)(2)=6>0",
+    "ko": "3단계  결과의 의미. 2에서는 기울기가 증가하며 0을 지나므로 국소최소입니다. 수식: f^(′′)(2)=6>0"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. If f″(c)=0, the second derivative test is inconclusive; use another test. Math: f^(′)(c)=0, f^(′′)(c)>0⇒local min",
+    "ko": "이 실수는 피하세요. f″(c)=0이면 이계도함수 판정법으로 결론을 내릴 수 없습니다. 수식: f^(′)(c)=0, f^(′′)(c)>0⇒local min"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. What does the second derivative test say? What is actually true? Math: g(x)=x^(4)at x=0",
+    "ko": "직접 풀어보세요. 이계도함수 판정법의 결과와 실제 극값을 구별하세요. 수식: g(x)=x^(4)at x=0"
+  }
+]

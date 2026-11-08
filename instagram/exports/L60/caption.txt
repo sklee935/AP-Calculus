@@ -1,0 +1,33 @@
+AP Calculus AB • L60
+The washer method and course review
+
+A washer removes the inner disk; finish by checking geometry, bounds and units.
+The cross-sectional area is outer disk area minus inner disk area.
+
+1. Square each radius separately, then subtract.
+2. The intersection inputs set the integration bounds.
+3. Across calculus, connect the model, conditions, method and interpretation.
+
+Remember: The washer area is π(R²−r²), not π(R−r)².
+
+CHECK ANSWER — try card 8 first
+8π/15. Now R=2−x² and r=2−x. Integrate π[(2−x²)²−(2−x)²] from 0 to 1.
+
+──────────
+
+AP Calculus AB • 60강
+와셔법과 과정 정리
+
+와셔는 안쪽 원판을 뺍니다. 기하 관계, 구간, 단위까지 확인하며 마무리합니다.
+단면의 넓이는 바깥 원판 넓이에서 안쪽 원판 넓이를 뺀 값입니다.
+
+1. 각 반지름을 따로 제곱한 뒤 뺍니다.
+2. 교점의 입력값으로 적분구간을 정합니다.
+3. 미적분 전체에서 모형, 조건, 방법, 해석을 연결하는 습관을 유지하세요.
+
+실수 점검: 와셔 넓이는 π(R²−r²)이며 π(R−r)²이 아닙니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+8π/15입니다. R=2−x², r=2−x이므로 π[(2−x²)²−(2−x)²]을 0부터 1까지 적분합니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

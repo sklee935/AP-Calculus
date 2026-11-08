@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Continuity and discontinuity. Continuity requires the nearby value to match the defined value. Math: f(x)=kx+1 (x<2)",
+    "ko": "연속과 불연속. 연속이려면 가까워지는 값과 정해진 값이 일치해야 합니다. 수식: f(x)=kx+1 (x<2)"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. The other branch is x²+5 for x≥2. Match both sides and the point value. Math: f(x)=x^(2)+5(x≥2)",
+    "ko": "먼저 조건을 확인. 다른 조각은 x≥2에서 x²+5입니다. 양쪽 극한과 점의 값을 맞추세요. 수식: f(x)=x^(2)+5(x≥2)"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. Check that the value exists, the limit exists, and they agree. Math: lim_(x→a)f(x)=f(a)",
+    "ko": "개념을 눈으로 연결. 함숫값, 극한의 존재, 두 값의 일치를 차례로 확인합니다. 수식: lim_(x→a)f(x)=f(a)"
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. The branch containing the point determines its actual value. Math: f(2)=2^(2)+5=9",
+    "ko": "1단계  식을 세우기. 그 점을 포함하는 조각으로 실제 함숫값을 정합니다. 수식: f(2)=2^(2)+5=9"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. The left limit must equal the right limit and the value 9. Math: 2k+1=9",
+    "ko": "2단계  이유를 따라 계산. 좌극한이 우극한과 함숫값 9에 같아야 합니다. 수식: 2k+1=9"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. Each polynomial piece is continuous elsewhere, so matching the junction finishes the job. Math: k=4",
+    "ko": "3단계  결과의 의미. 다른 점에서는 각 다항식이 연속이므로 접합점만 맞추면 됩니다. 수식: k=4"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. Fixing a single point can repair a hole, but not a jump between different limits. Math: value + limit + agreement",
+    "ko": "이 실수는 피하세요. 한 점의 값을 바꿔 구멍은 메울 수 있지만 점프는 없앨 수 없습니다. 수식: value + limit + agreement"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Choose a so that g is continuous at 1. Math: g(x)=ax (x<1); g(x)=x+2 (x≥1)",
+    "ko": "직접 풀어보세요. 1에서 연속이 되도록 a를 정하세요. 수식: g(x)=ax (x<1); g(x)=x+2 (x≥1)"
+  }
+]

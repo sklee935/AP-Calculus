@@ -1,0 +1,35 @@
+AP Calculus AB • L38
+Riemann sums and sigma notation
+
+A Riemann sum replaces curved accumulation with many narrow rectangles.
+Each rectangle contributes height times width; sigma notation adds the contributions.
+
+1. The sample input changes with the index i.
+2. Use all four right-endpoint heights and one common width.
+3. Since x² increases here, right rectangles overestimate the integral.
+
+Remember: Forgetting Δx adds heights rather than areas.
+
+CHECK ANSWER — try card 8 first
+1. Width is 1 and left heights are f(0)=0 and f(1)=1, so the sum is 1.
+For continuous f, equal-width Riemann sums converge to the integral as n→∞.
+
+──────────
+
+AP Calculus AB • 38강
+리만합과 합 기호
+
+리만합은 곡선 아래 누적량을 여러 개의 좁은 직사각형으로 근사합니다.
+각 직사각형은 높이와 폭의 곱을 기여하며 합 기호로 모두 더합니다.
+
+1. 표본 입력은 지표 i에 따라 바뀝니다.
+2. 오른쪽 끝점 높이 네 개와 공통 폭을 사용합니다.
+3. 이 구간에서 x²은 증가하므로 오른쪽 직사각형은 정적분을 과대추정합니다.
+
+실수 점검: Δx를 빠뜨리면 넓이가 아니라 높이만 더하게 됩니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+1입니다. 폭은 1이고 왼쪽 높이는 f(0)=0, f(1)=1이므로 합은 1입니다.
+f가 연속일 때 같은 폭의 리만합은 n→∞에서 정적분으로 수렴합니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

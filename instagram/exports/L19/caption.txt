@@ -1,0 +1,33 @@
+AP Calculus AB • L19
+Inverse function derivatives
+
+An inverse function reverses inputs and outputs, including their local rates.
+The inverse slope at output 8 uses the original slope at input 3.
+
+1. First find the original input that produced 8.
+2. Take the reciprocal at the matched original input.
+3. A steeper original graph corresponds to a flatter inverse graph.
+
+Remember: Do not use f′(8); 8 is the output of f in this question.
+
+CHECK ANSWER — try card 8 first
+5. Since f(5)=ln 5 and f′(5)=1/5, the inverse derivative is 5.
+
+──────────
+
+AP Calculus AB • 19강
+역함수 미분
+
+역함수는 입력과 출력을 바꾸며 국소 변화율도 역수 관계가 됩니다.
+역함수의 입력 8에서는 원래 함수의 입력 3에서의 기울기를 씁니다.
+
+1. 먼저 출력 8을 만든 원래 입력을 찾습니다.
+2. 대응하는 원래 입력에서 기울기의 역수를 구합니다.
+3. 원래 그래프의 큰 기울기는 역함수의 작은 기울기에 대응합니다.
+
+실수 점검: f′(8)을 쓰지 마세요. 이 문제에서 8은 f의 출력입니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+5입니다. f(5)=ln 5이고 f′(5)=1/5이므로 역함수의 미분계수는 5입니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

@@ -1,0 +1,246 @@
+{
+  "id": "L56",
+  "number": 56,
+  "unit": 8,
+  "unit_title": {
+    "ko": "적분의 응용",
+    "en": "Applications of integration"
+  },
+  "title": {
+    "ko": "세로 단면의 넓이",
+    "en": "Area with vertical slices"
+  },
+  "prerequisites": [
+    "L55"
+  ],
+  "week": 19,
+  "day": "Wednesday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U8-M03"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "On [0,1], x≥x², so each vertical slice has height x−x².",
+    "ko": "[0,1]에서는 x≥x²이므로 각 세로 단면의 높이는 x−x²입니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "세로 단면의 넓이",
+        "en": "Area with vertical slices"
+      },
+      "notes": {
+        "en": "Vertical slices measure area with upper height minus lower height.",
+        "ko": "세로 단면에서는 위쪽 높이에서 아래쪽 높이를 빼서 넓이를 구합니다."
+      },
+      "math": [
+        "y=x,\\quad y=x^2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Area with vertical slices. Vertical slices measure area with upper height minus lower height.",
+        "ko": "세로 단면의 넓이. 세로 단면에서는 위쪽 높이에서 아래쪽 높이를 빼서 넓이를 구합니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Find intersections and determine which curve is higher between them.",
+        "ko": "교점을 찾고 그 사이에서 어느 곡선이 위인지 확인하세요."
+      },
+      "math": [
+        "x=x^2\\Rightarrow x=0,1"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Find intersections and determine which curve is higher between them.",
+        "ko": "먼저 조건을 확인. 교점을 찾고 그 사이에서 어느 곡선이 위인지 확인하세요."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "On [0,1], x≥x², so each vertical slice has height x−x².",
+        "ko": "[0,1]에서는 x≥x²이므로 각 세로 단면의 높이는 x−x²입니다."
+      },
+      "math": [],
+      "visual": {
+        "kind": "graph",
+        "curves": [
+          {
+            "expr": "x",
+            "label": "upper",
+            "color": "blue"
+          },
+          {
+            "expr": "x**2",
+            "label": "lower",
+            "color": "red"
+          }
+        ],
+        "xlim": [
+          0,
+          1
+        ],
+        "ylim": [
+          0,
+          1.1
+        ],
+        "shade": {
+          "top": "x",
+          "bottom": "x**2",
+          "interval": [
+            0,
+            1
+          ]
+        }
+      },
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. On [0,1], x≥x², so each vertical slice has height x−x². Graph: upper: y=x; lower: y=x**2. x-range [0, 1], y-range [0, 1.1].",
+        "ko": "개념을 눈으로 연결. [0,1]에서는 x≥x²이므로 각 세로 단면의 높이는 x−x²입니다. 그래프: upper: y=x; lower: y=x**2. x 표시구간 [0, 1], y 표시구간 [0, 1.1]."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "Use top minus bottom with a horizontal width dx.",
+        "ko": "위에서 아래를 빼고 가로 폭 dx를 곱합니다."
+      },
+      "math": [
+        "A=\\int_0^1(x-x^2)\\,dx"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. Use top minus bottom with a horizontal width dx.",
+        "ko": "1단계  식을 세우기. 위에서 아래를 빼고 가로 폭 dx를 곱합니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "Integrate each height term.",
+        "ko": "높이의 각 항을 적분합니다."
+      },
+      "math": [
+        "A=\\left[\\frac{x^2}{2}-\\frac{x^3}{3}\\right]_0^1"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. Integrate each height term.",
+        "ko": "2단계  이유를 따라 계산. 높이의 각 항을 적분합니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "The answer is positive and measured in square units.",
+        "ko": "답은 양수이며 넓이 단위입니다."
+      },
+      "math": [
+        "A=\\frac12-\\frac13=\\frac16"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. The answer is positive and measured in square units.",
+        "ko": "3단계  결과의 의미. 답은 양수이며 넓이 단위입니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "If the curves switch order, split the interval or use an absolute difference.",
+        "ko": "곡선의 위아래가 바뀌면 구간을 나누거나 차의 절댓값을 사용하세요."
+      },
+      "math": [
+        "A=\\int_a^b(\\mathrm{top}-\\mathrm{bottom})\\,dx"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. If the curves switch order, split the interval or use an absolute difference.",
+        "ko": "이 실수는 피하세요. 곡선의 위아래가 바뀌면 구간을 나누거나 차의 절댓값을 사용하세요."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Find the enclosed area.",
+        "ko": "둘러싸인 영역의 넓이를 구하세요."
+      },
+      "math": [
+        "y=2x,\\quad y=x^2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Find the enclosed area.",
+        "ko": "직접 풀어보세요. 둘러싸인 영역의 넓이를 구하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "y=2x,\\quad y=x^2"
+    ],
+    "prompt": {
+      "en": "Find the enclosed area.",
+      "ko": "둘러싸인 영역의 넓이를 구하세요."
+    },
+    "answer": {
+      "en": "4/3. Intersections are x=0,2 and 2x is above x² there, so integrate 2x−x² from 0 to 2.",
+      "ko": "4/3입니다. 교점은 x=0,2이며 그 사이에서 2x가 위이므로 0부터 2까지 2x−x²을 적분합니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "integrate(x-x**2,(x,0,1))",
+      "expected": "1/6"
+    },
+    {
+      "expression": "integrate(2*x-x**2,(x,0,2))",
+      "expected": "4/3"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L56\nArea with vertical slices\n\nVertical slices measure area with upper height minus lower height.\nOn [0,1], x≥x², so each vertical slice has height x−x².\n\n1. Use top minus bottom with a horizontal width dx.\n2. Integrate each height term.\n3. The answer is positive and measured in square units.\n\nRemember: If the curves switch order, split the interval or use an absolute difference.\n\nCHECK ANSWER — try card 8 first\n4/3. Intersections are x=0,2 and 2x is above x² there, so integrate 2x−x² from 0 to 2.",
+    "ko": "AP Calculus AB • 56강\n세로 단면의 넓이\n\n세로 단면에서는 위쪽 높이에서 아래쪽 높이를 빼서 넓이를 구합니다.\n[0,1]에서는 x≥x²이므로 각 세로 단면의 높이는 x−x²입니다.\n\n1. 위에서 아래를 빼고 가로 폭 dx를 곱합니다.\n2. 높이의 각 항을 적분합니다.\n3. 답은 양수이며 넓이 단위입니다.\n\n실수 점검: 곡선의 위아래가 바뀌면 구간을 나누거나 차의 절댓값을 사용하세요.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n4/3입니다. 교점은 x=0,2이며 그 사이에서 2x가 위이므로 0부터 2까지 2x−x²을 적분합니다."
+  },
+  "graph_description": null
+}

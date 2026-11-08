@@ -1,0 +1,16 @@
+{
+  "name": "ap-calculus-bilingual-teaching-studio",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "render": "node instagram/scripts/render.mjs",
+    "test:layout": "node instagram/scripts/render.mjs --check-only"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  },
+  "packageManager": "pnpm@11.25.0"
+}

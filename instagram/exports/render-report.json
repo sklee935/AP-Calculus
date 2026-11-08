@@ -1,0 +1,1565 @@
+{
+  "renderer": "Playwright Chromium",
+  "lessons": [
+    {
+      "id": "L01",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "2c3c541a81281c637306601058c7e9bb4794ad437c5105fe93dc04ec78638ca3",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "1a6732810fec0c3c3eabb8b202255d0a715079ba112dfa8544e27333415b0827",
+        "02.png": "e0d5969befec9f28cbaf06ca9bc96745339c7276d4c7c6572feeb8f82eac1d7e",
+        "03.png": "7a808925e7cede37459d448562ce8988d020646a2abffab71666c9ed552eab50",
+        "04.png": "185ba356b73d4b9d87c449f14a1f6fe10d40a29c77b39810c203d0547ce1080c",
+        "05.png": "0c5fc0133fb184d21609802377fc9049601dbd61ef7596438d66cf66b7e4176c",
+        "06.png": "93e27059a0f4aafd97c96c1bf3898f220b590ef1733274df7850ba91dc50b3fb",
+        "07.png": "ad25e3ab40ccd947d595226c66539f237237f61bb59aded1c62664385b25b1d5",
+        "08.png": "f9d39f7f16f85e4e282a6cfc0c531504e0128d0e36c33ac7bae593d6ab186912"
+      }
+    },
+    {
+      "id": "L02",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "ff66b4a9019ac28d4e79a5c03e6cc7d5b38754b039f1895e4215b1b74fcc7951",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "a4c25834bd041d912fb36ac027063b0c263df0f38bedf2805aa4c1dc985e6d5e",
+        "02.png": "4f1410a4c82ff29567cf181b34528ff8b8332444b2b1dd70d1305294d9e28e31",
+        "03.png": "e38d30733cd9558ec61aa3fc8922df64dff0436795bdbd23384b3b6719f76da4",
+        "04.png": "5bea2e89ee9cc245db6483a6695ce2ad7ca9e6f129f58e923920ac780d7d7a73",
+        "05.png": "6f162b3813bb9977b2b00371f816b00b75c701d294aaaf197904017e9a287e16",
+        "06.png": "cb975b50a55058d6d6d33d153e38bd4107863c41b472790ca7b2d6771f3b4fd7",
+        "07.png": "4761f9879e96565b80d2da25a27318f2ee126f722922a4fda63db6bce7c29d8d",
+        "08.png": "5cc306ff3afdf1e32e1c92fc8a8cbb66cf6d4e9a87f64694b7984326f3ead8b5"
+      }
+    },
+    {
+      "id": "L03",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "719a2473121ff9965e5047cb1619bd0fa0d3c644e6ba8977d769f40ab522d713",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "b30c610b7d1b26b44cb582acd6ba742f00e513331b73ed9dec85a6f51ded3608",
+        "02.png": "1f76bbf9b058366d847556ffbca6bec465088bac7545f31488ec7b44084ecb9d",
+        "03.png": "72f8308fc1042885ab6ceb162a3aaa59054cd25e3b5f7c4c3b7434f4d3487420",
+        "04.png": "f80b67a81dd54810a6ea757edab8b49ec65036f06ba66d6599b18446c379f4af",
+        "05.png": "f06571b5c974d9d6ae583862f06604d13aff4f8f39aade47f7d17d7ec1e0d49e",
+        "06.png": "133c9e8bf965df48d24e07d5eba17eda07e68b3ea37f3e3b2456eacd110a9c45",
+        "07.png": "5a86fa08bbfc21aef0c85eb227734ee10018172490a399a00aa3c243eb712595",
+        "08.png": "186b7baf21f205d0af1fa42f536d3ed073db11ff2dab4fe327131046b992ec7f"
+      }
+    },
+    {
+      "id": "L04",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "5a2c618f740327d2c9c39ce8fd5937c88a1d0c7a4143f4beea45fc94b1cffa0a",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "2ef5fd42f513c6c47c5dd3d1275b758242b505689f27148134e9729c879ce72f",
+        "02.png": "4563d17b7dd691442b7cacc93449bb28f29c4d34326d19b8c5ab6827f2b43704",
+        "03.png": "a806feb62da40d835a88b56267637934dcc7fcd8e40b1501bfb8dc35f00eebee",
+        "04.png": "00b6290e97e682fcad8327bcabd64788e135689bbeb2d370f000907746fdcb7d",
+        "05.png": "f14d316d957759f5c08151c92a76207ae5b82e455b5f1c7d37ca1884b1d2cb4c",
+        "06.png": "d0a64f0d5291de1c5ee22e6ea8484f9117eef046b91bfca436ee5898d0aaa3a7",
+        "07.png": "0f942c8556229898c7d6c3a25cab668e7746daebb7b482e4f53603a123acbdad",
+        "08.png": "864c07d6d3d5e1183e1d913ae8f6884a952ab00612ddf215a0ee9169ac79b3f5"
+      }
+    },
+    {
+      "id": "L05",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "21f64aefc2a411a35ee5ab06bb18058d8eca41458f298af2637e9bb4701b4780",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "fc9dce0eedff864c536964b71368fd753d16533a906924f196186a25730609cc",
+        "02.png": "a68e44df77008ccb6dd00fc3ae8d47d67e9c8a1cb10022e666d54acacdd0db6d",
+        "03.png": "08d84be85024f37d5ca25113c7f7cd3327155dfeec1a1125a81e85402e8dc958",
+        "04.png": "01c4f03a2d3ffc8b3d862559ca33189cbf9b71add2570dfc3d9eaade3f0694f7",
+        "05.png": "5ab98c273796e4b7650e4443b8eed1be777a33221d51e6f262520b3eefe64b34",
+        "06.png": "1814a6e211e751aca5680700fbd3e2d3f347901c77dc8a9bc3032a7d024a4a75",
+        "07.png": "578f0516c94d7bcc0c543857821e43bbe4c2d907cd48eb8bc948e9f31a4382b0",
+        "08.png": "9347fee5fcf028fb3fafe52073a51050d72ab935ed6153cfb18a6dc1f7e81563"
+      }
+    },
+    {
+      "id": "L06",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "43bdf824b0bd0ccee47eb1afb4b30d7f55707ab19af7a16b3e3f35a41dbcf929",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "54d94be2bd97f4a4de1f43add8026689fbafe378f9a13885647daaad327da183",
+        "02.png": "5a150757671b7e5360996f0954ddff725aba5daff8c0fdeae9c0b3157bd92afd",
+        "03.png": "3b5ca224aaf8f966c1ddc07461aad22b8b33c24a03424bb7b856a3ddfdb2c440",
+        "04.png": "7aa6342926c98b75148403be58a733e74407680b33cb72193544553fdc7a3bcd",
+        "05.png": "1cbce5a0a56626155ff7c07fb64bfcf2f8610fca22fb48a8c0939865f7ffec7e",
+        "06.png": "189f67a6b497c0f77d2e64ab55dea471e943812260159f7bfa23635b85018729",
+        "07.png": "7c2b2a19c000487127e63b04a18e9b7973191cccefdfad236d45f0ef0a7967d7",
+        "08.png": "0831ff535182590f96528789198e372ccc7281688d810fe0e7abd28620789cf3"
+      }
+    },
+    {
+      "id": "L07",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "d1069cedf977e4ab573b9d08a1521e81629610e0f1976d77d99fd74fa5dbe00c",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "974b4b76f16f221a30ac7fe03b6956b43b8b2b8b7e8cb3a721468eb08f02422f",
+        "02.png": "370742a3a0331e75e7824e8f69aa1cf92507d76b7589e601d608ad6b5e8b0d06",
+        "03.png": "f542d08b0948f3ec9b22ee7acdf5f8a312ad349e2895f75be2479f6a71284226",
+        "04.png": "d3a4de10e738c110e33d4728468967b1c273f1a4c6a2d6a5499a7eb42e650414",
+        "05.png": "746467feecdeea87d2530b9ef05e72cabd1742298ec600314be8327b5552787c",
+        "06.png": "e4946893f07c2508e11bf0cd2976a04cfdd7d6f1fea37008dd19c3422a47f47b",
+        "07.png": "b4b16493ab6c43609f68ee011a178cc559e7704731b483aaa63ec2b1884e932d",
+        "08.png": "f5295f58104bea801b4beae248f0624b1df948e5bccb26bf38ed4c2a24e03f6e"
+      }
+    },
+    {
+      "id": "L08",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "84de6e51372e9f5c697fdccc1165a9fd11bdfe73498c2bab28ed0ded1f66d951",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "d520f654b31f3bcdb70728dfe06fffc1c2d632937945b2ccd892b4a27972d11b",
+        "02.png": "3ae206474ac6ea129bac0b7967c51abe855654db7585b9eeaa66c6868a65fa3d",
+        "03.png": "bd6f72ff39df31b9abdb6792b6d4234d7c40db6e04e66ae6e9fe4ba4a88ee47a",
+        "04.png": "adaac72dd42a0867536046629c6e96ed4e78b353087684544d38433ec2947748",
+        "05.png": "5d046faff2331c3aa2973710cfd7b42b1887c6237df02d638e486ffff44e8e83",
+        "06.png": "e56cff17a531a5c6b396d3087642c420b45d7430f46b2eb377d7d8c97d793419",
+        "07.png": "592e2de269d4e04122aef07f24f37966e3c16c2598d9472c3ac8d5d365c008d0",
+        "08.png": "022c67011acb1712d1f58bd1a2d184e953dbeea4814d4db38b25bac0afab1fd1"
+      }
+    },
+    {
+      "id": "L09",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "ce3c95c0b3ef1b114e5e24ffca47f049cee0ece37e889b45f603e3d8c723e785",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "a1f4eb5d61e065626ed8f99c0c09311767faaedf8076817ad57c5faaecf462f3",
+        "02.png": "74b20e3d57550d916d3c6efbbf8afd3c90def2c2986c32f9d84a256cb3464ec0",
+        "03.png": "2fd83f00da3c5981fd009e0b1c05ffa84687cf9170b99d2e4ecec0f789fbc389",
+        "04.png": "aa61b9d78df2f14404867f6afd0bdb4e4a5ed0f147c0d3bdb1af9a4db44e3b2b",
+        "05.png": "1240b1a9af8e021c4a05eda0c6cc3e84d8e6d7fcc07ff486f21e8ccb0d90df25",
+        "06.png": "5c7de451e3d9a6eb8fb5472e2f1c629bda4eb25f2dd36f52d766ebc2bced653d",
+        "07.png": "268768a93730ae1e9932446652540adb5e4b63183f92cd7cfeefb9b4c2f774b8",
+        "08.png": "df81d11aaed923402b1224e5aa867fa13dcce4f4c157353ebfd841a6a22d2601"
+      }
+    },
+    {
+      "id": "L10",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "6e8089eee7d793d31673fc4433d8c6dbdb21adba19e5f632d21123aeb70cdb30",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "fc594bf09485e05488e9213372f26b9531ba8e953ed610af4cb8c9d8600bdebb",
+        "02.png": "5bea386131a43aed9bdf56f395f1c21070201c626b41efdea91057a8a2dcd056",
+        "03.png": "e9756bd1ba8641a6009e5333b21cdf5768b2d4cd94a8ae5d600efd2d7f6ada8c",
+        "04.png": "cb539caba1fc4b11f4447a5be8cc1ba967e1e704f5d524aae919fea55417cdcc",
+        "05.png": "b25b0b9d4417730a2037fb35fa3c0a67f92b0d1c9648c351b853ef71aeb1f11a",
+        "06.png": "b0f302c38656748fcecb8d4d75455828a594e8b36253839542121c41d4663923",
+        "07.png": "e35fccc5fa3dabeedb41d3383675b4543d92aa87fa8ac94ec95e3b5c7a1bf852",
+        "08.png": "7b168cf2a57ee4c7d63f2fdcef050fbac2457d86c7e9f549066104986cf59e4e"
+      }
+    },
+    {
+      "id": "L11",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "21fb38d08c2ca2576fda99c530205dae54b410a2855d4910e0351d92edcbaabe",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "78a59bb3b4dddce664b6bf83a22d9d7eeb58287f09b8262e3fe0e689889a3d76",
+        "02.png": "1d1879fd36f74c07794aee84389e58f52e5d6e6467cd6c256f415247bada71be",
+        "03.png": "bf0f9f42fa237cb87712087234ab6d889e63ced4ae164a00d39269257a3ce7e0",
+        "04.png": "a1838e9b4d1287b2b0537c2bd25e8d40ff5267272c480eba24cfafd32c7126c9",
+        "05.png": "eabd51fc74e8d6959959ecaa1ab903be49c5375d3eb333bd5fac6c9b904c1b00",
+        "06.png": "2f4636c2ab0d14d0fc5d9e544df21ce62992cc33b7f0b45056f6927613cada27",
+        "07.png": "e3e0e037ece5ed00c886152e87999742df81faef6fc2845fd4dc2aa063451bfb",
+        "08.png": "e35f645b2a4f6c4f1885e69681df32f90132616aff4abee07e14f98112f65920"
+      }
+    },
+    {
+      "id": "L12",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "88ce8ec54d09b3d55509d3261d23830c3643613b95825a335034591fd32bf764",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "2fe38793ab3f78117b1e48ba517ae2fa6308dfad3cca19e8c02587993d8c4469",
+        "02.png": "3711d1fcf6fbd617b6f3803029a84c59091bb9b6ebaa1af9a8c634c18a95bbc1",
+        "03.png": "5c03f378c1957546d4c80fb5488e34388fd5ed2f64edd8394977568a7212e7da",
+        "04.png": "19bc16e67b092babeadb2d7392ac5aa404b57a70083f19da2ce94a8054cc8635",
+        "05.png": "bacaa6f59c9e5c92d029aefd2998bbdcc158ee99ab31f9e47221c6382dae2ab4",
+        "06.png": "b7e8aa1c4dc4514592977cc8f9218b6717ad65872556e71c4f375519bada25e3",
+        "07.png": "14a6ff32c9924a2c943020fad3cdab658204f773226076a96f14d5f2a191d9ea",
+        "08.png": "21dd6235f38f93e27b0b6876c59c2e8e748d9030020fdac14015ad902b2156e6"
+      }
+    },
+    {
+      "id": "L13",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "9ddc014f3b9a968ae2920c0cd5c9551da48a9c133ae69533a5fcfeb0152c8b5b",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "843d6623acafe8acd158979c5be10913be7991ceb7f086b9b0d82ec99139d238",
+        "02.png": "76a77c7ac20c322771145207485847b8919702f3905135c43bfdd2a574848ee9",
+        "03.png": "20c866ae24963f7a0172923c69f7f22035902ba8e80000853301c23dc65aa33c",
+        "04.png": "d1c6ea220cc895545f904d2312e782459d3b7c531f85c87a437d0da80497a001",
+        "05.png": "2b170cbc1aa743983b9dcc7ecb1b3e0b11103fb8999d1aa7ba8f911b04e4e793",
+        "06.png": "50370754d6a74b16bafcbd6f54efb4950c006ea7bf8e5eee035c09ae6123c55a",
+        "07.png": "206563f5657401bce15efd480bd8ce468824e9f45d8b66ed7f81e9dab97d4190",
+        "08.png": "eab956eff52351fac0dda77d7b7ed05953460a0ed242fc6dee79f5327c8169ff"
+      }
+    },
+    {
+      "id": "L14",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "5e021dc803d39c964b84c7a4f36998e150db0cfb2eb1f73f9193b90ced8f511b",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "196a9597d80fc8f7a5f0cecce132a6c61ee9f2094cee979b5836d69447d9b870",
+        "02.png": "e6801fe7298b5a23fae58ab7ad89e3d1e6a6708a3c758a3221d2ff7796c96e84",
+        "03.png": "debf853a76c5769fa1dbdd4ac8bcd1aa53eaa44fe55335285e2acd8ff6321324",
+        "04.png": "fb7ed4b57b6e244dc07f5d43fb51ace2f4d1b9cb7a885b234357ba62cb57d064",
+        "05.png": "4b55b7b5adc56b997bbfbd5f37f243f0b89d879566b27e7e5554d49b3518007f",
+        "06.png": "a8ffe6873463e8fbeb0318f6f353c17df777a81ef0dab383f37aa94a6691bcae",
+        "07.png": "6d29351f759358a4252bef853f37cb8007afb5db709b0f399f2003976efdcecc",
+        "08.png": "1a990baf15d920f737142bcf41752f4d7b150039047cf347fbe3636cc34911b0"
+      }
+    },
+    {
+      "id": "L15",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "13d71121d9d79f7601409dd9ef50d3e0d8c3b5fe86fd00af78ae75a0e7309f41",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "a001f98f73d48ae0d0db01b6a3b455435408701e18c64017546780bbba64576b",
+        "02.png": "27391327afd8e9d7bf6cf304ea06be11369dc43848b62ef49697986afc4ddfd5",
+        "03.png": "e608b2832eaa20b2e1299eb97eba32074d1f0e61958fc11dcd31c21c82ee51e3",
+        "04.png": "5b05c20322c94e8b33b792cb332c025f825e3bcbf83247aaaf1fe3b72a783530",
+        "05.png": "9c28ef96e2dae27a2287e0ede288212d9e272e0379bd4f9bc8aedea07adb8a51",
+        "06.png": "dc52d85212750c481c3fb30e86c968a371caded8d1d7025c99535f2b7bafaac8",
+        "07.png": "47c1f2506974bfd6b6bb3275cd7d40c3685b25882d05b927629a39046aab9d08",
+        "08.png": "349fa00b682baa9f8d590f8861e259e53eeeb532ce5203c97e58856481d04641"
+      }
+    },
+    {
+      "id": "L16",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "99909893cc9d00e2ec3e72716c6abe3437e6bef1461c37ee9da01d5f32ab68f2",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "bb6a3ad5abca50080dcefff9e67b84ca07e71be9a9ae1bee7f7ce300998c9c75",
+        "02.png": "5d7f002cfe00de6e4a62a1cd87458b068aeee42f9e2d731c86a24c3e3fda3f52",
+        "03.png": "f2f35b82f4a6d4db384ae07ff7ae415a156aa31c116879f2dfa0f2a094f03fb0",
+        "04.png": "7cbcf6682d5207f15a5aee672883deb602349bd60d2033dcbc7a61abf34b0422",
+        "05.png": "ed443934dab7b771b10086c8f6cb591c908f91b8935144ca4c055a0ec721def1",
+        "06.png": "10939744a60a83b93bd7d88a5c78f278f1c0e93af7ccd483198115221c4c14c7",
+        "07.png": "d4a350fa7de21bd26d94d9583c1031ec8a0c62cb1a8cb6a80820cf6e2e57ba87",
+        "08.png": "fdd5ddfe3aefbf21b34988988bdcb5d2722b5fc83cf5e0928b0e89f9068cac72"
+      }
+    },
+    {
+      "id": "L17",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "3b6ee62406127319472448c4cb5a6ee9e785edfe8605003e3d87044502371dc4",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "c9574ba2e776a90b5156d49e807e76f61cc4fac61fb8332da88c419f2015a2d6",
+        "02.png": "673e45533fce27fda633c90e055d0a4e18466b9830b83ee7c0a84d06459da04d",
+        "03.png": "24ae5c22f886ef1f318831635f2917f5a7eb4679f437ef89025ede1a15a1f9e0",
+        "04.png": "f56a4d1ec2c73a14834650a876164e5930a66e51a91b3886846796dd4c6c9246",
+        "05.png": "81307c42dca11d44f5e306254df1cf70e9615b0cead85b39eba088e56894e9af",
+        "06.png": "4be7c25282ac06cd5681f018c87557f150ff440b7c6e8c59e83a974734626672",
+        "07.png": "0c1d5e7ae8b378f606b96d1e2d863ac62b550e60b8096d9cf1f75d68cd04f2ab",
+        "08.png": "a156ca3154dd2ec424bcc2f91cdefd06477f7593a9a3ccab85a21ae8595c3a8b"
+      }
+    },
+    {
+      "id": "L18",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "1dbb4f85abfa280882410c4c5a7e9b3e6579ebad76434cd676e6e0e23f20fe14",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "35acda47b72af8d06041376a0b14966feb007340c6c73b869ffeb6b2c02629c6",
+        "02.png": "04afd79d1fa68fce201c26ad86b379ce13193ace36719036c453c249b61c9704",
+        "03.png": "52903da582ba03d8bf95a1538edb8f16af0363a45dfe0a39c5cc1380a0501400",
+        "04.png": "57f1a77cbba5adad7e9200453f06d41ad5caf682c6020a0130e87884475ff4e1",
+        "05.png": "50cb32a63f4a370b09f0cd06b778c4fcfe7039ec33bfac9a21c51bfc774b83d5",
+        "06.png": "ba660c2ffc26b63d1c0a3154b50f8e48d03119f9d141463a7ddecd444d1c5f55",
+        "07.png": "929effc05a8f58404d6b13e2b36f6eca01b7248ce0ba3f28fe72d65b6dde51db",
+        "08.png": "36a173ad1a5f3ff255d297805aeefa97f477a09306adcb1120375979dd2a4755"
+      }
+    },
+    {
+      "id": "L19",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "aa4306ea9576cb8a7402fefb3afc20bba2ba7aa97d60de470143716a56606ad6",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "713573a36f23afd54d51f54b1f8471c82ca77bf4e1e65f6af53162cc54f467ba",
+        "02.png": "1b54ea0cfa79b4c57f1427b517d21af6e3b7717dcd443f4048f8e8443451825d",
+        "03.png": "f9c28b927a303fdf61330785540d3367756de579f6f3115f01c9515da5938b23",
+        "04.png": "f93528fefe08dec11ef4e4953aede5dc7256bb7b98261becce14c1e520387cc4",
+        "05.png": "e7816d76825f3e6dc812f10fd6586395ca768484b30833f5987f8b4f76276658",
+        "06.png": "37dd97a7fd055316baee89d53b5f941fede873b9facb14b829de60a9b73184f5",
+        "07.png": "a4c8a7bc8a331a729479fd448981a968fc5ac04614e8167d287ebdf267b5b0b7",
+        "08.png": "ec644df167eb64b0cf3f10cde690fc8af19a1001943201b03706e69c7aaf4833"
+      }
+    },
+    {
+      "id": "L20",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "bdda24289a2ce6375d72ccc885ca332488e6f2e4e7efe952f9b6a19c4f4edabf",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "a9309371cdcabc4e5704da3cf16d0d1a76340cb5f25bff075d168a2da2548269",
+        "02.png": "bc3e3b4da13d2ec3b606a7f521067dad23ead984a5f2af33ee86ee019be7942f",
+        "03.png": "7ff0b2856d0f90934673861927d38ac42a62edb8f4f8bbf6df9785efce9b75c6",
+        "04.png": "a1d6eb6d2cd8204c87deb66b3ad257bdffec3feec0ac0119882bb73044243863",
+        "05.png": "c5b303fc78087da4e3b0d5fcad24bd970aff2e03a7cb3ed0f337607ba8febdbe",
+        "06.png": "42a1286b3caa1ebf6f40de0f10c9dc2580572798d76134bf225cc8aeca143c70",
+        "07.png": "3ab9825e8c30e49146f2bcbbab3f86da73abfa34ef49fa8340671125064669f4",
+        "08.png": "1b73b8b0f5ac56a33429c4d4cbb3a440467a84616f53c209bb357ffd9b1efbcc"
+      }
+    },
+    {
+      "id": "L21",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "fa0b43e79982007544d4d4054d6265b92d32a555a29ee62046f37ff8774c9c22",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "fcea978da083fc8456b2d0245382ca57bd04f7afaed2ac868737a79514dbba97",
+        "02.png": "d144290d5cef6e693975b1feac759376f5ef5d40f6ac56fceef379b5cb6b4c78",
+        "03.png": "0255ff9039523088046645b045017d809a91154f429f4f28ba8d16a5e9e8d16c",
+        "04.png": "7c222d1ec88c99bcf8ca7c4545784a755e8a555c8f6381f6bff92e1f214ee514",
+        "05.png": "cc06ecc6b3f50d6e4cdead8064c99b4fd7fc103bc186289e1806850608d6c58b",
+        "06.png": "a5121c2116e60f7b97e904c1bedb4af25aec01697536eb737bfe62a2be50fb7a",
+        "07.png": "fb4f2e600e8d4f3f2d40113da4a6aa28011f9498849c6b4d5b44db37a17358a4",
+        "08.png": "dd3746d2ac380c47c1e088ea23c44ce3b65e7b25673ada942a3725cb73985d2b"
+      }
+    },
+    {
+      "id": "L22",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "a6d88ced19ca8b959c6f83759852e741acd63e0cd2f8995442e3edd6c4c4bacd",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "693fc9c03afd238ad380c3aeee48c079fa35bbeb2637a0b6392433df6fa9f2f4",
+        "02.png": "a89a9bbe16c27bae662bdc4f0105d2f6a159b620b397597c365f54df6f99985c",
+        "03.png": "b658f501bc8937b204f891e2fec215174932469e0c8397a6e53373a978a0d808",
+        "04.png": "1f2dffa47fc971dadc06f8a7b709498e0d86e9efb207a8ae3ffb684b95743482",
+        "05.png": "35053f1f9443b836711bf827030934c98542e34ac61f71f90bda3d7787a82d71",
+        "06.png": "ee066093ffb492d93fea596b18ed1ec7aabb269cb0c8e73feed9a1264ffefea0",
+        "07.png": "59bef98060d7b0628902619844b2c881478d11b35e07d0fce9b5d31a1530f01a",
+        "08.png": "3c435918a5351a810cd653a094507b03a37818c8ab5118f02cc9fe8c52c54f0f"
+      }
+    },
+    {
+      "id": "L23",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "e16f3eed99e2bbf7f5a6f187e8c7038f9a3646d84a1bac828fb64855e91c6090",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "6cc346a0bf7f65cdb57c900e1d890ba86c78785d3b4edd987f41c77e045847e1",
+        "02.png": "5f6d5e1f9666dbad49f4bd2c4042c53cb59c9763682821ff746e296fbd0a6f4d",
+        "03.png": "95b0f085bddfdf362dcf743f97572b0903c2a3c768d173c635087def80a9c436",
+        "04.png": "932951883289fa7ffd3d2b1aed197d82c8eba71b3406abda420ce494e2572b74",
+        "05.png": "e95f3828cada723b577adbf82efa10f7232590da3b252e3cb509f754496b7551",
+        "06.png": "96e728a519ca908f8888be3e586a4d446982d4c5cfc0ff48342147c95c1e5a61",
+        "07.png": "c18f0db0962d1d38a7e8f03822069f3302271db564887415cbe946a6efb0443d",
+        "08.png": "40265d2b5e03d8dcd006bd3245e5653f55e0ff4e079dfe3cf98a1a203862dc1b"
+      }
+    },
+    {
+      "id": "L24",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "f614eb3543c2112bef80f9b903ba6ef783d1615dca51d576132fe1bc32eb56c1",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "cce44ab4f7080c3d6fe09f67b5a05b07296c59c87f90db76d79c39e8b365b0ca",
+        "02.png": "f7532a799624bde6c5240f73eee39449095325a2e978c3517d8ee7184539275a",
+        "03.png": "9c8aa5cbdcd56227ba341abd34a2adc1c76a8ccee494c4fcc00079c4b8632712",
+        "04.png": "5329d957c2b43ecfe1d5e9cf2154254e2510fcf9428e7dfaf3f275111de30f99",
+        "05.png": "98f33c39743d05d7af3d86a8762a6d1fcfc3e23cf64f57049943ce059b3a01c6",
+        "06.png": "4b54b67f954b7c28bba8498cf5c410d6cd57b83d855e4670f76046fc3c083c63",
+        "07.png": "9105771f38ed9c41730871737a32a3519e2c9a3c46a4a735bc2a9839b50608c5",
+        "08.png": "09632aba317986989351f99a71557ca08f6fd087d52d1318a59c31978f365a92"
+      }
+    },
+    {
+      "id": "L25",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "ce8fc1e98718f92e9545952247b4c2edbc2b7af596eaf636e9157fa390124bf3",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "3420d8039ec6058e2cbe6ee9ee332e886556e91f77a1dd332d1598b063b50b91",
+        "02.png": "791570f33b78ffdf49603919bf076e50baa05173b58c7312dfd8f15b7b6b2170",
+        "03.png": "6c74cc3d845fe1c10d1008e7f008fc1d24ff686aa17b1abba9aef8784cee9982",
+        "04.png": "670dddd99abd65e3ef34770c0c27936b549a9f707bb0c66e74a6380d0bebfdbe",
+        "05.png": "6ecfc12d8b068850a3a8dc3842be70d2fc71cfed8248d9b3aae7fc5e2628500a",
+        "06.png": "3a76945ecb6a01c80673ec2e805a21a9322f0c4433ee8db7b19fd44095833282",
+        "07.png": "fb60f5e16f48d987a6737fead18b55a583aafd6c5b2f423927df9e32a13b23ac",
+        "08.png": "7abf196a2aa998f1ff42e469e206ce04331314fdd03ce69fd38f1889e495f086"
+      }
+    },
+    {
+      "id": "L26",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "74c3b63f120298d2b89eda18302d06dda989eee5ab536ec1bf987b213ec88fe0",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "b6a18f699dab247a58b737a89d3983dd1b60cefa1b87737caf1c535a3224a082",
+        "02.png": "2020c2d20822ac63fc64fc500f2809db030eefa520ad29051ab684a25c412e79",
+        "03.png": "b4dfee662a4acb717d4f16c0e5fca03f089a80957b15b212fd873811e7cf0812",
+        "04.png": "37309f52b84d2e358bbfb5ea0b4bd59e5a05a306c3a0f4ce1c7f7e1a410b699f",
+        "05.png": "32ad816022093bd6c0f7723326b062b71c99f94d5200724a5ebb6ffad3040082",
+        "06.png": "31c1eaac556b9756d1bc132ef46bbf9bc02e38fbf5c5876b0139a06fdaf9615b",
+        "07.png": "5238a4f78688d1b4e55272467abbf9c2d2d7a3f891727a6dada125d91efa4312",
+        "08.png": "2a5fecbde97fa9196619735e5ab64d46f757d4941a3bf7855e00cac716dc6804"
+      }
+    },
+    {
+      "id": "L27",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "df06573aead8f54c4d95d5f3512fb4f3e5ed462af5d23c230ca3db5ca8451c95",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "4820fc5b6740fce92a83920e0392ea00c11059fb52ce90fff16f8e45c03a8ccf",
+        "02.png": "496b4f8357aa7b3f35f064814c316c9e950867fb4630f20f05eb06c69188e914",
+        "03.png": "961b104f02e71259ebd9ebeb71147f7e95c12fe7529de82a8f9a11a93709a768",
+        "04.png": "c7758e1ea757ccbebe2a79353dbda98f3ee6db6222950081473f18cecde17f44",
+        "05.png": "4e8241f023ab5ebb9209d41358f5999909cb30b4e32b425cbd7ec1e8269d5956",
+        "06.png": "c228b967cadbfe2eacebc5b4f82a7d37d1a35c66c257c7022810756ba9ea9837",
+        "07.png": "f83fb2936d7b217241de79351000e7eef548483bd45487f2b4af2f9c34769d84",
+        "08.png": "14b359ab20a21037bcc0a0ae482374f9a598ccd4dfae7b9e452c70642ccf9bd1"
+      }
+    },
+    {
+      "id": "L28",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "3826ccc8316acd493f06973fe84f717c8afd2271c6c9ccbc07e9fd14c0412b9f",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "fd825fa7699e719f11dd209da186786701807e5e2d4227dd28a69bb2a837760d",
+        "02.png": "72f628819990420b58d3e6c7530532acb22fd34a8b3c55b2ce8655add80a65de",
+        "03.png": "02db5ba67e28e2bd648fe85f907e303b823db1031f6bf10eb3cda0819289b1f3",
+        "04.png": "41cbf72a9fa2fdfb72a467a08ecbee783c4b4ee6bf3c4a4000ecde4334314433",
+        "05.png": "f9b2510a10f0116ebd620ac4b43c4fb2db4395a38791db8a3519ac48e771e41a",
+        "06.png": "59487224a1c7e46f1d21c079de4a152a2fa22d7a53c04419aa07e86267abab59",
+        "07.png": "89d997bdd0e51d2525bfa4c61b0cb75a4ff50a948671a37f09297446c6427f72",
+        "08.png": "67404ce90ac62be2a863f8685845d3f7e37398f08ba6f098f05bef78649f678c"
+      }
+    },
+    {
+      "id": "L29",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "396bd0e7fdfba8ecfb5053c226a4d91dffbb363d0f892f721d0b7a06a89fe86a",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "1dd87db2fb3a8fdec392f9ffcbf3380da6d24f4078b87cf0dfda74bc64342a7f",
+        "02.png": "b6742b87a952ce2630757f7218bdc6d3a8cbd8e0ecdd1b8ac589915c0ff7966c",
+        "03.png": "79fe7b8e27c61d0626576a80cf8ac3cd1ed04d0301d41033afae0395e0415484",
+        "04.png": "69ccf1af869f1f9cbb860ee702bff6f5223ab3f4b5376524c361e9b30e698f46",
+        "05.png": "f98e9cc97d03a85da16ec44db4d81aca510c7b205603c46e7ae90502c8bb10c9",
+        "06.png": "aeeceeb4346214245c9170864606c10507db77abfe37b856d5befbce9dc475c1",
+        "07.png": "7c3ec5ae1de019aeed75e12852f47248b7a750cfd4764c8f08c244b875651d6f",
+        "08.png": "34f796b8c3a339682a4358048412625ad27f4caeacec240d13c9eb0e201f93df"
+      }
+    },
+    {
+      "id": "L30",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "364aafbdcc3c4a31c30038cebc1600bd381da1ebc0a6e88529d1b5dc390fabc1",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "6854dd7f85fddb59803240b3f917d77f1388594835b708b2664fc6fe94633590",
+        "02.png": "f469ac0f6c47e4b78488919e932ad3706c5fe8d44b114218a15b7fc6d3678934",
+        "03.png": "6c550e4104e03ab2841b9f9dafa38922be5e5a5dfacc1a8cec22d244b1b685b2",
+        "04.png": "cb436b3dcc9856faad49e3b4299857eff10e385410ea71dc104c0b9182d27bbc",
+        "05.png": "769f77d98c8a2c4177d7718fc86cd1298872477c704d3584bf220dd23bad4d90",
+        "06.png": "ff04e9570c4ac4309765963f67f207cfec19d6aac29560623796ff469fc62c7f",
+        "07.png": "b8aafe30987752d375cadf818b1e0b9f6dd92d24fee98322d5c9646e12216ab9",
+        "08.png": "48a71cb61c6cd7f02b6984431b720626bf417346c8ea42602d33bb3dcaad786b"
+      }
+    },
+    {
+      "id": "L31",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "3512848f74f57b7bb54e8e6c5d1d7642f9c7cfffebf112f7820623593ccaf673",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "f936baf2af07527609b302b7868e9cbaa51b342d0242efc805388841d7e3d9d2",
+        "02.png": "c15bf903eade8a0974e8e0646af27c3685a87296abb9d0ca42e0a34545fa4b8a",
+        "03.png": "98b6af7f87fcdf913d08bf2a3f1cf94e727ce9cc3c38dbc3edceff0ce1367bfd",
+        "04.png": "3870b46b9c41c062ab35a4259b475a94a0442651a5a8166b7432b61e848ea195",
+        "05.png": "5ac61f8f76289bd68238863758488709f0aacc4131a23dee92e13ece92db12e5",
+        "06.png": "252f088f3259b04aa31db063c00b05c0e076d9a614aa2acd8be6c02c9d365c88",
+        "07.png": "cfb255dc17c580cca35f952242c8dadf08e0aa9734eb8d6eaf937f2cb478e5bb",
+        "08.png": "cbcccc10e0e2bfed7842ea4ed1895db3741e4a2fef66ac4a98fcf25c86fec13f"
+      }
+    },
+    {
+      "id": "L32",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "8793217b0451eaef18c08d0d5c1b6c83f758e33e3f20494dbeb9fea384ae6c8a",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "7f225d41fe9d35094d19d7eaf0f8db742116f29bd0d769fe6340608914fd1164",
+        "02.png": "d742f4f6db687ae132a96f4bd5ab0d65a166872e495c120b7f457c042512c9d9",
+        "03.png": "64d1e6243b78e86bbaa9a2556ce7470efc311c01861a643eb93b4c0c39044199",
+        "04.png": "e3b7fe178f5d389475f1da9ae43f1603be9bc0f4b0080fd812daf13f9c3d86ad",
+        "05.png": "efab659b00d7b498b990ce9788b7371a648fdedf0ceed0e8942114e6b51a1775",
+        "06.png": "0802fb606d9175ece1980ad4d8a0c3856d03ac7b7420e3b79ad152d2271cbfa9",
+        "07.png": "2672f131620f72f018e37466db6bfed362e72173e2fa9acbbdc926d48dabc6ec",
+        "08.png": "754be6bfba8e6f039ec6787b12b2dc381d411c477d07b2c946ffeaa46738b3a5"
+      }
+    },
+    {
+      "id": "L33",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "d28f3aa6f51ec9cbebaf7693054a86b3918e66af9bcbc8baec47cc3db91f31d1",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "778c6121b0103032921d01f4200011f1c453c8b26b1f97b1f5f1597e642a9178",
+        "02.png": "23f73aeba31a656b2f015eaa9e77a9bb85efc1db035adb6318a11d93fcb31c23",
+        "03.png": "de248c40e2978864410f9ecf33c2f4969dd6d109e9afba3c6b80cef8cbea1842",
+        "04.png": "fea5fd9179e9e90570f3ea59828a10fb64fb8422a50c3908540542f1e1adeb59",
+        "05.png": "41570f0c6791b9015d168ced0dd2e9b637868585d8f79923184482c5ceb68819",
+        "06.png": "49d87601f738d4d049043502741a6c707608199094f44f56a72a62202b134438",
+        "07.png": "7c3f15addd3ced0ad46508efee2b438503225b17af27b59f3e2eaf3504289dd3",
+        "08.png": "1b37ff9acc0d0f788079174392994e211a01927ada682bfbf1c8394c58cb5906"
+      }
+    },
+    {
+      "id": "L34",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "f82faa81ade321bb8bbbe7209f723d421ebc55cbe3cd248f29daef0a8f14c8e0",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "c414b17744efb8eaadd0ab0af402de1c3aacbaa3fa9acbf06c64a13e6a6bf022",
+        "02.png": "019c3fd5fe0ae52b91e3d036b9576e411638a4e869a1e262b48dadda6b4443da",
+        "03.png": "b10d2eaadd9f0d44c5c2ad8ca51787dca70b54abb1dd30f331553f6eb4e81e36",
+        "04.png": "e9f61d0ae3c6460f790c0a5eb6ff8434af273df88c2827282ee65966b426badb",
+        "05.png": "4d63cf12cf1ffd9506c2fc5c8aa004e800156778516a246950e7e8ea0806abf9",
+        "06.png": "0dd7912d4281abbdd3e606d56561fd0e3eb960cbeb080caf69eaacbb18a5d236",
+        "07.png": "f31623b49eebc2dcc512aa261051ab8784f6f4fcdebd9a226fedd9977b3d2df1",
+        "08.png": "4ef18c10d0f24cb022c06710235d616073b56cc95030d3100c02ce192eca8535"
+      }
+    },
+    {
+      "id": "L35",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "67512b26dd9d0abd69c5274e1fa7ea0d8b35afbeee8d7ebc51a78c316568e8fa",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "25bdb2324f9177c9ece0ae48e3c3338a417d297f18602502303eca65ad681408",
+        "02.png": "519a801efacb0f4a04040b075c70f09b445991d27ad5a3f26801a4cdfcb68cf5",
+        "03.png": "ac153edc0a622119dcb9dde7663344b1a3c09e0d4614b16314cb2089231ce663",
+        "04.png": "2c21e04dc6975e017f738a1edea6fee9df49d5290b02ba752cf27d671a4c679b",
+        "05.png": "36f3f4967e60890097a644ce5ca936a947a1ddd06fa62d31428fc63b47a32001",
+        "06.png": "45760657564b5ce9ba9e4529319eebc6f244fc3c198b69b336528eca49a4d6b8",
+        "07.png": "32a1f95da25155dacb6a90a7d98119323537413a31d84ffcec74b21cf65b3ab1",
+        "08.png": "02d1684fc3898604ed5e6f8ae4c8b1cd9457c2d52635c9520fc9c001f1c6dd8d"
+      }
+    },
+    {
+      "id": "L36",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "52d3b462886a610bd8873a1f6993027db5e35e3ba2978a3368a509927830a3b3",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "d3367b38b84de7a45edb76492ffe0d98122388e823d2efd743320b11d4046cba",
+        "02.png": "3bb2f0e1582a86d5b692371db369456ce67714a702bab5c047a2efa8aca54a90",
+        "03.png": "c7de5cae10ddd257b50a331be9dde120a7e1cb79549badd3a41a050b65ffd5de",
+        "04.png": "dfe83a898702d8076357e7e194a65767cbda32f1215958849315f419f112ee53",
+        "05.png": "d5cea480a9cdfb7cbd46787794ef78a831654d4a88df7e0205862a76f6280f62",
+        "06.png": "66d57086567b659ca0309ba9adcd4ec3c4dbfb230ba5601840a092999a5d88b7",
+        "07.png": "4207bc79764fdba2fdb9c3d143ad1104c483f443db8d2cf21599a3e5e32c0aa3",
+        "08.png": "4bb526b58aeeb0cac8dc9803c5d0f4a24f9d0577e58ff28825a6f109417f70de"
+      }
+    },
+    {
+      "id": "L37",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "2708ea45590b47c18cd23832f0c61ae66b42f9e5e7de373b23f142ad70ce4640",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "1655c40d655880382df4a0f1b2ff94962f1909fbb700d3a470fe4757121c3e60",
+        "02.png": "abcee7ee67f63810c8448388fefad659d182adbee5021ea001598b949b4420d5",
+        "03.png": "8fc2279ac0ebe965dcead1df77d1c6f5161bd8b301d48b9b19af104cb312f7f6",
+        "04.png": "1513befde2711089fe164affea5a71133c6cb766d6efffe71426407181582959",
+        "05.png": "4d563875704faac365dd73bd7b7fb0430715fa63e07e528f99a1b1f776cbbd7e",
+        "06.png": "082e1994b961e213b65e85d6113093e5f293a2ea209f924cb8c7ee877110bdfe",
+        "07.png": "485255e1ad562f3a779462d77c0a633300d6982e5824b63f6574123e93cdaa2f",
+        "08.png": "abe3654878d70310c0abda943f79a0a212d6b65083d0ea9aefa71dee570d3087"
+      }
+    },
+    {
+      "id": "L38",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "a0d271ab9004e81d465e7fb5089a3f17ecf87849fe8ab8d618fffe414049b087",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "1de599d8fa7c90d5f1b96fc48d41dabe950cce11ff58cb5eb0e279d1292ce564",
+        "02.png": "b86faa91ffc6a91fa7770fb60f20ef5cbab88f3158b1e14b55119db274738994",
+        "03.png": "77ca303241a240d3e2376d849e5238272b8accc611a06e274a901617ab20d739",
+        "04.png": "930444598f080130f10bfa811a28adcc2b21793d34741084512e75ebedb69641",
+        "05.png": "8359588699aa89a57ab9a14e1a1d4251f6da81a50e4a13c3b34edbdbf9322086",
+        "06.png": "af86c9e78e8674aa24f99ab74e913174cae2f8ee6cc3f6466e441de29104bc9c",
+        "07.png": "05269727a8964e400cd27516c64a2bcab748dbe26e7d12395a163d72dc7dba04",
+        "08.png": "3608442ca460a1409822c08d0f96631052b5cecc48121a6ae97ace6777fd5dce"
+      }
+    },
+    {
+      "id": "L39",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "49d007be499876663481bd2b29be83574416ff9b56849d2d30ac6136cae3f359",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "1f1a2409f51c450cf566c95651c8017f1d08389ab025a8f49134d707cd39bfb5",
+        "02.png": "e9f1d900e8e7ad6e84087c9b1ca09b48d1ffd95cd7fd294f186fd85a035c1576",
+        "03.png": "bce35580129dfd293ccc8123ad6e72eae5be8bd30b2518b3dd58321b9feb7179",
+        "04.png": "d64162852ac3070499626e00415aa6217eaf3d951496fa35a8404c9b9a02b1ff",
+        "05.png": "d2a333b5955856f2046d48ad651c62c6fdd4a6829778e305b90b0eafe91d73ac",
+        "06.png": "edbb5c60e7063ce1a759f10168714667b72cb2e7f3402adbafac8083216132a5",
+        "07.png": "225b56bd17b5f28e2e355cfc115018ea4f3f82d207cbbb489ae3e473e09ff013",
+        "08.png": "3436e7433db4855b844f04f8767e068871c77d20aeec2ffed75e8936e5101fcf"
+      }
+    },
+    {
+      "id": "L40",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "f5726bdf1950c87615b94704448abae1df07cdfb0185627e09bc1875192f1149",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "3928f3756ed198084cd848938e8ddaea929623e40ceb695fd1de8af5e9880b25",
+        "02.png": "0bf6628a6df32c9484c45d42dcdf103014b2ce47c56a7cb239988a605f94b9e7",
+        "03.png": "68d8f0b4ce4a51c2c19a83631bc9d153bb9397015b267ef0d72e969c7c51b364",
+        "04.png": "06842ac73ca9235aafa0a0128ccb808eb4f1293f2fc9b08a14608c3b2f4ef6c5",
+        "05.png": "bb57c2db687e8bd8aa6d20425a25bcf28aff218e1585fa5d61a41b50cfcbe323",
+        "06.png": "aa74ae13761ca03f634194dde3221e88aedf952ef8fea4646e41c6c721ffcc80",
+        "07.png": "0615b79792c0897bd7ce1aa3131b6f7da1402937ba581628a33a21e7ecbb43c1",
+        "08.png": "1c66197d24251d126ea363ec1d16c0666531e02f12cc90442fea9db78b5a5450"
+      }
+    },
+    {
+      "id": "L41",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "de4495f49b5f248be6af3073ab2a5ee416f2216f9cde7fd26df29d5fc5396da3",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "158a649a853dcdd5c50457b0430077a1328348cdebf2a6473e43eb1d55833658",
+        "02.png": "389d6187ae21f2845bea4b26913133d5a461a74dfb3aced5046c0776bf45fbea",
+        "03.png": "67fbe3262e47b4448cfb2b36348d9d1d77708085014cc2ea5bcc1a6a8b0469ae",
+        "04.png": "e409a1c7cfc6f8106399bbda7d2760012cae26c9ce832d37895d5b2744c7b5f1",
+        "05.png": "378b4b59f9fbfc598315d1b9d1d7881f7d77a1c07936463bce2b0e5eb67c28dc",
+        "06.png": "7deaf8c237ab8ddbd29899b7ee66f7cdf1e013dc11a055c06238fbf21392b2c8",
+        "07.png": "2f462600763258f58f71a88827270bc09f53b9952e21b641389d3c7789d0d478",
+        "08.png": "fa6ccc1b8777c5c3c4cfaf3c5e2ecce3b8fbf6ad52eebf113b8d1149c3c808ef"
+      }
+    },
+    {
+      "id": "L42",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "170565d60cb1f6acb2f09f348001b27f9528e2a314c7518f8fa378503672012b",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "2b1612f2382d0d0aaaa08939daf712a0ae46eadfad5e870dd99d253b17d2e21c",
+        "02.png": "572f8c0ad1244ddcb941bda1d81c1b30f960fe358b8c40d1f89907d568a08a9e",
+        "03.png": "97c82650373a4ac32dd4a0516537517d7dab91badfe7f95e4666a1c804172dc3",
+        "04.png": "0f4fc88096d5b03e46885025ec8f120da346e9a744fc17a51c8d8ae95bf270a5",
+        "05.png": "27f6382eeca29223d4364b72eb1d9b219ee5ff482d120177521465558a2c8c72",
+        "06.png": "625c956925f5457ecf2b66eb5430d11b20306d4001b4c98d5476892bd521a663",
+        "07.png": "d1f20d3f9faed7a19264017488f004b7024f2dd932d2d92d0143e1a3429a9b79",
+        "08.png": "e7a128ae7d8509b62662c82c50f287e14aeb52c85bb9feee1012182607d60d46"
+      }
+    },
+    {
+      "id": "L43",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "06f481c3cf822e059d66aa7a12c000cabb2475257feff89a0c4875dca5ad20e5",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "0b9c7fa5bade1624c558041fae2c34ea6f01d93b84e167d792ee60c1e66e65a7",
+        "02.png": "e30f486215037206294d7cb424c2011c034b8eb761e7c58778e2feb78310ee74",
+        "03.png": "8aea0e4cfc0b7959d5c9137d31fa0a292132a02ceccc264ff23a6c361ea82248",
+        "04.png": "d77ab2c8379682fe4eecba04bfca47db0a3e5ef7f5203ea6f6e8fb1df76dad04",
+        "05.png": "754df4d0ee10c63e8eb9e9d14d8c5b04475b71253d99ad69b75d26dd9a7cd8a9",
+        "06.png": "254c532e33cc14aa94e91aca5b9b382606c380efe2da67a7760da28e94fc5731",
+        "07.png": "6482d7fd2015e138278336f738a380082177755de3c517325bb3958a634ce08e",
+        "08.png": "d97cd6e9ec1e3c768406ad0d7935ed510e142fea62bac4c83242c3d8b7108505"
+      }
+    },
+    {
+      "id": "L44",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "c4dd1e462fdd7724c018322984b79d1c21a985620afcc7fb3e61dea739aafcce",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "f48cfdf9e6487cc9a036bda5f9db1969ad32b0b6e15749215585cc99403090e7",
+        "02.png": "cf7bce05648452b83e77080c4f78d473a85a30daa55db41811985d0f1d58d704",
+        "03.png": "c381f36d032eda763612dbb2683350b32fae7305e692fb9d9e63112a49f67acc",
+        "04.png": "263fc43b329eccae6e9094f16182f90850eb5591009c1c27866f8fdbe71db3bf",
+        "05.png": "96e0d3c222b0ea02702fcf9cc82122907fead6bc09445971caaf6304a31221ff",
+        "06.png": "c1917f14cab211e670d1f702bc469f05a4c73985c807f0e84c5839b4021962f9",
+        "07.png": "9e5e37a75167ff551df2f875494105904764a45fdc90f5fdc8c48b87065147ce",
+        "08.png": "554f3a062ecb0330eb9fa3b6319dffabd6ccae9f945a9e03603a6eb3d9b1600a"
+      }
+    },
+    {
+      "id": "L45",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "56a6affa399f1aee042e40a55ed43ac750413fc5bdbba641d0bbd107eee1dd8d",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "e89149bfcdb91afa5014e443150c5f22608a275373c85934e2e766214994e4aa",
+        "02.png": "2171a3b0710b28a2fa562445ecd846f338ea9b326cb6cfe64cf9afdd1c6a8787",
+        "03.png": "795bd6f8a494ec3bf0944eccd66412ac4abb23c340fad67a23147908120fef0a",
+        "04.png": "edff42e689ad78df7d9b7dc115929824d84265ce64f3a8802ebd767f628ad4f0",
+        "05.png": "4f6e28be9fc666e3e497dfeadff5a1cca74941ede097e0bc938e0ff191e71ec4",
+        "06.png": "6908ff6d34cb153baa5b1da5fc02a264477bcf76aa5b4ac86e4c467fc94d263f",
+        "07.png": "01edfbada49d07741319485177a9562a929b9e8d17b125fb191fa0224df16e64",
+        "08.png": "0d91ff865954782371262939c23d73a80b88874f40bc8336881c40082f24a184"
+      }
+    },
+    {
+      "id": "L46",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "36ec0785f15f4d12930edd9e4d2d4d119b720ce8c3b347539f125a67337d7fc4",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "afb08a75f87d181e73b0f1cde297a18986b4501ae6fef7d60ceff7152bd7ce9b",
+        "02.png": "00af3d4ef1132c815a2cb69acba6f585404f5cc2967e2a2de2ec5aead826480f",
+        "03.png": "424b38a2babc6d9a337972647b811ebf51eb283eae90f4a8886d5285df628d41",
+        "04.png": "c5a20c7a05b0a3ef66e700f157c5f85904e9895306b02e1ed70865eaf7afdf3b",
+        "05.png": "5ce6444dbab940cefedc303e11f27c0dcee00a76079858286e3e9fcebedd1539",
+        "06.png": "425d22d869636a48655e7d0505da93d1991945c438ad7992784126a5433574de",
+        "07.png": "449101c0d98b3f729aa7a82c7f4d40f58423c23c0a24afe61f01df5fd51d35db",
+        "08.png": "a4186baef47b3744bdf1d525208f1bd0f091b8779d6ff5776e72e39c519deb3d"
+      }
+    },
+    {
+      "id": "L47",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "fb5f2a1ca35686c3513728e59643391fe8056fe12b1459a8aac5036464300a1c",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "cce0e919471da2c3956b470b273a135aa28af12443bf316938342988102d48f2",
+        "02.png": "d8b140220622a9901245218665a19d547c727f853098f5771120d5740c2646c8",
+        "03.png": "c8dc6ea046f7468998d2ce1aaa625e70dfb2a2c4b18d14a39e0cc1f9efbb36c3",
+        "04.png": "2582cb290bf35778ed08cb00c573869c363a653a10badc034b58f8abd1c0bacb",
+        "05.png": "f314b9a507508d623c61d8b3ab2dc1f5d4567f6847bd6dc6c6681647baf65357",
+        "06.png": "d8ff7a29583e4a65e740dca550a9c1dfa5f42f95ee5a6de412fc045da5a19f7b",
+        "07.png": "1c5d45fbf8d85095e48cfb6dfbb307eaeeb4a6c5d2c5fcc6de945f67cc8c3f00",
+        "08.png": "88b14ded7a874289dfee60e9500b78f17b484435994f35ae3bf474b4089cef4d"
+      }
+    },
+    {
+      "id": "L48",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "9ff067a4d4a3b0d6cc7366d363fbc942431c65794e383a92c1c96db6dc0775d4",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "d3c7997156709c0c18983132cbdbe08a856039c70f60cd0396eb129009f7399f",
+        "02.png": "65c9999797f27eedf514c252125f82848dcb9f32faee2d5746a90c0c59cff0b8",
+        "03.png": "1bb51d4fae213d18a4826b25bdacb6de61d11030bb4f4fac5980eddd97adb8a6",
+        "04.png": "e97393664e1a7af2c07c2ddf3ce074a1a77fab004e2e23ef59f31b8f7f787658",
+        "05.png": "6a0fe64ba1ee6ea1addb61b4a8131b1d37477944b8568e5af68a83f37ba6d2db",
+        "06.png": "793c8b92f4975a8eee79f550d65e198aca6f5d78565ad1cf9a9840a811f59b80",
+        "07.png": "2c3f5cbf496b169d109d9e8d3d2cb4990043c8a8ebf35668c759997b09736dee",
+        "08.png": "1cb3b06b6324190e35178850bbfc39c288dea55d1317e10f8d5af77643f41aae"
+      }
+    },
+    {
+      "id": "L49",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "b8faf3e313e2a2f7db3e16e802b3df751a1b971d9d2c8bcc34459b1f43456380",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "2e487046cea0032caf0f61ed330c96cf59cadedf8b7f8479944de97177ef0bf8",
+        "02.png": "474cf8fd4967390148d134dfcb0004c4c83caa60613648be77920c86ef30fb47",
+        "03.png": "6955894c6ad141343d6a0084bbbb1e46eef13896e912d7f52696a4c222e5a263",
+        "04.png": "df985723d955bcac8285ac1cd482f5ea1586dbe0e86eba4f2b93b6513ff17729",
+        "05.png": "6ea7e70a46f3a56a93f4632c50513323bf7a969143ea0b4359496e4bacb1a843",
+        "06.png": "7c7a61ea415cc3a8887aada8f4448997381a3ed1f81cc92c004e8a0e84d1ceef",
+        "07.png": "6dd167db4195e64a0a79864bfd3e633c55e68d451f25611553bd7d92940b2f01",
+        "08.png": "52232a9f9a2f7fe3cfab4ecccc06b20aab1ec1b51e89de4a3d7bd6e4f529a3a0"
+      }
+    },
+    {
+      "id": "L50",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "fb0833c4cef4f1d357bd5b3aa565fd1ccbbfc54cb10984a2cc256ebaf39d8b88",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "5f06a5391c5f54d3201f1678eaf8d05f050fdfe87e95af21ef030cf35a61f667",
+        "02.png": "4a45d2d8f55d288dc0c3c71d011ae577312dd7c10d9d7eadfa91adbbeb89f242",
+        "03.png": "179651250c18a780e3ced473228837271cd4c06f0489a2ac62464c0722659a36",
+        "04.png": "c6565442301a4e8f2704858f5a6ad76421acc7d16e5709740786c0012481baf9",
+        "05.png": "9013a55ca286fdd1390d20c82df2b78f9018d928a2e9e214e290c1499e532978",
+        "06.png": "14fc2c456b6b014a57f471c0d7bbe19e327954e31047a8ac967b8583728822d9",
+        "07.png": "9c1eacd1f14640ef85dda343380f4d63a597c6330ed6e7d68fdc33b2a12902b8",
+        "08.png": "fb28fa98daaf472534f3412b8fc2e870716f9bb98105ceba663edd111d93ab43"
+      }
+    },
+    {
+      "id": "L51",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "c6f304c25bbbb120230f3e05cb6ff012ab733b63a8485f3f46433c2e4d4c08b9",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "f136b22393776c1cf2ca2ac71c332a91a04d5680e2beb1d0ace59fdd00842c4c",
+        "02.png": "b7728ef9859bd0425bc066f1dd458e39a6c691aab6b04184646dd61639cb80aa",
+        "03.png": "3669c01e50ac192b3177b4d997d97c6921296c60223278d6d5b640c547cafc52",
+        "04.png": "9304c617b565fe2f8467a3a8a85975e4ef6915c7a7d2c058256ef558f4916b67",
+        "05.png": "5e3be2d6e69a6a28447ec0896873073a11e9e5b4550e56bdfdd98ebd8875144d",
+        "06.png": "f519016825552eace864536f8b144a68575bf9847e45e5e33df3fad3b27a319f",
+        "07.png": "138bf5ec2bdd1712f474c06e30a109245e25b07621918036c6ad1509e2fb7594",
+        "08.png": "3d0c42395ecd6e0d67e77beba3ff0d250bed9e7297f742e92060ce18a8c1841a"
+      }
+    },
+    {
+      "id": "L52",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "ded044791b7275e5dc5970ad50404d3dc6430e1be073460ef559a1a4f6c1c952",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "f270601f388f053b584668e5cd075eb65434ccc3a250c340a60a58f62fdc12a1",
+        "02.png": "0a06eb456e6dc7c26ad029b3049dcf51c7342c617b5ecb3fcad5338a56beda8a",
+        "03.png": "c15c5e70bbf726654a33d0468179e4e9ceb9f7c3068e24f60734f041b81493a4",
+        "04.png": "dd622ceb2f5414e520de4a64bb84550d2ab6f3f1827ff4aeabd508b0ce85659e",
+        "05.png": "6e5efd3a33ede16832883648e708af0203b5c0f062ac7b5a87a12cac0a6d4a3a",
+        "06.png": "c6f78e85f1fd55caa03d700330a45c5060d6c96432623de92e3e20531db96118",
+        "07.png": "054f314e636fa8cc92053ae1ce612ba5f9af33c339e08bc51a80d9dc8f2d26af",
+        "08.png": "46a1f07818f7fc064130c28ed486c687f13e743115d8020b65356f1be4e0c0d6"
+      }
+    },
+    {
+      "id": "L53",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "be18c1a4ce3050ec6bcb702f310fecffac24b956f4ad00cdc50ad6cba5d34b1a",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "4cc34c87492925259f85de7305411d54e374f24ef4fa3f0df45d4f0c7e72c94f",
+        "02.png": "5b4f52768a5b9e1ffa5437691ef5cf813c87b3c0f5e75e8279f05617755aa660",
+        "03.png": "646fe453a126feeccf8cd79892f8936f8c35597ba86c80e8b341a3099679a60d",
+        "04.png": "0fea1e62f41217f04f1e0b3e957a8b31c6acce2105ccb92f736d55724ae52b09",
+        "05.png": "8a6a7516ccb79d26e3c63b3e72bda94fe14553f1af45b753120d6fc977f07cee",
+        "06.png": "dd1912e5eb1efda32cbfb39225df021f50c7446091ca1a6e3f01263b31455173",
+        "07.png": "a8e4f3e1bdb3eddf87127a601c2f1e495272d298bb9ca425342143b9686487fb",
+        "08.png": "aad134a00398b82b710d70c7dae1740a45520d7fed4a7e36105c479b4cc2db56"
+      }
+    },
+    {
+      "id": "L54",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "3ca9aa32ab98c3a3f04d7670a803dce9aa0c23bcedefbf99457cc801bf69ec83",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "b42f27dff4197e6459fd8a19dd689e502b71935df59097e9e2c20140c85f60b0",
+        "02.png": "550554b6d6381fcb77bbcf0cdad48374fdb951b56751e2167e9c8f6ed5abfc4c",
+        "03.png": "3e4cabff704cf90463b618f4d8743b1aa81a14e201c2f8349391059f23dfd040",
+        "04.png": "4dc647b6865a802d503e8ddd84dc29df3937e2005fc1ac3df62caec24e61cc20",
+        "05.png": "8aa5c21743dd191649ea1e0422837cdc74304204ab02c503cc17da3794d600bd",
+        "06.png": "89273bb65281a00de8c053a8b4387438a03e767853877825a775f7515319d79c",
+        "07.png": "0e72f6f0677e00c7c5fe89f87eead4f730f2040739421d8bf62cfe6481f7e307",
+        "08.png": "c59f1db1e45f5fece5b6a495ab7e90555340c53dfbb7ce62854f38d8ba6f5696"
+      }
+    },
+    {
+      "id": "L55",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "ec6171615ab927de327f12144942b49bb94f311782068a447a8dcac5cbd85e63",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "d8005bae6c0fa6ffb090890e49268876dead76a2cded95945181367d5185a168",
+        "02.png": "6cf147b1b04d57702c9aa16b15a48dfddbe180b92aacf8702845f707c648cc99",
+        "03.png": "c9d1fa93f07929bdd61a78ffd7e1df774620d4cdff80e5c696f3b5dad1ff284e",
+        "04.png": "b044cf07af88da786e55c9f18a6a4ce1d8fbf383e6e9a49f4ba683ccf5e01934",
+        "05.png": "323b88d99ae71125145fea0cb2af2594dd5e8c4a25f20a3b215e39fef5e39edc",
+        "06.png": "c86278512eba77d59ad86b120dece127b381483dbff24cc98ea345281d7a3ddf",
+        "07.png": "7948249037b252187450701d65508cd49c65c69e59d254d6100d328cf650c7e1",
+        "08.png": "b84c8668e5c4d19ce033a73321b18adb985be88bda87580575e21547d533cee0"
+      }
+    },
+    {
+      "id": "L56",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "4cd2facb4937484ae1ca764422d4300d9bd9fe367490b3a5c6c9fba42e696c01",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "776d2bcb866865407ea2335726382045231881f64d61377b27f1ab0ce6d1ed83",
+        "02.png": "b3c446694799493abcd33455a6f0904f4207ba69d2f101a482e8a7191c4ae055",
+        "03.png": "9df688f4aaaab4aa96ff1cd8858060ac8fc671ca6e8ad51b5beee2b416e8b215",
+        "04.png": "520162684e7f9a82072803d291d102b1db52fe371ed1f84c84160ff54c184739",
+        "05.png": "9e9c03f8c3d7b70b765399032a74d9353443c8c95df3b8d34c55e78ae33ef9c6",
+        "06.png": "2bb438ce8b8bbeecf729c7fe6b05bf3946e736f69bb7dcc646a9c1893533fb2e",
+        "07.png": "0e4f1251986804d6146b148fe5049ed74d29bf6cd4cb9af395ced26438396e80",
+        "08.png": "5f9883db75caaaa6ef8e3fcf0d6dde9fea1b0d688467c896a14dabdb56600d7b"
+      }
+    },
+    {
+      "id": "L57",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "936660c176edafc4dae4ba64e66651f3304f83917575c6f75280c1fba47853c2",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "5b8536c7f52807f71bb814ba9d5a3aaef8bafb1e11cf6f3e0aeb8115d510d41f",
+        "02.png": "597fe4a811815a2edab20c5331345719922bcbc0bf864e653da6c7b25b57cd8c",
+        "03.png": "14bedd2d74296a6b42798c828cd301c0d9ae7392732f84b47479485568c2d8f1",
+        "04.png": "70d7d231f4706862c05059365e6c3ed57ddadcf15607fcb5b23a5de18ef4e3a2",
+        "05.png": "54af8b8b712c852ac6808a18e3f8c85b150d9468d722f66b72e5c18f95eba510",
+        "06.png": "cc6327fd357a675299a289b5f37b36c01c69f9171969ce33bb909b685372d3e7",
+        "07.png": "9f5ebee7c248891ab532532cc7e5434e21a80a629a517a38dfff7cb63444ae7c",
+        "08.png": "6cf646543747c09c529d026bdc3b0addf1351c3aaf278f9c5926485c5f5ee9af"
+      }
+    },
+    {
+      "id": "L58",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "d53e0af49d745c2540d6b4efcb45cb8b4d04bbe27e5849109ad467857833be44",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "6f07eef4ee021fe946779054137270516f898d8ea6a75712e5423ce712c3cb28",
+        "02.png": "c00e44c0d160d7f1f24abc0672bdaff7a751e0123d33de9e8e89c63a0f28fc5e",
+        "03.png": "1a00837e889cadc9392929356e34af74571f227fee1433cb9eef39f72c54a5a3",
+        "04.png": "a8ee38fdace3d27f07a7b6fbac08699e1bb2a486dfb51fcf47570dbb4da1e73f",
+        "05.png": "d7bc111af023504dcd81f01a5434b61b79d77a76e282ed54d06943fd32104e99",
+        "06.png": "8685fb91a8604adc78cfffe52418869248cfd8c3987996aa2add5e4fa654abad",
+        "07.png": "17241ebc0818c678b51b19809d8ca76303a491417242b1f6a9b6931255aa75e1",
+        "08.png": "8d313a2e5c71de16e28ee2bd78bdb6d20fbfedff08ca7ad084d91552d150f5f0"
+      }
+    },
+    {
+      "id": "L59",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "c7c2b3a502989f917b6d0081758cff1bd68e2bfb4ba4655fa16169b0642c6966",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "d2c6082c30a8706f00ea894862660e19a31abe2efa999f69e6dd7a3d1b26d098",
+        "02.png": "46fbbad7c1e0ab3eac012b1c372c3bbb5d5219f9826692df8aeedc8e0db36a8e",
+        "03.png": "df5e7d234311dcfe2e5d5bd3b562d2596248824eefed2f60d8fed9086c0539c2",
+        "04.png": "fbcce98c4e2f256c37e7b013c495792298a50a112257ef1e75802a278dfe49ab",
+        "05.png": "ee3f2c53d06ee8d22a74119ab3753f4bb07ff6faac7f5353d65e2f3007087d47",
+        "06.png": "3c5e67c11c611ee61b27fb4ed3c48db34bb137e2832ed40e47a93e6d76fdbd07",
+        "07.png": "144219867291f0538b2bad347623500d267a4aea4c1d6e4345f778a896b69639",
+        "08.png": "cd79d7af00f7797740968e47d81f3e3b5cf4ca074610e9993a635bb234173b5f"
+      }
+    },
+    {
+      "id": "L60",
+      "cards": 8,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "overflow": false,
+      "minimumProsePx": 44,
+      "source_sha256": "782f4a8bb377d136fb6624d6032610ef860e50ab2b2f27967019994602b8c080",
+      "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+      "png_sha256": {
+        "01.png": "d94c85ccbf402fd17911d233dfaa310d38ccaf9869a195e82b591ad666e088b5",
+        "02.png": "903b1e2673b46ee4e1531b561969914a7b844480ca2f7ea1701320a82bca8586",
+        "03.png": "2bc063b14b506ccf5434fc1d01ec00785d5243b688356546fff6f71f05ad37fc",
+        "04.png": "d744ad35e239b187824370f29f36cfa2278dd75f73f703eb4db62fecf56c532a",
+        "05.png": "fc2f254586a44b8cb7a0e88c77404a18804a17b63d742add5a124aedae3c887a",
+        "06.png": "88086009aa78489f8aa792463e34c551d0b58be5be4bf69569e2c8aec5544d7f",
+        "07.png": "939ebd71b88bf1f9ee4d82a31ef270791277fe6fc9c26659677296d896697a3c",
+        "08.png": "ba64a8164d343f403c36a4d1835112d380242461bb22059537126a6ccdbf039c"
+      }
+    }
+  ]
+}

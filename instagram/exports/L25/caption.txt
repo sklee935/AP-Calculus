@@ -1,0 +1,33 @@
+AP Calculus AB • L25
+Related rates foundations
+
+Related rates connect quantities that change together with time.
+Differentiate the geometric relationship before inserting the radius at this instant.
+
+1. The chain rule supplies the radius rate.
+2. Now use the instantaneous radius and its rate.
+3. The positive volume rate has cubic length units per second.
+
+Remember: Setting r=3 before differentiating would incorrectly turn a changing variable into a constant.
+
+CHECK ANSWER — try card 8 first
+8π cm²/s. Since A′=2πr r′, substitute r=4 and r′=1.
+
+──────────
+
+AP Calculus AB • 25강
+기본 관련변화율
+
+관련변화율은 시간에 따라 함께 변하는 양들을 연결합니다.
+이 순간의 반지름을 넣기 전에 기하 관계식을 미분합니다.
+
+1. 연쇄법칙에 따라 반지름의 변화율을 곱합니다.
+2. 이제 그 순간의 반지름과 변화율을 대입합니다.
+3. 부피의 양의 변화율은 초당 세제곱 길이 단위를 가집니다.
+
+실수 점검: 미분 전에 r=3으로 고정하면 변하는 변수를 상수로 잘못 취급합니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+8π cm²/s입니다. A′=2πr r′에 r=4와 r′=1을 대입합니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

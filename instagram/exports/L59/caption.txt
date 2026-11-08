@@ -1,0 +1,33 @@
+AP Calculus AB • L59
+The disk method
+
+Rotating a region touching its axis produces disks whose radius is a distance.
+A vertical slice rotates into a filled disk because the region reaches the axis.
+
+1. Square the radius before integrating.
+2. The slice thickness is dx, perpendicular to the rotation axis.
+3. The answer is a volume in cubic units.
+
+Remember: The radius is measured from the stated axis; changing the axis changes the radius formula.
+
+CHECK ANSWER — try card 8 first
+8π/3. The disk radius is x, so integrate πx² from 0 to 2.
+
+──────────
+
+AP Calculus AB • 59강
+원판법
+
+축에 닿는 영역을 회전하면 축까지의 거리를 반지름으로 하는 원판이 생깁니다.
+영역이 축까지 이어지므로 세로 단면을 회전하면 속이 찬 원판이 됩니다.
+
+1. 적분 전에 반지름을 제곱합니다.
+2. 회전축에 수직인 단면의 두께는 dx입니다.
+3. 답은 부피이므로 세제곱 단위입니다.
+
+실수 점검: 반지름은 지정된 축에서 잽니다. 축이 바뀌면 반지름 식도 바뀝니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+8π/3입니다. 원판의 반지름이 x이므로 πx²을 0부터 2까지 적분합니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

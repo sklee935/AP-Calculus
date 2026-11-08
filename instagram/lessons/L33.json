@@ -1,0 +1,245 @@
+{
+  "id": "L33",
+  "number": 33,
+  "unit": 5,
+  "unit_title": {
+    "ko": "함수 분석",
+    "en": "Analyzing functions"
+  },
+  "title": {
+    "ko": "절대극값",
+    "en": "Absolute extrema"
+  },
+  "prerequisites": [
+    "L32"
+  ],
+  "week": 11,
+  "day": "Friday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U5-M02"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "The largest and smallest table entries determine the absolute extrema, including ties.",
+    "ko": "표의 가장 큰 값과 작은 값이 절대극값이며 같은 값이 여러 번 나올 수 있습니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "절대극값",
+        "en": "Absolute extrema"
+      },
+      "notes": {
+        "en": "Absolute extrema require comparing actual function values at every candidate.",
+        "ko": "절대극값은 모든 후보점의 실제 함숫값을 비교해서 구합니다."
+      },
+      "math": [
+        "f(x)=x^3-3x\\quad\\mathrm{on}\\ [-2,2]"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Absolute extrema. Absolute extrema require comparing actual function values at every candidate.",
+        "ko": "절대극값. 절대극값은 모든 후보점의 실제 함숫값을 비교해서 구합니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Reuse the endpoints and critical numbers found in lesson 30.",
+        "ko": "30강에서 찾은 끝점과 임계수를 다시 사용하세요."
+      },
+      "math": [
+        "x=-2,-1,1,2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Reuse the endpoints and critical numbers found in lesson 30.",
+        "ko": "먼저 조건을 확인. 30강에서 찾은 끝점과 임계수를 다시 사용하세요."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "The largest and smallest table entries determine the absolute extrema, including ties.",
+        "ko": "표의 가장 큰 값과 작은 값이 절대극값이며 같은 값이 여러 번 나올 수 있습니다."
+      },
+      "math": [],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "x",
+          "f(x)"
+        ],
+        "rows": [
+          [
+            "−2",
+            "−2"
+          ],
+          [
+            "−1",
+            "2"
+          ],
+          [
+            "1",
+            "−2"
+          ],
+          [
+            "2",
+            "2"
+          ]
+        ]
+      },
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. The largest and smallest table entries determine the absolute extrema, including ties. Table (header, then rows): x, f(x); −2, −2; −1, 2; 1, −2; 2, 2.",
+        "ko": "개념을 눈으로 연결. 표의 가장 큰 값과 작은 값이 절대극값이며 같은 값이 여러 번 나올 수 있습니다. 표(머리글 다음 각 행): x, f(x); −2, −2; −1, 2; 1, −2; 2, 2."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "Evaluate candidates in the original function, not in f′.",
+        "ko": "도함수가 아니라 원래 함수에 후보를 대입합니다."
+      },
+      "math": [
+        "f(-2)=-2,\\quad f(-1)=2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. Evaluate candidates in the original function, not in f′.",
+        "ko": "1단계  식을 세우기. 도함수가 아니라 원래 함수에 후보를 대입합니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "Include both endpoints and all interior critical numbers.",
+        "ko": "양 끝점과 모든 내부 임계수를 포함합니다."
+      },
+      "math": [
+        "f(1)=-2,\\quad f(2)=2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. Include both endpoints and all interior critical numbers.",
+        "ko": "2단계  이유를 따라 계산. 양 끝점과 모든 내부 임계수를 포함합니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "State both the extreme value and every location where it occurs.",
+        "ko": "극값과 그 값이 나오는 모든 위치를 함께 쓰세요."
+      },
+      "math": [
+        "\\max f=2\\ \\mathrm{at}\\ x=-1,2",
+        "\\min f=-2\\ \\mathrm{at}\\ x=-2,1"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. State both the extreme value and every location where it occurs.",
+        "ko": "3단계  결과의 의미. 극값과 그 값이 나오는 모든 위치를 함께 쓰세요."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "A local maximum may fail to be the absolute maximum on the full interval.",
+        "ko": "국소최댓값이 구간 전체의 절대최댓값인 것은 아닙니다."
+      },
+      "math": [
+        "\\mathrm{compare\\ all\\ candidates}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. A local maximum may fail to be the absolute maximum on the full interval.",
+        "ko": "이 실수는 피하세요. 국소최댓값이 구간 전체의 절대최댓값인 것은 아닙니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Find both absolute extrema and their locations.",
+        "ko": "절대최댓값과 절대최솟값 및 위치를 구하세요."
+      },
+      "math": [
+        "g(x)=x^2\\quad\\mathrm{on}\\ [-1,2]"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Find both absolute extrema and their locations.",
+        "ko": "직접 풀어보세요. 절대최댓값과 절대최솟값 및 위치를 구하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "g(x)=x^2\\quad\\mathrm{on}\\ [-1,2]"
+    ],
+    "prompt": {
+      "en": "Find both absolute extrema and their locations.",
+      "ko": "절대최댓값과 절대최솟값 및 위치를 구하세요."
+    },
+    "answer": {
+      "en": "Minimum 0 at x=0; maximum 4 at x=2. Compare values at −1,0,2: 1,0,4.",
+      "ko": "최솟값은 x=0에서 0, 최댓값은 x=2에서 4입니다. −1,0,2의 함숫값 1,0,4를 비교합니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "max((-2)**3-3*(-2),(-1)**3-3*(-1),1-3,8-6)",
+      "expected": "2"
+    },
+    {
+      "expression": "min(1,0,4)",
+      "expected": "0"
+    },
+    {
+      "expression": "max(1,0,4)",
+      "expected": "4"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L33\nAbsolute extrema\n\nAbsolute extrema require comparing actual function values at every candidate.\nThe largest and smallest table entries determine the absolute extrema, including ties.\n\n1. Evaluate candidates in the original function, not in f′.\n2. Include both endpoints and all interior critical numbers.\n3. State both the extreme value and every location where it occurs.\n\nRemember: A local maximum may fail to be the absolute maximum on the full interval.\n\nCHECK ANSWER — try card 8 first\nMinimum 0 at x=0; maximum 4 at x=2. Compare values at −1,0,2: 1,0,4.",
+    "ko": "AP Calculus AB • 33강\n절대극값\n\n절대극값은 모든 후보점의 실제 함숫값을 비교해서 구합니다.\n표의 가장 큰 값과 작은 값이 절대극값이며 같은 값이 여러 번 나올 수 있습니다.\n\n1. 도함수가 아니라 원래 함수에 후보를 대입합니다.\n2. 양 끝점과 모든 내부 임계수를 포함합니다.\n3. 극값과 그 값이 나오는 모든 위치를 함께 쓰세요.\n\n실수 점검: 국소최댓값이 구간 전체의 절대최댓값인 것은 아닙니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n최솟값은 x=0에서 0, 최댓값은 x=2에서 4입니다. −1,0,2의 함숫값 1,0,4를 비교합니다."
+  },
+  "graph_description": null
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Exponential growth and decay. A constant relative growth rate leads to an exponential model. Math: y^(′)=3y,y(0)=2",
+    "ko": "지수성장과 감소. 양에 비례하는 일정한 성장률은 지수 모형으로 이어집니다. 수식: y^(′)=3y,y(0)=2"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. The coefficient 3 is a relative rate per unit time. Math: y(t)=Ce^(3t)",
+    "ko": "먼저 조건을 확인. 계수 3은 단위 시간당 상대 변화율입니다. 수식: y(t)=Ce^(3t)"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. The derivative remains proportional to the current amount, not to the initial amount alone. Graph: amount: y=2*exp(3*x). x-range [0, 1], y-range [0, 42].",
+    "ko": "개념을 눈으로 연결. 도함수는 초기량만이 아니라 매 순간의 현재량에 비례합니다. 그래프: amount: y=2*exp(3*x). x 표시구간 [0, 1], y 표시구간 [0, 42]."
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. The initial value fixes the multiplicative constant. Math: y(0)=C=2",
+    "ko": "1단계  식을 세우기. 초기값으로 곱해지는 상수를 정합니다. 수식: y(0)=C=2"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. The positive coefficient produces exponential growth. Math: y(t)=2e^(3t)",
+    "ko": "2단계  이유를 따라 계산. 비례상수가 양수이므로 지수성장입니다. 수식: y(t)=2e^(3t)"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. Use exponential and logarithm rules to evaluate exactly. Math: y(ln2)=2e^(3ln2)=16",
+    "ko": "3단계  결과의 의미. 지수와 로그의 성질로 정확한 값을 구합니다. 수식: y(ln2)=2e^(3ln2)=16"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. Exponential decay approaches zero in this positive model; it does not become negative. Math: k>0: growth,k<0: decay",
+    "ko": "이 실수는 피하세요. 양의 초기량을 가진 지수감소 모형은 0에 가까워지며 음수가 되지 않습니다. 수식: k>0: growth,k<0: decay"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Find y(ln 2). Math: y^(′)=−2y,y(0)=5",
+    "ko": "직접 풀어보세요. y(ln 2)를 구하세요. 수식: y^(′)=−2y,y(0)=5"
+  }
+]

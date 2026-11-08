@@ -1,0 +1,61 @@
+week,day,lesson,unit,title_en,title_ko,status
+1,Monday,L01,1,What a limit means,극한의 뜻,ready
+1,Wednesday,L02,1,One-sided limits,좌우극한,ready
+1,Friday,L03,1,Limits from tables and graphs,표와 그래프의 극한,ready
+2,Monday,L04,1,Factoring and conjugates,인수분해와 켤레식,ready
+2,Wednesday,L05,1,Trigonometric limits and squeezing,삼각극한과 조임정리,ready
+2,Friday,L06,1,Continuity and discontinuity,연속과 불연속,ready
+3,Monday,L07,1,Infinite limits and limits at infinity,무한극한과 무한대극한,ready
+3,Wednesday,L08,1,The intermediate value theorem,중간값정리,ready
+3,Friday,L09,2,Average and instantaneous rates,평균변화율과 순간변화율,ready
+4,Monday,L10,2,The derivative definition,미분의 정의,ready
+4,Wednesday,L11,2,Estimating derivatives,도함수 추정,ready
+4,Friday,L12,2,Differentiability and continuity,미분가능성과 연속,ready
+5,Monday,L13,2,Power and sum rules,거듭제곱과 합의 미분,ready
+5,Wednesday,L14,2,Basic function derivatives,기본 함수의 도함수,ready
+5,Friday,L15,2,The product rule,곱의 법칙,ready
+6,Monday,L16,2,The quotient rule,몫의 법칙,ready
+6,Wednesday,L17,3,The chain rule,연쇄법칙,ready
+6,Friday,L18,3,Implicit differentiation,음함수 미분,ready
+7,Monday,L19,3,Inverse function derivatives,역함수 미분,ready
+7,Wednesday,L20,3,Inverse trigonometric derivatives,역삼각함수 미분,ready
+7,Friday,L21,3,Higher derivatives,고계도함수,ready
+8,Monday,L22,3,Choosing derivative rules,미분법 선택,ready
+8,Wednesday,L23,4,Rates and units,변화율과 단위,ready
+8,Friday,L24,4,Velocity acceleration and speed,속도 가속도 속력,ready
+9,Monday,L25,4,Related rates foundations,기본 관련변화율,ready
+9,Wednesday,L26,4,Cones and ladders,원뿔과 사다리,ready
+9,Friday,L27,4,Linearization and error direction,선형근사와 오차,ready
+10,Monday,L28,4,L Hospital rule,로피탈의 정리,ready
+10,Wednesday,L29,5,The mean value theorem,평균값정리,ready
+10,Friday,L30,5,Extreme values and critical numbers,최대최소정리와 임계수,ready
+11,Monday,L31,5,Increasing and decreasing,증가와 감소,ready
+11,Wednesday,L32,5,The first derivative test,첫 도함수 판정,ready
+11,Friday,L33,5,Absolute extrema,절대극값,ready
+12,Monday,L34,5,Concavity and inflection,오목성과 변곡점,ready
+12,Wednesday,L35,5,Connecting derivative graphs,함수와 도함수 그래프,ready
+12,Friday,L36,5,Optimization,최적화,ready
+13,Monday,L37,6,Accumulation and definite integrals,누적과 정적분,ready
+13,Wednesday,L38,6,Riemann sums and sigma notation,리만합과 합 기호,ready
+13,Friday,L39,6,Trapezoidal approximation,사다리꼴 근사,ready
+14,Monday,L40,6,Properties of integrals,적분의 성질,ready
+14,Wednesday,L41,6,Basic antiderivatives,기본 원시함수,ready
+14,Friday,L42,6,Evaluating with the fundamental theorem,기본정리와 정적분,ready
+15,Monday,L43,6,Differentiating variable bounds,변수 적분구간의 미분,ready
+15,Wednesday,L44,6,Accumulation function graphs,누적함수 그래프,ready
+15,Friday,L45,6,Substitution,치환적분,ready
+16,Monday,L46,6,Algebra and inverse trigonometric integrals,식 정리와 역삼각 적분,ready
+16,Wednesday,L47,7,Differential equations and verification,미분방정식과 해 검증,ready
+16,Friday,L48,7,Slope fields,기울기장,ready
+17,Monday,L49,7,Separation and equilibrium,변수분리와 평형해,ready
+17,Wednesday,L50,7,Initial values and domains,초기조건과 정의역,ready
+17,Friday,L51,7,Exponential growth and decay,지수성장과 감소,ready
+18,Monday,L52,7,Cooling models,냉각 모형,ready
+18,Wednesday,L53,8,Average value of a function,함수의 평균값,ready
+18,Friday,L54,8,Displacement and total distance,변위와 이동거리,ready
+19,Monday,L55,8,Inflow outflow and net change,유입 유출 순변화,ready
+19,Wednesday,L56,8,Area with vertical slices,세로 단면의 넓이,ready
+19,Friday,L57,8,Area with horizontal slices,가로 단면의 넓이,ready
+20,Monday,L58,8,Volumes from cross sections,단면으로 부피 구하기,ready
+20,Wednesday,L59,8,The disk method,원판법,ready
+20,Friday,L60,8,The washer method and course review,와셔법과 과정 정리,ready

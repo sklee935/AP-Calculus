@@ -1,0 +1,33 @@
+AP Calculus AB • L27
+Linearization and error direction
+
+A tangent line gives a nearby estimate and concavity tells its error direction.
+Near x=16, use the tangent line to replace a difficult square root.
+
+1. The tangent line needs the known height and slope.
+2. Use the input change x−16, not x itself.
+3. The graph is concave down, so this tangent estimate is too high.
+
+Remember: The error direction depends on concavity, not on whether the slope is positive.
+
+CHECK ANSWER — try card 8 first
+9.6, an underestimate. L=9+6(x−3); the upward-concave graph lies above its tangent.
+
+──────────
+
+AP Calculus AB • 27강
+선형근사와 오차
+
+접선으로 가까운 값을 추정하고 오목성으로 오차 방향을 판단합니다.
+x=16 근처에서는 어려운 제곱근 대신 접선의 값을 사용합니다.
+
+1. 접선에는 알고 있는 높이와 기울기가 필요합니다.
+2. 입력 자체가 아니라 변화량 x−16을 씁니다.
+3. 그래프가 아래로 오목하므로 이 접선 추정값은 실제보다 큽니다.
+
+실수 점검: 오차 방향은 기울기의 부호가 아니라 오목성으로 판단합니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+9.6이며 과소추정입니다. L=9+6(x−3)이고 위로 오목한 그래프는 접선 위에 있습니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

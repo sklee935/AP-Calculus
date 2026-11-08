@@ -1,0 +1,218 @@
+{
+  "id": "L10",
+  "number": 10,
+  "unit": 2,
+  "unit_title": {
+    "ko": "미분의 기초",
+    "en": "Derivative foundations"
+  },
+  "title": {
+    "ko": "미분의 정의",
+    "en": "The derivative definition"
+  },
+  "prerequisites": [
+    "L09"
+  ],
+  "week": 4,
+  "day": "Monday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U2-M01"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "For a differentiable function, nearby secant slopes settle to one value.",
+    "ko": "미분가능한 함수에서는 주변 할선의 기울기가 한 값으로 모입니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "미분의 정의",
+        "en": "The derivative definition"
+      },
+      "notes": {
+        "en": "The derivative definition turns a nearby difference into an exact rate.",
+        "ko": "미분의 정의는 가까운 두 점의 차이에서 정확한 변화율을 구합니다."
+      },
+      "math": [
+        "f(x)=x^3,\\quad f^\\prime(2)=?"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "The derivative definition. The derivative definition turns a nearby difference into an exact rate.",
+        "ko": "미분의 정의. 미분의 정의는 가까운 두 점의 차이에서 정확한 변화율을 구합니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Subtract f(2) before dividing by h. Do not set h=0 yet.",
+        "ko": "h로 나누기 전에 f(2)를 빼세요. 아직 h=0을 넣지 않습니다."
+      },
+      "math": [
+        "f^\\prime(a)=\\lim_{h\\to0}\\frac{f(a+h)-f(a)}h"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Subtract f(2) before dividing by h. Do not set h=0 yet.",
+        "ko": "먼저 조건을 확인. h로 나누기 전에 f(2)를 빼세요. 아직 h=0을 넣지 않습니다."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "For a differentiable function, nearby secant slopes settle to one value.",
+        "ko": "미분가능한 함수에서는 주변 할선의 기울기가 한 값으로 모입니다."
+      },
+      "math": [
+        "\\frac{(2+h)^3-8}{h}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. For a differentiable function, nearby secant slopes settle to one value.",
+        "ko": "개념을 눈으로 연결. 미분가능한 함수에서는 주변 할선의 기울기가 한 값으로 모입니다."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "Expand carefully so the factor h becomes visible.",
+        "ko": "h 인수가 보이도록 차근차근 전개합니다."
+      },
+      "math": [
+        "(2+h)^3-8=12h+6h^2+h^3"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. Expand carefully so the factor h becomes visible.",
+        "ko": "1단계  식을 세우기. h 인수가 보이도록 차근차근 전개합니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "Cancel h only before taking the limit.",
+        "ko": "극한을 취하기 전에 h를 약분합니다."
+      },
+      "math": [
+        "\\frac{12h+6h^2+h^3}{h}=12+6h+h^2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. Cancel h only before taking the limit.",
+        "ko": "2단계  이유를 따라 계산. 극한을 취하기 전에 h를 약분합니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "The remaining h terms vanish in the limit.",
+        "ko": "극한에서 h가 있는 항들이 0으로 갑니다."
+      },
+      "math": [
+        "f^\\prime(2)=12"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. The remaining h terms vanish in the limit.",
+        "ko": "3단계  결과의 의미. 극한에서 h가 있는 항들이 0으로 갑니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "Substituting h=0 into the unsimplified quotient does not compute the derivative.",
+        "ko": "정리 전 차분몫에 h=0을 대입하는 것으로 미분계수를 구할 수 없습니다."
+      },
+      "math": [
+        "f^\\prime(2)=12"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. Substituting h=0 into the unsimplified quotient does not compute the derivative.",
+        "ko": "이 실수는 피하세요. 정리 전 차분몫에 h=0을 대입하는 것으로 미분계수를 구할 수 없습니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Use the same expansion-and-cancellation pattern.",
+        "ko": "같은 전개와 약분 과정을 적용하세요."
+      },
+      "math": [
+        "\\lim_{h\\to0}\\frac{(5+h)^2-25}{h}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Use the same expansion-and-cancellation pattern.",
+        "ko": "직접 풀어보세요. 같은 전개와 약분 과정을 적용하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "\\lim_{h\\to0}\\frac{(5+h)^2-25}{h}"
+    ],
+    "prompt": {
+      "en": "Use the same expansion-and-cancellation pattern.",
+      "ko": "같은 전개와 약분 과정을 적용하세요."
+    },
+    "answer": {
+      "en": "10. The quotient becomes 10+h, so its limit is 10.",
+      "ko": "10입니다. 차분몫을 정리하면 10+h이므로 극한은 10입니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "limit(((2+h)**3-8)/h,h,0)",
+      "expected": "12"
+    },
+    {
+      "expression": "limit(((5+h)**2-25)/h,h,0)",
+      "expected": "10"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L10\nThe derivative definition\n\nThe derivative definition turns a nearby difference into an exact rate.\nFor a differentiable function, nearby secant slopes settle to one value.\n\n1. Expand carefully so the factor h becomes visible.\n2. Cancel h only before taking the limit.\n3. The remaining h terms vanish in the limit.\n\nRemember: Substituting h=0 into the unsimplified quotient does not compute the derivative.\n\nCHECK ANSWER — try card 8 first\n10. The quotient becomes 10+h, so its limit is 10.",
+    "ko": "AP Calculus AB • 10강\n미분의 정의\n\n미분의 정의는 가까운 두 점의 차이에서 정확한 변화율을 구합니다.\n미분가능한 함수에서는 주변 할선의 기울기가 한 값으로 모입니다.\n\n1. h 인수가 보이도록 차근차근 전개합니다.\n2. 극한을 취하기 전에 h를 약분합니다.\n3. 극한에서 h가 있는 항들이 0으로 갑니다.\n\n실수 점검: 정리 전 차분몫에 h=0을 대입하는 것으로 미분계수를 구할 수 없습니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n10입니다. 차분몫을 정리하면 10+h이므로 극한은 10입니다."
+  },
+  "graph_description": null
+}

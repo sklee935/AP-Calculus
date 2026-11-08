@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Estimating derivatives. A table can estimate a derivative when no formula is given. Math: f^(′)(2)≈?",
+    "ko": "도함수 추정. 함수식이 없어도 표를 이용해 미분계수를 추정할 수 있습니다. 수식: f^(′)(2)≈?"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. Use nearby points on opposite sides of the target input. Math: slope=(Δf)/(Δx)",
+    "ko": "먼저 조건을 확인. 목표 입력의 양쪽에 있는 가까운 점들을 사용하세요. 수식: slope=(Δf)/(Δx)"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. A centered secant uses information from both directions. Table (header, then rows): x, f(x); 1.8, 4.1; 2.0, 4.8; 2.2, 5.7.",
+    "ko": "개념을 눈으로 연결. 중앙 할선은 양쪽 방향의 정보를 함께 사용합니다. 표(머리글 다음 각 행): x, f(x); 1.8, 4.1; 2.0, 4.8; 2.2, 5.7."
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. Read the output change from the outer two rows. Math: Δf=5.7−4.1=1.6",
+    "ko": "1단계  식을 세우기. 양옆 두 행에서 출력의 변화량을 읽습니다. 수식: Δf=5.7−4.1=1.6"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. Use the matching input interval, not just half of it. Math: Δx=2.2−1.8=0.4",
+    "ko": "2단계  이유를 따라 계산. 대응하는 입력 구간 전체의 길이를 사용하세요. 수식: Δx=2.2−1.8=0.4"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. This is an estimate in output units per input unit. Math: f^(′)(2)≈(1.6)/(0.4)=4",
+    "ko": "3단계  결과의 의미. 출력 단위를 입력 단위로 나눈 변화율의 추정값입니다. 수식: f^(′)(2)≈(1.6)/(0.4)=4"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. Finite tabular data does not usually determine an exact derivative. Math: estimate≠exact derivative",
+    "ko": "이 실수는 피하세요. 유한한 표만으로 정확한 도함수 값이 정해지지는 않습니다. 수식: estimate≠exact derivative"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Estimate f′(2) using the outer two points. Math: x:1,2,3; f(x):5,8,15",
+    "ko": "직접 풀어보세요. 양옆 두 점으로 f′(2)를 추정하세요. 수식: x:1,2,3; f(x):5,8,15"
+  }
+]

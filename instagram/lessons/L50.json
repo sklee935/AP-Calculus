@@ -1,0 +1,218 @@
+{
+  "id": "L50",
+  "number": 50,
+  "unit": 7,
+  "unit_title": {
+    "ko": "미분방정식",
+    "en": "Differential equations"
+  },
+  "title": {
+    "ko": "초기조건과 정의역",
+    "en": "Initial values and domains"
+  },
+  "prerequisites": [
+    "L49"
+  ],
+  "week": 17,
+  "day": "Wednesday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U7-M03"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "The initial positive value selects the positive square-root branch.",
+    "ko": "초기값이 양수이므로 양의 제곱근 가지를 선택합니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "초기조건과 정의역",
+        "en": "Initial values and domains"
+      },
+      "notes": {
+        "en": "An initial condition chooses a branch and its valid interval, not just a constant.",
+        "ko": "초기조건은 상수뿐 아니라 해의 가지와 유효 구간도 결정합니다."
+      },
+      "math": [
+        "y^\\prime=\\frac{x}{y},\\quad y(0)=2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Initial values and domains. An initial condition chooses a branch and its valid interval, not just a constant.",
+        "ko": "초기조건과 정의역. 초기조건은 상수뿐 아니라 해의 가지와 유효 구간도 결정합니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "The differential equation is undefined when y=0.",
+        "ko": "y=0에서는 미분방정식의 우변이 정의되지 않습니다."
+      },
+      "math": [
+        "y\\ne0"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. The differential equation is undefined when y=0.",
+        "ko": "먼저 조건을 확인. y=0에서는 미분방정식의 우변이 정의되지 않습니다."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "The initial positive value selects the positive square-root branch.",
+        "ko": "초기값이 양수이므로 양의 제곱근 가지를 선택합니다."
+      },
+      "math": [
+        "y\\,dy=x\\,dx"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. The initial positive value selects the positive square-root branch.",
+        "ko": "개념을 눈으로 연결. 초기값이 양수이므로 양의 제곱근 가지를 선택합니다."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "Integrate both sides, absorbing constant factors into C.",
+        "ko": "양변을 적분하고 상수의 배수를 C에 포함합니다."
+      },
+      "math": [
+        "y^2=x^2+C"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. Integrate both sides, absorbing constant factors into C.",
+        "ko": "1단계  식을 세우기. 양변을 적분하고 상수의 배수를 C에 포함합니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "Use the initial condition before selecting a branch.",
+        "ko": "초기조건으로 상수를 구한 뒤 가지를 고릅니다."
+      },
+      "math": [
+        "4=0+C\\Rightarrow C=4"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. Use the initial condition before selecting a branch.",
+        "ko": "2단계  이유를 따라 계산. 초기조건으로 상수를 구한 뒤 가지를 고릅니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "This branch stays positive, so the differential equation remains defined.",
+        "ko": "이 가지는 항상 양수이므로 방정식이 계속 정의됩니다."
+      },
+      "math": [
+        "y=\\sqrt{x^2+4},\\quad-\\infty<x<\\infty"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. This branch stays positive, so the differential equation remains defined.",
+        "ko": "3단계  결과의 의미. 이 가지는 항상 양수이므로 방정식이 계속 정의됩니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "Writing ±√(x²+4) as the initial-value solution includes a branch that fails y(0)=2.",
+        "ko": "±√(x²+4)를 답으로 쓰면 초기조건에 맞지 않는 가지도 포함됩니다."
+      },
+      "math": [
+        "y(0)=2\\Rightarrow\\mathrm{positive\\ branch}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. Writing ±√(x²+4) as the initial-value solution includes a branch that fails y(0)=2.",
+        "ko": "이 실수는 피하세요. ±√(x²+4)를 답으로 쓰면 초기조건에 맞지 않는 가지도 포함됩니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Given y=1/(1−x), state its maximal interval containing 0.",
+        "ko": "해가 y=1/(1−x)일 때 0을 포함하는 최대 구간을 쓰세요."
+      },
+      "math": [
+        "y^\\prime=y^2,\\quad y(0)=1"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Given y=1/(1−x), state its maximal interval containing 0.",
+        "ko": "직접 풀어보세요. 해가 y=1/(1−x)일 때 0을 포함하는 최대 구간을 쓰세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "y^\\prime=y^2,\\quad y(0)=1"
+    ],
+    "prompt": {
+      "en": "Given y=1/(1−x), state its maximal interval containing 0.",
+      "ko": "해가 y=1/(1−x)일 때 0을 포함하는 최대 구간을 쓰세요."
+    },
+    "answer": {
+      "en": "(−∞,1). The solution blows up at x=1, so its initial-value interval cannot cross that point.",
+      "ko": "(−∞,1)입니다. x=1에서 발산하므로 초기값 해의 구간은 그 점을 넘을 수 없습니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "diff(sqrt(x**2+4),x)-x/sqrt(x**2+4)",
+      "expected": "0"
+    },
+    {
+      "expression": "diff(1/(1-x),x)-(1/(1-x))**2",
+      "expected": "0"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L50\nInitial values and domains\n\nAn initial condition chooses a branch and its valid interval, not just a constant.\nThe initial positive value selects the positive square-root branch.\n\n1. Integrate both sides, absorbing constant factors into C.\n2. Use the initial condition before selecting a branch.\n3. This branch stays positive, so the differential equation remains defined.\n\nRemember: Writing ±√(x²+4) as the initial-value solution includes a branch that fails y(0)=2.\n\nCHECK ANSWER — try card 8 first\n(−∞,1). The solution blows up at x=1, so its initial-value interval cannot cross that point.",
+    "ko": "AP Calculus AB • 50강\n초기조건과 정의역\n\n초기조건은 상수뿐 아니라 해의 가지와 유효 구간도 결정합니다.\n초기값이 양수이므로 양의 제곱근 가지를 선택합니다.\n\n1. 양변을 적분하고 상수의 배수를 C에 포함합니다.\n2. 초기조건으로 상수를 구한 뒤 가지를 고릅니다.\n3. 이 가지는 항상 양수이므로 방정식이 계속 정의됩니다.\n\n실수 점검: ±√(x²+4)를 답으로 쓰면 초기조건에 맞지 않는 가지도 포함됩니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n(−∞,1)입니다. x=1에서 발산하므로 초기값 해의 구간은 그 점을 넘을 수 없습니다."
+  },
+  "graph_description": null
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Increasing and decreasing. The sign of f′ tells whether the function rises or falls on an interval. Math: f^(′)(x)=(x−1)(x−3)",
+    "ko": "증가와 감소. 도함수의 부호로 구간에서 함수의 증가와 감소를 판단합니다. 수식: f^(′)(x)=(x−1)(x−3)"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. Split the real line wherever the derivative can change sign. Math: x=1,3",
+    "ko": "먼저 조건을 확인. 도함수의 부호가 바뀔 수 있는 점에서 수직선을 나누세요. 수식: x=1,3"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. Test one input in each interval because the derivative has no other zeros or breaks. Table (header, then rows): interval, sign f′; x<1, +; 1<x<3, −; x>3, +.",
+    "ko": "개념을 눈으로 연결. 다른 영점이나 단절이 없으므로 각 구간에서 한 입력으로 부호를 확인합니다. 표(머리글 다음 각 행): interval, sign f′; x<1, +; 1<x<3, −; x>3, +."
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. Two negative factors make a positive product on the left. Math: f^(′)(0)=3>0",
+    "ko": "1단계  식을 세우기. 왼쪽에서는 두 음수의 곱이 양수입니다. 수식: f^(′)(0)=3>0"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. Between the zeros, the factors have opposite signs. Math: f^(′)(2)=−1<0",
+    "ko": "2단계  이유를 따라 계산. 두 영점 사이에서는 인수의 부호가 반대입니다. 수식: f^(′)(2)=−1<0"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. So f increases outside [1,3] and decreases between 1 and 3. Math: f^(′)(4)=3>0",
+    "ko": "3단계  결과의 의미. 따라서 1보다 작거나 3보다 큰 구간에서는 증가하고 그 사이에서는 감소합니다. 수식: f^(′)(4)=3>0"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. The sign of f itself tells height, not whether the graph is increasing. Math: f^(′)>0⇒f increases",
+    "ko": "이 실수는 피하세요. f 자체의 부호는 높이를 나타내며 증가 여부를 결정하지 않습니다. 수식: f^(′)>0⇒f increases"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Where is g decreasing? Math: g^(′)(x)=x(x−2)",
+    "ko": "직접 풀어보세요. g는 어느 구간에서 감소하나요? 수식: g^(′)(x)=x(x−2)"
+  }
+]

@@ -1,0 +1,217 @@
+{
+  "id": "L23",
+  "number": 23,
+  "unit": 4,
+  "unit_title": {
+    "ko": "미분의 실제 적용",
+    "en": "Contextual differentiation"
+  },
+  "title": {
+    "ko": "변화율과 단위",
+    "en": "Rates and units"
+  },
+  "prerequisites": [
+    "L22"
+  ],
+  "week": 8,
+  "day": "Wednesday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [],
+  "example_origin": "independently authored foundational example with symbolic checks",
+  "learning_goal": {
+    "en": "A negative volume derivative describes water decreasing, not a negative amount of water.",
+    "ko": "물의 양의 도함수가 음수이면 물이 감소한다는 뜻입니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "변화율과 단위",
+        "en": "Rates and units"
+      },
+      "notes": {
+        "en": "A derivative becomes meaningful when its sign, input and units are stated.",
+        "ko": "도함수는 부호, 입력값, 단위를 함께 말할 때 의미가 분명해집니다."
+      },
+      "math": [
+        "W(t)=20+3t-t^2",
+        "0\\le t\\le4"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Rates and units. A derivative becomes meaningful when its sign, input and units are stated.",
+        "ko": "변화율과 단위. 도함수는 부호, 입력값, 단위를 함께 말할 때 의미가 분명해집니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "W is water volume in liters; t is time in hours.",
+        "ko": "W는 리터 단위의 물의 양, t는 시간 단위의 경과 시간입니다."
+      },
+      "math": [
+        "[W]=\\mathrm{L},\\quad[t]=\\mathrm{h}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. W is water volume in liters; t is time in hours.",
+        "ko": "먼저 조건을 확인. W는 리터 단위의 물의 양, t는 시간 단위의 경과 시간입니다."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "A negative volume derivative describes water decreasing, not a negative amount of water.",
+        "ko": "물의 양의 도함수가 음수이면 물이 감소한다는 뜻입니다."
+      },
+      "math": [
+        "[W^\\prime]=\\mathrm{L/h}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. A negative volume derivative describes water decreasing, not a negative amount of water.",
+        "ko": "개념을 눈으로 연결. 물의 양의 도함수가 음수이면 물이 감소한다는 뜻입니다."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "Differentiate volume with respect to time.",
+        "ko": "물의 양을 시간에 대해 미분합니다."
+      },
+      "math": [
+        "W^\\prime(t)=3-2t"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. Differentiate volume with respect to time.",
+        "ko": "1단계  식을 세우기. 물의 양을 시간에 대해 미분합니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "At hour 3, volume is decreasing at 3 liters per hour.",
+        "ko": "3시간 시점에서 물의 양은 시간당 3리터씩 감소합니다."
+      },
+      "math": [
+        "W^\\prime(3)=-3\\ \\mathrm{L/h}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. At hour 3, volume is decreasing at 3 liters per hour.",
+        "ko": "2단계  이유를 따라 계산. 3시간 시점에서 물의 양은 시간당 3리터씩 감소합니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "The volume itself remains positive while its rate is negative.",
+        "ko": "변화율이 음수여도 물의 양 자체는 양수입니다."
+      },
+      "math": [
+        "W(3)=20\\ \\mathrm{L}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. The volume itself remains positive while its rate is negative.",
+        "ko": "3단계  결과의 의미. 변화율이 음수여도 물의 양 자체는 양수입니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "A rate in L/h is different from an accumulated volume in L.",
+        "ko": "L/h 단위의 변화율과 L 단위의 물의 양을 구별하세요."
+      },
+      "math": [
+        "W(3)\\ne W^\\prime(3)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. A rate in L/h is different from an accumulated volume in L.",
+        "ko": "이 실수는 피하세요. L/h 단위의 변화율과 L 단위의 물의 양을 구별하세요."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Interpret W′(1), including its units.",
+        "ko": "W′(1)의 의미를 단위와 함께 설명하세요."
+      },
+      "math": [
+        "W(t)=20+3t-t^2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Interpret W′(1), including its units.",
+        "ko": "직접 풀어보세요. W′(1)의 의미를 단위와 함께 설명하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "W(t)=20+3t-t^2"
+    ],
+    "prompt": {
+      "en": "Interpret W′(1), including its units.",
+      "ko": "W′(1)의 의미를 단위와 함께 설명하세요."
+    },
+    "answer": {
+      "en": "1 L/h. At hour 1, the volume is increasing at 1 liter per hour.",
+      "ko": "1 L/h입니다. 1시간 시점에서 물의 양은 시간당 1리터씩 증가합니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "diff(20+3*t-t**2,t).subs(t,3)",
+      "expected": "-3"
+    },
+    {
+      "expression": "diff(20+3*t-t**2,t).subs(t,1)",
+      "expected": "1"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L23\nRates and units\n\nA derivative becomes meaningful when its sign, input and units are stated.\nA negative volume derivative describes water decreasing, not a negative amount of water.\n\n1. Differentiate volume with respect to time.\n2. At hour 3, volume is decreasing at 3 liters per hour.\n3. The volume itself remains positive while its rate is negative.\n\nRemember: A rate in L/h is different from an accumulated volume in L.\n\nCHECK ANSWER — try card 8 first\n1 L/h. At hour 1, the volume is increasing at 1 liter per hour.",
+    "ko": "AP Calculus AB • 23강\n변화율과 단위\n\n도함수는 부호, 입력값, 단위를 함께 말할 때 의미가 분명해집니다.\n물의 양의 도함수가 음수이면 물이 감소한다는 뜻입니다.\n\n1. 물의 양을 시간에 대해 미분합니다.\n2. 3시간 시점에서 물의 양은 시간당 3리터씩 감소합니다.\n3. 변화율이 음수여도 물의 양 자체는 양수입니다.\n\n실수 점검: L/h 단위의 변화율과 L 단위의 물의 양을 구별하세요.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n1 L/h입니다. 1시간 시점에서 물의 양은 시간당 1리터씩 증가합니다."
+  },
+  "graph_description": null
+}

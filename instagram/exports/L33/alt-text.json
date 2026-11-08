@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Absolute extrema. Absolute extrema require comparing actual function values at every candidate. Math: f(x)=x^(3)−3xon [−2,2]",
+    "ko": "절대극값. 절대극값은 모든 후보점의 실제 함숫값을 비교해서 구합니다. 수식: f(x)=x^(3)−3xon [−2,2]"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. Reuse the endpoints and critical numbers found in lesson 30. Math: x=−2,−1,1,2",
+    "ko": "먼저 조건을 확인. 30강에서 찾은 끝점과 임계수를 다시 사용하세요. 수식: x=−2,−1,1,2"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. The largest and smallest table entries determine the absolute extrema, including ties. Table (header, then rows): x, f(x); −2, −2; −1, 2; 1, −2; 2, 2.",
+    "ko": "개념을 눈으로 연결. 표의 가장 큰 값과 작은 값이 절대극값이며 같은 값이 여러 번 나올 수 있습니다. 표(머리글 다음 각 행): x, f(x); −2, −2; −1, 2; 1, −2; 2, 2."
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. Evaluate candidates in the original function, not in f′. Math: f(−2)=−2,f(−1)=2",
+    "ko": "1단계  식을 세우기. 도함수가 아니라 원래 함수에 후보를 대입합니다. 수식: f(−2)=−2,f(−1)=2"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. Include both endpoints and all interior critical numbers. Math: f(1)=−2,f(2)=2",
+    "ko": "2단계  이유를 따라 계산. 양 끝점과 모든 내부 임계수를 포함합니다. 수식: f(1)=−2,f(2)=2"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. State both the extreme value and every location where it occurs. Math: maxf=2 at x=−1,2; minf=−2 at x=−2,1",
+    "ko": "3단계  결과의 의미. 극값과 그 값이 나오는 모든 위치를 함께 쓰세요. 수식: maxf=2 at x=−1,2; minf=−2 at x=−2,1"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. A local maximum may fail to be the absolute maximum on the full interval. Math: compare all candidates",
+    "ko": "이 실수는 피하세요. 국소최댓값이 구간 전체의 절대최댓값인 것은 아닙니다. 수식: compare all candidates"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Find both absolute extrema and their locations. Math: g(x)=x^(2)on [−1,2]",
+    "ko": "직접 풀어보세요. 절대최댓값과 절대최솟값 및 위치를 구하세요. 수식: g(x)=x^(2)on [−1,2]"
+  }
+]

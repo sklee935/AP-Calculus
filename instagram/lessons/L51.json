@@ -1,0 +1,234 @@
+{
+  "id": "L51",
+  "number": 51,
+  "unit": 7,
+  "unit_title": {
+    "ko": "미분방정식",
+    "en": "Differential equations"
+  },
+  "title": {
+    "ko": "지수성장과 감소",
+    "en": "Exponential growth and decay"
+  },
+  "prerequisites": [
+    "L50"
+  ],
+  "week": 17,
+  "day": "Friday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U7-M01"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "The derivative remains proportional to the current amount, not to the initial amount alone.",
+    "ko": "도함수는 초기량만이 아니라 매 순간의 현재량에 비례합니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "지수성장과 감소",
+        "en": "Exponential growth and decay"
+      },
+      "notes": {
+        "en": "A constant relative growth rate leads to an exponential model.",
+        "ko": "양에 비례하는 일정한 성장률은 지수 모형으로 이어집니다."
+      },
+      "math": [
+        "y^\\prime=3y,\\quad y(0)=2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Exponential growth and decay. A constant relative growth rate leads to an exponential model.",
+        "ko": "지수성장과 감소. 양에 비례하는 일정한 성장률은 지수 모형으로 이어집니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "The coefficient 3 is a relative rate per unit time.",
+        "ko": "계수 3은 단위 시간당 상대 변화율입니다."
+      },
+      "math": [
+        "y(t)=Ce^{3t}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. The coefficient 3 is a relative rate per unit time.",
+        "ko": "먼저 조건을 확인. 계수 3은 단위 시간당 상대 변화율입니다."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "The derivative remains proportional to the current amount, not to the initial amount alone.",
+        "ko": "도함수는 초기량만이 아니라 매 순간의 현재량에 비례합니다."
+      },
+      "math": [],
+      "visual": {
+        "kind": "graph",
+        "curves": [
+          {
+            "expr": "2*exp(3*x)",
+            "label": "amount",
+            "color": "blue"
+          }
+        ],
+        "xlim": [
+          0,
+          1
+        ],
+        "ylim": [
+          0,
+          42
+        ],
+        "xlabel": "t"
+      },
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. The derivative remains proportional to the current amount, not to the initial amount alone. Graph: amount: y=2*exp(3*x). x-range [0, 1], y-range [0, 42].",
+        "ko": "개념을 눈으로 연결. 도함수는 초기량만이 아니라 매 순간의 현재량에 비례합니다. 그래프: amount: y=2*exp(3*x). x 표시구간 [0, 1], y 표시구간 [0, 42]."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "The initial value fixes the multiplicative constant.",
+        "ko": "초기값으로 곱해지는 상수를 정합니다."
+      },
+      "math": [
+        "y(0)=C=2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. The initial value fixes the multiplicative constant.",
+        "ko": "1단계  식을 세우기. 초기값으로 곱해지는 상수를 정합니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "The positive coefficient produces exponential growth.",
+        "ko": "비례상수가 양수이므로 지수성장입니다."
+      },
+      "math": [
+        "y(t)=2e^{3t}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. The positive coefficient produces exponential growth.",
+        "ko": "2단계  이유를 따라 계산. 비례상수가 양수이므로 지수성장입니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "Use exponential and logarithm rules to evaluate exactly.",
+        "ko": "지수와 로그의 성질로 정확한 값을 구합니다."
+      },
+      "math": [
+        "y(\\ln2)=2e^{3\\ln2}=16"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. Use exponential and logarithm rules to evaluate exactly.",
+        "ko": "3단계  결과의 의미. 지수와 로그의 성질로 정확한 값을 구합니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "Exponential decay approaches zero in this positive model; it does not become negative.",
+        "ko": "양의 초기량을 가진 지수감소 모형은 0에 가까워지며 음수가 되지 않습니다."
+      },
+      "math": [
+        "k>0:\\ \\mathrm{growth},\\quad k<0:\\ \\mathrm{decay}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. Exponential decay approaches zero in this positive model; it does not become negative.",
+        "ko": "이 실수는 피하세요. 양의 초기량을 가진 지수감소 모형은 0에 가까워지며 음수가 되지 않습니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Find y(ln 2).",
+        "ko": "y(ln 2)를 구하세요."
+      },
+      "math": [
+        "y^\\prime=-2y,\\quad y(0)=5"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Find y(ln 2).",
+        "ko": "직접 풀어보세요. y(ln 2)를 구하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "y^\\prime=-2y,\\quad y(0)=5"
+    ],
+    "prompt": {
+      "en": "Find y(ln 2).",
+      "ko": "y(ln 2)를 구하세요."
+    },
+    "answer": {
+      "en": "5/4. The model is y=5e^(−2t), and e^(−2 ln 2)=1/4.",
+      "ko": "5/4입니다. 모형은 y=5e^(−2t)이고 e^(−2 ln 2)=1/4입니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "(2*exp(3*t)).subs(t,log(2))",
+      "expected": "16"
+    },
+    {
+      "expression": "(5*exp(-2*t)).subs(t,log(2))",
+      "expected": "5/4"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L51\nExponential growth and decay\n\nA constant relative growth rate leads to an exponential model.\nThe derivative remains proportional to the current amount, not to the initial amount alone.\n\n1. The initial value fixes the multiplicative constant.\n2. The positive coefficient produces exponential growth.\n3. Use exponential and logarithm rules to evaluate exactly.\n\nRemember: Exponential decay approaches zero in this positive model; it does not become negative.\n\nCHECK ANSWER — try card 8 first\n5/4. The model is y=5e^(−2t), and e^(−2 ln 2)=1/4.",
+    "ko": "AP Calculus AB • 51강\n지수성장과 감소\n\n양에 비례하는 일정한 성장률은 지수 모형으로 이어집니다.\n도함수는 초기량만이 아니라 매 순간의 현재량에 비례합니다.\n\n1. 초기값으로 곱해지는 상수를 정합니다.\n2. 비례상수가 양수이므로 지수성장입니다.\n3. 지수와 로그의 성질로 정확한 값을 구합니다.\n\n실수 점검: 양의 초기량을 가진 지수감소 모형은 0에 가까워지며 음수가 되지 않습니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n5/4입니다. 모형은 y=5e^(−2t)이고 e^(−2 ln 2)=1/4입니다."
+  },
+  "graph_description": null
+}

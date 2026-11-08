@@ -1,0 +1,33 @@
+AP Calculus AB • L02
+One-sided limits
+
+A two-sided limit needs agreement from both directions.
+The two branches approach different heights at zero.
+
+1. From the left, use 2+x. Its outputs approach 2.
+2. From the right, use 5−x. Its outputs approach 5.
+3. Because the one-sided limits differ, the two-sided limit does not exist.
+
+Remember: Do not average the two heights to manufacture a limit.
+
+CHECK ANSWER — try card 8 first
+DNE. The left limit is −1 and the right limit is 1.
+
+──────────
+
+AP Calculus AB • 02강
+좌우극한
+
+양쪽 극한이 있으려면 왼쪽과 오른쪽이 합의해야 합니다.
+두 가지 그래프가 0에서 서로 다른 높이로 갑니다.
+
+1. 왼쪽에서는 2+x를 사용하므로 출력이 2로 갑니다.
+2. 오른쪽에서는 5−x를 사용하므로 출력이 5로 갑니다.
+3. 좌우 극한이 다르므로 양쪽 극한은 존재하지 않습니다.
+
+실수 점검: 두 높이의 평균을 내서 극한을 만들면 안 됩니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+존재하지 않습니다. 좌극한은 −1, 우극한은 1입니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

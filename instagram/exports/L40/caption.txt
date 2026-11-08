@@ -1,0 +1,33 @@
+AP Calculus AB • L40
+Properties of integrals
+
+Integral properties let us combine known accumulations without finding a formula for f.
+Constants scale signed accumulation; they do not change the interval.
+
+1. Join the two adjacent intervals first.
+2. Multiply the entire accumulated value by 2.
+3. Reversing the direction reverses the signed accumulation.
+
+Remember: An integral over a zero-length interval is zero, regardless of the function height.
+
+CHECK ANSWER — try card 8 first
+−12. The f contribution is −6 and the constant contribution is 2(1−4)=−6.
+
+──────────
+
+AP Calculus AB • 40강
+적분의 성질
+
+적분의 성질로 함수식 없이도 알고 있는 누적량을 조합할 수 있습니다.
+상수배는 부호 있는 누적량을 배수로 바꾸며 구간은 그대로입니다.
+
+1. 먼저 이웃한 두 구간을 연결합니다.
+2. 누적량 전체에 2를 곱합니다.
+3. 적분 방향을 뒤집으면 누적량의 부호가 바뀝니다.
+
+실수 점검: 구간 길이가 0이면 함수의 높이와 관계없이 정적분은 0입니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+−12입니다. f의 기여는 −6이고 상수의 기여는 2(1−4)=−6입니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

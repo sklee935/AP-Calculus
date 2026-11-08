@@ -1,0 +1,33 @@
+AP Calculus AB • L29
+The mean value theorem
+
+Some instantaneous slope must match the average slope when the Mean Value Theorem applies.
+The theorem guarantees an interior tangent parallel to the endpoint secant.
+
+1. Compute the average slope over the entire interval.
+2. Set an interior derivative equal to that average slope.
+3. The solution lies inside the required open interval.
+
+Remember: Solving an equation is not enough; verify the theorem’s hypotheses and the location of c.
+
+CHECK ANSWER — try card 8 first
+c=2/√3. The secant slope is 4, so 3c²=4; choose the positive interior root.
+
+──────────
+
+AP Calculus AB • 29강
+평균값정리
+
+평균값정리의 조건이 맞으면 순간 기울기가 평균 기울기와 같은 점이 있습니다.
+정리는 양 끝점을 잇는 할선과 평행한 내부 접선을 보장합니다.
+
+1. 구간 전체의 평균 기울기를 구합니다.
+2. 내부 점의 도함수를 평균 기울기와 같게 놓습니다.
+3. 구한 점이 필요한 열린 구간 안에 있습니다.
+
+실수 점검: 방정식만 풀지 말고 정리의 조건과 c의 위치를 확인하세요.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+c=2/√3입니다. 할선 기울기는 4이므로 3c²=4에서 구간 안의 양의 해를 고릅니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

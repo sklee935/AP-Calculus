@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "The product rule. A product changes because either factor can change. Math: f(x)=x^(2)sinx",
+    "ko": "곱의 법칙. 곱은 두 인수 중 어느 쪽이 변해도 달라집니다. 수식: f(x)=x^(2)sinx"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. Identify two factors before choosing a differentiation rule. Math: u=x^(2),v=sinx",
+    "ko": "먼저 조건을 확인. 미분법을 고르기 전에 두 인수를 찾으세요. 수식: u=x^(2),v=sinx"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. The product rule keeps one factor while differentiating the other, then adds both contributions. Math: (uv)^(′)=u^(′)v+uv^(′)",
+    "ko": "개념을 눈으로 연결. 한 인수를 유지하고 다른 인수를 미분한 두 기여를 더합니다. 수식: (uv)^(′)=u^(′)v+uv^(′)"
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. Differentiate the two factors separately first. Math: u^(′)=2x,v^(′)=cosx",
+    "ko": "1단계  식을 세우기. 먼저 두 인수를 따로 미분합니다. 수식: u^(′)=2x,v^(′)=cosx"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. Write both product-rule terms. Math: f^(′)(x)=2xsinx+x^(2)cosx",
+    "ko": "2단계  이유를 따라 계산. 곱의 미분법에서 생기는 두 항을 모두 씁니다. 수식: f^(′)(x)=2xsinx+x^(2)cosx"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. At π/2, sine is 1 and cosine is 0. Math: f^(′)(π/2)=π",
+    "ko": "3단계  결과의 의미. π/2에서 사인은 1, 코사인은 0입니다. 수식: f^(′)(π/2)=π"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. Multiplying the two derivatives is not the derivative of a product. Math: (uv)^(′)≠u^(′)v^(′)",
+    "ko": "이 실수는 피하세요. 두 도함수를 곱하는 것은 곱의 미분법이 아닙니다. 수식: (uv)^(′)≠u^(′)v^(′)"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Keep both contributions before substituting. Math: g(x)=xe^(x),g^(′)(1)=?",
+    "ko": "직접 풀어보세요. 두 기여를 모두 쓴 뒤 대입하세요. 수식: g(x)=xe^(x),g^(′)(1)=?"
+  }
+]

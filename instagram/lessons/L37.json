@@ -1,0 +1,246 @@
+{
+  "id": "L37",
+  "number": 37,
+  "unit": 6,
+  "unit_title": {
+    "ko": "적분과 누적",
+    "en": "Integration and accumulation"
+  },
+  "title": {
+    "ko": "누적과 정적분",
+    "en": "Accumulation and definite integrals"
+  },
+  "prerequisites": [
+    "L36"
+  ],
+  "week": 13,
+  "day": "Monday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [],
+  "example_origin": "independently authored foundational example with symbolic checks",
+  "learning_goal": {
+    "en": "Positive and negative rectangles contribute opposite signed changes.",
+    "ko": "양의 직사각형과 음의 직사각형은 반대 부호의 변화를 만듭니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "누적과 정적분",
+        "en": "Accumulation and definite integrals"
+      },
+      "notes": {
+        "en": "A definite integral accumulates signed change, so areas below the axis subtract.",
+        "ko": "정적분은 부호 있는 변화를 누적하므로 축 아래의 넓이는 뺍니다."
+      },
+      "math": [
+        "v(t)=2\\ (0\\le t<2)",
+        "v(t)=-1\\ (2\\le t\\le3)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Accumulation and definite integrals. A definite integral accumulates signed change, so areas below the axis subtract.",
+        "ko": "누적과 정적분. 정적분은 부호 있는 변화를 누적하므로 축 아래의 넓이는 뺍니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Velocity is in m/s and time is in seconds. Area gives displacement in meters.",
+        "ko": "속도 단위는 m/s, 시간 단위는 초입니다. 넓이로 변위를 구합니다."
+      },
+      "math": [
+        "\\mathrm{displacement}=\\int_0^3v(t)\\,dt"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Velocity is in m/s and time is in seconds. Area gives displacement in meters.",
+        "ko": "먼저 조건을 확인. 속도 단위는 m/s, 시간 단위는 초입니다. 넓이로 변위를 구합니다."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "Positive and negative rectangles contribute opposite signed changes.",
+        "ko": "양의 직사각형과 음의 직사각형은 반대 부호의 변화를 만듭니다."
+      },
+      "math": [],
+      "visual": {
+        "kind": "graph",
+        "curves": [
+          {
+            "expr": "2",
+            "label": "v first",
+            "color": "blue",
+            "domain": [
+              0,
+              2
+            ]
+          },
+          {
+            "expr": "-1",
+            "label": "v second",
+            "color": "blue",
+            "domain": [
+              2,
+              3
+            ]
+          }
+        ],
+        "xlim": [
+          0,
+          3
+        ],
+        "ylim": [
+          -2,
+          3
+        ],
+        "xlabel": "t"
+      },
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. Positive and negative rectangles contribute opposite signed changes. Graph: v first: y=2 on [0, 2]; v second: y=-1 on [2, 3]. x-range [0, 3], y-range [-2, 3].",
+        "ko": "개념을 눈으로 연결. 양의 직사각형과 음의 직사각형은 반대 부호의 변화를 만듭니다. 그래프: v first: y=2 on [0, 2]; v second: y=-1 on [2, 3]. x 표시구간 [0, 3], y 표시구간 [-2, 3]."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "The first interval contributes positive displacement.",
+        "ko": "첫 구간은 양의 변위를 만듭니다."
+      },
+      "math": [
+        "\\int_0^2 2\\,dt=2\\cdot2=4\\ \\mathrm{m}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. The first interval contributes positive displacement.",
+        "ko": "1단계  식을 세우기. 첫 구간은 양의 변위를 만듭니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "The second interval reverses direction and subtracts one meter.",
+        "ko": "두 번째 구간에서는 반대로 움직여 1미터를 뺍니다."
+      },
+      "math": [
+        "\\int_2^3(-1)\\,dt=-1\\ \\mathrm{m}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. The second interval reverses direction and subtracts one meter.",
+        "ko": "2단계  이유를 따라 계산. 두 번째 구간에서는 반대로 움직여 1미터를 뺍니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "Net displacement is 3 m; total distance would be 5 m.",
+        "ko": "순변위는 3m입니다. 총 이동거리는 5m입니다."
+      },
+      "math": [
+        "\\int_0^3v(t)\\,dt=4-1=3\\ \\mathrm{m}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. Net displacement is 3 m; total distance would be 5 m.",
+        "ko": "3단계  결과의 의미. 순변위는 3m입니다. 총 이동거리는 5m입니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "The definite integral is signed area, not automatically total geometric area.",
+        "ko": "정적분은 부호 있는 넓이이며 언제나 기하학적 넓이의 합인 것은 아닙니다."
+      },
+      "math": [
+        "\\int v\\ne\\int |v|\\quad\\mathrm{in\\ general}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. The definite integral is signed area, not automatically total geometric area.",
+        "ko": "이 실수는 피하세요. 정적분은 부호 있는 넓이이며 언제나 기하학적 넓이의 합인 것은 아닙니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Find the signed accumulation and interpret its sign.",
+        "ko": "부호 있는 누적량을 구하고 부호의 뜻을 설명하세요."
+      },
+      "math": [
+        "\\int_0^2(-3)\\,dt"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Find the signed accumulation and interpret its sign.",
+        "ko": "직접 풀어보세요. 부호 있는 누적량을 구하고 부호의 뜻을 설명하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "\\int_0^2(-3)\\,dt"
+    ],
+    "prompt": {
+      "en": "Find the signed accumulation and interpret its sign.",
+      "ko": "부호 있는 누적량을 구하고 부호의 뜻을 설명하세요."
+    },
+    "answer": {
+      "en": "−6. A constant negative rate −3 for 2 time units accumulates −6 units of change.",
+      "ko": "−6입니다. 일정한 변화율 −3이 시간 2만큼 유지되어 −6의 변화가 누적됩니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "integrate(2,(t,0,2))+integrate(-1,(t,2,3))",
+      "expected": "3"
+    },
+    {
+      "expression": "integrate(-3,(t,0,2))",
+      "expected": "-6"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L37\nAccumulation and definite integrals\n\nA definite integral accumulates signed change, so areas below the axis subtract.\nPositive and negative rectangles contribute opposite signed changes.\n\n1. The first interval contributes positive displacement.\n2. The second interval reverses direction and subtracts one meter.\n3. Net displacement is 3 m; total distance would be 5 m.\n\nRemember: The definite integral is signed area, not automatically total geometric area.\n\nCHECK ANSWER — try card 8 first\n−6. A constant negative rate −3 for 2 time units accumulates −6 units of change.",
+    "ko": "AP Calculus AB • 37강\n누적과 정적분\n\n정적분은 부호 있는 변화를 누적하므로 축 아래의 넓이는 뺍니다.\n양의 직사각형과 음의 직사각형은 반대 부호의 변화를 만듭니다.\n\n1. 첫 구간은 양의 변위를 만듭니다.\n2. 두 번째 구간에서는 반대로 움직여 1미터를 뺍니다.\n3. 순변위는 3m입니다. 총 이동거리는 5m입니다.\n\n실수 점검: 정적분은 부호 있는 넓이이며 언제나 기하학적 넓이의 합인 것은 아닙니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n−6입니다. 일정한 변화율 −3이 시간 2만큼 유지되어 −6의 변화가 누적됩니다."
+  },
+  "graph_description": null
+}

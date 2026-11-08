@@ -1,0 +1,33 @@
+AP Calculus AB • L13
+Power and sum rules
+
+Differentiate a polynomial one term at a time.
+The derivative of a sum is the sum of the derivatives. Constants contribute zero.
+
+1. Apply the power rule to the variable terms.
+2. The constant 7 disappears because it does not change.
+3. Evaluate the derivative only after finding its formula.
+
+Remember: Reducing an exponent without multiplying by the original exponent misses a factor.
+
+CHECK ANSWER — try card 8 first
+6x²−5. Differentiate both terms and retain the subtraction sign.
+
+──────────
+
+AP Calculus AB • 13강
+거듭제곱과 합의 미분
+
+다항식은 항별로 하나씩 미분합니다.
+합의 도함수는 각 도함수의 합입니다. 상수의 기여는 0입니다.
+
+1. 변수가 있는 항에 거듭제곱 미분법을 적용합니다.
+2. 상수 7은 변하지 않으므로 미분하면 사라집니다.
+3. 도함수의 식을 구한 뒤 값을 대입합니다.
+
+실수 점검: 원래 지수를 곱하지 않고 지수만 줄이면 계수가 빠집니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+6x²−5입니다. 두 항을 각각 미분하고 뺄셈 부호를 유지합니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

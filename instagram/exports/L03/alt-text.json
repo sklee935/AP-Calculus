@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Limits from tables and graphs. An open point and a filled point answer different questions. Math: lim_(x→1)g(x); g(1)=4",
+    "ko": "표와 그래프의 극한. 빈 점과 채운 점은 서로 다른 질문에 답합니다. 수식: lim_(x→1)g(x); g(1)=4"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. Trace nearby graph points; do not jump straight to the filled point. Math: g(x)=x+1(x<1); g(x)=3−x(x>1)",
+    "ko": "먼저 조건을 확인. 주변 그래프를 따라가세요. 바로 채운 점만 읽지 마세요. 수식: g(x)=x+1(x<1); g(x)=3−x(x>1)"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. Both graph segments approach height 2. The separate filled point gives the actual value 4. Graph: x+1: y=x+1 on [-1, 1]; 3-x: y=3-x on [1, 3]. x-range [-1.2, 3.2], y-range [-0.3, 4.6]. Open circles: [[1, 2]]. Filled points: [[1, 4]].",
+    "ko": "개념을 눈으로 연결. 두 선분은 높이 2로 갑니다. 따로 있는 채운 점이 함숫값 4입니다. 그래프: x+1: y=x+1 on [-1, 1]; 3-x: y=3-x on [1, 3]. x 표시구간 [-1.2, 3.2], y 표시구간 [-0.3, 4.6]. 빈점: [[1, 2]]. 채운 점: [[1, 4]]."
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. The left segment climbs toward the open point. Math: lim_(x→1^(−))g(x)=2",
+    "ko": "1단계  식을 세우기. 왼쪽 선분은 빈 점을 향해 올라갑니다. 수식: lim_(x→1^(−))g(x)=2"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. The right segment approaches the same height. Math: lim_(x→1^(+))g(x)=2",
+    "ko": "2단계  이유를 따라 계산. 오른쪽 선분도 같은 높이로 접근합니다. 수식: lim_(x→1^(+))g(x)=2"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. The common nearby value is 2, while the defined value is 4. Math: lim_(x→1)g(x)=2; g(1)=4",
+    "ko": "3단계  결과의 의미. 공통으로 가까워지는 값은 2이고, 정해진 함숫값은 4입니다. 수식: lim_(x→1)g(x)=2; g(1)=4"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. A finite table suggests a limit; the function or graph supplies the supporting structure. Math: limit≠point value",
+    "ko": "이 실수는 피하세요. 유한한 표는 극한을 추정할 뿐입니다. 함수나 그래프의 구조도 확인하세요. 수식: limit≠point value"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Read the nearby rule rather than the special point value. Math: h(x)=x^(2)(x≠2); h(2)=10,lim_(x→2)h(x)=?",
+    "ko": "직접 풀어보세요. 특별히 정한 함숫값 대신 주변의 규칙을 읽으세요. 수식: h(x)=x^(2)(x≠2); h(2)=10,lim_(x→2)h(x)=?"
+  }
+]

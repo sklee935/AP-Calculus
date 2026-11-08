@@ -1,0 +1,33 @@
+AP Calculus AB • L21
+Higher derivatives
+
+A second derivative measures how the first derivative changes.
+Each differentiation of a composite function needs its own inner derivative.
+
+1. The first chain-rule factor is 2.
+2. The second differentiation contributes another factor 2 and a minus sign.
+3. A negative second derivative means the slope is decreasing nearby.
+
+Remember: The second derivative is not the square of the first derivative.
+
+CHECK ANSWER — try card 8 first
+48. The first derivative is 4x³ and the second is 12x², giving 48 at 2.
+
+──────────
+
+AP Calculus AB • 21강
+고계도함수
+
+이계도함수는 일계도함수가 어떻게 변하는지 나타냅니다.
+합성함수를 미분할 때마다 안의 도함수를 다시 곱해야 합니다.
+
+1. 첫 번째 연쇄법칙의 계수는 2입니다.
+2. 두 번째 미분에서 2가 다시 곱해지고 음수가 붙습니다.
+3. 이계도함수가 음수이면 주변에서 기울기가 감소합니다.
+
+실수 점검: 이계도함수는 일계도함수의 제곱이 아닙니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+48입니다. 일계도함수는 4x³, 이계도함수는 12x²이므로 2에서 48입니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

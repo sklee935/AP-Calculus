@@ -1,0 +1,236 @@
+{
+  "id": "L31",
+  "number": 31,
+  "unit": 5,
+  "unit_title": {
+    "ko": "함수 분석",
+    "en": "Analyzing functions"
+  },
+  "title": {
+    "ko": "증가와 감소",
+    "en": "Increasing and decreasing"
+  },
+  "prerequisites": [
+    "L30"
+  ],
+  "week": 11,
+  "day": "Monday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U5-M04"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "Test one input in each interval because the derivative has no other zeros or breaks.",
+    "ko": "다른 영점이나 단절이 없으므로 각 구간에서 한 입력으로 부호를 확인합니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "증가와 감소",
+        "en": "Increasing and decreasing"
+      },
+      "notes": {
+        "en": "The sign of f′ tells whether the function rises or falls on an interval.",
+        "ko": "도함수의 부호로 구간에서 함수의 증가와 감소를 판단합니다."
+      },
+      "math": [
+        "f^\\prime(x)=(x-1)(x-3)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Increasing and decreasing. The sign of f′ tells whether the function rises or falls on an interval.",
+        "ko": "증가와 감소. 도함수의 부호로 구간에서 함수의 증가와 감소를 판단합니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Split the real line wherever the derivative can change sign.",
+        "ko": "도함수의 부호가 바뀔 수 있는 점에서 수직선을 나누세요."
+      },
+      "math": [
+        "x=1,3"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Split the real line wherever the derivative can change sign.",
+        "ko": "먼저 조건을 확인. 도함수의 부호가 바뀔 수 있는 점에서 수직선을 나누세요."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "Test one input in each interval because the derivative has no other zeros or breaks.",
+        "ko": "다른 영점이나 단절이 없으므로 각 구간에서 한 입력으로 부호를 확인합니다."
+      },
+      "math": [],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "interval",
+          "sign f′"
+        ],
+        "rows": [
+          [
+            "x<1",
+            "+"
+          ],
+          [
+            "1<x<3",
+            "−"
+          ],
+          [
+            "x>3",
+            "+"
+          ]
+        ]
+      },
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. Test one input in each interval because the derivative has no other zeros or breaks. Table (header, then rows): interval, sign f′; x<1, +; 1<x<3, −; x>3, +.",
+        "ko": "개념을 눈으로 연결. 다른 영점이나 단절이 없으므로 각 구간에서 한 입력으로 부호를 확인합니다. 표(머리글 다음 각 행): interval, sign f′; x<1, +; 1<x<3, −; x>3, +."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "Two negative factors make a positive product on the left.",
+        "ko": "왼쪽에서는 두 음수의 곱이 양수입니다."
+      },
+      "math": [
+        "f^\\prime(0)=3>0"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. Two negative factors make a positive product on the left.",
+        "ko": "1단계  식을 세우기. 왼쪽에서는 두 음수의 곱이 양수입니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "Between the zeros, the factors have opposite signs.",
+        "ko": "두 영점 사이에서는 인수의 부호가 반대입니다."
+      },
+      "math": [
+        "f^\\prime(2)=-1<0"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. Between the zeros, the factors have opposite signs.",
+        "ko": "2단계  이유를 따라 계산. 두 영점 사이에서는 인수의 부호가 반대입니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "So f increases outside [1,3] and decreases between 1 and 3.",
+        "ko": "따라서 1보다 작거나 3보다 큰 구간에서는 증가하고 그 사이에서는 감소합니다."
+      },
+      "math": [
+        "f^\\prime(4)=3>0"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. So f increases outside [1,3] and decreases between 1 and 3.",
+        "ko": "3단계  결과의 의미. 따라서 1보다 작거나 3보다 큰 구간에서는 증가하고 그 사이에서는 감소합니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "The sign of f itself tells height, not whether the graph is increasing.",
+        "ko": "f 자체의 부호는 높이를 나타내며 증가 여부를 결정하지 않습니다."
+      },
+      "math": [
+        "f^\\prime>0\\Rightarrow f\\ \\mathrm{increases}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. The sign of f itself tells height, not whether the graph is increasing.",
+        "ko": "이 실수는 피하세요. f 자체의 부호는 높이를 나타내며 증가 여부를 결정하지 않습니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Where is g decreasing?",
+        "ko": "g는 어느 구간에서 감소하나요?"
+      },
+      "math": [
+        "g^\\prime(x)=x(x-2)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Where is g decreasing?",
+        "ko": "직접 풀어보세요. g는 어느 구간에서 감소하나요?"
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "g^\\prime(x)=x(x-2)"
+    ],
+    "prompt": {
+      "en": "Where is g decreasing?",
+      "ko": "g는 어느 구간에서 감소하나요?"
+    },
+    "answer": {
+      "en": "(0,2). The derivative has opposite-sign factors exactly between 0 and 2.",
+      "ko": "(0,2)입니다. 이 구간에서만 두 인수의 부호가 반대여서 도함수가 음수입니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "((x-1)*(x-3)).subs(x,2)",
+      "expected": "-1"
+    },
+    {
+      "expression": "(x*(x-2)).subs(x,1)",
+      "expected": "-1"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L31\nIncreasing and decreasing\n\nThe sign of f′ tells whether the function rises or falls on an interval.\nTest one input in each interval because the derivative has no other zeros or breaks.\n\n1. Two negative factors make a positive product on the left.\n2. Between the zeros, the factors have opposite signs.\n3. So f increases outside [1,3] and decreases between 1 and 3.\n\nRemember: The sign of f itself tells height, not whether the graph is increasing.\n\nCHECK ANSWER — try card 8 first\n(0,2). The derivative has opposite-sign factors exactly between 0 and 2.",
+    "ko": "AP Calculus AB • 31강\n증가와 감소\n\n도함수의 부호로 구간에서 함수의 증가와 감소를 판단합니다.\n다른 영점이나 단절이 없으므로 각 구간에서 한 입력으로 부호를 확인합니다.\n\n1. 왼쪽에서는 두 음수의 곱이 양수입니다.\n2. 두 영점 사이에서는 인수의 부호가 반대입니다.\n3. 따라서 1보다 작거나 3보다 큰 구간에서는 증가하고 그 사이에서는 감소합니다.\n\n실수 점검: f 자체의 부호는 높이를 나타내며 증가 여부를 결정하지 않습니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n(0,2)입니다. 이 구간에서만 두 인수의 부호가 반대여서 도함수가 음수입니다."
+  },
+  "graph_description": null
+}

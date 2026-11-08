@@ -1,0 +1,33 @@
+AP Calculus AB • L03
+Limits from tables and graphs
+
+An open point and a filled point answer different questions.
+Both graph segments approach height 2. The separate filled point gives the actual value 4.
+
+1. The left segment climbs toward the open point.
+2. The right segment approaches the same height.
+3. The common nearby value is 2, while the defined value is 4.
+
+Remember: A finite table suggests a limit; the function or graph supplies the supporting structure.
+
+CHECK ANSWER — try card 8 first
+4. Nearby values follow x², so they approach 4; h(2)=10 does not change this limit.
+
+──────────
+
+AP Calculus AB • 03강
+표와 그래프의 극한
+
+빈 점과 채운 점은 서로 다른 질문에 답합니다.
+두 선분은 높이 2로 갑니다. 따로 있는 채운 점이 함숫값 4입니다.
+
+1. 왼쪽 선분은 빈 점을 향해 올라갑니다.
+2. 오른쪽 선분도 같은 높이로 접근합니다.
+3. 공통으로 가까워지는 값은 2이고, 정해진 함숫값은 4입니다.
+
+실수 점검: 유한한 표는 극한을 추정할 뿐입니다. 함수나 그래프의 구조도 확인하세요.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+4입니다. 주변 값은 x²를 따르므로 4로 갑니다. h(2)=10은 이 극한을 바꾸지 않습니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

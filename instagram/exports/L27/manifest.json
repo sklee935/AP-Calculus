@@ -1,0 +1,26 @@
+{
+  "id": "L27",
+  "cards": 8,
+  "dimensions": [
+    1080,
+    1350
+  ],
+  "languages": [
+    "en",
+    "ko"
+  ],
+  "overflow": false,
+  "minimumProsePx": 44,
+  "source_sha256": "df06573aead8f54c4d95d5f3512fb4f3e5ed462af5d23c230ca3db5ca8451c95",
+  "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+  "png_sha256": {
+    "01.png": "4820fc5b6740fce92a83920e0392ea00c11059fb52ce90fff16f8e45c03a8ccf",
+    "02.png": "496b4f8357aa7b3f35f064814c316c9e950867fb4630f20f05eb06c69188e914",
+    "03.png": "961b104f02e71259ebd9ebeb71147f7e95c12fe7529de82a8f9a11a93709a768",
+    "04.png": "c7758e1ea757ccbebe2a79353dbda98f3ee6db6222950081473f18cecde17f44",
+    "05.png": "4e8241f023ab5ebb9209d41358f5999909cb30b4e32b425cbd7ec1e8269d5956",
+    "06.png": "c228b967cadbfe2eacebc5b4f82a7d37d1a35c66c257c7022810756ba9ea9837",
+    "07.png": "f83fb2936d7b217241de79351000e7eef548483bd45487f2b4af2f9c34769d84",
+    "08.png": "14b359ab20a21037bcc0a0ae482374f9a598ccd4dfae7b9e452c70642ccf9bd1"
+  }
+}

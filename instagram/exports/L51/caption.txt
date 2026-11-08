@@ -1,0 +1,33 @@
+AP Calculus AB • L51
+Exponential growth and decay
+
+A constant relative growth rate leads to an exponential model.
+The derivative remains proportional to the current amount, not to the initial amount alone.
+
+1. The initial value fixes the multiplicative constant.
+2. The positive coefficient produces exponential growth.
+3. Use exponential and logarithm rules to evaluate exactly.
+
+Remember: Exponential decay approaches zero in this positive model; it does not become negative.
+
+CHECK ANSWER — try card 8 first
+5/4. The model is y=5e^(−2t), and e^(−2 ln 2)=1/4.
+
+──────────
+
+AP Calculus AB • 51강
+지수성장과 감소
+
+양에 비례하는 일정한 성장률은 지수 모형으로 이어집니다.
+도함수는 초기량만이 아니라 매 순간의 현재량에 비례합니다.
+
+1. 초기값으로 곱해지는 상수를 정합니다.
+2. 비례상수가 양수이므로 지수성장입니다.
+3. 지수와 로그의 성질로 정확한 값을 구합니다.
+
+실수 점검: 양의 초기량을 가진 지수감소 모형은 0에 가까워지며 음수가 되지 않습니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+5/4입니다. 모형은 y=5e^(−2t)이고 e^(−2 ln 2)=1/4입니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

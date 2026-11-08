@@ -1,0 +1,263 @@
+{
+  "id": "L03",
+  "number": 3,
+  "unit": 1,
+  "unit_title": {
+    "ko": "극한과 연속",
+    "en": "Limits and continuity"
+  },
+  "title": {
+    "ko": "표와 그래프의 극한",
+    "en": "Limits from tables and graphs"
+  },
+  "prerequisites": [
+    "L02"
+  ],
+  "week": 1,
+  "day": "Friday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U1-F02"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "Both graph segments approach height 2. The separate filled point gives the actual value 4.",
+    "ko": "두 선분은 높이 2로 갑니다. 따로 있는 채운 점이 함숫값 4입니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "표와 그래프의 극한",
+        "en": "Limits from tables and graphs"
+      },
+      "notes": {
+        "en": "An open point and a filled point answer different questions.",
+        "ko": "빈 점과 채운 점은 서로 다른 질문에 답합니다."
+      },
+      "math": [
+        "\\lim_{x\\to1}g(x)",
+        "g(1)=4"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Limits from tables and graphs. An open point and a filled point answer different questions.",
+        "ko": "표와 그래프의 극한. 빈 점과 채운 점은 서로 다른 질문에 답합니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Trace nearby graph points; do not jump straight to the filled point.",
+        "ko": "주변 그래프를 따라가세요. 바로 채운 점만 읽지 마세요."
+      },
+      "math": [
+        "g(x)=x+1\\quad(x<1)",
+        "g(x)=3-x\\quad(x>1)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Trace nearby graph points; do not jump straight to the filled point.",
+        "ko": "먼저 조건을 확인. 주변 그래프를 따라가세요. 바로 채운 점만 읽지 마세요."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "Both graph segments approach height 2. The separate filled point gives the actual value 4.",
+        "ko": "두 선분은 높이 2로 갑니다. 따로 있는 채운 점이 함숫값 4입니다."
+      },
+      "math": [],
+      "visual": {
+        "kind": "graph",
+        "curves": [
+          {
+            "expr": "x+1",
+            "label": "x+1",
+            "color": "blue",
+            "domain": [
+              -1,
+              1
+            ]
+          },
+          {
+            "expr": "3-x",
+            "label": "3-x",
+            "color": "blue",
+            "domain": [
+              1,
+              3
+            ]
+          }
+        ],
+        "xlim": [
+          -1.2,
+          3.2
+        ],
+        "ylim": [
+          -0.3,
+          4.6
+        ],
+        "holes": [
+          [
+            1,
+            2
+          ]
+        ],
+        "points": [
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. Both graph segments approach height 2. The separate filled point gives the actual value 4. Graph: x+1: y=x+1 on [-1, 1]; 3-x: y=3-x on [1, 3]. x-range [-1.2, 3.2], y-range [-0.3, 4.6]. Open circles: [[1, 2]]. Filled points: [[1, 4]].",
+        "ko": "개념을 눈으로 연결. 두 선분은 높이 2로 갑니다. 따로 있는 채운 점이 함숫값 4입니다. 그래프: x+1: y=x+1 on [-1, 1]; 3-x: y=3-x on [1, 3]. x 표시구간 [-1.2, 3.2], y 표시구간 [-0.3, 4.6]. 빈점: [[1, 2]]. 채운 점: [[1, 4]]."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "The left segment climbs toward the open point.",
+        "ko": "왼쪽 선분은 빈 점을 향해 올라갑니다."
+      },
+      "math": [
+        "\\lim_{x\\to1^-}g(x)=2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. The left segment climbs toward the open point.",
+        "ko": "1단계  식을 세우기. 왼쪽 선분은 빈 점을 향해 올라갑니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "The right segment approaches the same height.",
+        "ko": "오른쪽 선분도 같은 높이로 접근합니다."
+      },
+      "math": [
+        "\\lim_{x\\to1^+}g(x)=2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. The right segment approaches the same height.",
+        "ko": "2단계  이유를 따라 계산. 오른쪽 선분도 같은 높이로 접근합니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "The common nearby value is 2, while the defined value is 4.",
+        "ko": "공통으로 가까워지는 값은 2이고, 정해진 함숫값은 4입니다."
+      },
+      "math": [
+        "\\lim_{x\\to1}g(x)=2",
+        "g(1)=4"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. The common nearby value is 2, while the defined value is 4.",
+        "ko": "3단계  결과의 의미. 공통으로 가까워지는 값은 2이고, 정해진 함숫값은 4입니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "A finite table suggests a limit; the function or graph supplies the supporting structure.",
+        "ko": "유한한 표는 극한을 추정할 뿐입니다. 함수나 그래프의 구조도 확인하세요."
+      },
+      "math": [
+        "\\mathrm{limit}\\ne\\mathrm{point\\ value}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. A finite table suggests a limit; the function or graph supplies the supporting structure.",
+        "ko": "이 실수는 피하세요. 유한한 표는 극한을 추정할 뿐입니다. 함수나 그래프의 구조도 확인하세요."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Read the nearby rule rather than the special point value.",
+        "ko": "특별히 정한 함숫값 대신 주변의 규칙을 읽으세요."
+      },
+      "math": [
+        "h(x)=x^2\\quad(x\\ne2)",
+        "h(2)=10,\\quad\\lim_{x\\to2}h(x)=?"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Read the nearby rule rather than the special point value.",
+        "ko": "직접 풀어보세요. 특별히 정한 함숫값 대신 주변의 규칙을 읽으세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "h(x)=x^2\\quad(x\\ne2)",
+      "h(2)=10,\\quad\\lim_{x\\to2}h(x)=?"
+    ],
+    "prompt": {
+      "en": "Read the nearby rule rather than the special point value.",
+      "ko": "특별히 정한 함숫값 대신 주변의 규칙을 읽으세요."
+    },
+    "answer": {
+      "en": "4. Nearby values follow x², so they approach 4; h(2)=10 does not change this limit.",
+      "ko": "4입니다. 주변 값은 x²를 따르므로 4로 갑니다. h(2)=10은 이 극한을 바꾸지 않습니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "limit(x+1,x,1)",
+      "expected": "2"
+    },
+    {
+      "expression": "limit(x**2,x,2)",
+      "expected": "4"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L03\nLimits from tables and graphs\n\nAn open point and a filled point answer different questions.\nBoth graph segments approach height 2. The separate filled point gives the actual value 4.\n\n1. The left segment climbs toward the open point.\n2. The right segment approaches the same height.\n3. The common nearby value is 2, while the defined value is 4.\n\nRemember: A finite table suggests a limit; the function or graph supplies the supporting structure.\n\nCHECK ANSWER — try card 8 first\n4. Nearby values follow x², so they approach 4; h(2)=10 does not change this limit.",
+    "ko": "AP Calculus AB • 03강\n표와 그래프의 극한\n\n빈 점과 채운 점은 서로 다른 질문에 답합니다.\n두 선분은 높이 2로 갑니다. 따로 있는 채운 점이 함숫값 4입니다.\n\n1. 왼쪽 선분은 빈 점을 향해 올라갑니다.\n2. 오른쪽 선분도 같은 높이로 접근합니다.\n3. 공통으로 가까워지는 값은 2이고, 정해진 함숫값은 4입니다.\n\n실수 점검: 유한한 표는 극한을 추정할 뿐입니다. 함수나 그래프의 구조도 확인하세요.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n4입니다. 주변 값은 x²를 따르므로 4로 갑니다. h(2)=10은 이 극한을 바꾸지 않습니다."
+  },
+  "graph_description": null
+}

@@ -1,0 +1,239 @@
+{
+  "id": "L38",
+  "number": 38,
+  "unit": 6,
+  "unit_title": {
+    "ko": "적분과 누적",
+    "en": "Integration and accumulation"
+  },
+  "title": {
+    "ko": "리만합과 합 기호",
+    "en": "Riemann sums and sigma notation"
+  },
+  "prerequisites": [
+    "L37"
+  ],
+  "week": 13,
+  "day": "Wednesday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [],
+  "example_origin": "independently authored foundational example with symbolic checks",
+  "learning_goal": {
+    "en": "Each rectangle contributes height times width; sigma notation adds the contributions.",
+    "ko": "각 직사각형은 높이와 폭의 곱을 기여하며 합 기호로 모두 더합니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "리만합과 합 기호",
+        "en": "Riemann sums and sigma notation"
+      },
+      "notes": {
+        "en": "A Riemann sum replaces curved accumulation with many narrow rectangles.",
+        "ko": "리만합은 곡선 아래 누적량을 여러 개의 좁은 직사각형으로 근사합니다."
+      },
+      "math": [
+        "f(x)=x^2\\quad\\mathrm{on}\\ [0,2],\\ n=4"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Riemann sums and sigma notation. A Riemann sum replaces curved accumulation with many narrow rectangles.",
+        "ko": "리만합과 합 기호. 리만합은 곡선 아래 누적량을 여러 개의 좁은 직사각형으로 근사합니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Choose right endpoints and equal widths for this approximation.",
+        "ko": "이 근사에서는 오른쪽 끝점과 같은 폭을 사용합니다."
+      },
+      "math": [
+        "\\Delta x=\\frac{2-0}{4}=\\frac12"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Choose right endpoints and equal widths for this approximation.",
+        "ko": "먼저 조건을 확인. 이 근사에서는 오른쪽 끝점과 같은 폭을 사용합니다."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "Each rectangle contributes height times width; sigma notation adds the contributions.",
+        "ko": "각 직사각형은 높이와 폭의 곱을 기여하며 합 기호로 모두 더합니다."
+      },
+      "math": [],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "right x",
+          "height"
+        ],
+        "rows": [
+          [
+            "0.5",
+            "0.25"
+          ],
+          [
+            "1.0",
+            "1.00"
+          ],
+          [
+            "1.5",
+            "2.25"
+          ],
+          [
+            "2.0",
+            "4.00"
+          ]
+        ]
+      },
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. Each rectangle contributes height times width; sigma notation adds the contributions. Table (header, then rows): right x, height; 0.5, 0.25; 1.0, 1.00; 1.5, 2.25; 2.0, 4.00.",
+        "ko": "개념을 눈으로 연결. 각 직사각형은 높이와 폭의 곱을 기여하며 합 기호로 모두 더합니다. 표(머리글 다음 각 행): right x, height; 0.5, 0.25; 1.0, 1.00; 1.5, 2.25; 2.0, 4.00."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "The sample input changes with the index i.",
+        "ko": "표본 입력은 지표 i에 따라 바뀝니다."
+      },
+      "math": [
+        "x_i=\\frac{i}{2},\\quad i=1,2,3,4"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. The sample input changes with the index i.",
+        "ko": "1단계  식을 세우기. 표본 입력은 지표 i에 따라 바뀝니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "Use all four right-endpoint heights and one common width.",
+        "ko": "오른쪽 끝점 높이 네 개와 공통 폭을 사용합니다."
+      },
+      "math": [
+        "R_4=\\frac12\\left(\\frac14+1+\\frac94+4\\right)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. Use all four right-endpoint heights and one common width.",
+        "ko": "2단계  이유를 따라 계산. 오른쪽 끝점 높이 네 개와 공통 폭을 사용합니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "Since x² increases here, right rectangles overestimate the integral.",
+        "ko": "이 구간에서 x²은 증가하므로 오른쪽 직사각형은 정적분을 과대추정합니다."
+      },
+      "math": [
+        "R_4=\\frac{15}{4}=3.75"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. Since x² increases here, right rectangles overestimate the integral.",
+        "ko": "3단계  결과의 의미. 이 구간에서 x²은 증가하므로 오른쪽 직사각형은 정적분을 과대추정합니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "Forgetting Δx adds heights rather than areas.",
+        "ko": "Δx를 빠뜨리면 넓이가 아니라 높이만 더하게 됩니다."
+      },
+      "math": [
+        "R_n\\to\\int_a^b f(x)\\,dx",
+        "n\\to\\infty,\\quad\\Delta x=(b-a)/n"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. Forgetting Δx adds heights rather than areas.",
+        "ko": "이 실수는 피하세요. Δx를 빠뜨리면 넓이가 아니라 높이만 더하게 됩니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Find the left-endpoint sum.",
+        "ko": "왼쪽 끝점을 사용한 합을 구하세요."
+      },
+      "math": [
+        "f(x)=x,\\ [0,2],\\ n=2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Find the left-endpoint sum.",
+        "ko": "직접 풀어보세요. 왼쪽 끝점을 사용한 합을 구하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "f(x)=x,\\ [0,2],\\ n=2"
+    ],
+    "prompt": {
+      "en": "Find the left-endpoint sum.",
+      "ko": "왼쪽 끝점을 사용한 합을 구하세요."
+    },
+    "answer": {
+      "en": "1. Width is 1 and left heights are f(0)=0 and f(1)=1, so the sum is 1.",
+      "ko": "1입니다. 폭은 1이고 왼쪽 높이는 f(0)=0, f(1)=1이므로 합은 1입니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "Rational(1,2)*(Rational(1,4)+1+Rational(9,4)+4)",
+      "expected": "15/4"
+    },
+    {
+      "expression": "1*(0+1)",
+      "expected": "1"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L38\nRiemann sums and sigma notation\n\nA Riemann sum replaces curved accumulation with many narrow rectangles.\nEach rectangle contributes height times width; sigma notation adds the contributions.\n\n1. The sample input changes with the index i.\n2. Use all four right-endpoint heights and one common width.\n3. Since x² increases here, right rectangles overestimate the integral.\n\nRemember: Forgetting Δx adds heights rather than areas.\n\nCHECK ANSWER — try card 8 first\n1. Width is 1 and left heights are f(0)=0 and f(1)=1, so the sum is 1.\nFor continuous f, equal-width Riemann sums converge to the integral as n→∞.",
+    "ko": "AP Calculus AB • 38강\n리만합과 합 기호\n\n리만합은 곡선 아래 누적량을 여러 개의 좁은 직사각형으로 근사합니다.\n각 직사각형은 높이와 폭의 곱을 기여하며 합 기호로 모두 더합니다.\n\n1. 표본 입력은 지표 i에 따라 바뀝니다.\n2. 오른쪽 끝점 높이 네 개와 공통 폭을 사용합니다.\n3. 이 구간에서 x²은 증가하므로 오른쪽 직사각형은 정적분을 과대추정합니다.\n\n실수 점검: Δx를 빠뜨리면 넓이가 아니라 높이만 더하게 됩니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n1입니다. 폭은 1이고 왼쪽 높이는 f(0)=0, f(1)=1이므로 합은 1입니다.\nf가 연속일 때 같은 폭의 리만합은 n→∞에서 정적분으로 수렴합니다."
+  },
+  "graph_description": null
+}

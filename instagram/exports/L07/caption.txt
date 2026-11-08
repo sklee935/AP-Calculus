@@ -1,0 +1,33 @@
+AP Calculus AB • L07
+Infinite limits and limits at infinity
+
+A point going to infinity differs from an input going to infinity.
+For end behavior of a rational function, compare the highest-degree terms.
+
+1. Divide numerator and denominator by x².
+2. Lower-order contributions disappear as the input grows.
+3. The graph approaches horizontal height 1.5.
+
+Remember: A vertical asymptote describes behavior near a finite input, not far-away input behavior.
+
+CHECK ANSWER — try card 8 first
+Positive infinity. The denominator approaches zero through positive values on both sides.
+
+──────────
+
+AP Calculus AB • 07강
+무한극한과 무한대극한
+
+함숫값이 무한히 커지는 것과 입력이 무한히 커지는 것은 다릅니다.
+유리함수의 먼 곳 거동은 최고차항을 비교해 읽습니다.
+
+1. 분자와 분모를 x²으로 나눕니다.
+2. 입력이 커지면 낮은 차수의 기여가 사라집니다.
+3. 그래프가 수평 높이 1.5에 가까워집니다.
+
+실수 점검: 수직점근선은 한 입력 근처의 거동입니다. 먼 곳의 거동과 구별하세요.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+양의 무한대입니다. 양쪽에서 분모가 양수로 0에 가까워집니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

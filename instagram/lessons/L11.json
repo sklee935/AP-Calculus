@@ -1,0 +1,239 @@
+{
+  "id": "L11",
+  "number": 11,
+  "unit": 2,
+  "unit_title": {
+    "ko": "미분의 기초",
+    "en": "Derivative foundations"
+  },
+  "title": {
+    "ko": "도함수 추정",
+    "en": "Estimating derivatives"
+  },
+  "prerequisites": [
+    "L10"
+  ],
+  "week": 4,
+  "day": "Wednesday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U2-M06",
+    "E10"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "A centered secant uses information from both directions.",
+    "ko": "중앙 할선은 양쪽 방향의 정보를 함께 사용합니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "도함수 추정",
+        "en": "Estimating derivatives"
+      },
+      "notes": {
+        "en": "A table can estimate a derivative when no formula is given.",
+        "ko": "함수식이 없어도 표를 이용해 미분계수를 추정할 수 있습니다."
+      },
+      "math": [
+        "f^\\prime(2)\\approx?"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Estimating derivatives. A table can estimate a derivative when no formula is given.",
+        "ko": "도함수 추정. 함수식이 없어도 표를 이용해 미분계수를 추정할 수 있습니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Use nearby points on opposite sides of the target input.",
+        "ko": "목표 입력의 양쪽에 있는 가까운 점들을 사용하세요."
+      },
+      "math": [
+        "\\mathrm{slope}=\\frac{\\Delta f}{\\Delta x}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Use nearby points on opposite sides of the target input.",
+        "ko": "먼저 조건을 확인. 목표 입력의 양쪽에 있는 가까운 점들을 사용하세요."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "A centered secant uses information from both directions.",
+        "ko": "중앙 할선은 양쪽 방향의 정보를 함께 사용합니다."
+      },
+      "math": [],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "x",
+          "f(x)"
+        ],
+        "rows": [
+          [
+            "1.8",
+            "4.1"
+          ],
+          [
+            "2.0",
+            "4.8"
+          ],
+          [
+            "2.2",
+            "5.7"
+          ]
+        ]
+      },
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. A centered secant uses information from both directions. Table (header, then rows): x, f(x); 1.8, 4.1; 2.0, 4.8; 2.2, 5.7.",
+        "ko": "개념을 눈으로 연결. 중앙 할선은 양쪽 방향의 정보를 함께 사용합니다. 표(머리글 다음 각 행): x, f(x); 1.8, 4.1; 2.0, 4.8; 2.2, 5.7."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "Read the output change from the outer two rows.",
+        "ko": "양옆 두 행에서 출력의 변화량을 읽습니다."
+      },
+      "math": [
+        "\\Delta f=5.7-4.1=1.6"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. Read the output change from the outer two rows.",
+        "ko": "1단계  식을 세우기. 양옆 두 행에서 출력의 변화량을 읽습니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "Use the matching input interval, not just half of it.",
+        "ko": "대응하는 입력 구간 전체의 길이를 사용하세요."
+      },
+      "math": [
+        "\\Delta x=2.2-1.8=0.4"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. Use the matching input interval, not just half of it.",
+        "ko": "2단계  이유를 따라 계산. 대응하는 입력 구간 전체의 길이를 사용하세요."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "This is an estimate in output units per input unit.",
+        "ko": "출력 단위를 입력 단위로 나눈 변화율의 추정값입니다."
+      },
+      "math": [
+        "f^\\prime(2)\\approx\\frac{1.6}{0.4}=4"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. This is an estimate in output units per input unit.",
+        "ko": "3단계  결과의 의미. 출력 단위를 입력 단위로 나눈 변화율의 추정값입니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "Finite tabular data does not usually determine an exact derivative.",
+        "ko": "유한한 표만으로 정확한 도함수 값이 정해지지는 않습니다."
+      },
+      "math": [
+        "\\mathrm{estimate}\\ne\\mathrm{exact\\ derivative}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. Finite tabular data does not usually determine an exact derivative.",
+        "ko": "이 실수는 피하세요. 유한한 표만으로 정확한 도함수 값이 정해지지는 않습니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Estimate f′(2) using the outer two points.",
+        "ko": "양옆 두 점으로 f′(2)를 추정하세요."
+      },
+      "math": [
+        "x:1,2,3",
+        "f(x):5,8,15"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Estimate f′(2) using the outer two points.",
+        "ko": "직접 풀어보세요. 양옆 두 점으로 f′(2)를 추정하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "x:1,2,3",
+      "f(x):5,8,15"
+    ],
+    "prompt": {
+      "en": "Estimate f′(2) using the outer two points.",
+      "ko": "양옆 두 점으로 f′(2)를 추정하세요."
+    },
+    "answer": {
+      "en": "5. The centered estimate is (15−5)/(3−1)=5.",
+      "ko": "5입니다. 중앙 할선의 기울기는 (15−5)/(3−1)=5입니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "Rational(57-41,22-18)",
+      "expected": "4"
+    },
+    {
+      "expression": "Rational(15-5,3-1)",
+      "expected": "5"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L11\nEstimating derivatives\n\nA table can estimate a derivative when no formula is given.\nA centered secant uses information from both directions.\n\n1. Read the output change from the outer two rows.\n2. Use the matching input interval, not just half of it.\n3. This is an estimate in output units per input unit.\n\nRemember: Finite tabular data does not usually determine an exact derivative.\n\nCHECK ANSWER — try card 8 first\n5. The centered estimate is (15−5)/(3−1)=5.",
+    "ko": "AP Calculus AB • 11강\n도함수 추정\n\n함수식이 없어도 표를 이용해 미분계수를 추정할 수 있습니다.\n중앙 할선은 양쪽 방향의 정보를 함께 사용합니다.\n\n1. 양옆 두 행에서 출력의 변화량을 읽습니다.\n2. 대응하는 입력 구간 전체의 길이를 사용하세요.\n3. 출력 단위를 입력 단위로 나눈 변화율의 추정값입니다.\n\n실수 점검: 유한한 표만으로 정확한 도함수 값이 정해지지는 않습니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n5입니다. 중앙 할선의 기울기는 (15−5)/(3−1)=5입니다."
+  },
+  "graph_description": null
+}

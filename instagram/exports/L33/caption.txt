@@ -1,0 +1,33 @@
+AP Calculus AB • L33
+Absolute extrema
+
+Absolute extrema require comparing actual function values at every candidate.
+The largest and smallest table entries determine the absolute extrema, including ties.
+
+1. Evaluate candidates in the original function, not in f′.
+2. Include both endpoints and all interior critical numbers.
+3. State both the extreme value and every location where it occurs.
+
+Remember: A local maximum may fail to be the absolute maximum on the full interval.
+
+CHECK ANSWER — try card 8 first
+Minimum 0 at x=0; maximum 4 at x=2. Compare values at −1,0,2: 1,0,4.
+
+──────────
+
+AP Calculus AB • 33강
+절대극값
+
+절대극값은 모든 후보점의 실제 함숫값을 비교해서 구합니다.
+표의 가장 큰 값과 작은 값이 절대극값이며 같은 값이 여러 번 나올 수 있습니다.
+
+1. 도함수가 아니라 원래 함수에 후보를 대입합니다.
+2. 양 끝점과 모든 내부 임계수를 포함합니다.
+3. 극값과 그 값이 나오는 모든 위치를 함께 쓰세요.
+
+실수 점검: 국소최댓값이 구간 전체의 절대최댓값인 것은 아닙니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+최솟값은 x=0에서 0, 최댓값은 x=2에서 4입니다. −1,0,2의 함숫값 1,0,4를 비교합니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

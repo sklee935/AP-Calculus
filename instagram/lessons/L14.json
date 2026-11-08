@@ -1,0 +1,217 @@
+{
+  "id": "L14",
+  "number": 14,
+  "unit": 2,
+  "unit_title": {
+    "ko": "미분의 기초",
+    "en": "Derivative foundations"
+  },
+  "title": {
+    "ko": "기본 함수의 도함수",
+    "en": "Basic function derivatives"
+  },
+  "prerequisites": [
+    "L13"
+  ],
+  "week": 5,
+  "day": "Wednesday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [],
+  "example_origin": "independently authored foundational example with symbolic checks",
+  "learning_goal": {
+    "en": "Use the correct basic rule for each term, then add.",
+    "ko": "각 항에 맞는 기본 공식을 사용한 뒤 더합니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "기본 함수의 도함수",
+        "en": "Basic function derivatives"
+      },
+      "notes": {
+        "en": "Different function families have different basic derivative rules.",
+        "ko": "함수의 종류에 따라 기본 미분 공식이 다릅니다."
+      },
+      "math": [
+        "f(x)=\\sin x+e^x+\\ln x"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Basic function derivatives. Different function families have different basic derivative rules.",
+        "ko": "기본 함수의 도함수. 함수의 종류에 따라 기본 미분 공식이 다릅니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Angles are radians, and the real logarithm here requires x>0.",
+        "ko": "각도는 라디안이며 여기서 실수 로그는 x>0을 요구합니다."
+      },
+      "math": [
+        "x>0"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Angles are radians, and the real logarithm here requires x>0.",
+        "ko": "먼저 조건을 확인. 각도는 라디안이며 여기서 실수 로그는 x>0을 요구합니다."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "Use the correct basic rule for each term, then add.",
+        "ko": "각 항에 맞는 기본 공식을 사용한 뒤 더합니다."
+      },
+      "math": [
+        "(\\sin x)^\\prime=\\cos x",
+        "(e^x)^\\prime=e^x"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. Use the correct basic rule for each term, then add.",
+        "ko": "개념을 눈으로 연결. 각 항에 맞는 기본 공식을 사용한 뒤 더합니다."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "A logarithm differentiates to a reciprocal, not another logarithm.",
+        "ko": "로그를 미분하면 로그가 아니라 역수가 됩니다."
+      },
+      "math": [
+        "(\\ln x)^\\prime=\\frac1x"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. A logarithm differentiates to a reciprocal, not another logarithm.",
+        "ko": "1단계  식을 세우기. 로그를 미분하면 로그가 아니라 역수가 됩니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "Combine the three derivatives without changing their signs.",
+        "ko": "세 도함수의 부호를 유지하며 더합니다."
+      },
+      "math": [
+        "f^\\prime(x)=\\cos x+e^x+\\frac1x"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. Combine the three derivatives without changing their signs.",
+        "ko": "2단계  이유를 따라 계산. 세 도함수의 부호를 유지하며 더합니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "The original domain remains part of the answer.",
+        "ko": "원래 함수의 정의역도 답의 일부입니다."
+      },
+      "math": [
+        "x>0\\quad\\mathrm{still\\ applies}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. The original domain remains part of the answer.",
+        "ko": "3단계  결과의 의미. 원래 함수의 정의역도 답의 일부입니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "The derivative of cosine is negative sine; the sine rule has a different sign.",
+        "ko": "코사인의 도함수는 음의 사인입니다. 사인 공식과 부호를 구별하세요."
+      },
+      "math": [
+        "(\\cos x)^\\prime=-\\sin x"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. The derivative of cosine is negative sine; the sine rule has a different sign.",
+        "ko": "이 실수는 피하세요. 코사인의 도함수는 음의 사인입니다. 사인 공식과 부호를 구별하세요."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "State the derivative and its real domain.",
+        "ko": "도함수와 실수 정의역을 함께 쓰세요."
+      },
+      "math": [
+        "\\frac{d}{dx}(\\cos x+\\ln x)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. State the derivative and its real domain.",
+        "ko": "직접 풀어보세요. 도함수와 실수 정의역을 함께 쓰세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "\\frac{d}{dx}(\\cos x+\\ln x)"
+    ],
+    "prompt": {
+      "en": "State the derivative and its real domain.",
+      "ko": "도함수와 실수 정의역을 함께 쓰세요."
+    },
+    "answer": {
+      "en": "−sin x+1/x, on x>0. Differentiate term by term and retain the logarithm domain.",
+      "ko": "x>0에서 −sin x+1/x입니다. 항별로 미분하고 로그의 정의역을 유지합니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "diff(sin(x)+exp(x)+log(x),x)",
+      "expected": "cos(x)+exp(x)+1/x"
+    },
+    {
+      "expression": "diff(cos(x)+log(x),x)",
+      "expected": "-sin(x)+1/x"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L14\nBasic function derivatives\n\nDifferent function families have different basic derivative rules.\nUse the correct basic rule for each term, then add.\n\n1. A logarithm differentiates to a reciprocal, not another logarithm.\n2. Combine the three derivatives without changing their signs.\n3. The original domain remains part of the answer.\n\nRemember: The derivative of cosine is negative sine; the sine rule has a different sign.\n\nCHECK ANSWER — try card 8 first\n−sin x+1/x, on x>0. Differentiate term by term and retain the logarithm domain.",
+    "ko": "AP Calculus AB • 14강\n기본 함수의 도함수\n\n함수의 종류에 따라 기본 미분 공식이 다릅니다.\n각 항에 맞는 기본 공식을 사용한 뒤 더합니다.\n\n1. 로그를 미분하면 로그가 아니라 역수가 됩니다.\n2. 세 도함수의 부호를 유지하며 더합니다.\n3. 원래 함수의 정의역도 답의 일부입니다.\n\n실수 점검: 코사인의 도함수는 음의 사인입니다. 사인 공식과 부호를 구별하세요.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\nx>0에서 −sin x+1/x입니다. 항별로 미분하고 로그의 정의역을 유지합니다."
+  },
+  "graph_description": null
+}

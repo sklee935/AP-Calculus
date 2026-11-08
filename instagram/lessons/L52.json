@@ -1,0 +1,243 @@
+{
+  "id": "L52",
+  "number": 52,
+  "unit": 7,
+  "unit_title": {
+    "ko": "미분방정식",
+    "en": "Differential equations"
+  },
+  "title": {
+    "ko": "냉각 모형",
+    "en": "Cooling models"
+  },
+  "prerequisites": [
+    "L51"
+  ],
+  "week": 18,
+  "day": "Monday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U7-M06"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "The excess temperature T−20 decays exponentially toward zero.",
+    "ko": "초과 온도 T−20이 지수적으로 감소하여 0에 가까워집니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "냉각 모형",
+        "en": "Cooling models"
+      },
+      "notes": {
+        "en": "Cooling depends on the temperature difference from a constant environment.",
+        "ko": "냉각 속도는 일정한 주변 온도와의 온도 차에 비례합니다."
+      },
+      "math": [
+        "T^\\prime=-0.5(T-20)",
+        "T(0)=60\\ ^\\circ\\mathrm{C}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Cooling models. Cooling depends on the temperature difference from a constant environment.",
+        "ko": "냉각 모형. 냉각 속도는 일정한 주변 온도와의 온도 차에 비례합니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Time is in minutes; the environment stays at 20°C.",
+        "ko": "시간 단위는 분이며 주변 온도는 20°C로 일정합니다."
+      },
+      "math": [
+        "t\\ge0,\\quad k=0.5\\ \\mathrm{min}^{-1}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Time is in minutes; the environment stays at 20°C.",
+        "ko": "먼저 조건을 확인. 시간 단위는 분이며 주변 온도는 20°C로 일정합니다."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "The excess temperature T−20 decays exponentially toward zero.",
+        "ko": "초과 온도 T−20이 지수적으로 감소하여 0에 가까워집니다."
+      },
+      "math": [],
+      "visual": {
+        "kind": "graph",
+        "curves": [
+          {
+            "expr": "20+40*exp(-x/2)",
+            "label": "temperature",
+            "color": "blue"
+          },
+          {
+            "expr": "20",
+            "label": "ambient",
+            "color": "gray",
+            "style": "--"
+          }
+        ],
+        "xlim": [
+          0,
+          8
+        ],
+        "ylim": [
+          15,
+          65
+        ],
+        "xlabel": "t"
+      },
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. The excess temperature T−20 decays exponentially toward zero. Graph: temperature: y=20+40*exp(-x/2); ambient: y=20. x-range [0, 8], y-range [15, 65].",
+        "ko": "개념을 눈으로 연결. 초과 온도 T−20이 지수적으로 감소하여 0에 가까워집니다. 그래프: temperature: y=20+40*exp(-x/2); ambient: y=20. x 표시구간 [0, 8], y 표시구간 [15, 65]."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "The equilibrium is 20, so add it back after solving the decay equation.",
+        "ko": "평형온도 20을 감소 모형에 다시 더합니다."
+      },
+      "math": [
+        "T(t)=20+Ce^{-0.5t}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. The equilibrium is 20, so add it back after solving the decay equation.",
+        "ko": "1단계  식을 세우기. 평형온도 20을 감소 모형에 다시 더합니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "The coefficient is the initial temperature difference.",
+        "ko": "계수는 초기 온도 차입니다."
+      },
+      "math": [
+        "C=60-20=40"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. The coefficient is the initial temperature difference.",
+        "ko": "2단계  이유를 따라 계산. 계수는 초기 온도 차입니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "The temperature remains above 20 and approaches it over time.",
+        "ko": "온도는 20보다 높게 유지되며 시간이 지나면 20에 가까워집니다."
+      },
+      "math": [
+        "T(2)=20+\\frac{40}{e}\\ ^\\circ\\mathrm{C}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. The temperature remains above 20 and approaches it over time.",
+        "ko": "3단계  결과의 의미. 온도는 20보다 높게 유지되며 시간이 지나면 20에 가까워집니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "Using 60 as the exponential coefficient forgets the ambient-temperature offset.",
+        "ko": "지수항의 계수를 60으로 쓰면 주변 온도만큼의 차이를 빠뜨립니다."
+      },
+      "math": [
+        "T(t)-T_{\\mathrm{env}}=(T_0-T_{\\mathrm{env}})e^{-kt}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. Using 60 as the exponential coefficient forgets the ambient-temperature offset.",
+        "ko": "이 실수는 피하세요. 지수항의 계수를 60으로 쓰면 주변 온도만큼의 차이를 빠뜨립니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Find T(ln 2).",
+        "ko": "T(ln 2)를 구하세요."
+      },
+      "math": [
+        "T^\\prime=-(T-10)",
+        "T(0)=30"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Find T(ln 2).",
+        "ko": "직접 풀어보세요. T(ln 2)를 구하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "T^\\prime=-(T-10)",
+      "T(0)=30"
+    ],
+    "prompt": {
+      "en": "Find T(ln 2).",
+      "ko": "T(ln 2)를 구하세요."
+    },
+    "answer": {
+      "en": "20°C. T=10+20e^(−t), so the excess temperature halves at ln 2.",
+      "ko": "20°C입니다. T=10+20e^(−t)이므로 ln 2에서 초과 온도가 절반이 됩니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "(20+40*exp(-t/2)).subs(t,2)",
+      "expected": "20+40/exp(1)"
+    },
+    {
+      "expression": "(10+20*exp(-t)).subs(t,log(2))",
+      "expected": "20"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L52\nCooling models\n\nCooling depends on the temperature difference from a constant environment.\nThe excess temperature T−20 decays exponentially toward zero.\n\n1. The equilibrium is 20, so add it back after solving the decay equation.\n2. The coefficient is the initial temperature difference.\n3. The temperature remains above 20 and approaches it over time.\n\nRemember: Using 60 as the exponential coefficient forgets the ambient-temperature offset.\n\nCHECK ANSWER — try card 8 first\n20°C. T=10+20e^(−t), so the excess temperature halves at ln 2.",
+    "ko": "AP Calculus AB • 52강\n냉각 모형\n\n냉각 속도는 일정한 주변 온도와의 온도 차에 비례합니다.\n초과 온도 T−20이 지수적으로 감소하여 0에 가까워집니다.\n\n1. 평형온도 20을 감소 모형에 다시 더합니다.\n2. 계수는 초기 온도 차입니다.\n3. 온도는 20보다 높게 유지되며 시간이 지나면 20에 가까워집니다.\n\n실수 점검: 지수항의 계수를 60으로 쓰면 주변 온도만큼의 차이를 빠뜨립니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n20°C입니다. T=10+20e^(−t)이므로 ln 2에서 초과 온도가 절반이 됩니다."
+  },
+  "graph_description": null
+}

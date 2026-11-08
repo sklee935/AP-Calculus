@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "One-sided limits. A two-sided limit needs agreement from both directions. Math: lim_(x→0)f(x)",
+    "ko": "좌우극한. 양쪽 극한이 있으려면 왼쪽과 오른쪽이 합의해야 합니다. 수식: lim_(x→0)f(x)"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. Use the branch on the side you are approaching from. Math: f(x)=2+x(x<0); f(x)=5−x(x≥0)",
+    "ko": "먼저 조건을 확인. 접근하는 방향에 해당하는 함수식을 사용하세요. 수식: f(x)=2+x(x<0); f(x)=5−x(x≥0)"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. The two branches approach different heights at zero. Graph: left: y=2+x on [-2, -0.001]; right: y=5-x on [0, 3]. x-range [-2, 3], y-range [-0.5, 5.5]. Open circles: [[0, 2]]. Filled points: [[0, 5]].",
+    "ko": "개념을 눈으로 연결. 두 가지 그래프가 0에서 서로 다른 높이로 갑니다. 그래프: left: y=2+x on [-2, -0.001]; right: y=5-x on [0, 3]. x 표시구간 [-2, 3], y 표시구간 [-0.5, 5.5]. 빈점: [[0, 2]]. 채운 점: [[0, 5]]."
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. From the left, use 2+x. Its outputs approach 2. Math: lim_(x→0^(−))f(x)=2",
+    "ko": "1단계  식을 세우기. 왼쪽에서는 2+x를 사용하므로 출력이 2로 갑니다. 수식: lim_(x→0^(−))f(x)=2"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. From the right, use 5−x. Its outputs approach 5. Math: lim_(x→0^(+))f(x)=5",
+    "ko": "2단계  이유를 따라 계산. 오른쪽에서는 5−x를 사용하므로 출력이 5로 갑니다. 수식: lim_(x→0^(+))f(x)=5"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. Because the one-sided limits differ, the two-sided limit does not exist. Math: 2≠5⇒DNE",
+    "ko": "3단계  결과의 의미. 좌우 극한이 다르므로 양쪽 극한은 존재하지 않습니다. 수식: 2≠5⇒DNE"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. Do not average the two heights to manufacture a limit. Math: lim_(x→a^(−))f=lim_(x→a^(+))f",
+    "ko": "이 실수는 피하세요. 두 높이의 평균을 내서 극한을 만들면 안 됩니다. 수식: lim_(x→a^(−))f=lim_(x→a^(+))f"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Compare the left and right limits. Math: lim_(x→0)(|x|)/(x)",
+    "ko": "직접 풀어보세요. 왼쪽과 오른쪽 극한을 비교해보세요. 수식: lim_(x→0)(|x|)/(x)"
+  }
+]

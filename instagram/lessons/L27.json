@@ -1,0 +1,244 @@
+{
+  "id": "L27",
+  "number": 27,
+  "unit": 4,
+  "unit_title": {
+    "ko": "미분의 실제 적용",
+    "en": "Contextual differentiation"
+  },
+  "title": {
+    "ko": "선형근사와 오차",
+    "en": "Linearization and error direction"
+  },
+  "prerequisites": [
+    "L26"
+  ],
+  "week": 9,
+  "day": "Friday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U4-M03"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "Near x=16, use the tangent line to replace a difficult square root.",
+    "ko": "x=16 근처에서는 어려운 제곱근 대신 접선의 값을 사용합니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "선형근사와 오차",
+        "en": "Linearization and error direction"
+      },
+      "notes": {
+        "en": "A tangent line gives a nearby estimate and concavity tells its error direction.",
+        "ko": "접선으로 가까운 값을 추정하고 오목성으로 오차 방향을 판단합니다."
+      },
+      "math": [
+        "\\sqrt{16.2}\\approx?"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Linearization and error direction. A tangent line gives a nearby estimate and concavity tells its error direction.",
+        "ko": "선형근사와 오차. 접선으로 가까운 값을 추정하고 오목성으로 오차 방향을 판단합니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Choose a nearby input with a simple exact function value.",
+        "ko": "함숫값을 정확히 아는 가까운 입력을 고르세요."
+      },
+      "math": [
+        "f(x)=\\sqrt{x},\\quad a=16",
+        "x>0"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Choose a nearby input with a simple exact function value.",
+        "ko": "먼저 조건을 확인. 함숫값을 정확히 아는 가까운 입력을 고르세요."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "Near x=16, use the tangent line to replace a difficult square root.",
+        "ko": "x=16 근처에서는 어려운 제곱근 대신 접선의 값을 사용합니다."
+      },
+      "math": [],
+      "visual": {
+        "kind": "graph",
+        "curves": [
+          {
+            "expr": "sqrt(x)",
+            "label": "sqrt(x)",
+            "color": "blue"
+          },
+          {
+            "expr": "4+(x-16)/8",
+            "label": "tangent",
+            "color": "red"
+          }
+        ],
+        "xlim": [
+          12,
+          20
+        ],
+        "ylim": [
+          3.4,
+          4.6
+        ]
+      },
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. Near x=16, use the tangent line to replace a difficult square root. Graph: sqrt(x): y=sqrt(x); tangent: y=4+(x-16)/8. x-range [12, 20], y-range [3.4, 4.6].",
+        "ko": "개념을 눈으로 연결. x=16 근처에서는 어려운 제곱근 대신 접선의 값을 사용합니다. 그래프: sqrt(x): y=sqrt(x); tangent: y=4+(x-16)/8. x 표시구간 [12, 20], y 표시구간 [3.4, 4.6]."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "The tangent line needs the known height and slope.",
+        "ko": "접선에는 알고 있는 높이와 기울기가 필요합니다."
+      },
+      "math": [
+        "f(16)=4,\\quad f^\\prime(16)=\\frac18"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. The tangent line needs the known height and slope.",
+        "ko": "1단계  식을 세우기. 접선에는 알고 있는 높이와 기울기가 필요합니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "Use the input change x−16, not x itself.",
+        "ko": "입력 자체가 아니라 변화량 x−16을 씁니다."
+      },
+      "math": [
+        "L(x)=4+\\frac{x-16}{8}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. Use the input change x−16, not x itself.",
+        "ko": "2단계  이유를 따라 계산. 입력 자체가 아니라 변화량 x−16을 씁니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "The graph is concave down, so this tangent estimate is too high.",
+        "ko": "그래프가 아래로 오목하므로 이 접선 추정값은 실제보다 큽니다."
+      },
+      "math": [
+        "L(16.2)=4.025",
+        "f^{\\prime\\prime}(x)=-\\frac1{4x^{3/2}}<0"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. The graph is concave down, so this tangent estimate is too high.",
+        "ko": "3단계  결과의 의미. 그래프가 아래로 오목하므로 이 접선 추정값은 실제보다 큽니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "The error direction depends on concavity, not on whether the slope is positive.",
+        "ko": "오차 방향은 기울기의 부호가 아니라 오목성으로 판단합니다."
+      },
+      "math": [
+        "\\sqrt{16.2}<4.025"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. The error direction depends on concavity, not on whether the slope is positive.",
+        "ko": "이 실수는 피하세요. 오차 방향은 기울기의 부호가 아니라 오목성으로 판단합니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Use linearization to estimate f(3.1). Is it too high or too low?",
+        "ko": "선형근사로 f(3.1)을 추정하세요. 실제보다 큰가요, 작은가요?"
+      },
+      "math": [
+        "f(x)=x^2,\\quad a=3"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Use linearization to estimate f(3.1). Is it too high or too low?",
+        "ko": "직접 풀어보세요. 선형근사로 f(3.1)을 추정하세요. 실제보다 큰가요, 작은가요?"
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "f(x)=x^2,\\quad a=3"
+    ],
+    "prompt": {
+      "en": "Use linearization to estimate f(3.1). Is it too high or too low?",
+      "ko": "선형근사로 f(3.1)을 추정하세요. 실제보다 큰가요, 작은가요?"
+    },
+    "answer": {
+      "en": "9.6, an underestimate. L=9+6(x−3); the upward-concave graph lies above its tangent.",
+      "ko": "9.6이며 과소추정입니다. L=9+6(x−3)이고 위로 오목한 그래프는 접선 위에 있습니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "4+Rational(1,8)*Rational(2,10)",
+      "expected": "161/40"
+    },
+    {
+      "expression": "9+6*Rational(1,10)",
+      "expected": "48/5"
+    },
+    {
+      "expression": "diff(sqrt(x),x,2).subs(x,16)",
+      "expected": "-1/256"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L27\nLinearization and error direction\n\nA tangent line gives a nearby estimate and concavity tells its error direction.\nNear x=16, use the tangent line to replace a difficult square root.\n\n1. The tangent line needs the known height and slope.\n2. Use the input change x−16, not x itself.\n3. The graph is concave down, so this tangent estimate is too high.\n\nRemember: The error direction depends on concavity, not on whether the slope is positive.\n\nCHECK ANSWER — try card 8 first\n9.6, an underestimate. L=9+6(x−3); the upward-concave graph lies above its tangent.",
+    "ko": "AP Calculus AB • 27강\n선형근사와 오차\n\n접선으로 가까운 값을 추정하고 오목성으로 오차 방향을 판단합니다.\nx=16 근처에서는 어려운 제곱근 대신 접선의 값을 사용합니다.\n\n1. 접선에는 알고 있는 높이와 기울기가 필요합니다.\n2. 입력 자체가 아니라 변화량 x−16을 씁니다.\n3. 그래프가 아래로 오목하므로 이 접선 추정값은 실제보다 큽니다.\n\n실수 점검: 오차 방향은 기울기의 부호가 아니라 오목성으로 판단합니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n9.6이며 과소추정입니다. L=9+6(x−3)이고 위로 오목한 그래프는 접선 위에 있습니다."
+  },
+  "graph_description": null
+}

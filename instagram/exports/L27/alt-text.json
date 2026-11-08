@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Linearization and error direction. A tangent line gives a nearby estimate and concavity tells its error direction. Math: sqrt(16.2)≈?",
+    "ko": "선형근사와 오차. 접선으로 가까운 값을 추정하고 오목성으로 오차 방향을 판단합니다. 수식: sqrt(16.2)≈?"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. Choose a nearby input with a simple exact function value. Math: f(x)=sqrt(x),a=16; x>0",
+    "ko": "먼저 조건을 확인. 함숫값을 정확히 아는 가까운 입력을 고르세요. 수식: f(x)=sqrt(x),a=16; x>0"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. Near x=16, use the tangent line to replace a difficult square root. Graph: sqrt(x): y=sqrt(x); tangent: y=4+(x-16)/8. x-range [12, 20], y-range [3.4, 4.6].",
+    "ko": "개념을 눈으로 연결. x=16 근처에서는 어려운 제곱근 대신 접선의 값을 사용합니다. 그래프: sqrt(x): y=sqrt(x); tangent: y=4+(x-16)/8. x 표시구간 [12, 20], y 표시구간 [3.4, 4.6]."
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. The tangent line needs the known height and slope. Math: f(16)=4,f^(′)(16)=(1)/(8)",
+    "ko": "1단계  식을 세우기. 접선에는 알고 있는 높이와 기울기가 필요합니다. 수식: f(16)=4,f^(′)(16)=(1)/(8)"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. Use the input change x−16, not x itself. Math: L(x)=4+(x−16)/(8)",
+    "ko": "2단계  이유를 따라 계산. 입력 자체가 아니라 변화량 x−16을 씁니다. 수식: L(x)=4+(x−16)/(8)"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. The graph is concave down, so this tangent estimate is too high. Math: L(16.2)=4.025; f^(′′)(x)=−(1)/(4x^(3/2))<0",
+    "ko": "3단계  결과의 의미. 그래프가 아래로 오목하므로 이 접선 추정값은 실제보다 큽니다. 수식: L(16.2)=4.025; f^(′′)(x)=−(1)/(4x^(3/2))<0"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. The error direction depends on concavity, not on whether the slope is positive. Math: sqrt(16.2)<4.025",
+    "ko": "이 실수는 피하세요. 오차 방향은 기울기의 부호가 아니라 오목성으로 판단합니다. 수식: sqrt(16.2)<4.025"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Use linearization to estimate f(3.1). Is it too high or too low? Math: f(x)=x^(2),a=3",
+    "ko": "직접 풀어보세요. 선형근사로 f(3.1)을 추정하세요. 실제보다 큰가요, 작은가요? 수식: f(x)=x^(2),a=3"
+  }
+]

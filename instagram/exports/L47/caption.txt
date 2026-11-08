@@ -1,0 +1,33 @@
+AP Calculus AB • L47
+Differential equations and verification
+
+A proposed solution must satisfy the differential equation for an interval, not just at one point.
+Verify a solution by substituting its derivative and its value into opposite sides.
+
+1. Differentiate the candidate, including the inner factor −2.
+2. Substitute the candidate into the right side independently.
+3. Both expressions agree for every real x, so this is a solution.
+
+Remember: Passing through an initial point does not by itself prove the differential equation.
+
+CHECK ANSWER — try card 8 first
+Yes. Differentiating x² gives 2x for every real x.
+
+──────────
+
+AP Calculus AB • 47강
+미분방정식과 해 검증
+
+해 후보는 한 점만이 아니라 구간에서 미분방정식을 만족해야 합니다.
+해의 도함수와 함숫값을 양변에 각각 대입해 일치하는지 확인합니다.
+
+1. 해 후보를 미분하며 안의 계수 −2도 곱합니다.
+2. 우변에도 해 후보를 따로 대입합니다.
+3. 모든 실수 x에서 두 식이 같으므로 해입니다.
+
+실수 점검: 초기점을 지난다는 사실만으로 미분방정식의 해가 되지는 않습니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+네. x²을 미분하면 모든 실수 x에서 2x가 됩니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

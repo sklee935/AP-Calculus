@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Differentiating variable bounds. A moving integration endpoint adds a chain-rule factor. Math: F(x)=∫_(0)^(x^(2))sqrt(1+t)dt",
+    "ko": "변수 적분구간의 미분. 적분 끝점이 함수로 움직이면 연쇄법칙의 인수가 붙습니다. 수식: F(x)=∫_(0)^(x^(2))sqrt(1+t)dt"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. The integrand is continuous for t≥0, covering every integration interval here. Math: g(x)=x^(2),g^(′)(x)=2x",
+    "ko": "먼저 조건을 확인. 피적분함수는 t≥0에서 연속이며 여기의 모든 적분구간을 포함합니다. 수식: g(x)=x^(2),g^(′)(x)=2x"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. The endpoint determines the current height; its derivative determines how fast the endpoint moves. Math: (d)/(dx)∫_(a)^(g(x))f(t)dt=f(g(x))g^(′)(x)",
+    "ko": "개념을 눈으로 연결. 끝점은 현재 높이를 정하고 그 도함수는 끝점이 움직이는 속도를 정합니다. 수식: (d)/(dx)∫_(a)^(g(x))f(t)dt=f(g(x))g^(′)(x)"
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. Replace the dummy variable t by the upper endpoint x². Math: f(g(x))=sqrt(1+x^(2))",
+    "ko": "1단계  식을 세우기. 적분변수 t를 위 끝점 x²으로 바꿉니다. 수식: f(g(x))=sqrt(1+x^(2))"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. Multiply by the endpoint derivative. Math: F^(′)(x)=2xsqrt(1+x^(2))",
+    "ko": "2단계  이유를 따라 계산. 끝점의 도함수를 곱합니다. 수식: F^(′)(x)=2xsqrt(1+x^(2))"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. No explicit antiderivative is needed for this derivative. Math: F^(′)(2)=4sqrt(5)",
+    "ko": "3단계  결과의 의미. 이 도함수를 구할 때 원시함수를 직접 계산할 필요는 없습니다. 수식: F^(′)(2)=4sqrt(5)"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. If both bounds move, subtract the lower-bound contribution as well. Math: (d)/(dx)∫_(u(x))^(v(x))f(t)dt; =f(v(x))v^(′)(x)−f(u(x))u^(′)(x)",
+    "ko": "이 실수는 피하세요. 양쪽 끝점이 움직이면 아래 끝점의 기여도 빼야 합니다. 수식: (d)/(dx)∫_(u(x))^(v(x))f(t)dt; =f(v(x))v^(′)(x)−f(u(x))u^(′)(x)"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Find H′(x). Math: H(x)=∫_(x)^(2x)t^(2)dt",
+    "ko": "직접 풀어보세요. H′(x)를 구하세요. 수식: H(x)=∫_(x)^(2x)t^(2)dt"
+  }
+]

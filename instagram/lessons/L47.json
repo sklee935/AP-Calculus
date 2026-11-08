@@ -1,0 +1,218 @@
+{
+  "id": "L47",
+  "number": 47,
+  "unit": 7,
+  "unit_title": {
+    "ko": "미분방정식",
+    "en": "Differential equations"
+  },
+  "title": {
+    "ko": "미분방정식과 해 검증",
+    "en": "Differential equations and verification"
+  },
+  "prerequisites": [
+    "L46"
+  ],
+  "week": 16,
+  "day": "Wednesday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U7-M05"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "Verify a solution by substituting its derivative and its value into opposite sides.",
+    "ko": "해의 도함수와 함숫값을 양변에 각각 대입해 일치하는지 확인합니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "미분방정식과 해 검증",
+        "en": "Differential equations and verification"
+      },
+      "notes": {
+        "en": "A proposed solution must satisfy the differential equation for an interval, not just at one point.",
+        "ko": "해 후보는 한 점만이 아니라 구간에서 미분방정식을 만족해야 합니다."
+      },
+      "math": [
+        "y^\\prime=-2y,\\quad y=3e^{-2x}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Differential equations and verification. A proposed solution must satisfy the differential equation for an interval, not just at one point.",
+        "ko": "미분방정식과 해 검증. 해 후보는 한 점만이 아니라 구간에서 미분방정식을 만족해야 합니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "A differential equation relates a function to its derivatives.",
+        "ko": "미분방정식은 함수와 그 도함수의 관계를 나타냅니다."
+      },
+      "math": [
+        "x\\in\\mathbb{R}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. A differential equation relates a function to its derivatives.",
+        "ko": "먼저 조건을 확인. 미분방정식은 함수와 그 도함수의 관계를 나타냅니다."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "Verify a solution by substituting its derivative and its value into opposite sides.",
+        "ko": "해의 도함수와 함숫값을 양변에 각각 대입해 일치하는지 확인합니다."
+      },
+      "math": [
+        "\\mathrm{left\\ side}=\\mathrm{right\\ side}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. Verify a solution by substituting its derivative and its value into opposite sides.",
+        "ko": "개념을 눈으로 연결. 해의 도함수와 함숫값을 양변에 각각 대입해 일치하는지 확인합니다."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "Differentiate the candidate, including the inner factor −2.",
+        "ko": "해 후보를 미분하며 안의 계수 −2도 곱합니다."
+      },
+      "math": [
+        "y^\\prime=-6e^{-2x}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. Differentiate the candidate, including the inner factor −2.",
+        "ko": "1단계  식을 세우기. 해 후보를 미분하며 안의 계수 −2도 곱합니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "Substitute the candidate into the right side independently.",
+        "ko": "우변에도 해 후보를 따로 대입합니다."
+      },
+      "math": [
+        "-2y=-6e^{-2x}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. Substitute the candidate into the right side independently.",
+        "ko": "2단계  이유를 따라 계산. 우변에도 해 후보를 따로 대입합니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "Both expressions agree for every real x, so this is a solution.",
+        "ko": "모든 실수 x에서 두 식이 같으므로 해입니다."
+      },
+      "math": [
+        "y^\\prime=-2y\\quad\\mathrm{for\\ all}\\ x"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. Both expressions agree for every real x, so this is a solution.",
+        "ko": "3단계  결과의 의미. 모든 실수 x에서 두 식이 같으므로 해입니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "Passing through an initial point does not by itself prove the differential equation.",
+        "ko": "초기점을 지난다는 사실만으로 미분방정식의 해가 되지는 않습니다."
+      },
+      "math": [
+        "y=Ce^{-2x}\\quad\\mathrm{is\\ a\\ family}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. Passing through an initial point does not by itself prove the differential equation.",
+        "ko": "이 실수는 피하세요. 초기점을 지난다는 사실만으로 미분방정식의 해가 되지는 않습니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Does this y solve the displayed equation on all real x?",
+        "ko": "이 y는 표시된 방정식을 모든 실수 x에서 만족하나요?"
+      },
+      "math": [
+        "y=x^2,\\quad y^\\prime=2x"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Does this y solve the displayed equation on all real x?",
+        "ko": "직접 풀어보세요. 이 y는 표시된 방정식을 모든 실수 x에서 만족하나요?"
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "y=x^2,\\quad y^\\prime=2x"
+    ],
+    "prompt": {
+      "en": "Does this y solve the displayed equation on all real x?",
+      "ko": "이 y는 표시된 방정식을 모든 실수 x에서 만족하나요?"
+    },
+    "answer": {
+      "en": "Yes. Differentiating x² gives 2x for every real x.",
+      "ko": "네. x²을 미분하면 모든 실수 x에서 2x가 됩니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "diff(3*exp(-2*x),x)+2*3*exp(-2*x)",
+      "expected": "0"
+    },
+    {
+      "expression": "diff(x**2,x)-2*x",
+      "expected": "0"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L47\nDifferential equations and verification\n\nA proposed solution must satisfy the differential equation for an interval, not just at one point.\nVerify a solution by substituting its derivative and its value into opposite sides.\n\n1. Differentiate the candidate, including the inner factor −2.\n2. Substitute the candidate into the right side independently.\n3. Both expressions agree for every real x, so this is a solution.\n\nRemember: Passing through an initial point does not by itself prove the differential equation.\n\nCHECK ANSWER — try card 8 first\nYes. Differentiating x² gives 2x for every real x.",
+    "ko": "AP Calculus AB • 47강\n미분방정식과 해 검증\n\n해 후보는 한 점만이 아니라 구간에서 미분방정식을 만족해야 합니다.\n해의 도함수와 함숫값을 양변에 각각 대입해 일치하는지 확인합니다.\n\n1. 해 후보를 미분하며 안의 계수 −2도 곱합니다.\n2. 우변에도 해 후보를 따로 대입합니다.\n3. 모든 실수 x에서 두 식이 같으므로 해입니다.\n\n실수 점검: 초기점을 지난다는 사실만으로 미분방정식의 해가 되지는 않습니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n네. x²을 미분하면 모든 실수 x에서 2x가 됩니다."
+  },
+  "graph_description": null
+}

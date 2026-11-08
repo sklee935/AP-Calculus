@@ -1,0 +1,246 @@
+{
+  "id": "L53",
+  "number": 53,
+  "unit": 8,
+  "unit_title": {
+    "ko": "적분의 응용",
+    "en": "Applications of integration"
+  },
+  "title": {
+    "ko": "함수의 평균값",
+    "en": "Average value of a function"
+  },
+  "prerequisites": [
+    "L52"
+  ],
+  "week": 18,
+  "day": "Wednesday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U8-M01"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "A rectangle at the average height has the same signed area as the original graph.",
+    "ko": "평균 높이의 직사각형은 원래 그래프와 같은 부호 있는 넓이를 가집니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "함수의 평균값",
+        "en": "Average value of a function"
+      },
+      "notes": {
+        "en": "A function’s average value is accumulated height divided by interval length.",
+        "ko": "함수의 평균값은 누적된 높이를 구간 길이로 나눈 값입니다."
+      },
+      "math": [
+        "f(x)=x^2\\quad\\mathrm{on}\\ [0,3]"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Average value of a function. A function’s average value is accumulated height divided by interval length.",
+        "ko": "함수의 평균값. 함수의 평균값은 누적된 높이를 구간 길이로 나눈 값입니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Average function value and average rate of change are different quantities.",
+        "ko": "함수의 평균값과 평균변화율은 서로 다른 양입니다."
+      },
+      "math": [
+        "f_{\\mathrm{avg}}=\\frac1{b-a}\\int_a^b f(x)\\,dx"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Average function value and average rate of change are different quantities.",
+        "ko": "먼저 조건을 확인. 함수의 평균값과 평균변화율은 서로 다른 양입니다."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "A rectangle at the average height has the same signed area as the original graph.",
+        "ko": "평균 높이의 직사각형은 원래 그래프와 같은 부호 있는 넓이를 가집니다."
+      },
+      "math": [],
+      "visual": {
+        "kind": "graph",
+        "curves": [
+          {
+            "expr": "x**2",
+            "label": "f",
+            "color": "blue"
+          },
+          {
+            "expr": "3",
+            "label": "average",
+            "color": "red"
+          }
+        ],
+        "xlim": [
+          0,
+          3
+        ],
+        "ylim": [
+          0,
+          10
+        ],
+        "shade": {
+          "top": "x**2",
+          "bottom": "0",
+          "interval": [
+            0,
+            3
+          ]
+        }
+      },
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. A rectangle at the average height has the same signed area as the original graph. Graph: f: y=x**2; average: y=3. x-range [0, 3], y-range [0, 10].",
+        "ko": "개념을 눈으로 연결. 평균 높이의 직사각형은 원래 그래프와 같은 부호 있는 넓이를 가집니다. 그래프: f: y=x**2; average: y=3. x 표시구간 [0, 3], y 표시구간 [0, 10]."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "First find the total accumulated height.",
+        "ko": "먼저 높이를 누적한 정적분을 구합니다."
+      },
+      "math": [
+        "\\int_0^3x^2\\,dx=9"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. First find the total accumulated height.",
+        "ko": "1단계  식을 세우기. 먼저 높이를 누적한 정적분을 구합니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "Divide by the interval length, not by the number of endpoints.",
+        "ko": "끝점의 개수가 아니라 구간 길이로 나눕니다."
+      },
+      "math": [
+        "f_{\\mathrm{avg}}=\\frac9{3-0}=3"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. Divide by the interval length, not by the number of endpoints.",
+        "ko": "2단계  이유를 따라 계산. 끝점의 개수가 아니라 구간 길이로 나눕니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "Continuity ensures an input attaining the average; here it is √3.",
+        "ko": "연속성이 평균값을 갖는 점을 보장하며 여기서는 √3입니다."
+      },
+      "math": [
+        "f(\\sqrt3)=3"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. Continuity ensures an input attaining the average; here it is √3.",
+        "ko": "3단계  결과의 의미. 연속성이 평균값을 갖는 점을 보장하며 여기서는 √3입니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "Averaging only the endpoint heights does not usually give the function’s average value.",
+        "ko": "끝점의 높이만 평균 낸 값은 일반적으로 함수의 평균값이 아닙니다."
+      },
+      "math": [
+        "\\frac{f(a)+f(b)}2\\ne f_{\\mathrm{avg}}\\quad\\mathrm{in\\ general}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. Averaging only the endpoint heights does not usually give the function’s average value.",
+        "ko": "이 실수는 피하세요. 끝점의 높이만 평균 낸 값은 일반적으로 함수의 평균값이 아닙니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Find the average value.",
+        "ko": "함수의 평균값을 구하세요."
+      },
+      "math": [
+        "f(x)=2x+1\\quad\\mathrm{on}\\ [0,2]"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Find the average value.",
+        "ko": "직접 풀어보세요. 함수의 평균값을 구하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "f(x)=2x+1\\quad\\mathrm{on}\\ [0,2]"
+    ],
+    "prompt": {
+      "en": "Find the average value.",
+      "ko": "함수의 평균값을 구하세요."
+    },
+    "answer": {
+      "en": "3. The integral is 6 and the interval length is 2, giving 6/2=3.",
+      "ko": "3입니다. 정적분은 6이고 구간 길이는 2이므로 6/2=3입니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "integrate(x**2,(x,0,3))/3",
+      "expected": "3"
+    },
+    {
+      "expression": "integrate(2*x+1,(x,0,2))/2",
+      "expected": "3"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L53\nAverage value of a function\n\nA function’s average value is accumulated height divided by interval length.\nA rectangle at the average height has the same signed area as the original graph.\n\n1. First find the total accumulated height.\n2. Divide by the interval length, not by the number of endpoints.\n3. Continuity ensures an input attaining the average; here it is √3.\n\nRemember: Averaging only the endpoint heights does not usually give the function’s average value.\n\nCHECK ANSWER — try card 8 first\n3. The integral is 6 and the interval length is 2, giving 6/2=3.",
+    "ko": "AP Calculus AB • 53강\n함수의 평균값\n\n함수의 평균값은 누적된 높이를 구간 길이로 나눈 값입니다.\n평균 높이의 직사각형은 원래 그래프와 같은 부호 있는 넓이를 가집니다.\n\n1. 먼저 높이를 누적한 정적분을 구합니다.\n2. 끝점의 개수가 아니라 구간 길이로 나눕니다.\n3. 연속성이 평균값을 갖는 점을 보장하며 여기서는 √3입니다.\n\n실수 점검: 끝점의 높이만 평균 낸 값은 일반적으로 함수의 평균값이 아닙니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n3입니다. 정적분은 6이고 구간 길이는 2이므로 6/2=3입니다."
+  },
+  "graph_description": null
+}

@@ -1,0 +1,219 @@
+{
+  "id": "L55",
+  "number": 55,
+  "unit": 8,
+  "unit_title": {
+    "ko": "적분의 응용",
+    "en": "Applications of integration"
+  },
+  "title": {
+    "ko": "유입 유출 순변화",
+    "en": "Inflow outflow and net change"
+  },
+  "prerequisites": [
+    "L54"
+  ],
+  "week": 19,
+  "day": "Monday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [],
+  "example_origin": "independently authored foundational example with symbolic checks",
+  "learning_goal": {
+    "en": "Integrating a rate gives change; adding the initial amount gives the actual amount.",
+    "ko": "변화율을 적분하면 변화량이며 초기량을 더해야 실제 양이 됩니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "유입 유출 순변화",
+        "en": "Inflow outflow and net change"
+      },
+      "notes": {
+        "en": "A tank’s final amount equals its initial amount plus accumulated net flow.",
+        "ko": "탱크의 최종량은 초기량에 순유입량을 누적하여 더한 값입니다."
+      },
+      "math": [
+        "\\mathrm{in}(t)=5-t,\\quad\\mathrm{out}(t)=2",
+        "V(0)=10\\ \\mathrm{L},\\quad0\\le t\\le2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Inflow outflow and net change. A tank’s final amount equals its initial amount plus accumulated net flow.",
+        "ko": "유입 유출 순변화. 탱크의 최종량은 초기량에 순유입량을 누적하여 더한 값입니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Time is in minutes and both flow rates are in L/min.",
+        "ko": "시간은 분이며 두 유량의 단위는 L/min입니다."
+      },
+      "math": [
+        "V^\\prime=\\mathrm{in}-\\mathrm{out}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Time is in minutes and both flow rates are in L/min.",
+        "ko": "먼저 조건을 확인. 시간은 분이며 두 유량의 단위는 L/min입니다."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "Integrating a rate gives change; adding the initial amount gives the actual amount.",
+        "ko": "변화율을 적분하면 변화량이며 초기량을 더해야 실제 양이 됩니다."
+      },
+      "math": [
+        "V(b)=V(a)+\\int_a^b V^\\prime(t)\\,dt"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. Integrating a rate gives change; adding the initial amount gives the actual amount.",
+        "ko": "개념을 눈으로 연결. 변화율을 적분하면 변화량이며 초기량을 더해야 실제 양이 됩니다."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "Subtract outflow from inflow before integrating.",
+        "ko": "적분 전에 유입량에서 유출량을 뺍니다."
+      },
+      "math": [
+        "V^\\prime(t)=(5-t)-2=3-t"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. Subtract outflow from inflow before integrating.",
+        "ko": "1단계  식을 세우기. 적분 전에 유입량에서 유출량을 뺍니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "The tank gains a net 4 liters.",
+        "ko": "탱크는 순수하게 4리터를 얻습니다."
+      },
+      "math": [
+        "\\int_0^2(3-t)\\,dt=4\\ \\mathrm{L}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. The tank gains a net 4 liters.",
+        "ko": "2단계  이유를 따라 계산. 탱크는 순수하게 4리터를 얻습니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "The final volume includes the original 10 liters.",
+        "ko": "최종 부피에는 처음의 10리터가 포함됩니다."
+      },
+      "math": [
+        "V(2)=10+4=14\\ \\mathrm{L}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. The final volume includes the original 10 liters.",
+        "ko": "3단계  결과의 의미. 최종 부피에는 처음의 10리터가 포함됩니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "A negative net rate means volume decreases; it does not mean volume is already negative.",
+        "ko": "순변화율이 음수이면 양이 감소하는 것이며 이미 양이 음수라는 뜻은 아닙니다."
+      },
+      "math": [
+        "\\mathrm{final}=\\mathrm{initial}+\\mathrm{net\\ change}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. A negative net rate means volume decreases; it does not mean volume is already negative.",
+        "ko": "이 실수는 피하세요. 순변화율이 음수이면 양이 감소하는 것이며 이미 양이 음수라는 뜻은 아닙니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Find V(3) with constant rates over 3 minutes.",
+        "ko": "3분 동안 유량이 일정할 때 V(3)을 구하세요."
+      },
+      "math": [
+        "V(0)=8\\ \\mathrm{L}",
+        "\\mathrm{in}=1,\\quad\\mathrm{out}=2\\ \\mathrm{L/min}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Find V(3) with constant rates over 3 minutes.",
+        "ko": "직접 풀어보세요. 3분 동안 유량이 일정할 때 V(3)을 구하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "V(0)=8\\ \\mathrm{L}",
+      "\\mathrm{in}=1,\\quad\\mathrm{out}=2\\ \\mathrm{L/min}"
+    ],
+    "prompt": {
+      "en": "Find V(3) with constant rates over 3 minutes.",
+      "ko": "3분 동안 유량이 일정할 때 V(3)을 구하세요."
+    },
+    "answer": {
+      "en": "5 L. The net rate is −1 L/min, so the net change is −3 L and 8−3=5.",
+      "ko": "5L입니다. 순변화율은 −1 L/min이므로 변화량 −3L를 초기 8L에 더합니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "10+integrate(3-t,(t,0,2))",
+      "expected": "14"
+    },
+    {
+      "expression": "8+integrate(-1,(t,0,3))",
+      "expected": "5"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L55\nInflow outflow and net change\n\nA tank’s final amount equals its initial amount plus accumulated net flow.\nIntegrating a rate gives change; adding the initial amount gives the actual amount.\n\n1. Subtract outflow from inflow before integrating.\n2. The tank gains a net 4 liters.\n3. The final volume includes the original 10 liters.\n\nRemember: A negative net rate means volume decreases; it does not mean volume is already negative.\n\nCHECK ANSWER — try card 8 first\n5 L. The net rate is −1 L/min, so the net change is −3 L and 8−3=5.",
+    "ko": "AP Calculus AB • 55강\n유입 유출 순변화\n\n탱크의 최종량은 초기량에 순유입량을 누적하여 더한 값입니다.\n변화율을 적분하면 변화량이며 초기량을 더해야 실제 양이 됩니다.\n\n1. 적분 전에 유입량에서 유출량을 뺍니다.\n2. 탱크는 순수하게 4리터를 얻습니다.\n3. 최종 부피에는 처음의 10리터가 포함됩니다.\n\n실수 점검: 순변화율이 음수이면 양이 감소하는 것이며 이미 양이 음수라는 뜻은 아닙니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n5L입니다. 순변화율은 −1 L/min이므로 변화량 −3L를 초기 8L에 더합니다."
+  },
+  "graph_description": null
+}

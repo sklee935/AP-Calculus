@@ -1,0 +1,244 @@
+{
+  "id": "L05",
+  "number": 5,
+  "unit": 1,
+  "unit_title": {
+    "ko": "극한과 연속",
+    "en": "Limits and continuity"
+  },
+  "title": {
+    "ko": "삼각극한과 조임정리",
+    "en": "Trigonometric limits and squeezing"
+  },
+  "prerequisites": [
+    "L04"
+  ],
+  "week": 2,
+  "day": "Wednesday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U1-M04"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "The oscillating curve is trapped between two bounds approaching zero.",
+    "ko": "진동하는 곡선이 모두 0으로 가는 두 경계 사이에 갇힙니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "삼각극한과 조임정리",
+        "en": "Trigonometric limits and squeezing"
+      },
+      "notes": {
+        "en": "Oscillation can still have a limit when its size shrinks.",
+        "ko": "진동하더라도 폭이 줄어들면 극한이 존재할 수 있습니다."
+      },
+      "math": [
+        "\\lim_{x\\to0}x^2\\sin(1/x)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Trigonometric limits and squeezing. Oscillation can still have a limit when its size shrinks.",
+        "ko": "삼각극한과 조임정리. 진동하더라도 폭이 줄어들면 극한이 존재할 수 있습니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Use radians. Sine stays between −1 and 1.",
+        "ko": "각도는 라디안입니다. 사인값은 −1과 1 사이에 있습니다."
+      },
+      "math": [
+        "-1\\le\\sin u\\le1",
+        "\\lim_{x\\to0}\\frac{\\sin x}{x}=1"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Use radians. Sine stays between −1 and 1.",
+        "ko": "먼저 조건을 확인. 각도는 라디안입니다. 사인값은 −1과 1 사이에 있습니다."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "The oscillating curve is trapped between two bounds approaching zero.",
+        "ko": "진동하는 곡선이 모두 0으로 가는 두 경계 사이에 갇힙니다."
+      },
+      "math": [],
+      "visual": {
+        "kind": "graph",
+        "curves": [
+          {
+            "expr": "x**2*sin(1/x)",
+            "label": "f",
+            "color": "blue"
+          },
+          {
+            "expr": "x**2",
+            "label": "upper",
+            "color": "gray"
+          },
+          {
+            "expr": "-x**2",
+            "label": "lower",
+            "color": "red"
+          }
+        ],
+        "xlim": [
+          -0.5,
+          0.5
+        ],
+        "ylim": [
+          -0.3,
+          0.3
+        ]
+      },
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. The oscillating curve is trapped between two bounds approaching zero. Graph: f: y=x**2*sin(1/x); upper: y=x**2; lower: y=-x**2. x-range [-0.5, 0.5], y-range [-0.3, 0.3].",
+        "ko": "개념을 눈으로 연결. 진동하는 곡선이 모두 0으로 가는 두 경계 사이에 갇힙니다. 그래프: f: y=x**2*sin(1/x); upper: y=x**2; lower: y=-x**2. x 표시구간 [-0.5, 0.5], y 표시구간 [-0.3, 0.3]."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "Multiplying by nonnegative x² preserves both inequality directions.",
+        "ko": "음이 아닌 x²을 곱하므로 부등호 방향이 유지됩니다."
+      },
+      "math": [
+        "-x^2\\le x^2\\sin(1/x)\\le x^2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. Multiplying by nonnegative x² preserves both inequality directions.",
+        "ko": "1단계  식을 세우기. 음이 아닌 x²을 곱하므로 부등호 방향이 유지됩니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "Both bounding curves approach the same value.",
+        "ko": "양쪽 경계 곡선이 같은 값에 가까워집니다."
+      },
+      "math": [
+        "\\lim_{x\\to0}(-x^2)=\\lim_{x\\to0}x^2=0"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. Both bounding curves approach the same value.",
+        "ko": "2단계  이유를 따라 계산. 양쪽 경계 곡선이 같은 값에 가까워집니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "The squeeze theorem forces the trapped function toward zero.",
+        "ko": "조임정리에 따라 가운데 함수도 0으로 갑니다."
+      },
+      "math": [
+        "\\lim_{x\\to0}x^2\\sin(1/x)=0"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. The squeeze theorem forces the trapped function toward zero.",
+        "ko": "3단계  결과의 의미. 조임정리에 따라 가운데 함수도 0으로 갑니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "An oscillating factor alone does not determine the product limit.",
+        "ko": "한 인수가 진동한다는 사실만으로 곱의 극한을 판단하지 마세요."
+      },
+      "math": [
+        "\\mathrm{same\\ bounds}\\Rightarrow\\mathrm{same\\ limit}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. An oscillating factor alone does not determine the product limit.",
+        "ko": "이 실수는 피하세요. 한 인수가 진동한다는 사실만으로 곱의 극한을 판단하지 마세요."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Use the standard sine limit with its input matched.",
+        "ko": "기본 사인 극한의 입력을 맞춰 사용하세요."
+      },
+      "math": [
+        "\\lim_{x\\to0}\\frac{\\sin(3x)}{2x}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Use the standard sine limit with its input matched.",
+        "ko": "직접 풀어보세요. 기본 사인 극한의 입력을 맞춰 사용하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "\\lim_{x\\to0}\\frac{\\sin(3x)}{2x}"
+    ],
+    "prompt": {
+      "en": "Use the standard sine limit with its input matched.",
+      "ko": "기본 사인 극한의 입력을 맞춰 사용하세요."
+    },
+    "answer": {
+      "en": "3/2. Rewrite as (3/2)·sin(3x)/(3x); the second factor tends to 1.",
+      "ko": "3/2입니다. (3/2)·sin(3x)/(3x)로 바꾸면 두 번째 인수가 1로 갑니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "limit(x**2*sin(1/x),x,0)",
+      "expected": "0"
+    },
+    {
+      "expression": "limit(sin(3*x)/(2*x),x,0)",
+      "expected": "3/2"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L05\nTrigonometric limits and squeezing\n\nOscillation can still have a limit when its size shrinks.\nThe oscillating curve is trapped between two bounds approaching zero.\n\n1. Multiplying by nonnegative x² preserves both inequality directions.\n2. Both bounding curves approach the same value.\n3. The squeeze theorem forces the trapped function toward zero.\n\nRemember: An oscillating factor alone does not determine the product limit.\n\nCHECK ANSWER — try card 8 first\n3/2. Rewrite as (3/2)·sin(3x)/(3x); the second factor tends to 1.",
+    "ko": "AP Calculus AB • 05강\n삼각극한과 조임정리\n\n진동하더라도 폭이 줄어들면 극한이 존재할 수 있습니다.\n진동하는 곡선이 모두 0으로 가는 두 경계 사이에 갇힙니다.\n\n1. 음이 아닌 x²을 곱하므로 부등호 방향이 유지됩니다.\n2. 양쪽 경계 곡선이 같은 값에 가까워집니다.\n3. 조임정리에 따라 가운데 함수도 0으로 갑니다.\n\n실수 점검: 한 인수가 진동한다는 사실만으로 곱의 극한을 판단하지 마세요.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n3/2입니다. (3/2)·sin(3x)/(3x)로 바꾸면 두 번째 인수가 1로 갑니다."
+  },
+  "graph_description": null
+}

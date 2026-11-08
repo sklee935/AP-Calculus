@@ -1,0 +1,218 @@
+{
+  "id": "L17",
+  "number": 17,
+  "unit": 3,
+  "unit_title": {
+    "ko": "합성함수와 음함수 및 역함수",
+    "en": "Composite implicit and inverse functions"
+  },
+  "title": {
+    "ko": "연쇄법칙",
+    "en": "The chain rule"
+  },
+  "prerequisites": [
+    "L16"
+  ],
+  "week": 6,
+  "day": "Wednesday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U3-M01"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "Differentiate the outside, keep the inside, then multiply by the inside derivative.",
+    "ko": "안을 유지하며 바깥을 미분하고, 안의 도함수를 곱합니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "연쇄법칙",
+        "en": "The chain rule"
+      },
+      "notes": {
+        "en": "An outer power contains an inner function. Both layers contribute to the derivative.",
+        "ko": "바깥 거듭제곱 안에 함수가 있습니다. 두 층의 변화율을 함께 반영합니다."
+      },
+      "math": [
+        "f(x)=(2x^3+1)^4"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "The chain rule. An outer power contains an inner function. Both layers contribute to the derivative.",
+        "ko": "연쇄법칙. 바깥 거듭제곱 안에 함수가 있습니다. 두 층의 변화율을 함께 반영합니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Recall the power rule, then identify what sits inside the power.",
+        "ko": "거듭제곱 미분법을 복습하고 거듭제곱 안의 식을 찾으세요."
+      },
+      "math": [
+        "u=2x^3+1"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Recall the power rule, then identify what sits inside the power.",
+        "ko": "먼저 조건을 확인. 거듭제곱 미분법을 복습하고 거듭제곱 안의 식을 찾으세요."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "Differentiate the outside, keep the inside, then multiply by the inside derivative.",
+        "ko": "안을 유지하며 바깥을 미분하고, 안의 도함수를 곱합니다."
+      },
+      "math": [
+        "\\frac{d}{dx}F(u(x))=F^\\prime(u(x))u^\\prime(x)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. Differentiate the outside, keep the inside, then multiply by the inside derivative.",
+        "ko": "개념을 눈으로 연결. 안을 유지하며 바깥을 미분하고, 안의 도함수를 곱합니다."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "The inside is not just x, so its derivative is essential.",
+        "ko": "안이 단순히 x가 아니므로 안의 미분이 꼭 필요합니다."
+      },
+      "math": [
+        "u^\\prime=6x^2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. The inside is not just x, so its derivative is essential.",
+        "ko": "1단계  식을 세우기. 안이 단순히 x가 아니므로 안의 미분이 꼭 필요합니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "Multiply the outer derivative by the inner derivative.",
+        "ko": "바깥 미분과 안의 미분을 곱합니다."
+      },
+      "math": [
+        "f^\\prime(x)=4(2x^3+1)^3(6x^2)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. Multiply the outer derivative by the inner derivative.",
+        "ko": "2단계  이유를 따라 계산. 바깥 미분과 안의 미분을 곱합니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "Substitute only after completing both layers.",
+        "ko": "두 층의 미분을 마친 뒤 값을 대입합니다."
+      },
+      "math": [
+        "f^\\prime(1)=4\\cdot27\\cdot6=648"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. Substitute only after completing both layers.",
+        "ko": "3단계  결과의 의미. 두 층의 미분을 마친 뒤 값을 대입합니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "Leaving out the inner derivative loses the chain rule.",
+        "ko": "안의 도함수를 빠뜨리지 마세요."
+      },
+      "math": [
+        "(u^4)^\\prime=4u^3u^\\prime"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. Leaving out the inner derivative loses the chain rule.",
+        "ko": "이 실수는 피하세요. 안의 도함수를 빠뜨리지 마세요."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Find g′(x).",
+        "ko": "g′(x)를 구하세요."
+      },
+      "math": [
+        "g(x)=\\sin(x^2)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Find g′(x).",
+        "ko": "직접 풀어보세요. g′(x)를 구하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "g(x)=\\sin(x^2)"
+    ],
+    "prompt": {
+      "en": "Find g′(x).",
+      "ko": "g′(x)를 구하세요."
+    },
+    "answer": {
+      "en": "2x cos(x²). The outer sine gives cosine, and the inner x² gives 2x.",
+      "ko": "2x cos(x²)입니다. 바깥 사인은 코사인으로, 안의 x²는 2x로 미분합니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "diff((2*x**3+1)**4,x).subs(x,1)",
+      "expected": "648"
+    },
+    {
+      "expression": "diff(sin(x**2),x)",
+      "expected": "2*x*cos(x**2)"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L17\nThe chain rule\n\nAn outer power contains an inner function. Both layers contribute to the derivative.\nDifferentiate the outside, keep the inside, then multiply by the inside derivative.\n\n1. The inside is not just x, so its derivative is essential.\n2. Multiply the outer derivative by the inner derivative.\n3. Substitute only after completing both layers.\n\nRemember: Leaving out the inner derivative loses the chain rule.\n\nCHECK ANSWER — try card 8 first\n2x cos(x²). The outer sine gives cosine, and the inner x² gives 2x.",
+    "ko": "AP Calculus AB • 17강\n연쇄법칙\n\n바깥 거듭제곱 안에 함수가 있습니다. 두 층의 변화율을 함께 반영합니다.\n안을 유지하며 바깥을 미분하고, 안의 도함수를 곱합니다.\n\n1. 안이 단순히 x가 아니므로 안의 미분이 꼭 필요합니다.\n2. 바깥 미분과 안의 미분을 곱합니다.\n3. 두 층의 미분을 마친 뒤 값을 대입합니다.\n\n실수 점검: 안의 도함수를 빠뜨리지 마세요.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n2x cos(x²)입니다. 바깥 사인은 코사인으로, 안의 x²는 2x로 미분합니다."
+  },
+  "graph_description": null
+}

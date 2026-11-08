@@ -1,0 +1,242 @@
+{
+  "id": "L18",
+  "number": 18,
+  "unit": 3,
+  "unit_title": {
+    "ko": "합성함수와 음함수 및 역함수",
+    "en": "Composite implicit and inverse functions"
+  },
+  "title": {
+    "ko": "음함수 미분",
+    "en": "Implicit differentiation"
+  },
+  "prerequisites": [
+    "L17"
+  ],
+  "week": 6,
+  "day": "Friday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U3-F01",
+    "U3-M02"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "On the upper semicircle, the slope becomes more negative as x increases.",
+    "ko": "위쪽 반원에서는 x가 커질수록 기울기가 더 음수가 됩니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "음함수 미분",
+        "en": "Implicit differentiation"
+      },
+      "notes": {
+        "en": "When x and y share an equation, differentiate without isolating y first.",
+        "ko": "x와 y가 한 식에 함께 있어도 y를 먼저 풀어내지 않고 미분할 수 있습니다."
+      },
+      "math": [
+        "x^2+y^2=25\\quad\\mathrm{at}\\ (3,4)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Implicit differentiation. When x and y share an equation, differentiate without isolating y first.",
+        "ko": "음함수 미분. x와 y가 한 식에 함께 있어도 y를 먼저 풀어내지 않고 미분할 수 있습니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Treat y as a function of x. Differentiating y² needs the chain rule.",
+        "ko": "y를 x의 함수로 보세요. y²를 미분할 때 연쇄법칙이 필요합니다."
+      },
+      "math": [
+        "\\frac{d}{dx}(y^2)=2y\\frac{dy}{dx}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Treat y as a function of x. Differentiating y² needs the chain rule.",
+        "ko": "먼저 조건을 확인. y를 x의 함수로 보세요. y²를 미분할 때 연쇄법칙이 필요합니다."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "On the upper semicircle, the slope becomes more negative as x increases.",
+        "ko": "위쪽 반원에서는 x가 커질수록 기울기가 더 음수가 됩니다."
+      },
+      "math": [],
+      "visual": {
+        "kind": "graph",
+        "curves": [
+          {
+            "expr": "sqrt(25-x**2)",
+            "label": "upper branch",
+            "color": "blue"
+          }
+        ],
+        "xlim": [
+          -4.8,
+          4.8
+        ],
+        "ylim": [
+          0,
+          5.5
+        ],
+        "points": [
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. On the upper semicircle, the slope becomes more negative as x increases. Graph: upper branch: y=sqrt(25-x**2). x-range [-4.8, 4.8], y-range [0, 5.5]. Filled points: [[3, 4]].",
+        "ko": "개념을 눈으로 연결. 위쪽 반원에서는 x가 커질수록 기울기가 더 음수가 됩니다. 그래프: upper branch: y=sqrt(25-x**2). x 표시구간 [-4.8, 4.8], y 표시구간 [0, 5.5]. 채운 점: [[3, 4]]."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "Differentiate both sides with respect to x.",
+        "ko": "양변을 x에 대해 미분합니다."
+      },
+      "math": [
+        "2x+2y\\frac{dy}{dx}=0"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. Differentiate both sides with respect to x.",
+        "ko": "1단계  식을 세우기. 양변을 x에 대해 미분합니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "Solve for the derivative and keep its denominator condition.",
+        "ko": "도함수를 정리하고 분모 조건도 유지합니다."
+      },
+      "math": [
+        "\\frac{dy}{dx}=-\\frac{x}{y}\\quad(y\\ne0)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. Solve for the derivative and keep its denominator condition.",
+        "ko": "2단계  이유를 따라 계산. 도함수를 정리하고 분모 조건도 유지합니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "The tangent falls 3 units for each 4 units to the right.",
+        "ko": "접선은 오른쪽으로 4만큼 갈 때 3만큼 내려갑니다."
+      },
+      "math": [
+        "\\left.\\frac{dy}{dx}\\right|_{(3,4)}=-\\frac34"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. The tangent falls 3 units for each 4 units to the right.",
+        "ko": "3단계  결과의 의미. 접선은 오른쪽으로 4만큼 갈 때 3만큼 내려갑니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "Writing the derivative of y² as just 2y omits dy/dx.",
+        "ko": "y²의 도함수를 2y만 쓰면 dy/dx가 빠집니다."
+      },
+      "math": [
+        "(y^2)^\\prime=2yy^\\prime"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. Writing the derivative of y² as just 2y omits dy/dx.",
+        "ko": "이 실수는 피하세요. y²의 도함수를 2y만 쓰면 dy/dx가 빠집니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Use both the product rule and implicit differentiation.",
+        "ko": "곱의 법칙과 음함수 미분을 함께 사용하세요."
+      },
+      "math": [
+        "x^2+xy+y^2=7",
+        "\\mathrm{at}\\ (1,2)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Use both the product rule and implicit differentiation.",
+        "ko": "직접 풀어보세요. 곱의 법칙과 음함수 미분을 함께 사용하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "x^2+xy+y^2=7",
+      "\\mathrm{at}\\ (1,2)"
+    ],
+    "prompt": {
+      "en": "Use both the product rule and implicit differentiation.",
+      "ko": "곱의 법칙과 음함수 미분을 함께 사용하세요."
+    },
+    "answer": {
+      "en": "−4/5. Differentiate to get 2x+y+(x+2y)y′=0, then substitute (1,2).",
+      "ko": "−4/5입니다. 2x+y+(x+2y)y′=0을 얻은 뒤 (1,2)를 대입합니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "(-x/y).subs({x:3,y:4})",
+      "expected": "-3/4"
+    },
+    {
+      "expression": "(-(2*x+y)/(x+2*y)).subs({x:1,y:2})",
+      "expected": "-4/5"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L18\nImplicit differentiation\n\nWhen x and y share an equation, differentiate without isolating y first.\nOn the upper semicircle, the slope becomes more negative as x increases.\n\n1. Differentiate both sides with respect to x.\n2. Solve for the derivative and keep its denominator condition.\n3. The tangent falls 3 units for each 4 units to the right.\n\nRemember: Writing the derivative of y² as just 2y omits dy/dx.\n\nCHECK ANSWER — try card 8 first\n−4/5. Differentiate to get 2x+y+(x+2y)y′=0, then substitute (1,2).",
+    "ko": "AP Calculus AB • 18강\n음함수 미분\n\nx와 y가 한 식에 함께 있어도 y를 먼저 풀어내지 않고 미분할 수 있습니다.\n위쪽 반원에서는 x가 커질수록 기울기가 더 음수가 됩니다.\n\n1. 양변을 x에 대해 미분합니다.\n2. 도함수를 정리하고 분모 조건도 유지합니다.\n3. 접선은 오른쪽으로 4만큼 갈 때 3만큼 내려갑니다.\n\n실수 점검: y²의 도함수를 2y만 쓰면 dy/dx가 빠집니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n−4/5입니다. 2x+y+(x+2y)y′=0을 얻은 뒤 (1,2)를 대입합니다."
+  },
+  "graph_description": null
+}

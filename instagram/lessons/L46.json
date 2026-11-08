@@ -1,0 +1,220 @@
+{
+  "id": "L46",
+  "number": 46,
+  "unit": 6,
+  "unit_title": {
+    "ko": "적분과 누적",
+    "en": "Integration and accumulation"
+  },
+  "title": {
+    "ko": "식 정리와 역삼각 적분",
+    "en": "Algebra and inverse trigonometric integrals"
+  },
+  "prerequisites": [
+    "L45"
+  ],
+  "week": 16,
+  "day": "Monday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "E26",
+    "U6-M05"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "The arctangent pattern is a reciprocal of a positive square plus a constant square.",
+    "ko": "아크탄젠트 형태는 제곱식과 양의 상수 제곱의 합을 분모로 가집니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "식 정리와 역삼각 적분",
+        "en": "Algebra and inverse trigonometric integrals"
+      },
+      "notes": {
+        "en": "Algebra can reveal a familiar inverse-trig antiderivative hidden in a quadratic denominator.",
+        "ko": "분모의 이차식을 정리하면 익숙한 역삼각함수 적분 형태가 보입니다."
+      },
+      "math": [
+        "\\int\\frac{dx}{x^2-2x+5}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Algebra and inverse trigonometric integrals. Algebra can reveal a familiar inverse-trig antiderivative hidden in a quadratic denominator.",
+        "ko": "식 정리와 역삼각 적분. 분모의 이차식을 정리하면 익숙한 역삼각함수 적분 형태가 보입니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Complete the square before selecting an integration rule.",
+        "ko": "적분 공식을 고르기 전에 완전제곱식을 만드세요."
+      },
+      "math": [
+        "x^2-2x+5=(x-1)^2+4"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Complete the square before selecting an integration rule.",
+        "ko": "먼저 조건을 확인. 적분 공식을 고르기 전에 완전제곱식을 만드세요."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "The arctangent pattern is a reciprocal of a positive square plus a constant square.",
+        "ko": "아크탄젠트 형태는 제곱식과 양의 상수 제곱의 합을 분모로 가집니다."
+      },
+      "math": [
+        "\\int\\frac{du}{a^2+u^2}=\\frac1a\\arctan(u/a)+C",
+        "a>0"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. The arctangent pattern is a reciprocal of a positive square plus a constant square.",
+        "ko": "개념을 눈으로 연결. 아크탄젠트 형태는 제곱식과 양의 상수 제곱의 합을 분모로 가집니다."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "Scale the squared expression so the denominator becomes 4(1+u²).",
+        "ko": "분모가 4(1+u²)이 되도록 제곱식을 조정합니다."
+      },
+      "math": [
+        "u=\\frac{x-1}{2},\\quad dx=2\\,du"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. Scale the squared expression so the denominator becomes 4(1+u²).",
+        "ko": "1단계  식을 세우기. 분모가 4(1+u²)이 되도록 제곱식을 조정합니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "Retain the coefficient introduced by the substitution.",
+        "ko": "치환에서 생긴 계수를 유지합니다."
+      },
+      "math": [
+        "\\int\\frac{2\\,du}{4(1+u^2)}=\\frac12\\arctan u+C"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. Retain the coefficient introduced by the substitution.",
+        "ko": "2단계  이유를 따라 계산. 치환에서 생긴 계수를 유지합니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "Return to x; differentiating verifies the result for all real x.",
+        "ko": "x로 되돌리고 미분해 확인합니다. 모든 실수 x에서 성립합니다."
+      },
+      "math": [
+        "\\frac12\\arctan\\left(\\frac{x-1}{2}\\right)+C"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. Return to x; differentiating verifies the result for all real x.",
+        "ko": "3단계  결과의 의미. x로 되돌리고 미분해 확인합니다. 모든 실수 x에서 성립합니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "A numerator unlike the denominator derivative does not automatically give a logarithm.",
+        "ko": "분자가 분모의 도함수와 다르면 무조건 로그로 적분할 수 없습니다."
+      },
+      "math": [
+        "\\frac1{1+u^2}\\ \\longleftrightarrow\\ \\arctan u"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. A numerator unlike the denominator derivative does not automatically give a logarithm.",
+        "ko": "이 실수는 피하세요. 분자가 분모의 도함수와 다르면 무조건 로그로 적분할 수 없습니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Simplify the quotient first.",
+        "ko": "몫을 먼저 간단히 정리하세요."
+      },
+      "math": [
+        "\\int\\frac{x^2+1}{x}\\,dx\\quad(x>0)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Simplify the quotient first.",
+        "ko": "직접 풀어보세요. 몫을 먼저 간단히 정리하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "\\int\\frac{x^2+1}{x}\\,dx\\quad(x>0)"
+    ],
+    "prompt": {
+      "en": "Simplify the quotient first.",
+      "ko": "몫을 먼저 간단히 정리하세요."
+    },
+    "answer": {
+      "en": "x²/2+ln x+C. Split the integrand into x+1/x and integrate each term.",
+      "ko": "x²/2+ln x+C입니다. 피적분함수를 x+1/x로 나누어 항별로 적분합니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "diff(atan((x-1)/2)/2,x)",
+      "expected": "1/(x**2-2*x+5)"
+    },
+    {
+      "expression": "diff(x**2/2+log(x),x)",
+      "expected": "(x**2+1)/x"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L46\nAlgebra and inverse trigonometric integrals\n\nAlgebra can reveal a familiar inverse-trig antiderivative hidden in a quadratic denominator.\nThe arctangent pattern is a reciprocal of a positive square plus a constant square.\n\n1. Scale the squared expression so the denominator becomes 4(1+u²).\n2. Retain the coefficient introduced by the substitution.\n3. Return to x; differentiating verifies the result for all real x.\n\nRemember: A numerator unlike the denominator derivative does not automatically give a logarithm.\n\nCHECK ANSWER — try card 8 first\nx²/2+ln x+C. Split the integrand into x+1/x and integrate each term.",
+    "ko": "AP Calculus AB • 46강\n식 정리와 역삼각 적분\n\n분모의 이차식을 정리하면 익숙한 역삼각함수 적분 형태가 보입니다.\n아크탄젠트 형태는 제곱식과 양의 상수 제곱의 합을 분모로 가집니다.\n\n1. 분모가 4(1+u²)이 되도록 제곱식을 조정합니다.\n2. 치환에서 생긴 계수를 유지합니다.\n3. x로 되돌리고 미분해 확인합니다. 모든 실수 x에서 성립합니다.\n\n실수 점검: 분자가 분모의 도함수와 다르면 무조건 로그로 적분할 수 없습니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\nx²/2+ln x+C입니다. 피적분함수를 x+1/x로 나누어 항별로 적분합니다."
+  },
+  "graph_description": null
+}

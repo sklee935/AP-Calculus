@@ -1,0 +1,221 @@
+{
+  "id": "L32",
+  "number": 32,
+  "unit": 5,
+  "unit_title": {
+    "ko": "함수 분석",
+    "en": "Analyzing functions"
+  },
+  "title": {
+    "ko": "첫 도함수 판정",
+    "en": "The first derivative test"
+  },
+  "prerequisites": [
+    "L31"
+  ],
+  "week": 11,
+  "day": "Wednesday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U5-M03",
+    "U5-M04"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "Increasing then decreasing makes a local maximum; decreasing then increasing makes a local minimum.",
+    "ko": "증가 후 감소하면 국소최대, 감소 후 증가하면 국소최소입니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "첫 도함수 판정",
+        "en": "The first derivative test"
+      },
+      "notes": {
+        "en": "A zero derivative becomes a local extremum only when the behavior supports it.",
+        "ko": "도함수가 0이어도 주변 변화 양상을 확인해야 국소극값인지 알 수 있습니다."
+      },
+      "math": [
+        "f^\\prime(x)=(x-1)(x-3)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "The first derivative test. A zero derivative becomes a local extremum only when the behavior supports it.",
+        "ko": "첫 도함수 판정. 도함수가 0이어도 주변 변화 양상을 확인해야 국소극값인지 알 수 있습니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Recall the sign pattern +, −, + from the preceding lesson.",
+        "ko": "이전 강의의 부호 배열 +, −, +를 복습하세요."
+      },
+      "math": [
+        "f^\\prime:\\quad+\\ \\big|_{1}\\ -\\ \\big|_{3}\\ +"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Recall the sign pattern +, −, + from the preceding lesson.",
+        "ko": "먼저 조건을 확인. 이전 강의의 부호 배열 +, −, +를 복습하세요."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "Increasing then decreasing makes a local maximum; decreasing then increasing makes a local minimum.",
+        "ko": "증가 후 감소하면 국소최대, 감소 후 증가하면 국소최소입니다."
+      },
+      "math": [
+        "+\\to-:\\ \\mathrm{local\\ max}",
+        "-\\to+:\\ \\mathrm{local\\ min}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. Increasing then decreasing makes a local maximum; decreasing then increasing makes a local minimum.",
+        "ko": "개념을 눈으로 연결. 증가 후 감소하면 국소최대, 감소 후 증가하면 국소최소입니다."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "The function turns from rising to falling.",
+        "ko": "함수가 증가에서 감소로 바뀝니다."
+      },
+      "math": [
+        "x=1:\\quad+\\to-"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. The function turns from rising to falling.",
+        "ko": "1단계  식을 세우기. 함수가 증가에서 감소로 바뀝니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "The function turns from falling to rising.",
+        "ko": "함수가 감소에서 증가로 바뀝니다."
+      },
+      "math": [
+        "x=3:\\quad-\\to+"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. The function turns from falling to rising.",
+        "ko": "2단계  이유를 따라 계산. 함수가 감소에서 증가로 바뀝니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "State the sign change as the reason for each conclusion.",
+        "ko": "각 결론의 근거로 도함수의 부호 변화를 명시하세요."
+      },
+      "math": [
+        "x=1:\\ \\mathrm{local\\ maximum}",
+        "x=3:\\ \\mathrm{local\\ minimum}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. State the sign change as the reason for each conclusion.",
+        "ko": "3단계  결과의 의미. 각 결론의 근거로 도함수의 부호 변화를 명시하세요."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "A derivative equal to zero without a sign change need not give an extremum.",
+        "ko": "도함수가 0이어도 부호 변화가 없으면 극값이 아닐 수 있습니다."
+      },
+      "math": [
+        "f^\\prime(c)=0\\ \\mathrm{alone\\ is\\ insufficient}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. A derivative equal to zero without a sign change need not give an extremum.",
+        "ko": "이 실수는 피하세요. 도함수가 0이어도 부호 변화가 없으면 극값이 아닐 수 있습니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Does g have a local extremum at 0?",
+        "ko": "g는 0에서 국소극값을 갖나요?"
+      },
+      "math": [
+        "g(x)=x^3\\quad\\mathrm{at}\\ x=0"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Does g have a local extremum at 0?",
+        "ko": "직접 풀어보세요. g는 0에서 국소극값을 갖나요?"
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "g(x)=x^3\\quad\\mathrm{at}\\ x=0"
+    ],
+    "prompt": {
+      "en": "Does g have a local extremum at 0?",
+      "ko": "g는 0에서 국소극값을 갖나요?"
+    },
+    "answer": {
+      "en": "No. g′=3x² is positive on both sides of 0, so there is no sign change.",
+      "ko": "아니요. g′=3x²은 0의 양쪽에서 양수이므로 부호 변화가 없습니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "diff(x**3,x).subs(x,-1)",
+      "expected": "3"
+    },
+    {
+      "expression": "diff(x**3,x).subs(x,1)",
+      "expected": "3"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L32\nThe first derivative test\n\nA zero derivative becomes a local extremum only when the behavior supports it.\nIncreasing then decreasing makes a local maximum; decreasing then increasing makes a local minimum.\n\n1. The function turns from rising to falling.\n2. The function turns from falling to rising.\n3. State the sign change as the reason for each conclusion.\n\nRemember: A derivative equal to zero without a sign change need not give an extremum.\n\nCHECK ANSWER — try card 8 first\nNo. g′=3x² is positive on both sides of 0, so there is no sign change.",
+    "ko": "AP Calculus AB • 32강\n첫 도함수 판정\n\n도함수가 0이어도 주변 변화 양상을 확인해야 국소극값인지 알 수 있습니다.\n증가 후 감소하면 국소최대, 감소 후 증가하면 국소최소입니다.\n\n1. 함수가 증가에서 감소로 바뀝니다.\n2. 함수가 감소에서 증가로 바뀝니다.\n3. 각 결론의 근거로 도함수의 부호 변화를 명시하세요.\n\n실수 점검: 도함수가 0이어도 부호 변화가 없으면 극값이 아닐 수 있습니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n아니요. g′=3x²은 0의 양쪽에서 양수이므로 부호 변화가 없습니다."
+  },
+  "graph_description": null
+}

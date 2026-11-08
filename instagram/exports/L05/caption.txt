@@ -1,0 +1,33 @@
+AP Calculus AB • L05
+Trigonometric limits and squeezing
+
+Oscillation can still have a limit when its size shrinks.
+The oscillating curve is trapped between two bounds approaching zero.
+
+1. Multiplying by nonnegative x² preserves both inequality directions.
+2. Both bounding curves approach the same value.
+3. The squeeze theorem forces the trapped function toward zero.
+
+Remember: An oscillating factor alone does not determine the product limit.
+
+CHECK ANSWER — try card 8 first
+3/2. Rewrite as (3/2)·sin(3x)/(3x); the second factor tends to 1.
+
+──────────
+
+AP Calculus AB • 05강
+삼각극한과 조임정리
+
+진동하더라도 폭이 줄어들면 극한이 존재할 수 있습니다.
+진동하는 곡선이 모두 0으로 가는 두 경계 사이에 갇힙니다.
+
+1. 음이 아닌 x²을 곱하므로 부등호 방향이 유지됩니다.
+2. 양쪽 경계 곡선이 같은 값에 가까워집니다.
+3. 조임정리에 따라 가운데 함수도 0으로 갑니다.
+
+실수 점검: 한 인수가 진동한다는 사실만으로 곱의 극한을 판단하지 마세요.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+3/2입니다. (3/2)·sin(3x)/(3x)로 바꾸면 두 번째 인수가 1로 갑니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

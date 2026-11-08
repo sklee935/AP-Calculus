@@ -1,0 +1,33 @@
+AP Calculus AB • L15
+The product rule
+
+A product changes because either factor can change.
+The product rule keeps one factor while differentiating the other, then adds both contributions.
+
+1. Differentiate the two factors separately first.
+2. Write both product-rule terms.
+3. At π/2, sine is 1 and cosine is 0.
+
+Remember: Multiplying the two derivatives is not the derivative of a product.
+
+CHECK ANSWER — try card 8 first
+2e. The derivative is eˣ+xeˣ, so its value at 1 is 2e.
+
+──────────
+
+AP Calculus AB • 15강
+곱의 법칙
+
+곱은 두 인수 중 어느 쪽이 변해도 달라집니다.
+한 인수를 유지하고 다른 인수를 미분한 두 기여를 더합니다.
+
+1. 먼저 두 인수를 따로 미분합니다.
+2. 곱의 미분법에서 생기는 두 항을 모두 씁니다.
+3. π/2에서 사인은 1, 코사인은 0입니다.
+
+실수 점검: 두 도함수를 곱하는 것은 곱의 미분법이 아닙니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+2e입니다. 도함수는 eˣ+xeˣ이므로 1에서 2e입니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

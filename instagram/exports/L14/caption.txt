@@ -1,0 +1,33 @@
+AP Calculus AB • L14
+Basic function derivatives
+
+Different function families have different basic derivative rules.
+Use the correct basic rule for each term, then add.
+
+1. A logarithm differentiates to a reciprocal, not another logarithm.
+2. Combine the three derivatives without changing their signs.
+3. The original domain remains part of the answer.
+
+Remember: The derivative of cosine is negative sine; the sine rule has a different sign.
+
+CHECK ANSWER — try card 8 first
+−sin x+1/x, on x>0. Differentiate term by term and retain the logarithm domain.
+
+──────────
+
+AP Calculus AB • 14강
+기본 함수의 도함수
+
+함수의 종류에 따라 기본 미분 공식이 다릅니다.
+각 항에 맞는 기본 공식을 사용한 뒤 더합니다.
+
+1. 로그를 미분하면 로그가 아니라 역수가 됩니다.
+2. 세 도함수의 부호를 유지하며 더합니다.
+3. 원래 함수의 정의역도 답의 일부입니다.
+
+실수 점검: 코사인의 도함수는 음의 사인입니다. 사인 공식과 부호를 구별하세요.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+x>0에서 −sin x+1/x입니다. 항별로 미분하고 로그의 정의역을 유지합니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

@@ -1,0 +1,33 @@
+AP Calculus AB • L36
+Optimization
+
+Optimization starts with a feasible model, not with setting an arbitrary derivative to zero.
+Use the constraint to express area in one variable before differentiating.
+
+1. Area is the objective; perimeter is the constraint.
+2. Find the feasible stationary candidate.
+3. The downward parabola has its global maximum at this vertex.
+
+Remember: Check the domain and justify a maximum; a zero derivative alone is not enough.
+
+CHECK ANSWER — try card 8 first
+36 m². A=x(12−x) has derivative 12−2x, so the maximum occurs at x=y=6.
+
+──────────
+
+AP Calculus AB • 36강
+최적화
+
+최적화는 아무 식이나 미분하는 대신 가능한 상황을 모형화하는 데서 시작합니다.
+제약식을 이용해 넓이를 한 변수로 나타낸 뒤 미분합니다.
+
+1. 넓이가 목표량이고 둘레는 제약조건입니다.
+2. 가능한 범위 안에서 정지점 후보를 찾습니다.
+3. 아래로 열린 포물선의 꼭짓점이 전체 최댓값을 줍니다.
+
+실수 점검: 정의역을 확인하고 최댓값임을 설명하세요. 도함수가 0이라는 것만으로 부족합니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+36m²입니다. A=x(12−x)의 도함수 12−2x가 0인 x=y=6에서 최대입니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

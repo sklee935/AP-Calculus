@@ -1,0 +1,241 @@
+{
+  "id": "L59",
+  "number": 59,
+  "unit": 8,
+  "unit_title": {
+    "ko": "적분의 응용",
+    "en": "Applications of integration"
+  },
+  "title": {
+    "ko": "원판법",
+    "en": "The disk method"
+  },
+  "prerequisites": [
+    "L58"
+  ],
+  "week": 20,
+  "day": "Wednesday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U8-M04"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "A vertical slice rotates into a filled disk because the region reaches the axis.",
+    "ko": "영역이 축까지 이어지므로 세로 단면을 회전하면 속이 찬 원판이 됩니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "원판법",
+        "en": "The disk method"
+      },
+      "notes": {
+        "en": "Rotating a region touching its axis produces disks whose radius is a distance.",
+        "ko": "축에 닿는 영역을 회전하면 축까지의 거리를 반지름으로 하는 원판이 생깁니다."
+      },
+      "math": [
+        "y=\\sqrt{x},\\quad0\\le x\\le4"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "The disk method. Rotating a region touching its axis produces disks whose radius is a distance.",
+        "ko": "원판법. 축에 닿는 영역을 회전하면 축까지의 거리를 반지름으로 하는 원판이 생깁니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Rotate the region between the curve and the x-axis about the x-axis.",
+        "ko": "곡선과 x축 사이 영역을 x축 둘레로 회전합니다."
+      },
+      "math": [
+        "R(x)=\\sqrt{x},\\quad A(x)=\\pi R(x)^2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Rotate the region between the curve and the x-axis about the x-axis.",
+        "ko": "먼저 조건을 확인. 곡선과 x축 사이 영역을 x축 둘레로 회전합니다."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "A vertical slice rotates into a filled disk because the region reaches the axis.",
+        "ko": "영역이 축까지 이어지므로 세로 단면을 회전하면 속이 찬 원판이 됩니다."
+      },
+      "math": [],
+      "visual": {
+        "kind": "graph",
+        "curves": [
+          {
+            "expr": "sqrt(x)",
+            "label": "radius height",
+            "color": "blue"
+          }
+        ],
+        "xlim": [
+          0,
+          4
+        ],
+        "ylim": [
+          0,
+          2.3
+        ],
+        "shade": {
+          "top": "sqrt(x)",
+          "bottom": "0",
+          "interval": [
+            0,
+            4
+          ]
+        }
+      },
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. A vertical slice rotates into a filled disk because the region reaches the axis. Graph: radius height: y=sqrt(x). x-range [0, 4], y-range [0, 2.3].",
+        "ko": "개념을 눈으로 연결. 영역이 축까지 이어지므로 세로 단면을 회전하면 속이 찬 원판이 됩니다. 그래프: radius height: y=sqrt(x). x 표시구간 [0, 4], y 표시구간 [0, 2.3]."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "Square the radius before integrating.",
+        "ko": "적분 전에 반지름을 제곱합니다."
+      },
+      "math": [
+        "A(x)=\\pi(\\sqrt{x})^2=\\pi x"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. Square the radius before integrating.",
+        "ko": "1단계  식을 세우기. 적분 전에 반지름을 제곱합니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "The slice thickness is dx, perpendicular to the rotation axis.",
+        "ko": "회전축에 수직인 단면의 두께는 dx입니다."
+      },
+      "math": [
+        "V=\\pi\\int_0^4x\\,dx"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. The slice thickness is dx, perpendicular to the rotation axis.",
+        "ko": "2단계  이유를 따라 계산. 회전축에 수직인 단면의 두께는 dx입니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "The answer is a volume in cubic units.",
+        "ko": "답은 부피이므로 세제곱 단위입니다."
+      },
+      "math": [
+        "V=\\pi\\left[\\frac{x^2}{2}\\right]_0^4=8\\pi"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. The answer is a volume in cubic units.",
+        "ko": "3단계  결과의 의미. 답은 부피이므로 세제곱 단위입니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "The radius is measured from the stated axis; changing the axis changes the radius formula.",
+        "ko": "반지름은 지정된 축에서 잽니다. 축이 바뀌면 반지름 식도 바뀝니다."
+      },
+      "math": [
+        "V=\\pi\\int_a^b R(x)^2\\,dx"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. The radius is measured from the stated axis; changing the axis changes the radius formula.",
+        "ko": "이 실수는 피하세요. 반지름은 지정된 축에서 잽니다. 축이 바뀌면 반지름 식도 바뀝니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Rotate the region under y=x about the x-axis. Find its volume.",
+        "ko": "y=x 아래 영역을 x축 둘레로 회전한 부피를 구하세요."
+      },
+      "math": [
+        "y=x,\\quad0\\le x\\le2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Rotate the region under y=x about the x-axis. Find its volume.",
+        "ko": "직접 풀어보세요. y=x 아래 영역을 x축 둘레로 회전한 부피를 구하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "y=x,\\quad0\\le x\\le2"
+    ],
+    "prompt": {
+      "en": "Rotate the region under y=x about the x-axis. Find its volume.",
+      "ko": "y=x 아래 영역을 x축 둘레로 회전한 부피를 구하세요."
+    },
+    "answer": {
+      "en": "8π/3. The disk radius is x, so integrate πx² from 0 to 2.",
+      "ko": "8π/3입니다. 원판의 반지름이 x이므로 πx²을 0부터 2까지 적분합니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "integrate(pi*x,(x,0,4))",
+      "expected": "8*pi"
+    },
+    {
+      "expression": "integrate(pi*x**2,(x,0,2))",
+      "expected": "8*pi/3"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L59\nThe disk method\n\nRotating a region touching its axis produces disks whose radius is a distance.\nA vertical slice rotates into a filled disk because the region reaches the axis.\n\n1. Square the radius before integrating.\n2. The slice thickness is dx, perpendicular to the rotation axis.\n3. The answer is a volume in cubic units.\n\nRemember: The radius is measured from the stated axis; changing the axis changes the radius formula.\n\nCHECK ANSWER — try card 8 first\n8π/3. The disk radius is x, so integrate πx² from 0 to 2.",
+    "ko": "AP Calculus AB • 59강\n원판법\n\n축에 닿는 영역을 회전하면 축까지의 거리를 반지름으로 하는 원판이 생깁니다.\n영역이 축까지 이어지므로 세로 단면을 회전하면 속이 찬 원판이 됩니다.\n\n1. 적분 전에 반지름을 제곱합니다.\n2. 회전축에 수직인 단면의 두께는 dx입니다.\n3. 답은 부피이므로 세제곱 단위입니다.\n\n실수 점검: 반지름은 지정된 축에서 잽니다. 축이 바뀌면 반지름 식도 바뀝니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n8π/3입니다. 원판의 반지름이 x이므로 πx²을 0부터 2까지 적분합니다."
+  },
+  "graph_description": null
+}

@@ -1,0 +1,220 @@
+{
+  "id": "L06",
+  "number": 6,
+  "unit": 1,
+  "unit_title": {
+    "ko": "극한과 연속",
+    "en": "Limits and continuity"
+  },
+  "title": {
+    "ko": "연속과 불연속",
+    "en": "Continuity and discontinuity"
+  },
+  "prerequisites": [
+    "L05"
+  ],
+  "week": 2,
+  "day": "Friday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U1-M03"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "Check that the value exists, the limit exists, and they agree.",
+    "ko": "함숫값, 극한의 존재, 두 값의 일치를 차례로 확인합니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "연속과 불연속",
+        "en": "Continuity and discontinuity"
+      },
+      "notes": {
+        "en": "Continuity requires the nearby value to match the defined value.",
+        "ko": "연속이려면 가까워지는 값과 정해진 값이 일치해야 합니다."
+      },
+      "math": [
+        "f(x)=kx+1\\ (x<2)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Continuity and discontinuity. Continuity requires the nearby value to match the defined value.",
+        "ko": "연속과 불연속. 연속이려면 가까워지는 값과 정해진 값이 일치해야 합니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "The other branch is x²+5 for x≥2. Match both sides and the point value.",
+        "ko": "다른 조각은 x≥2에서 x²+5입니다. 양쪽 극한과 점의 값을 맞추세요."
+      },
+      "math": [
+        "f(x)=x^2+5\\quad(x\\ge2)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. The other branch is x²+5 for x≥2. Match both sides and the point value.",
+        "ko": "먼저 조건을 확인. 다른 조각은 x≥2에서 x²+5입니다. 양쪽 극한과 점의 값을 맞추세요."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "Check that the value exists, the limit exists, and they agree.",
+        "ko": "함숫값, 극한의 존재, 두 값의 일치를 차례로 확인합니다."
+      },
+      "math": [
+        "\\lim_{x\\to a}f(x)=f(a)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. Check that the value exists, the limit exists, and they agree.",
+        "ko": "개념을 눈으로 연결. 함숫값, 극한의 존재, 두 값의 일치를 차례로 확인합니다."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "The branch containing the point determines its actual value.",
+        "ko": "그 점을 포함하는 조각으로 실제 함숫값을 정합니다."
+      },
+      "math": [
+        "f(2)=2^2+5=9"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. The branch containing the point determines its actual value.",
+        "ko": "1단계  식을 세우기. 그 점을 포함하는 조각으로 실제 함숫값을 정합니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "The left limit must equal the right limit and the value 9.",
+        "ko": "좌극한이 우극한과 함숫값 9에 같아야 합니다."
+      },
+      "math": [
+        "2k+1=9"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. The left limit must equal the right limit and the value 9.",
+        "ko": "2단계  이유를 따라 계산. 좌극한이 우극한과 함숫값 9에 같아야 합니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "Each polynomial piece is continuous elsewhere, so matching the junction finishes the job.",
+        "ko": "다른 점에서는 각 다항식이 연속이므로 접합점만 맞추면 됩니다."
+      },
+      "math": [
+        "k=4"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. Each polynomial piece is continuous elsewhere, so matching the junction finishes the job.",
+        "ko": "3단계  결과의 의미. 다른 점에서는 각 다항식이 연속이므로 접합점만 맞추면 됩니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "Fixing a single point can repair a hole, but not a jump between different limits.",
+        "ko": "한 점의 값을 바꿔 구멍은 메울 수 있지만 점프는 없앨 수 없습니다."
+      },
+      "math": [
+        "\\mathrm{value}\\ +\\ \\mathrm{limit}\\ +\\ \\mathrm{agreement}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. Fixing a single point can repair a hole, but not a jump between different limits.",
+        "ko": "이 실수는 피하세요. 한 점의 값을 바꿔 구멍은 메울 수 있지만 점프는 없앨 수 없습니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Choose a so that g is continuous at 1.",
+        "ko": "1에서 연속이 되도록 a를 정하세요."
+      },
+      "math": [
+        "g(x)=ax\\ (x<1)",
+        "g(x)=x+2\\ (x\\ge1)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Choose a so that g is continuous at 1.",
+        "ko": "직접 풀어보세요. 1에서 연속이 되도록 a를 정하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "g(x)=ax\\ (x<1)",
+      "g(x)=x+2\\ (x\\ge1)"
+    ],
+    "prompt": {
+      "en": "Choose a so that g is continuous at 1.",
+      "ko": "1에서 연속이 되도록 a를 정하세요."
+    },
+    "answer": {
+      "en": "a=3. The left limit a must match the right limit and point value 3.",
+      "ko": "a=3입니다. 좌극한 a가 우극한과 함숫값 3에 같아야 합니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "solve(2*x+1-9,x)[0]",
+      "expected": "4"
+    },
+    {
+      "expression": "solve(x-3,x)[0]",
+      "expected": "3"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L06\nContinuity and discontinuity\n\nContinuity requires the nearby value to match the defined value.\nCheck that the value exists, the limit exists, and they agree.\n\n1. The branch containing the point determines its actual value.\n2. The left limit must equal the right limit and the value 9.\n3. Each polynomial piece is continuous elsewhere, so matching the junction finishes the job.\n\nRemember: Fixing a single point can repair a hole, but not a jump between different limits.\n\nCHECK ANSWER — try card 8 first\na=3. The left limit a must match the right limit and point value 3.",
+    "ko": "AP Calculus AB • 06강\n연속과 불연속\n\n연속이려면 가까워지는 값과 정해진 값이 일치해야 합니다.\n함숫값, 극한의 존재, 두 값의 일치를 차례로 확인합니다.\n\n1. 그 점을 포함하는 조각으로 실제 함숫값을 정합니다.\n2. 좌극한이 우극한과 함숫값 9에 같아야 합니다.\n3. 다른 점에서는 각 다항식이 연속이므로 접합점만 맞추면 됩니다.\n\n실수 점검: 한 점의 값을 바꿔 구멍은 메울 수 있지만 점프는 없앨 수 없습니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\na=3입니다. 좌극한 a가 우극한과 함숫값 3에 같아야 합니다."
+  },
+  "graph_description": null
+}

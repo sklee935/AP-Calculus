@@ -47,7 +47,7 @@ def equal(a,b,tol=0):
         return abs(float(s.N(delta,30)))<=tol
     return False
 
-def export_and_validate():
+def export_and_validate(check=False):
     ids=[q['id'] for q in QUESTIONS]
     assert len(ids)==len(set(ids))==124
     numeric_mc=0;scalar_frq=0;editorial=[]
@@ -115,13 +115,26 @@ def export_and_validate():
             'exam_mcq_counts_by_unit':dict(sorted(counts.items())), 'exam_mcq_weights_percent':{k:round(v*100/42,3) for k,v in sorted(counts.items())},
             'exam_format':{'mcq_a':[29,62],'mcq_b':[13,38],'frq_a':[2,30],'frq_b':[4,60]},
             'numerical_cross_checks':NUMERICAL_AUDITS,'limitations':'Author-created rubrics and teaching difficulty labels are not College Board scoring guidelines or calibrated AP score conversions. Symbolic checks do not validate every prose argument.'}
-    (ROOT/'content/question_bank.json').write_text(json.dumps({'schema_version':1,'title':'AP Calculus AB bilingual first edition','verified_on':'2026-10-28','questions':QUESTIONS},ensure_ascii=False,indent=2))
-    (ROOT/'content/curriculum.json').write_text(json.dumps({'units':UNITS,'sources':SOURCES,'bc_extension_plan':BC_ROADMAP},ensure_ascii=False,indent=2))
-    (ROOT/'content/validation_report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))
-    with (ROOT/'content/teacher_blueprint.csv').open('w',encoding='utf-8-sig',newline='') as f:
-        writer=csv.writer(f);writer.writerow(['id','unit','type','skill','calculator','answer_or_max_points','verification'])
-        for q in QUESTIONS:writer.writerow([q['id'],q['unit'],q['type'],q['skill'],q['calculator'],'ABCD'[q['answer']] if q['type']=='MCQ' else 9,q.get('verification',{}).get('method','per-part review')])
+    bank={'schema_version':1,'title':'AP Calculus AB bilingual first edition','verified_on':'2026-10-28','questions':QUESTIONS}
+    curriculum={'units':UNITS,'sources':SOURCES,'bc_extension_plan':BC_ROADMAP}
+    if check:
+        def substantive(value):
+            if isinstance(value,dict):return {k:substantive(v) for k,v in value.items() if k!='verification'}
+            if isinstance(value,list):return [substantive(v) for v in value]
+            return value
+        assert substantive(json.loads((ROOT/'content/question_bank.json').read_text()))==substantive(bank), 'Published question bank differs from Python source'
+        assert json.loads((ROOT/'content/curriculum.json').read_text())==curriculum, 'Published curriculum differs from Python source'
+    else:
+        (ROOT/'content/question_bank.json').write_text(json.dumps(bank,ensure_ascii=False,indent=2))
+        (ROOT/'content/curriculum.json').write_text(json.dumps(curriculum,ensure_ascii=False,indent=2))
+        (ROOT/'content/validation_report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))
+        with (ROOT/'content/teacher_blueprint.csv').open('w',encoding='utf-8-sig',newline='') as f:
+            writer=csv.writer(f);writer.writerow(['id','unit','type','skill','calculator','answer_or_max_points','verification'])
+            for q in QUESTIONS:writer.writerow([q['id'],q['unit'],q['type'],q['skill'],q['calculator'],'ABCD'[q['answer']] if q['type']=='MCQ' else 9,q.get('verification',{}).get('method','per-part review')])
     print(json.dumps({k:v for k,v in report.items() if k not in ('editorially_reviewed_reasoning_items','numerical_cross_checks')},ensure_ascii=False,indent=2))
     return report
 
-if __name__=='__main__':export_and_validate()
+if __name__=='__main__':
+    import argparse
+    parser=argparse.ArgumentParser();parser.add_argument('--check',action='store_true',help='Verify math and published content without writing files')
+    export_and_validate(check=parser.parse_args().check)

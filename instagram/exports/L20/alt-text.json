@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Inverse trigonometric derivatives. Inverse trigonometric derivatives are algebraic expressions with specific domains. Math: f(x)=arctan(3x)",
+    "ko": "역삼각함수 미분. 역삼각함수의 도함수는 정의역 조건을 가진 대수식입니다. 수식: f(x)=arctan(3x)"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. Arctan is an inverse function, not the reciprocal of tangent. Math: (arctanx)^(′)=(1)/(1+x^(2))",
+    "ko": "먼저 조건을 확인. arctan은 역함수이며 탄젠트의 역수가 아닙니다. 수식: (arctanx)^(′)=(1)/(1+x^(2))"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. Use the inverse-trig rule on the outside and the chain rule on the inside. Math: (arcsinx)^(′)=(1)/(sqrt(1−x^(2))); −1<x<1",
+    "ko": "개념을 눈으로 연결. 바깥에는 역삼각함수 공식을, 안에는 연쇄법칙을 적용합니다. 수식: (arcsinx)^(′)=(1)/(sqrt(1−x^(2))); −1<x<1"
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. Name the inner function to avoid losing its coefficient. Math: u=3x,u^(′)=3",
+    "ko": "1단계  식을 세우기. 안의 함수를 정해 계수를 빠뜨리지 않도록 합니다. 수식: u=3x,u^(′)=3"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. Square the entire inner expression in the denominator. Math: f^(′)(x)=(3)/(1+9x^(2))",
+    "ko": "2단계  이유를 따라 계산. 분모에서는 안의 식 전체를 제곱합니다. 수식: f^(′)(x)=(3)/(1+9x^(2))"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. The slope is positive; arctangent is increasing. Math: f^(′)(0)=3",
+    "ko": "3단계  결과의 의미. 기울기가 양수이므로 아크탄젠트는 증가합니다. 수식: f^(′)(0)=3"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. For arcsin, the derivative denominator vanishes at the domain endpoints. Math: (arccosx)^(′)=−(1)/(sqrt(1−x^(2)))",
+    "ko": "이 실수는 피하세요. arcsin의 정의역 끝점에서는 도함수의 분모가 0입니다. 수식: (arccosx)^(′)=−(1)/(sqrt(1−x^(2)))"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Check the derivative domain before substituting. Math: g(x)=arcsinx,g^(′)(1/2)=?",
+    "ko": "직접 풀어보세요. 도함수의 정의역을 확인한 뒤 대입하세요. 수식: g(x)=arcsinx,g^(′)(1/2)=?"
+  }
+]

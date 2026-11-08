@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Velocity acceleration and speed. Speed depends on the magnitude of velocity, while speeding up depends on two signs. Math: v(t)=3t^(2)−12t+9(m/s); t=1.5 s",
+    "ko": "속도 가속도 속력. 속력은 속도의 크기이며, 속력이 증가하는지는 두 부호로 판단합니다. 수식: v(t)=3t^(2)−12t+9(m/s); t=1.5 s"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. Acceleration is v′(t). Speed is |v(t)|. Math: a(t)=v^(′)(t),speed=|v(t)|",
+    "ko": "먼저 조건을 확인. 가속도는 v′(t)이고 속력은 |v(t)|입니다. 수식: a(t)=v^(′)(t),speed=|v(t)|"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. When nonzero velocity and acceleration share a sign, speed increases. Math: v(t)a(t)>0⇒speed increases",
+    "ko": "개념을 눈으로 연결. 속도와 가속도가 같은 부호의 0이 아닌 값이면 속력이 증가합니다. 수식: v(t)a(t)>0⇒speed increases"
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. Negative velocity means motion in the negative direction. Math: v(1.5)=−(9)/(4) m/s",
+    "ko": "1단계  식을 세우기. 속도가 음수이므로 음의 방향으로 이동합니다. 수식: v(1.5)=−(9)/(4) m/s"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. Acceleration is also negative at this instant. Math: a(t)=6t−12,a(1.5)=−3 m/s^(2)",
+    "ko": "2단계  이유를 따라 계산. 이 순간에는 가속도도 음수입니다. 수식: a(t)=6t−12,a(1.5)=−3 m/s^(2)"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. Both signs are negative, so the object is speeding up. Math: |v(1.5)|=(9)/(4) m/s",
+    "ko": "3단계  결과의 의미. 두 부호가 모두 음수이므로 속력이 증가합니다. 수식: |v(1.5)|=(9)/(4) m/s"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. Negative acceleration alone does not mean the object slows down. Math: v<0, a<0⇒speed increases",
+    "ko": "이 실수는 피하세요. 가속도가 음수라는 이유만으로 속력이 감소한다고 할 수 없습니다. 수식: v<0, a<0⇒speed increases"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Is the object speeding up or slowing down? Math: v(t)=t−2at t=1",
+    "ko": "직접 풀어보세요. 물체의 속력이 증가하나요, 감소하나요? 수식: v(t)=t−2at t=1"
+  }
+]

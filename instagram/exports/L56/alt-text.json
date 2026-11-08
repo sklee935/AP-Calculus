@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Area with vertical slices. Vertical slices measure area with upper height minus lower height. Math: y=x,y=x^(2)",
+    "ko": "세로 단면의 넓이. 세로 단면에서는 위쪽 높이에서 아래쪽 높이를 빼서 넓이를 구합니다. 수식: y=x,y=x^(2)"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. Find intersections and determine which curve is higher between them. Math: x=x^(2)⇒x=0,1",
+    "ko": "먼저 조건을 확인. 교점을 찾고 그 사이에서 어느 곡선이 위인지 확인하세요. 수식: x=x^(2)⇒x=0,1"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. On [0,1], x≥x², so each vertical slice has height x−x². Graph: upper: y=x; lower: y=x**2. x-range [0, 1], y-range [0, 1.1].",
+    "ko": "개념을 눈으로 연결. [0,1]에서는 x≥x²이므로 각 세로 단면의 높이는 x−x²입니다. 그래프: upper: y=x; lower: y=x**2. x 표시구간 [0, 1], y 표시구간 [0, 1.1]."
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. Use top minus bottom with a horizontal width dx. Math: A=∫_(0)^(1)(x−x^(2))dx",
+    "ko": "1단계  식을 세우기. 위에서 아래를 빼고 가로 폭 dx를 곱합니다. 수식: A=∫_(0)^(1)(x−x^(2))dx"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. Integrate each height term. Math: A=[(x^(2))/(2)−(x^(3))/(3)]_(0)^(1)",
+    "ko": "2단계  이유를 따라 계산. 높이의 각 항을 적분합니다. 수식: A=[(x^(2))/(2)−(x^(3))/(3)]_(0)^(1)"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. The answer is positive and measured in square units. Math: A=(1)/(2)−(1)/(3)=(1)/(6)",
+    "ko": "3단계  결과의 의미. 답은 양수이며 넓이 단위입니다. 수식: A=(1)/(2)−(1)/(3)=(1)/(6)"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. If the curves switch order, split the interval or use an absolute difference. Math: A=∫_(a)^(b)(top−bottom)dx",
+    "ko": "이 실수는 피하세요. 곡선의 위아래가 바뀌면 구간을 나누거나 차의 절댓값을 사용하세요. 수식: A=∫_(a)^(b)(top−bottom)dx"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Find the enclosed area. Math: y=2x,y=x^(2)",
+    "ko": "직접 풀어보세요. 둘러싸인 영역의 넓이를 구하세요. 수식: y=2x,y=x^(2)"
+  }
+]

@@ -1,0 +1,33 @@
+AP Calculus AB • L32
+The first derivative test
+
+A zero derivative becomes a local extremum only when the behavior supports it.
+Increasing then decreasing makes a local maximum; decreasing then increasing makes a local minimum.
+
+1. The function turns from rising to falling.
+2. The function turns from falling to rising.
+3. State the sign change as the reason for each conclusion.
+
+Remember: A derivative equal to zero without a sign change need not give an extremum.
+
+CHECK ANSWER — try card 8 first
+No. g′=3x² is positive on both sides of 0, so there is no sign change.
+
+──────────
+
+AP Calculus AB • 32강
+첫 도함수 판정
+
+도함수가 0이어도 주변 변화 양상을 확인해야 국소극값인지 알 수 있습니다.
+증가 후 감소하면 국소최대, 감소 후 증가하면 국소최소입니다.
+
+1. 함수가 증가에서 감소로 바뀝니다.
+2. 함수가 감소에서 증가로 바뀝니다.
+3. 각 결론의 근거로 도함수의 부호 변화를 명시하세요.
+
+실수 점검: 도함수가 0이어도 부호 변화가 없으면 극값이 아닐 수 있습니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+아니요. g′=3x²은 0의 양쪽에서 양수이므로 부호 변화가 없습니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

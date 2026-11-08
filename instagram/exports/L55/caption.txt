@@ -1,0 +1,33 @@
+AP Calculus AB • L55
+Inflow outflow and net change
+
+A tank’s final amount equals its initial amount plus accumulated net flow.
+Integrating a rate gives change; adding the initial amount gives the actual amount.
+
+1. Subtract outflow from inflow before integrating.
+2. The tank gains a net 4 liters.
+3. The final volume includes the original 10 liters.
+
+Remember: A negative net rate means volume decreases; it does not mean volume is already negative.
+
+CHECK ANSWER — try card 8 first
+5 L. The net rate is −1 L/min, so the net change is −3 L and 8−3=5.
+
+──────────
+
+AP Calculus AB • 55강
+유입 유출 순변화
+
+탱크의 최종량은 초기량에 순유입량을 누적하여 더한 값입니다.
+변화율을 적분하면 변화량이며 초기량을 더해야 실제 양이 됩니다.
+
+1. 적분 전에 유입량에서 유출량을 뺍니다.
+2. 탱크는 순수하게 4리터를 얻습니다.
+3. 최종 부피에는 처음의 10리터가 포함됩니다.
+
+실수 점검: 순변화율이 음수이면 양이 감소하는 것이며 이미 양이 음수라는 뜻은 아닙니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+5L입니다. 순변화율은 −1 L/min이므로 변화량 −3L를 초기 8L에 더합니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

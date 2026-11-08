@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns2="http://creativecommons.org/ns#" xmlns:ns4="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="308pt" height="43pt" viewBox="0 0 308 43" version="1.1">
+ <ns0:metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:date>2026-11-08T10:10:48.449924</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </ns0:metadata>
+ <ns0:defs>
+  <ns0:style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</ns0:style>
+ </ns0:defs>
+ <ns0:g id="figure_1">
+  <ns0:g id="text_1">
+
+   <ns0:g style="fill: #17243b" transform="translate(0 37) scale(0.54 -0.54)">
+    <ns0:defs>
+     <ns0:path id="STIXGeneral-Regular-425" d="M 3974 1408  L 410 1408  L 410 1830  L 3974 1830  L 3974 1408  z " transform="scale(0.015625)" />
+     <ns0:path id="STIXGeneral-Regular-14" d="M 2522 0  L 755 0  L 755 96  Q 1107 115 1235 227  Q 1363 339 1363 608  L 1363 3482  Q 1363 3795 1171 3795  Q 1082 3795 883 3718  L 710 3654  L 710 3744  L 1856 4326  L 1914 4307  L 1914 486  Q 1914 275 2042 185  Q 2170 96 2522 96  L 2522 0  z " transform="scale(0.015625)" />
+     <ns0:path id="STIXGeneral-Regular-477" d="M 4026 326  L 410 2074  L 410 2138  L 4026 3898  L 4026 3482  L 1261 2106  L 4026 730  L 4026 326  z M 4026 -659  L 410 -659  L 410 -237  L 4026 -237  L 4026 -659  z " transform="scale(0.015625)" />
+     <ns0:path id="STIXGeneral-Regular-56" d="M 998 1926  L 1664 1523  Q 1984 1331 2105 1164  Q 2227 998 2227 736  Q 2227 416 1961 176  Q 1696 -64 1331 -64  Q 1030 -64 864 -6  Q 691 51 570 51  Q 461 51 416 -26  L 333 -26  L 333 979  L 435 979  Q 538 512 730 294  Q 922 77 1248 77  Q 1485 77 1632 211  Q 1779 346 1779 550  Q 1779 845 1440 1030  L 1094 1222  Q 326 1651 326 2150  Q 326 2522 566 2730  Q 806 2938 1210 2938  Q 1491 2938 1638 2867  Q 1754 2816 1818 2816  Q 1862 2816 1920 2880  L 1990 2880  L 2022 2010  L 1926 2010  Q 1818 2445 1654 2621  Q 1491 2797 1203 2797  Q 986 2797 854 2688  Q 723 2579 723 2362  Q 723 2253 796 2128  Q 870 2003 998 1926  z " transform="scale(0.015625)" />
+     <ns0:path id="STIXGeneral-Regular-4c" d="M 1152 4045  Q 1152 3904 1056 3811  Q 960 3718 819 3718  Q 685 3718 592 3811  Q 499 3904 499 4045  Q 499 4179 595 4275  Q 691 4371 826 4371  Q 966 4371 1059 4275  Q 1152 4179 1152 4045  z M 1619 0  L 102 0  L 102 96  Q 435 115 521 211  Q 608 307 608 666  L 608 2118  Q 608 2342 563 2432  Q 518 2522 397 2522  Q 243 2522 128 2490  L 128 2592  L 1120 2944  L 1146 2918  L 1146 672  Q 1146 314 1226 218  Q 1306 122 1619 96  L 1619 0  z " transform="scale(0.015625)" />
+     <ns0:path id="STIXGeneral-Regular-51" d="M 3104 0  L 1773 0  L 1779 96  Q 2016 115 2096 233  Q 2176 352 2176 672  L 2176 1946  Q 2176 2592 1709 2592  Q 1549 2592 1408 2515  Q 1267 2438 1050 2227  L 1050 461  Q 1050 269 1136 192  Q 1222 115 1466 96  L 1466 0  L 115 0  L 115 96  Q 358 115 435 214  Q 512 314 512 602  L 512 2157  Q 512 2394 467 2483  Q 422 2573 288 2573  Q 160 2573 102 2547  L 102 2656  Q 550 2784 979 2944  L 1030 2925  L 1030 2426  L 1037 2426  Q 1491 2944 1958 2944  Q 2323 2944 2518 2688  Q 2714 2432 2714 1958  L 2714 544  Q 2714 288 2790 205  Q 2867 122 3104 96  L 3104 0  z " transform="scale(0.015625)" />
+     <ns0:path id="STIXGeneral-Italic-58" d="M 2950 762  L 3040 704  Q 2733 237 2560 89  Q 2387 -58 2157 -58  Q 1850 -58 1850 250  Q 1850 538 2138 1510  Q 1568 576 1257 253  Q 947 -70 608 -70  Q 269 -70 269 269  Q 269 384 442 1088  L 666 1978  Q 755 2349 755 2406  Q 755 2483 684 2521  Q 614 2560 365 2560  L 365 2650  Q 806 2701 1325 2822  L 1350 2803  L 781 531  Q 762 474 762 429  Q 762 269 890 269  Q 1178 269 1798 1210  Q 2010 1530 2128 1795  Q 2246 2061 2502 2765  L 2976 2765  L 2470 851  Q 2349 390 2349 352  Q 2349 243 2419 243  Q 2496 243 2605 345  Q 2714 448 2950 762  z " transform="scale(0.015625)" />
+    </ns0:defs>
+    <ns0:use ns4:href="#STIXGeneral-Regular-425" transform="translate(0 0.703125)" />
+    <ns0:use ns4:href="#STIXGeneral-Regular-14" transform="translate(68.499939 0.703125)" />
+    <ns0:use ns4:href="#STIXGeneral-Regular-477" transform="translate(138.499893 0.703125)" />
+    <ns0:use ns4:href="#STIXGeneral-Regular-56" transform="translate(226.999832 0.703125)" />
+    <ns0:use ns4:href="#STIXGeneral-Regular-4c" transform="translate(265.899796 0.703125)" />
+    <ns0:use ns4:href="#STIXGeneral-Regular-51" transform="translate(293.699768 0.703125)" />
+    <ns0:use ns4:href="#STIXGeneral-Italic-58" transform="translate(360.366722 0.703125)" />
+    <ns0:use ns4:href="#STIXGeneral-Regular-477" transform="translate(430.366677 0.703125)" />
+    <ns0:use ns4:href="#STIXGeneral-Regular-14" transform="translate(518.866615 0.703125)" />
+   </ns0:g>
+  </ns0:g>
+ </ns0:g>
+</ns0:svg>

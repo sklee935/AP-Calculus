@@ -1,0 +1,217 @@
+{
+  "id": "L13",
+  "number": 13,
+  "unit": 2,
+  "unit_title": {
+    "ko": "미분의 기초",
+    "en": "Derivative foundations"
+  },
+  "title": {
+    "ko": "거듭제곱과 합의 미분",
+    "en": "Power and sum rules"
+  },
+  "prerequisites": [
+    "L12"
+  ],
+  "week": 5,
+  "day": "Monday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [],
+  "example_origin": "independently authored foundational example with symbolic checks",
+  "learning_goal": {
+    "en": "The derivative of a sum is the sum of the derivatives. Constants contribute zero.",
+    "ko": "합의 도함수는 각 도함수의 합입니다. 상수의 기여는 0입니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "거듭제곱과 합의 미분",
+        "en": "Power and sum rules"
+      },
+      "notes": {
+        "en": "Differentiate a polynomial one term at a time.",
+        "ko": "다항식은 항별로 하나씩 미분합니다."
+      },
+      "math": [
+        "f(x)=3x^4-2x+7"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Power and sum rules. Differentiate a polynomial one term at a time.",
+        "ko": "거듭제곱과 합의 미분. 다항식은 항별로 하나씩 미분합니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Keep each coefficient and reduce the power by one after multiplying.",
+        "ko": "계수를 유지하고 지수를 곱한 뒤 지수를 하나 줄이세요."
+      },
+      "math": [
+        "(x^n)^\\prime=nx^{n-1}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Keep each coefficient and reduce the power by one after multiplying.",
+        "ko": "먼저 조건을 확인. 계수를 유지하고 지수를 곱한 뒤 지수를 하나 줄이세요."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "The derivative of a sum is the sum of the derivatives. Constants contribute zero.",
+        "ko": "합의 도함수는 각 도함수의 합입니다. 상수의 기여는 0입니다."
+      },
+      "math": [
+        "(u+v)^\\prime=u^\\prime+v^\\prime"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. The derivative of a sum is the sum of the derivatives. Constants contribute zero.",
+        "ko": "개념을 눈으로 연결. 합의 도함수는 각 도함수의 합입니다. 상수의 기여는 0입니다."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "Apply the power rule to the variable terms.",
+        "ko": "변수가 있는 항에 거듭제곱 미분법을 적용합니다."
+      },
+      "math": [
+        "(3x^4)^\\prime=12x^3",
+        "(-2x)^\\prime=-2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. Apply the power rule to the variable terms.",
+        "ko": "1단계  식을 세우기. 변수가 있는 항에 거듭제곱 미분법을 적용합니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "The constant 7 disappears because it does not change.",
+        "ko": "상수 7은 변하지 않으므로 미분하면 사라집니다."
+      },
+      "math": [
+        "f^\\prime(x)=12x^3-2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. The constant 7 disappears because it does not change.",
+        "ko": "2단계  이유를 따라 계산. 상수 7은 변하지 않으므로 미분하면 사라집니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "Evaluate the derivative only after finding its formula.",
+        "ko": "도함수의 식을 구한 뒤 값을 대입합니다."
+      },
+      "math": [
+        "f^\\prime(1)=10"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. Evaluate the derivative only after finding its formula.",
+        "ko": "3단계  결과의 의미. 도함수의 식을 구한 뒤 값을 대입합니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "Reducing an exponent without multiplying by the original exponent misses a factor.",
+        "ko": "원래 지수를 곱하지 않고 지수만 줄이면 계수가 빠집니다."
+      },
+      "math": [
+        "(ax^n)^\\prime=anx^{n-1}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. Reducing an exponent without multiplying by the original exponent misses a factor.",
+        "ko": "이 실수는 피하세요. 원래 지수를 곱하지 않고 지수만 줄이면 계수가 빠집니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Find the derivative as a function.",
+        "ko": "도함수의 식을 구하세요."
+      },
+      "math": [
+        "\\frac{d}{dx}(2x^3-5x)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Find the derivative as a function.",
+        "ko": "직접 풀어보세요. 도함수의 식을 구하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "\\frac{d}{dx}(2x^3-5x)"
+    ],
+    "prompt": {
+      "en": "Find the derivative as a function.",
+      "ko": "도함수의 식을 구하세요."
+    },
+    "answer": {
+      "en": "6x²−5. Differentiate both terms and retain the subtraction sign.",
+      "ko": "6x²−5입니다. 두 항을 각각 미분하고 뺄셈 부호를 유지합니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "diff(3*x**4-2*x+7,x).subs(x,1)",
+      "expected": "10"
+    },
+    {
+      "expression": "diff(2*x**3-5*x,x)",
+      "expected": "6*x**2-5"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L13\nPower and sum rules\n\nDifferentiate a polynomial one term at a time.\nThe derivative of a sum is the sum of the derivatives. Constants contribute zero.\n\n1. Apply the power rule to the variable terms.\n2. The constant 7 disappears because it does not change.\n3. Evaluate the derivative only after finding its formula.\n\nRemember: Reducing an exponent without multiplying by the original exponent misses a factor.\n\nCHECK ANSWER — try card 8 first\n6x²−5. Differentiate both terms and retain the subtraction sign.",
+    "ko": "AP Calculus AB • 13강\n거듭제곱과 합의 미분\n\n다항식은 항별로 하나씩 미분합니다.\n합의 도함수는 각 도함수의 합입니다. 상수의 기여는 0입니다.\n\n1. 변수가 있는 항에 거듭제곱 미분법을 적용합니다.\n2. 상수 7은 변하지 않으므로 미분하면 사라집니다.\n3. 도함수의 식을 구한 뒤 값을 대입합니다.\n\n실수 점검: 원래 지수를 곱하지 않고 지수만 줄이면 계수가 빠집니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n6x²−5입니다. 두 항을 각각 미분하고 뺄셈 부호를 유지합니다."
+  },
+  "graph_description": null
+}

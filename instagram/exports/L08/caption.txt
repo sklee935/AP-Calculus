@@ -1,0 +1,33 @@
+AP Calculus AB • L08
+The intermediate value theorem
+
+You can prove a solution exists without finding its exact location.
+A continuous graph cannot jump over a height between its endpoint values.
+
+1. Evaluate the endpoint values first.
+2. The target height zero lies strictly between those values.
+3. Continuity and the endpoint comparison justify the existence conclusion.
+
+Remember: This theorem guarantees existence, not uniqueness.
+
+CHECK ANSWER — try card 8 first
+The polynomial is continuous, p(0)=−1 and p(1)=2. IVT guarantees an interior zero.
+
+──────────
+
+AP Calculus AB • 08강
+중간값정리
+
+정확한 위치를 구하지 않고도 해의 존재를 보일 수 있습니다.
+연속인 그래프는 양 끝값 사이의 높이를 뛰어넘지 못합니다.
+
+1. 먼저 양 끝의 함숫값을 계산합니다.
+2. 목표 높이 0이 두 값 사이에 있습니다.
+3. 연속성과 끝값 비교를 근거로 해가 존재한다고 결론냅니다.
+
+실수 점검: 이 정리는 존재를 보장합니다. 해가 하나뿐이라는 뜻은 아닙니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+다항식은 연속이고 p(0)=−1, p(1)=2입니다. 중간값정리로 내부 영점이 존재합니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

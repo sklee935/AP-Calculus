@@ -1,0 +1,26 @@
+{
+  "id": "L45",
+  "cards": 8,
+  "dimensions": [
+    1080,
+    1350
+  ],
+  "languages": [
+    "en",
+    "ko"
+  ],
+  "overflow": false,
+  "minimumProsePx": 44,
+  "source_sha256": "56a6affa399f1aee042e40a55ed43ac750413fc5bdbba641d0bbd107eee1dd8d",
+  "css_sha256": "df8168a91da1e4859c141a27552f45df2b7df9a807cf8dd8b2ca0ad2df3f5c25",
+  "png_sha256": {
+    "01.png": "e89149bfcdb91afa5014e443150c5f22608a275373c85934e2e766214994e4aa",
+    "02.png": "2171a3b0710b28a2fa562445ecd846f338ea9b326cb6cfe64cf9afdd1c6a8787",
+    "03.png": "795bd6f8a494ec3bf0944eccd66412ac4abb23c340fad67a23147908120fef0a",
+    "04.png": "edff42e689ad78df7d9b7dc115929824d84265ce64f3a8802ebd767f628ad4f0",
+    "05.png": "4f6e28be9fc666e3e497dfeadff5a1cca74941ede097e0bc938e0ff191e71ec4",
+    "06.png": "6908ff6d34cb153baa5b1da5fc02a264477bcf76aa5b4ac86e4c467fc94d263f",
+    "07.png": "01edfbada49d07741319485177a9562a929b9e8d17b125fb191fa0224df16e64",
+    "08.png": "0d91ff865954782371262939c23d73a80b88874f40bc8336881c40082f24a184"
+  }
+}

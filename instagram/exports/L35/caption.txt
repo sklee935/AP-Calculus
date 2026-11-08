@@ -1,0 +1,33 @@
+AP Calculus AB • L35
+Connecting derivative graphs
+
+A graph of f′ records slopes of f, and its own slope records f″.
+At a zero of f′, a nonzero second derivative classifies the stationary point.
+
+1. The derivative graph meets the axis at two stationary inputs.
+2. At 0, the slope of f is decreasing through zero: a local maximum.
+3. At 2, the slope increases through zero: a local minimum.
+
+Remember: If f″(c)=0, the second derivative test is inconclusive; use another test.
+
+CHECK ANSWER — try card 8 first
+The test is inconclusive since g″(0)=0. The first derivative changes − to +, so 0 is a minimum.
+
+──────────
+
+AP Calculus AB • 35강
+함수와 도함수 그래프
+
+f′의 그래프 높이는 f의 기울기이고, 그 그래프의 기울기는 f″입니다.
+f′이 0인 점에서 f″이 0이 아니면 정지점을 판정할 수 있습니다.
+
+1. 도함수 그래프가 축과 만나는 두 입력이 정지점 후보입니다.
+2. 0에서는 f의 기울기가 감소하며 0을 지나므로 국소최대입니다.
+3. 2에서는 기울기가 증가하며 0을 지나므로 국소최소입니다.
+
+실수 점검: f″(c)=0이면 이계도함수 판정법으로 결론을 내릴 수 없습니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+g″(0)=0이므로 판정 불가입니다. 일계도함수는 −에서 +로 바뀌므로 0은 최솟점입니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

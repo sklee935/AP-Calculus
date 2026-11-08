@@ -1,0 +1,33 @@
+AP Calculus AB • L44
+Accumulation function graphs
+
+An accumulation graph rises where its integrand is positive, even if the integrand is falling.
+Read f as the slope of F, not as the height of F.
+
+1. The positive triangle adds 3 to the initial value 1.
+2. The final negative triangle subtracts one.
+3. f changes from positive to negative, so F turns from increasing to decreasing.
+
+Remember: F has an extremum where f changes sign, not necessarily where f has its own extremum.
+
+CHECK ANSWER — try card 8 first
+F′(2)=1 and F″(2)=−1. On the middle segment f=3−x, so its height is 1 and slope is −1.
+
+──────────
+
+AP Calculus AB • 44강
+누적함수 그래프
+
+피적분함수가 감소하더라도 양수이면 누적함수는 증가합니다.
+f를 F의 높이가 아니라 F의 기울기로 읽으세요.
+
+1. 양의 삼각형 넓이 3을 초기값 1에 더합니다.
+2. 마지막 음의 삼각형 넓이 1을 뺍니다.
+3. f가 양수에서 음수로 바뀌므로 F는 증가에서 감소로 바뀝니다.
+
+실수 점검: F의 극값은 f 자체의 극값보다 f의 부호 변화로 판단합니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+F′(2)=1, F″(2)=−1입니다. 가운데 구간은 f=3−x이므로 높이는 1, 기울기는 −1입니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

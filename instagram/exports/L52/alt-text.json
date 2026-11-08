@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Cooling models. Cooling depends on the temperature difference from a constant environment. Math: T^(′)=−0.5(T−20); T(0)=60 ^(∘)C",
+    "ko": "냉각 모형. 냉각 속도는 일정한 주변 온도와의 온도 차에 비례합니다. 수식: T^(′)=−0.5(T−20); T(0)=60 ^(∘)C"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. Time is in minutes; the environment stays at 20°C. Math: t≥0,k=0.5 min^(−1)",
+    "ko": "먼저 조건을 확인. 시간 단위는 분이며 주변 온도는 20°C로 일정합니다. 수식: t≥0,k=0.5 min^(−1)"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. The excess temperature T−20 decays exponentially toward zero. Graph: temperature: y=20+40*exp(-x/2); ambient: y=20. x-range [0, 8], y-range [15, 65].",
+    "ko": "개념을 눈으로 연결. 초과 온도 T−20이 지수적으로 감소하여 0에 가까워집니다. 그래프: temperature: y=20+40*exp(-x/2); ambient: y=20. x 표시구간 [0, 8], y 표시구간 [15, 65]."
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. The equilibrium is 20, so add it back after solving the decay equation. Math: T(t)=20+Ce^(−0.5t)",
+    "ko": "1단계  식을 세우기. 평형온도 20을 감소 모형에 다시 더합니다. 수식: T(t)=20+Ce^(−0.5t)"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. The coefficient is the initial temperature difference. Math: C=60−20=40",
+    "ko": "2단계  이유를 따라 계산. 계수는 초기 온도 차입니다. 수식: C=60−20=40"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. The temperature remains above 20 and approaches it over time. Math: T(2)=20+(40)/(e) ^(∘)C",
+    "ko": "3단계  결과의 의미. 온도는 20보다 높게 유지되며 시간이 지나면 20에 가까워집니다. 수식: T(2)=20+(40)/(e) ^(∘)C"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. Using 60 as the exponential coefficient forgets the ambient-temperature offset. Math: T(t)−T_(env)=(T_(0)−T_(env))e^(−kt)",
+    "ko": "이 실수는 피하세요. 지수항의 계수를 60으로 쓰면 주변 온도만큼의 차이를 빠뜨립니다. 수식: T(t)−T_(env)=(T_(0)−T_(env))e^(−kt)"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Find T(ln 2). Math: T^(′)=−(T−10); T(0)=30",
+    "ko": "직접 풀어보세요. T(ln 2)를 구하세요. 수식: T^(′)=−(T−10); T(0)=30"
+  }
+]

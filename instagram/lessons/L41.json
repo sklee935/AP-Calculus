@@ -1,0 +1,216 @@
+{
+  "id": "L41",
+  "number": 41,
+  "unit": 6,
+  "unit_title": {
+    "ko": "적분과 누적",
+    "en": "Integration and accumulation"
+  },
+  "title": {
+    "ko": "기본 원시함수",
+    "en": "Basic antiderivatives"
+  },
+  "prerequisites": [
+    "L40"
+  ],
+  "week": 14,
+  "day": "Wednesday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [],
+  "example_origin": "independently authored foundational example with symbolic checks",
+  "learning_goal": {
+    "en": "Indefinite integration gives a family, since every constant has derivative zero.",
+    "ko": "상수는 모두 미분하면 0이므로 부정적분은 함수들의 모임을 줍니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "기본 원시함수",
+        "en": "Basic antiderivatives"
+      },
+      "notes": {
+        "en": "An antiderivative reverses differentiation, with a family of possible constants.",
+        "ko": "원시함수는 미분을 거꾸로 하며 여러 적분상수를 가집니다."
+      },
+      "math": [
+        "\\int(3x^2-4)\\,dx"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Basic antiderivatives. An antiderivative reverses differentiation, with a family of possible constants.",
+        "ko": "기본 원시함수. 원시함수는 미분을 거꾸로 하며 여러 적분상수를 가집니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Ask which function differentiates to each term.",
+        "ko": "각 항이 어떤 함수를 미분한 결과인지 생각하세요."
+      },
+      "math": [
+        "\\int x^n\\,dx=\\frac{x^{n+1}}{n+1}+C\\quad(n\\ne-1)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Ask which function differentiates to each term.",
+        "ko": "먼저 조건을 확인. 각 항이 어떤 함수를 미분한 결과인지 생각하세요."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "Indefinite integration gives a family, since every constant has derivative zero.",
+        "ko": "상수는 모두 미분하면 0이므로 부정적분은 함수들의 모임을 줍니다."
+      },
+      "math": [
+        "(F+C)^\\prime=F^\\prime"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. Indefinite integration gives a family, since every constant has derivative zero.",
+        "ko": "개념을 눈으로 연결. 상수는 모두 미분하면 0이므로 부정적분은 함수들의 모임을 줍니다."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "Raise the power and divide by the new exponent.",
+        "ko": "지수를 하나 높이고 새 지수로 나눕니다."
+      },
+      "math": [
+        "\\int3x^2\\,dx=x^3"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. Raise the power and divide by the new exponent.",
+        "ko": "1단계  식을 세우기. 지수를 하나 높이고 새 지수로 나눕니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "Include a single arbitrary constant for the full sum.",
+        "ko": "전체 합에 하나의 임의 상수를 붙입니다."
+      },
+      "math": [
+        "\\int(3x^2-4)\\,dx=x^3-4x+C"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. Include a single arbitrary constant for the full sum.",
+        "ko": "2단계  이유를 따라 계산. 전체 합에 하나의 임의 상수를 붙입니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "Differentiate to verify the antiderivative.",
+        "ko": "미분하여 원시함수가 맞는지 확인합니다."
+      },
+      "math": [
+        "\\frac{d}{dx}(x^3-4x+C)=3x^2-4"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. Differentiate to verify the antiderivative.",
+        "ko": "3단계  결과의 의미. 미분하여 원시함수가 맞는지 확인합니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "The n=−1 case uses a logarithm, not division by zero.",
+        "ko": "n=−1인 경우에는 0으로 나누지 않고 로그를 씁니다."
+      },
+      "math": [
+        "\\int\\frac1x\\,dx=\\ln|x|+C\\quad(x\\ne0)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. The n=−1 case uses a logarithm, not division by zero.",
+        "ko": "이 실수는 피하세요. n=−1인 경우에는 0으로 나누지 않고 로그를 씁니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Find an antiderivative family.",
+        "ko": "원시함수들의 식을 구하세요."
+      },
+      "math": [
+        "\\int(2x+\\cos x)\\,dx"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Find an antiderivative family.",
+        "ko": "직접 풀어보세요. 원시함수들의 식을 구하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "\\int(2x+\\cos x)\\,dx"
+    ],
+    "prompt": {
+      "en": "Find an antiderivative family.",
+      "ko": "원시함수들의 식을 구하세요."
+    },
+    "answer": {
+      "en": "x²+sin x+C. Differentiating returns 2x+cos x.",
+      "ko": "x²+sin x+C입니다. 미분하면 2x+cos x가 됩니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "diff(x**3-4*x,x)",
+      "expected": "3*x**2-4"
+    },
+    {
+      "expression": "diff(x**2+sin(x),x)",
+      "expected": "2*x+cos(x)"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L41\nBasic antiderivatives\n\nAn antiderivative reverses differentiation, with a family of possible constants.\nIndefinite integration gives a family, since every constant has derivative zero.\n\n1. Raise the power and divide by the new exponent.\n2. Include a single arbitrary constant for the full sum.\n3. Differentiate to verify the antiderivative.\n\nRemember: The n=−1 case uses a logarithm, not division by zero.\n\nCHECK ANSWER — try card 8 first\nx²+sin x+C. Differentiating returns 2x+cos x.",
+    "ko": "AP Calculus AB • 41강\n기본 원시함수\n\n원시함수는 미분을 거꾸로 하며 여러 적분상수를 가집니다.\n상수는 모두 미분하면 0이므로 부정적분은 함수들의 모임을 줍니다.\n\n1. 지수를 하나 높이고 새 지수로 나눕니다.\n2. 전체 합에 하나의 임의 상수를 붙입니다.\n3. 미분하여 원시함수가 맞는지 확인합니다.\n\n실수 점검: n=−1인 경우에는 0으로 나누지 않고 로그를 씁니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\nx²+sin x+C입니다. 미분하면 2x+cos x가 됩니다."
+  },
+  "graph_description": null
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "The derivative definition. The derivative definition turns a nearby difference into an exact rate. Math: f(x)=x^(3),f^(′)(2)=?",
+    "ko": "미분의 정의. 미분의 정의는 가까운 두 점의 차이에서 정확한 변화율을 구합니다. 수식: f(x)=x^(3),f^(′)(2)=?"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. Subtract f(2) before dividing by h. Do not set h=0 yet. Math: f^(′)(a)=lim_(h→0)(f(a+h)−f(a))/(h)",
+    "ko": "먼저 조건을 확인. h로 나누기 전에 f(2)를 빼세요. 아직 h=0을 넣지 않습니다. 수식: f^(′)(a)=lim_(h→0)(f(a+h)−f(a))/(h)"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. For a differentiable function, nearby secant slopes settle to one value. Math: ((2+h)^(3)−8)/(h)",
+    "ko": "개념을 눈으로 연결. 미분가능한 함수에서는 주변 할선의 기울기가 한 값으로 모입니다. 수식: ((2+h)^(3)−8)/(h)"
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. Expand carefully so the factor h becomes visible. Math: (2+h)^(3)−8=12h+6h^(2)+h^(3)",
+    "ko": "1단계  식을 세우기. h 인수가 보이도록 차근차근 전개합니다. 수식: (2+h)^(3)−8=12h+6h^(2)+h^(3)"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. Cancel h only before taking the limit. Math: (12h+6h^(2)+h^(3))/(h)=12+6h+h^(2)",
+    "ko": "2단계  이유를 따라 계산. 극한을 취하기 전에 h를 약분합니다. 수식: (12h+6h^(2)+h^(3))/(h)=12+6h+h^(2)"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. The remaining h terms vanish in the limit. Math: f^(′)(2)=12",
+    "ko": "3단계  결과의 의미. 극한에서 h가 있는 항들이 0으로 갑니다. 수식: f^(′)(2)=12"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. Substituting h=0 into the unsimplified quotient does not compute the derivative. Math: f^(′)(2)=12",
+    "ko": "이 실수는 피하세요. 정리 전 차분몫에 h=0을 대입하는 것으로 미분계수를 구할 수 없습니다. 수식: f^(′)(2)=12"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Use the same expansion-and-cancellation pattern. Math: lim_(h→0)((5+h)^(2)−25)/(h)",
+    "ko": "직접 풀어보세요. 같은 전개와 약분 과정을 적용하세요. 수식: lim_(h→0)((5+h)^(2)−25)/(h)"
+  }
+]

@@ -1,0 +1,33 @@
+AP Calculus AB • L53
+Average value of a function
+
+A function’s average value is accumulated height divided by interval length.
+A rectangle at the average height has the same signed area as the original graph.
+
+1. First find the total accumulated height.
+2. Divide by the interval length, not by the number of endpoints.
+3. Continuity ensures an input attaining the average; here it is √3.
+
+Remember: Averaging only the endpoint heights does not usually give the function’s average value.
+
+CHECK ANSWER — try card 8 first
+3. The integral is 6 and the interval length is 2, giving 6/2=3.
+
+──────────
+
+AP Calculus AB • 53강
+함수의 평균값
+
+함수의 평균값은 누적된 높이를 구간 길이로 나눈 값입니다.
+평균 높이의 직사각형은 원래 그래프와 같은 부호 있는 넓이를 가집니다.
+
+1. 먼저 높이를 누적한 정적분을 구합니다.
+2. 끝점의 개수가 아니라 구간 길이로 나눕니다.
+3. 연속성이 평균값을 갖는 점을 보장하며 여기서는 √3입니다.
+
+실수 점검: 끝점의 높이만 평균 낸 값은 일반적으로 함수의 평균값이 아닙니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+3입니다. 정적분은 6이고 구간 길이는 2이므로 6/2=3입니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

@@ -1,0 +1,219 @@
+{
+  "id": "L45",
+  "number": 45,
+  "unit": 6,
+  "unit_title": {
+    "ko": "적분과 누적",
+    "en": "Integration and accumulation"
+  },
+  "title": {
+    "ko": "치환적분",
+    "en": "Substitution"
+  },
+  "prerequisites": [
+    "L44"
+  ],
+  "week": 15,
+  "day": "Friday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U6-M04"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "Changing variables changes both the differential and the endpoint values.",
+    "ko": "변수를 바꾸면 미분요소와 끝점 값도 함께 바뀝니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "치환적분",
+        "en": "Substitution"
+      },
+      "notes": {
+        "en": "Substitution reverses the chain rule when an inner derivative is available.",
+        "ko": "치환적분은 안의 도함수가 있을 때 연쇄법칙을 거꾸로 적용합니다."
+      },
+      "math": [
+        "\\int_0^1 6x(1+3x^2)^2\\,dx"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Substitution. Substitution reverses the chain rule when an inner derivative is available.",
+        "ko": "치환적분. 치환적분은 안의 도함수가 있을 때 연쇄법칙을 거꾸로 적용합니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Look for an inside expression whose derivative matches the remaining factor.",
+        "ko": "남은 인수와 도함수가 일치하는 안의 식을 찾으세요."
+      },
+      "math": [
+        "u=1+3x^2,\\quad du=6x\\,dx"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Look for an inside expression whose derivative matches the remaining factor.",
+        "ko": "먼저 조건을 확인. 남은 인수와 도함수가 일치하는 안의 식을 찾으세요."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "Changing variables changes both the differential and the endpoint values.",
+        "ko": "변수를 바꾸면 미분요소와 끝점 값도 함께 바뀝니다."
+      },
+      "math": [
+        "x=0\\Rightarrow u=1",
+        "x=1\\Rightarrow u=4"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. Changing variables changes both the differential and the endpoint values.",
+        "ko": "개념을 눈으로 연결. 변수를 바꾸면 미분요소와 끝점 값도 함께 바뀝니다."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "Replace the full differential 6x dx by du.",
+        "ko": "미분요소 6x dx 전체를 du로 바꿉니다."
+      },
+      "math": [
+        "\\int_0^1 6x(1+3x^2)^2\\,dx=\\int_1^4u^2\\,du"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. Replace the full differential 6x dx by du.",
+        "ko": "1단계  식을 세우기. 미분요소 6x dx 전체를 du로 바꿉니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "Evaluate using the new variable and new bounds.",
+        "ko": "새 변수와 새 구간으로 계산합니다."
+      },
+      "math": [
+        "\\left[\\frac{u^3}{3}\\right]_1^4=\\frac{64-1}{3}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. Evaluate using the new variable and new bounds.",
+        "ko": "2단계  이유를 따라 계산. 새 변수와 새 구간으로 계산합니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "The positive integrand gives a positive answer.",
+        "ko": "피적분함수가 양수이므로 답도 양수인지 확인합니다."
+      },
+      "math": [
+        "\\int_0^1 6x(1+3x^2)^2\\,dx=21"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. The positive integrand gives a positive answer.",
+        "ko": "3단계  결과의 의미. 피적분함수가 양수이므로 답도 양수인지 확인합니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "Do not combine a u-antiderivative with unchanged x-bounds.",
+        "ko": "u로 적분한 식에 원래 x 구간을 그대로 넣지 마세요."
+      },
+      "math": [
+        "\\mathrm{new\\ variable}\\Rightarrow\\mathrm{new\\ bounds}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. Do not combine a u-antiderivative with unchanged x-bounds.",
+        "ko": "이 실수는 피하세요. u로 적분한 식에 원래 x 구간을 그대로 넣지 마세요."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Use u=x².",
+        "ko": "u=x²으로 치환하세요."
+      },
+      "math": [
+        "\\int_0^1 2x e^{x^2}\\,dx"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Use u=x².",
+        "ko": "직접 풀어보세요. u=x²으로 치환하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "\\int_0^1 2x e^{x^2}\\,dx"
+    ],
+    "prompt": {
+      "en": "Use u=x².",
+      "ko": "u=x²으로 치환하세요."
+    },
+    "answer": {
+      "en": "e−1. The bounds become 0 and 1 and the integral becomes the integral of eᵘ du.",
+      "ko": "e−1입니다. 구간은 0과 1이고 적분은 eᵘ du의 적분으로 바뀝니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "integrate(6*x*(1+3*x**2)**2,(x,0,1))",
+      "expected": "21"
+    },
+    {
+      "expression": "integrate(2*x*exp(x**2),(x,0,1))",
+      "expected": "exp(1)-1"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L45\nSubstitution\n\nSubstitution reverses the chain rule when an inner derivative is available.\nChanging variables changes both the differential and the endpoint values.\n\n1. Replace the full differential 6x dx by du.\n2. Evaluate using the new variable and new bounds.\n3. The positive integrand gives a positive answer.\n\nRemember: Do not combine a u-antiderivative with unchanged x-bounds.\n\nCHECK ANSWER — try card 8 first\ne−1. The bounds become 0 and 1 and the integral becomes the integral of eᵘ du.",
+    "ko": "AP Calculus AB • 45강\n치환적분\n\n치환적분은 안의 도함수가 있을 때 연쇄법칙을 거꾸로 적용합니다.\n변수를 바꾸면 미분요소와 끝점 값도 함께 바뀝니다.\n\n1. 미분요소 6x dx 전체를 du로 바꿉니다.\n2. 새 변수와 새 구간으로 계산합니다.\n3. 피적분함수가 양수이므로 답도 양수인지 확인합니다.\n\n실수 점검: u로 적분한 식에 원래 x 구간을 그대로 넣지 마세요.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\ne−1입니다. 구간은 0과 1이고 적분은 eᵘ du의 적분으로 바뀝니다."
+  },
+  "graph_description": null
+}

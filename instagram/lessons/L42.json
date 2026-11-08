@@ -1,0 +1,218 @@
+{
+  "id": "L42",
+  "number": 42,
+  "unit": 6,
+  "unit_title": {
+    "ko": "적분과 누적",
+    "en": "Integration and accumulation"
+  },
+  "title": {
+    "ko": "기본정리와 정적분",
+    "en": "Evaluating with the fundamental theorem"
+  },
+  "prerequisites": [
+    "L41"
+  ],
+  "week": 14,
+  "day": "Friday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U6-M01"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "Accumulation is the change in an antiderivative between the two endpoints.",
+    "ko": "누적량은 두 끝점 사이에서 원시함수가 변한 양입니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "기본정리와 정적분",
+        "en": "Evaluating with the fundamental theorem"
+      },
+      "notes": {
+        "en": "The Fundamental Theorem turns a definite integral into an endpoint calculation.",
+        "ko": "미적분학의 기본정리로 정적분을 끝점의 차이로 계산합니다."
+      },
+      "math": [
+        "\\int_0^2(3x^2+1)\\,dx"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Evaluating with the fundamental theorem. The Fundamental Theorem turns a definite integral into an endpoint calculation.",
+        "ko": "기본정리와 정적분. 미적분학의 기본정리로 정적분을 끝점의 차이로 계산합니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "The integrand is continuous, and F must be an antiderivative on the interval.",
+        "ko": "피적분함수는 연속이고 F는 구간에서 그 함수의 원시함수여야 합니다."
+      },
+      "math": [
+        "F^\\prime(x)=3x^2+1"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. The integrand is continuous, and F must be an antiderivative on the interval.",
+        "ko": "먼저 조건을 확인. 피적분함수는 연속이고 F는 구간에서 그 함수의 원시함수여야 합니다."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "Accumulation is the change in an antiderivative between the two endpoints.",
+        "ko": "누적량은 두 끝점 사이에서 원시함수가 변한 양입니다."
+      },
+      "math": [
+        "\\int_a^b f(x)\\,dx=F(b)-F(a)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. Accumulation is the change in an antiderivative between the two endpoints.",
+        "ko": "개념을 눈으로 연결. 누적량은 두 끝점 사이에서 원시함수가 변한 양입니다."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "Choose one antiderivative; a constant cancels in the difference.",
+        "ko": "원시함수 하나를 고릅니다. 상수는 끝점의 차에서 없어집니다."
+      },
+      "math": [
+        "F(x)=x^3+x"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. Choose one antiderivative; a constant cancels in the difference.",
+        "ko": "1단계  식을 세우기. 원시함수 하나를 고릅니다. 상수는 끝점의 차에서 없어집니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "Subtract lower-endpoint value from upper-endpoint value.",
+        "ko": "위 끝점 값에서 아래 끝점 값을 뺍니다."
+      },
+      "math": [
+        "F(2)-F(0)=(8+2)-0"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. Subtract lower-endpoint value from upper-endpoint value.",
+        "ko": "2단계  이유를 따라 계산. 위 끝점 값에서 아래 끝점 값을 뺍니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "The integrand is positive, so the accumulated value should be positive.",
+        "ko": "피적분함수가 양수이므로 누적량도 양수인지 점검합니다."
+      },
+      "math": [
+        "\\int_0^2(3x^2+1)\\,dx=10"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. The integrand is positive, so the accumulated value should be positive.",
+        "ko": "3단계  결과의 의미. 피적분함수가 양수이므로 누적량도 양수인지 점검합니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "Evaluate the antiderivative at endpoints, not the original integrand.",
+        "ko": "끝점에 대입할 것은 피적분함수가 아니라 원시함수입니다."
+      },
+      "math": [
+        "\\left[F(x)\\right]_a^b=F(b)-F(a)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. Evaluate the antiderivative at endpoints, not the original integrand.",
+        "ko": "이 실수는 피하세요. 끝점에 대입할 것은 피적분함수가 아니라 원시함수입니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Use an antiderivative and both endpoints.",
+        "ko": "원시함수와 양 끝점을 사용하세요."
+      },
+      "math": [
+        "\\int_1^3 2x\\,dx"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Use an antiderivative and both endpoints.",
+        "ko": "직접 풀어보세요. 원시함수와 양 끝점을 사용하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "\\int_1^3 2x\\,dx"
+    ],
+    "prompt": {
+      "en": "Use an antiderivative and both endpoints.",
+      "ko": "원시함수와 양 끝점을 사용하세요."
+    },
+    "answer": {
+      "en": "8. An antiderivative is x², so the integral is 9−1=8.",
+      "ko": "8입니다. 원시함수는 x²이므로 정적분은 9−1=8입니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "integrate(3*x**2+1,(x,0,2))",
+      "expected": "10"
+    },
+    {
+      "expression": "integrate(2*x,(x,1,3))",
+      "expected": "8"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L42\nEvaluating with the fundamental theorem\n\nThe Fundamental Theorem turns a definite integral into an endpoint calculation.\nAccumulation is the change in an antiderivative between the two endpoints.\n\n1. Choose one antiderivative; a constant cancels in the difference.\n2. Subtract lower-endpoint value from upper-endpoint value.\n3. The integrand is positive, so the accumulated value should be positive.\n\nRemember: Evaluate the antiderivative at endpoints, not the original integrand.\n\nCHECK ANSWER — try card 8 first\n8. An antiderivative is x², so the integral is 9−1=8.",
+    "ko": "AP Calculus AB • 42강\n기본정리와 정적분\n\n미적분학의 기본정리로 정적분을 끝점의 차이로 계산합니다.\n누적량은 두 끝점 사이에서 원시함수가 변한 양입니다.\n\n1. 원시함수 하나를 고릅니다. 상수는 끝점의 차에서 없어집니다.\n2. 위 끝점 값에서 아래 끝점 값을 뺍니다.\n3. 피적분함수가 양수이므로 누적량도 양수인지 점검합니다.\n\n실수 점검: 끝점에 대입할 것은 피적분함수가 아니라 원시함수입니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n8입니다. 원시함수는 x²이므로 정적분은 9−1=8입니다."
+  },
+  "graph_description": null
+}

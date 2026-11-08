@@ -1,0 +1,223 @@
+{
+  "id": "L24",
+  "number": 24,
+  "unit": 4,
+  "unit_title": {
+    "ko": "미분의 실제 적용",
+    "en": "Contextual differentiation"
+  },
+  "title": {
+    "ko": "속도 가속도 속력",
+    "en": "Velocity acceleration and speed"
+  },
+  "prerequisites": [
+    "L23"
+  ],
+  "week": 8,
+  "day": "Friday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U4-M01"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "When nonzero velocity and acceleration share a sign, speed increases.",
+    "ko": "속도와 가속도가 같은 부호의 0이 아닌 값이면 속력이 증가합니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "속도 가속도 속력",
+        "en": "Velocity acceleration and speed"
+      },
+      "notes": {
+        "en": "Speed depends on the magnitude of velocity, while speeding up depends on two signs.",
+        "ko": "속력은 속도의 크기이며, 속력이 증가하는지는 두 부호로 판단합니다."
+      },
+      "math": [
+        "v(t)=3t^2-12t+9\\quad(\\mathrm{m/s})",
+        "t=1.5\\ \\mathrm{s}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Velocity acceleration and speed. Speed depends on the magnitude of velocity, while speeding up depends on two signs.",
+        "ko": "속도 가속도 속력. 속력은 속도의 크기이며, 속력이 증가하는지는 두 부호로 판단합니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Acceleration is v′(t). Speed is |v(t)|.",
+        "ko": "가속도는 v′(t)이고 속력은 |v(t)|입니다."
+      },
+      "math": [
+        "a(t)=v^\\prime(t),\\quad\\mathrm{speed}=|v(t)|"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Acceleration is v′(t). Speed is |v(t)|.",
+        "ko": "먼저 조건을 확인. 가속도는 v′(t)이고 속력은 |v(t)|입니다."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "When nonzero velocity and acceleration share a sign, speed increases.",
+        "ko": "속도와 가속도가 같은 부호의 0이 아닌 값이면 속력이 증가합니다."
+      },
+      "math": [
+        "v(t)a(t)>0\\Rightarrow\\mathrm{speed\\ increases}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. When nonzero velocity and acceleration share a sign, speed increases.",
+        "ko": "개념을 눈으로 연결. 속도와 가속도가 같은 부호의 0이 아닌 값이면 속력이 증가합니다."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "Negative velocity means motion in the negative direction.",
+        "ko": "속도가 음수이므로 음의 방향으로 이동합니다."
+      },
+      "math": [
+        "v(1.5)=-\\frac94\\ \\mathrm{m/s}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. Negative velocity means motion in the negative direction.",
+        "ko": "1단계  식을 세우기. 속도가 음수이므로 음의 방향으로 이동합니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "Acceleration is also negative at this instant.",
+        "ko": "이 순간에는 가속도도 음수입니다."
+      },
+      "math": [
+        "a(t)=6t-12,\\quad a(1.5)=-3\\ \\mathrm{m/s^2}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. Acceleration is also negative at this instant.",
+        "ko": "2단계  이유를 따라 계산. 이 순간에는 가속도도 음수입니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "Both signs are negative, so the object is speeding up.",
+        "ko": "두 부호가 모두 음수이므로 속력이 증가합니다."
+      },
+      "math": [
+        "|v(1.5)|=\\frac94\\ \\mathrm{m/s}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. Both signs are negative, so the object is speeding up.",
+        "ko": "3단계  결과의 의미. 두 부호가 모두 음수이므로 속력이 증가합니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "Negative acceleration alone does not mean the object slows down.",
+        "ko": "가속도가 음수라는 이유만으로 속력이 감소한다고 할 수 없습니다."
+      },
+      "math": [
+        "v<0,\\ a<0\\Rightarrow\\mathrm{speed\\ increases}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. Negative acceleration alone does not mean the object slows down.",
+        "ko": "이 실수는 피하세요. 가속도가 음수라는 이유만으로 속력이 감소한다고 할 수 없습니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Is the object speeding up or slowing down?",
+        "ko": "물체의 속력이 증가하나요, 감소하나요?"
+      },
+      "math": [
+        "v(t)=t-2\\quad\\mathrm{at}\\ t=1"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Is the object speeding up or slowing down?",
+        "ko": "직접 풀어보세요. 물체의 속력이 증가하나요, 감소하나요?"
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "v(t)=t-2\\quad\\mathrm{at}\\ t=1"
+    ],
+    "prompt": {
+      "en": "Is the object speeding up or slowing down?",
+      "ko": "물체의 속력이 증가하나요, 감소하나요?"
+    },
+    "answer": {
+      "en": "Slowing down. At t=1, v=−1 and a=1 have opposite signs.",
+      "ko": "감소합니다. t=1에서 v=−1, a=1로 부호가 반대입니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "(3*t**2-12*t+9).subs(t,Rational(3,2))",
+      "expected": "-9/4"
+    },
+    {
+      "expression": "diff(3*t**2-12*t+9,t).subs(t,Rational(3,2))",
+      "expected": "-3"
+    },
+    {
+      "expression": "((t-2)*diff(t-2,t)).subs(t,1)",
+      "expected": "-1"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L24\nVelocity acceleration and speed\n\nSpeed depends on the magnitude of velocity, while speeding up depends on two signs.\nWhen nonzero velocity and acceleration share a sign, speed increases.\n\n1. Negative velocity means motion in the negative direction.\n2. Acceleration is also negative at this instant.\n3. Both signs are negative, so the object is speeding up.\n\nRemember: Negative acceleration alone does not mean the object slows down.\n\nCHECK ANSWER — try card 8 first\nSlowing down. At t=1, v=−1 and a=1 have opposite signs.",
+    "ko": "AP Calculus AB • 24강\n속도 가속도 속력\n\n속력은 속도의 크기이며, 속력이 증가하는지는 두 부호로 판단합니다.\n속도와 가속도가 같은 부호의 0이 아닌 값이면 속력이 증가합니다.\n\n1. 속도가 음수이므로 음의 방향으로 이동합니다.\n2. 이 순간에는 가속도도 음수입니다.\n3. 두 부호가 모두 음수이므로 속력이 증가합니다.\n\n실수 점검: 가속도가 음수라는 이유만으로 속력이 감소한다고 할 수 없습니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n감소합니다. t=1에서 v=−1, a=1로 부호가 반대입니다."
+  },
+  "graph_description": null
+}

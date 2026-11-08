@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Related rates foundations. Related rates connect quantities that change together with time. Math: V=(4)/(3)πr^(3); r=3 cm,(dr)/(dt)=2 cm/s",
+    "ko": "기본 관련변화율. 관련변화율은 시간에 따라 함께 변하는 양들을 연결합니다. 수식: V=(4)/(3)πr^(3); r=3 cm,(dr)/(dt)=2 cm/s"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. The sphere keeps its shape while its radius changes. Math: r=r(t),V=V(t)",
+    "ko": "먼저 조건을 확인. 구의 모양은 유지되고 반지름이 시간에 따라 변합니다. 수식: r=r(t),V=V(t)"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. Differentiate the geometric relationship before inserting the radius at this instant. Math: (dV)/(dt)=(dV)/(dr)(dr)/(dt)",
+    "ko": "개념을 눈으로 연결. 이 순간의 반지름을 넣기 전에 기하 관계식을 미분합니다. 수식: (dV)/(dt)=(dV)/(dr)(dr)/(dt)"
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. The chain rule supplies the radius rate. Math: (dV)/(dt)=4πr^(2)(dr)/(dt)",
+    "ko": "1단계  식을 세우기. 연쇄법칙에 따라 반지름의 변화율을 곱합니다. 수식: (dV)/(dt)=4πr^(2)(dr)/(dt)"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. Now use the instantaneous radius and its rate. Math: (dV)/(dt)=4π(3)^(2)(2)=72π",
+    "ko": "2단계  이유를 따라 계산. 이제 그 순간의 반지름과 변화율을 대입합니다. 수식: (dV)/(dt)=4π(3)^(2)(2)=72π"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. The positive volume rate has cubic length units per second. Math: (dV)/(dt)=72π cm^(3)/s",
+    "ko": "3단계  결과의 의미. 부피의 양의 변화율은 초당 세제곱 길이 단위를 가집니다. 수식: (dV)/(dt)=72π cm^(3)/s"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. Setting r=3 before differentiating would incorrectly turn a changing variable into a constant. Math: differentiate first",
+    "ko": "이 실수는 피하세요. 미분 전에 r=3으로 고정하면 변하는 변수를 상수로 잘못 취급합니다. 수식: differentiate first"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Find the area rate for a circle. Math: A=πr^(2),r=4 cm; (dr)/(dt)=1 cm/s",
+    "ko": "직접 풀어보세요. 원의 넓이 변화율을 구하세요. 수식: A=πr^(2),r=4 cm; (dr)/(dt)=1 cm/s"
+  }
+]

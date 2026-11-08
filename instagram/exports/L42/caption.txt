@@ -1,0 +1,33 @@
+AP Calculus AB • L42
+Evaluating with the fundamental theorem
+
+The Fundamental Theorem turns a definite integral into an endpoint calculation.
+Accumulation is the change in an antiderivative between the two endpoints.
+
+1. Choose one antiderivative; a constant cancels in the difference.
+2. Subtract lower-endpoint value from upper-endpoint value.
+3. The integrand is positive, so the accumulated value should be positive.
+
+Remember: Evaluate the antiderivative at endpoints, not the original integrand.
+
+CHECK ANSWER — try card 8 first
+8. An antiderivative is x², so the integral is 9−1=8.
+
+──────────
+
+AP Calculus AB • 42강
+기본정리와 정적분
+
+미적분학의 기본정리로 정적분을 끝점의 차이로 계산합니다.
+누적량은 두 끝점 사이에서 원시함수가 변한 양입니다.
+
+1. 원시함수 하나를 고릅니다. 상수는 끝점의 차에서 없어집니다.
+2. 위 끝점 값에서 아래 끝점 값을 뺍니다.
+3. 피적분함수가 양수이므로 누적량도 양수인지 점검합니다.
+
+실수 점검: 끝점에 대입할 것은 피적분함수가 아니라 원시함수입니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+8입니다. 원시함수는 x²이므로 정적분은 9−1=8입니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

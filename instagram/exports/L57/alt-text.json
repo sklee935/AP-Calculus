@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Area with horizontal slices. Horizontal slices can simplify a region when x is naturally written in terms of y. Math: x=y^(2),x=2y",
+    "ko": "가로 단면의 넓이. x가 y의 식으로 주어지면 가로 단면으로 영역을 더 쉽게 다룰 수 있습니다. 수식: x=y^(2),x=2y"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. With horizontal slices, use right minus left and integrate with respect to y. Math: y^(2)=2y⇒y=0,2",
+    "ko": "먼저 조건을 확인. 가로 단면에서는 오른쪽에서 왼쪽을 빼고 y에 대해 적분합니다. 수식: y^(2)=2y⇒y=0,2"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. For 0≤y≤2, the right boundary is x=2y and the left boundary is x=y². Graph: x=y squared: y=sqrt(x); x=2y: y=x/2. x-range [0, 4], y-range [0, 2.2].",
+    "ko": "개념을 눈으로 연결. 0≤y≤2에서 오른쪽 경계는 x=2y, 왼쪽 경계는 x=y²입니다. 그래프: x=y squared: y=sqrt(x); x=2y: y=x/2. x 표시구간 [0, 4], y 표시구간 [0, 2.2]."
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. Both boundary positions are x-coordinates at the same height y. Math: width=2y−y^(2)",
+    "ko": "1단계  식을 세우기. 같은 높이 y에서 두 경계의 x좌표를 뺍니다. 수식: width=2y−y^(2)"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. A horizontal slice has thickness dy. Math: A=∫_(0)^(2)(2y−y^(2))dy",
+    "ko": "2단계  이유를 따라 계산. 가로 단면의 두께는 dy입니다. 수식: A=∫_(0)^(2)(2y−y^(2))dy"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. The limits are y-values, not x-values. Math: A=[y^(2)−(y^(3))/(3)]_(0)^(2)=(4)/(3)",
+    "ko": "3단계  결과의 의미. 적분구간은 x값이 아니라 y값입니다. 수식: A=[y^(2)−(y^(3))/(3)]_(0)^(2)=(4)/(3)"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. Do not mix a horizontal width expression with x-limits or dx. Math: A=∫_(c)^(d)(right−left)dy",
+    "ko": "이 실수는 피하세요. 가로 폭의 식에 x 구간이나 dx를 섞지 마세요. 수식: A=∫_(c)^(d)(right−left)dy"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Use horizontal slices to find the enclosed area. Math: x=y,x=y^(2)",
+    "ko": "직접 풀어보세요. 가로 단면으로 둘러싸인 넓이를 구하세요. 수식: x=y,x=y^(2)"
+  }
+]

@@ -1,0 +1,220 @@
+{
+  "id": "L19",
+  "number": 19,
+  "unit": 3,
+  "unit_title": {
+    "ko": "합성함수와 음함수 및 역함수",
+    "en": "Composite implicit and inverse functions"
+  },
+  "title": {
+    "ko": "역함수 미분",
+    "en": "Inverse function derivatives"
+  },
+  "prerequisites": [
+    "L18"
+  ],
+  "week": 7,
+  "day": "Monday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U3-M03",
+    "U3-M06"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "The inverse slope at output 8 uses the original slope at input 3.",
+    "ko": "역함수의 입력 8에서는 원래 함수의 입력 3에서의 기울기를 씁니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "역함수 미분",
+        "en": "Inverse function derivatives"
+      },
+      "notes": {
+        "en": "An inverse function reverses inputs and outputs, including their local rates.",
+        "ko": "역함수는 입력과 출력을 바꾸며 국소 변화율도 역수 관계가 됩니다."
+      },
+      "math": [
+        "g=f^{-1},\\quad f(3)=8",
+        "f^\\prime(3)=4,\\quad g^\\prime(8)=?"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Inverse function derivatives. An inverse function reverses inputs and outputs, including their local rates.",
+        "ko": "역함수 미분. 역함수는 입력과 출력을 바꾸며 국소 변화율도 역수 관계가 됩니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Assume f has a differentiable local inverse and a nonzero derivative at 3.",
+        "ko": "f가 미분가능한 국소 역함수를 가지며 3에서 도함수가 0이 아니라고 합시다."
+      },
+      "math": [
+        "f^\\prime(3)\\ne0"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Assume f has a differentiable local inverse and a nonzero derivative at 3.",
+        "ko": "먼저 조건을 확인. f가 미분가능한 국소 역함수를 가지며 3에서 도함수가 0이 아니라고 합시다."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "The inverse slope at output 8 uses the original slope at input 3.",
+        "ko": "역함수의 입력 8에서는 원래 함수의 입력 3에서의 기울기를 씁니다."
+      },
+      "math": [
+        "g^\\prime(b)=\\frac1{f^\\prime(g(b))}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. The inverse slope at output 8 uses the original slope at input 3.",
+        "ko": "개념을 눈으로 연결. 역함수의 입력 8에서는 원래 함수의 입력 3에서의 기울기를 씁니다."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "First find the original input that produced 8.",
+        "ko": "먼저 출력 8을 만든 원래 입력을 찾습니다."
+      },
+      "math": [
+        "g(8)=3"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. First find the original input that produced 8.",
+        "ko": "1단계  식을 세우기. 먼저 출력 8을 만든 원래 입력을 찾습니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "Take the reciprocal at the matched original input.",
+        "ko": "대응하는 원래 입력에서 기울기의 역수를 구합니다."
+      },
+      "math": [
+        "g^\\prime(8)=\\frac1{f^\\prime(3)}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. Take the reciprocal at the matched original input.",
+        "ko": "2단계  이유를 따라 계산. 대응하는 원래 입력에서 기울기의 역수를 구합니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "A steeper original graph corresponds to a flatter inverse graph.",
+        "ko": "원래 그래프의 큰 기울기는 역함수의 작은 기울기에 대응합니다."
+      },
+      "math": [
+        "g^\\prime(8)=\\frac14"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. A steeper original graph corresponds to a flatter inverse graph.",
+        "ko": "3단계  결과의 의미. 원래 그래프의 큰 기울기는 역함수의 작은 기울기에 대응합니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "Do not use f′(8); 8 is the output of f in this question.",
+        "ko": "f′(8)을 쓰지 마세요. 이 문제에서 8은 f의 출력입니다."
+      },
+      "math": [
+        "g^\\prime(f(a))=\\frac1{f^\\prime(a)}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. Do not use f′(8); 8 is the output of f in this question.",
+        "ko": "이 실수는 피하세요. f′(8)을 쓰지 마세요. 이 문제에서 8은 f의 출력입니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Find g′(ln 5).",
+        "ko": "g′(ln 5)를 구하세요."
+      },
+      "math": [
+        "f(x)=\\ln x,\\quad g=f^{-1}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Find g′(ln 5).",
+        "ko": "직접 풀어보세요. g′(ln 5)를 구하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "f(x)=\\ln x,\\quad g=f^{-1}"
+    ],
+    "prompt": {
+      "en": "Find g′(ln 5).",
+      "ko": "g′(ln 5)를 구하세요."
+    },
+    "answer": {
+      "en": "5. Since f(5)=ln 5 and f′(5)=1/5, the inverse derivative is 5.",
+      "ko": "5입니다. f(5)=ln 5이고 f′(5)=1/5이므로 역함수의 미분계수는 5입니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "1/Integer(4)",
+      "expected": "1/4"
+    },
+    {
+      "expression": "1/diff(log(x),x).subs(x,5)",
+      "expected": "5"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L19\nInverse function derivatives\n\nAn inverse function reverses inputs and outputs, including their local rates.\nThe inverse slope at output 8 uses the original slope at input 3.\n\n1. First find the original input that produced 8.\n2. Take the reciprocal at the matched original input.\n3. A steeper original graph corresponds to a flatter inverse graph.\n\nRemember: Do not use f′(8); 8 is the output of f in this question.\n\nCHECK ANSWER — try card 8 first\n5. Since f(5)=ln 5 and f′(5)=1/5, the inverse derivative is 5.",
+    "ko": "AP Calculus AB • 19강\n역함수 미분\n\n역함수는 입력과 출력을 바꾸며 국소 변화율도 역수 관계가 됩니다.\n역함수의 입력 8에서는 원래 함수의 입력 3에서의 기울기를 씁니다.\n\n1. 먼저 출력 8을 만든 원래 입력을 찾습니다.\n2. 대응하는 원래 입력에서 기울기의 역수를 구합니다.\n3. 원래 그래프의 큰 기울기는 역함수의 작은 기울기에 대응합니다.\n\n실수 점검: f′(8)을 쓰지 마세요. 이 문제에서 8은 f의 출력입니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n5입니다. f(5)=ln 5이고 f′(5)=1/5이므로 역함수의 미분계수는 5입니다."
+  },
+  "graph_description": null
+}

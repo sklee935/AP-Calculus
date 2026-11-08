@@ -27,7 +27,7 @@
       "prerequisites": [],
       "week": 1,
       "day": "Monday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L02",
@@ -46,7 +46,7 @@
       ],
       "week": 1,
       "day": "Wednesday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L03",
@@ -65,7 +65,7 @@
       ],
       "week": 1,
       "day": "Friday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L04",
@@ -84,7 +84,7 @@
       ],
       "week": 2,
       "day": "Monday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L05",
@@ -103,7 +103,7 @@
       ],
       "week": 2,
       "day": "Wednesday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L06",
@@ -122,7 +122,7 @@
       ],
       "week": 2,
       "day": "Friday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L07",
@@ -141,7 +141,7 @@
       ],
       "week": 3,
       "day": "Monday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L08",
@@ -160,7 +160,7 @@
       ],
       "week": 3,
       "day": "Wednesday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L09",
@@ -179,7 +179,7 @@
       ],
       "week": 3,
       "day": "Friday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L10",
@@ -198,7 +198,7 @@
       ],
       "week": 4,
       "day": "Monday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L11",
@@ -217,7 +217,7 @@
       ],
       "week": 4,
       "day": "Wednesday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L12",
@@ -236,7 +236,7 @@
       ],
       "week": 4,
       "day": "Friday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L13",
@@ -255,7 +255,7 @@
       ],
       "week": 5,
       "day": "Monday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L14",
@@ -274,7 +274,7 @@
       ],
       "week": 5,
       "day": "Wednesday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L15",
@@ -293,7 +293,7 @@
       ],
       "week": 5,
       "day": "Friday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L16",
@@ -312,7 +312,7 @@
       ],
       "week": 6,
       "day": "Monday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L17",
@@ -331,7 +331,7 @@
       ],
       "week": 6,
       "day": "Wednesday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L18",
@@ -350,7 +350,7 @@
       ],
       "week": 6,
       "day": "Friday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L19",
@@ -369,7 +369,7 @@
       ],
       "week": 7,
       "day": "Monday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L20",
@@ -388,7 +388,7 @@
       ],
       "week": 7,
       "day": "Wednesday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L21",
@@ -407,7 +407,7 @@
       ],
       "week": 7,
       "day": "Friday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L22",
@@ -426,7 +426,7 @@
       ],
       "week": 8,
       "day": "Monday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L23",
@@ -445,7 +445,7 @@
       ],
       "week": 8,
       "day": "Wednesday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L24",
@@ -464,7 +464,7 @@
       ],
       "week": 8,
       "day": "Friday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L25",
@@ -483,7 +483,7 @@
       ],
       "week": 9,
       "day": "Monday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L26",
@@ -502,7 +502,7 @@
       ],
       "week": 9,
       "day": "Wednesday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L27",
@@ -521,7 +521,7 @@
       ],
       "week": 9,
       "day": "Friday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L28",
@@ -540,7 +540,7 @@
       ],
       "week": 10,
       "day": "Monday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L29",
@@ -559,7 +559,7 @@
       ],
       "week": 10,
       "day": "Wednesday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L30",
@@ -578,7 +578,7 @@
       ],
       "week": 10,
       "day": "Friday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L31",
@@ -597,7 +597,7 @@
       ],
       "week": 11,
       "day": "Monday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L32",
@@ -616,7 +616,7 @@
       ],
       "week": 11,
       "day": "Wednesday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L33",
@@ -635,7 +635,7 @@
       ],
       "week": 11,
       "day": "Friday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L34",
@@ -654,7 +654,7 @@
       ],
       "week": 12,
       "day": "Monday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L35",
@@ -673,7 +673,7 @@
       ],
       "week": 12,
       "day": "Wednesday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L36",
@@ -692,7 +692,7 @@
       ],
       "week": 12,
       "day": "Friday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L37",
@@ -711,7 +711,7 @@
       ],
       "week": 13,
       "day": "Monday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L38",
@@ -730,7 +730,7 @@
       ],
       "week": 13,
       "day": "Wednesday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L39",
@@ -749,7 +749,7 @@
       ],
       "week": 13,
       "day": "Friday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L40",
@@ -768,7 +768,7 @@
       ],
       "week": 14,
       "day": "Monday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L41",
@@ -787,7 +787,7 @@
       ],
       "week": 14,
       "day": "Wednesday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L42",
@@ -806,7 +806,7 @@
       ],
       "week": 14,
       "day": "Friday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L43",
@@ -825,7 +825,7 @@
       ],
       "week": 15,
       "day": "Monday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L44",
@@ -844,7 +844,7 @@
       ],
       "week": 15,
       "day": "Wednesday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L45",
@@ -863,7 +863,7 @@
       ],
       "week": 15,
       "day": "Friday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L46",
@@ -882,7 +882,7 @@
       ],
       "week": 16,
       "day": "Monday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L47",
@@ -901,7 +901,7 @@
       ],
       "week": 16,
       "day": "Wednesday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L48",
@@ -920,7 +920,7 @@
       ],
       "week": 16,
       "day": "Friday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L49",
@@ -939,7 +939,7 @@
       ],
       "week": 17,
       "day": "Monday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L50",
@@ -958,7 +958,7 @@
       ],
       "week": 17,
       "day": "Wednesday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L51",
@@ -977,7 +977,7 @@
       ],
       "week": 17,
       "day": "Friday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L52",
@@ -996,7 +996,7 @@
       ],
       "week": 18,
       "day": "Monday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L53",
@@ -1015,7 +1015,7 @@
       ],
       "week": 18,
       "day": "Wednesday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L54",
@@ -1034,7 +1034,7 @@
       ],
       "week": 18,
       "day": "Friday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L55",
@@ -1053,7 +1053,7 @@
       ],
       "week": 19,
       "day": "Monday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L56",
@@ -1072,7 +1072,7 @@
       ],
       "week": 19,
       "day": "Wednesday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L57",
@@ -1091,7 +1091,7 @@
       ],
       "week": 19,
       "day": "Friday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L58",
@@ -1110,7 +1110,7 @@
       ],
       "week": 20,
       "day": "Monday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L59",
@@ -1129,7 +1129,7 @@
       ],
       "week": 20,
       "day": "Wednesday",
-      "status": "planned"
+      "status": "ready"
     },
     {
       "id": "L60",
@@ -1148,7 +1148,7 @@
       ],
       "week": 20,
       "day": "Friday",
-      "status": "planned"
+      "status": "ready"
     }
   ]
 }

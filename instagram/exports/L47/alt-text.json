@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Differential equations and verification. A proposed solution must satisfy the differential equation for an interval, not just at one point. Math: y^(′)=−2y,y=3e^(−2x)",
+    "ko": "미분방정식과 해 검증. 해 후보는 한 점만이 아니라 구간에서 미분방정식을 만족해야 합니다. 수식: y^(′)=−2y,y=3e^(−2x)"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. A differential equation relates a function to its derivatives. Math: x∈ℝ",
+    "ko": "먼저 조건을 확인. 미분방정식은 함수와 그 도함수의 관계를 나타냅니다. 수식: x∈ℝ"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. Verify a solution by substituting its derivative and its value into opposite sides. Math: left side=right side",
+    "ko": "개념을 눈으로 연결. 해의 도함수와 함숫값을 양변에 각각 대입해 일치하는지 확인합니다. 수식: left side=right side"
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. Differentiate the candidate, including the inner factor −2. Math: y^(′)=−6e^(−2x)",
+    "ko": "1단계  식을 세우기. 해 후보를 미분하며 안의 계수 −2도 곱합니다. 수식: y^(′)=−6e^(−2x)"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. Substitute the candidate into the right side independently. Math: −2y=−6e^(−2x)",
+    "ko": "2단계  이유를 따라 계산. 우변에도 해 후보를 따로 대입합니다. 수식: −2y=−6e^(−2x)"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. Both expressions agree for every real x, so this is a solution. Math: y^(′)=−2yfor all x",
+    "ko": "3단계  결과의 의미. 모든 실수 x에서 두 식이 같으므로 해입니다. 수식: y^(′)=−2yfor all x"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. Passing through an initial point does not by itself prove the differential equation. Math: y=Ce^(−2x)is a family",
+    "ko": "이 실수는 피하세요. 초기점을 지난다는 사실만으로 미분방정식의 해가 되지는 않습니다. 수식: y=Ce^(−2x)is a family"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Does this y solve the displayed equation on all real x? Math: y=x^(2),y^(′)=2x",
+    "ko": "직접 풀어보세요. 이 y는 표시된 방정식을 모든 실수 x에서 만족하나요? 수식: y=x^(2),y^(′)=2x"
+  }
+]

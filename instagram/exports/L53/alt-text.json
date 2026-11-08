@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Average value of a function. A function’s average value is accumulated height divided by interval length. Math: f(x)=x^(2)on [0,3]",
+    "ko": "함수의 평균값. 함수의 평균값은 누적된 높이를 구간 길이로 나눈 값입니다. 수식: f(x)=x^(2)on [0,3]"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. Average function value and average rate of change are different quantities. Math: f_(avg)=(1)/(b−a)∫_(a)^(b)f(x)dx",
+    "ko": "먼저 조건을 확인. 함수의 평균값과 평균변화율은 서로 다른 양입니다. 수식: f_(avg)=(1)/(b−a)∫_(a)^(b)f(x)dx"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. A rectangle at the average height has the same signed area as the original graph. Graph: f: y=x**2; average: y=3. x-range [0, 3], y-range [0, 10].",
+    "ko": "개념을 눈으로 연결. 평균 높이의 직사각형은 원래 그래프와 같은 부호 있는 넓이를 가집니다. 그래프: f: y=x**2; average: y=3. x 표시구간 [0, 3], y 표시구간 [0, 10]."
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. First find the total accumulated height. Math: ∫_(0)^(3)x^(2)dx=9",
+    "ko": "1단계  식을 세우기. 먼저 높이를 누적한 정적분을 구합니다. 수식: ∫_(0)^(3)x^(2)dx=9"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. Divide by the interval length, not by the number of endpoints. Math: f_(avg)=(9)/(3−0)=3",
+    "ko": "2단계  이유를 따라 계산. 끝점의 개수가 아니라 구간 길이로 나눕니다. 수식: f_(avg)=(9)/(3−0)=3"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. Continuity ensures an input attaining the average; here it is √3. Math: f(sqrt(3))=3",
+    "ko": "3단계  결과의 의미. 연속성이 평균값을 갖는 점을 보장하며 여기서는 √3입니다. 수식: f(sqrt(3))=3"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. Averaging only the endpoint heights does not usually give the function’s average value. Math: (f(a)+f(b))/(2)≠f_(avg)in general",
+    "ko": "이 실수는 피하세요. 끝점의 높이만 평균 낸 값은 일반적으로 함수의 평균값이 아닙니다. 수식: (f(a)+f(b))/(2)≠f_(avg)in general"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Find the average value. Math: f(x)=2x+1on [0,2]",
+    "ko": "직접 풀어보세요. 함수의 평균값을 구하세요. 수식: f(x)=2x+1on [0,2]"
+  }
+]

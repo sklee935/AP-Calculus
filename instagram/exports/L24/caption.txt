@@ -1,0 +1,33 @@
+AP Calculus AB • L24
+Velocity acceleration and speed
+
+Speed depends on the magnitude of velocity, while speeding up depends on two signs.
+When nonzero velocity and acceleration share a sign, speed increases.
+
+1. Negative velocity means motion in the negative direction.
+2. Acceleration is also negative at this instant.
+3. Both signs are negative, so the object is speeding up.
+
+Remember: Negative acceleration alone does not mean the object slows down.
+
+CHECK ANSWER — try card 8 first
+Slowing down. At t=1, v=−1 and a=1 have opposite signs.
+
+──────────
+
+AP Calculus AB • 24강
+속도 가속도 속력
+
+속력은 속도의 크기이며, 속력이 증가하는지는 두 부호로 판단합니다.
+속도와 가속도가 같은 부호의 0이 아닌 값이면 속력이 증가합니다.
+
+1. 속도가 음수이므로 음의 방향으로 이동합니다.
+2. 이 순간에는 가속도도 음수입니다.
+3. 두 부호가 모두 음수이므로 속력이 증가합니다.
+
+실수 점검: 가속도가 음수라는 이유만으로 속력이 감소한다고 할 수 없습니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+감소합니다. t=1에서 v=−1, a=1로 부호가 반대입니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

@@ -1,0 +1,33 @@
+AP Calculus AB • L28
+L Hospital rule
+
+An indeterminate form can permit a derivative comparison under L’Hospital’s hypotheses.
+Here the derivative ratio has a finite limit, so L’Hospital’s rule applies.
+
+1. Differentiate numerator and denominator separately.
+2. This comparison uses derivatives, not the quotient rule.
+3. The transformed expression is continuous at zero.
+
+Remember: A nonzero number divided by zero is not a 0/0 indeterminate form.
+
+CHECK ANSWER — try card 8 first
+3/2. It is 0/0, and the derivative ratio 3 cos(3x)/2 tends to 3/2.
+
+──────────
+
+AP Calculus AB • 28강
+로피탈의 정리
+
+로피탈 정리의 조건이 맞으면 부정형을 도함수의 비로 바꾸어 비교할 수 있습니다.
+여기서는 도함수 비의 극한이 유한하게 존재하므로 로피탈 정리를 적용할 수 있습니다.
+
+1. 분자와 분모를 각각 미분합니다.
+2. 여기서는 도함수의 비를 쓰며 몫의 미분법을 쓰는 것이 아닙니다.
+3. 바꾼 식은 0에서 연속이므로 대입합니다.
+
+실수 점검: 0이 아닌 수를 0으로 나눈 형태는 0/0 부정형이 아닙니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+3/2입니다. 0/0 형태이며 도함수 비 3 cos(3x)/2의 극한은 3/2입니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

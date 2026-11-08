@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Rates and units. A derivative becomes meaningful when its sign, input and units are stated. Math: W(t)=20+3t−t^(2); 0≤t≤4",
+    "ko": "변화율과 단위. 도함수는 부호, 입력값, 단위를 함께 말할 때 의미가 분명해집니다. 수식: W(t)=20+3t−t^(2); 0≤t≤4"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. W is water volume in liters; t is time in hours. Math: [W]=L,[t]=h",
+    "ko": "먼저 조건을 확인. W는 리터 단위의 물의 양, t는 시간 단위의 경과 시간입니다. 수식: [W]=L,[t]=h"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. A negative volume derivative describes water decreasing, not a negative amount of water. Math: [W^(′)]=L/h",
+    "ko": "개념을 눈으로 연결. 물의 양의 도함수가 음수이면 물이 감소한다는 뜻입니다. 수식: [W^(′)]=L/h"
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. Differentiate volume with respect to time. Math: W^(′)(t)=3−2t",
+    "ko": "1단계  식을 세우기. 물의 양을 시간에 대해 미분합니다. 수식: W^(′)(t)=3−2t"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. At hour 3, volume is decreasing at 3 liters per hour. Math: W^(′)(3)=−3 L/h",
+    "ko": "2단계  이유를 따라 계산. 3시간 시점에서 물의 양은 시간당 3리터씩 감소합니다. 수식: W^(′)(3)=−3 L/h"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. The volume itself remains positive while its rate is negative. Math: W(3)=20 L",
+    "ko": "3단계  결과의 의미. 변화율이 음수여도 물의 양 자체는 양수입니다. 수식: W(3)=20 L"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. A rate in L/h is different from an accumulated volume in L. Math: W(3)≠W^(′)(3)",
+    "ko": "이 실수는 피하세요. L/h 단위의 변화율과 L 단위의 물의 양을 구별하세요. 수식: W(3)≠W^(′)(3)"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Interpret W′(1), including its units. Math: W(t)=20+3t−t^(2)",
+    "ko": "직접 풀어보세요. W′(1)의 의미를 단위와 함께 설명하세요. 수식: W(t)=20+3t−t^(2)"
+  }
+]

@@ -1,0 +1,33 @@
+AP Calculus AB • L23
+Rates and units
+
+A derivative becomes meaningful when its sign, input and units are stated.
+A negative volume derivative describes water decreasing, not a negative amount of water.
+
+1. Differentiate volume with respect to time.
+2. At hour 3, volume is decreasing at 3 liters per hour.
+3. The volume itself remains positive while its rate is negative.
+
+Remember: A rate in L/h is different from an accumulated volume in L.
+
+CHECK ANSWER — try card 8 first
+1 L/h. At hour 1, the volume is increasing at 1 liter per hour.
+
+──────────
+
+AP Calculus AB • 23강
+변화율과 단위
+
+도함수는 부호, 입력값, 단위를 함께 말할 때 의미가 분명해집니다.
+물의 양의 도함수가 음수이면 물이 감소한다는 뜻입니다.
+
+1. 물의 양을 시간에 대해 미분합니다.
+2. 3시간 시점에서 물의 양은 시간당 3리터씩 감소합니다.
+3. 변화율이 음수여도 물의 양 자체는 양수입니다.
+
+실수 점검: L/h 단위의 변화율과 L 단위의 물의 양을 구별하세요.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+1 L/h입니다. 1시간 시점에서 물의 양은 시간당 1리터씩 증가합니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

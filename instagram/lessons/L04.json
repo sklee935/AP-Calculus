@@ -1,0 +1,220 @@
+{
+  "id": "L04",
+  "number": 4,
+  "unit": 1,
+  "unit_title": {
+    "ko": "극한과 연속",
+    "en": "Limits and continuity"
+  },
+  "title": {
+    "ko": "인수분해와 켤레식",
+    "en": "Factoring and conjugates"
+  },
+  "prerequisites": [
+    "L03"
+  ],
+  "week": 2,
+  "day": "Monday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "E01"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "Use the difference of squares to remove the radical from the numerator.",
+    "ko": "제곱의 차를 이용해 분자의 근호를 정리합니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "인수분해와 켤레식",
+        "en": "Factoring and conjugates"
+      },
+      "notes": {
+        "en": "A conjugate can reveal a factor hidden by a square root.",
+        "ko": "켤레식을 곱하면 근호에 숨은 인수가 드러납니다."
+      },
+      "math": [
+        "\\lim_{x\\to4}\\frac{\\sqrt{x+5}-3}{x-4}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Factoring and conjugates. A conjugate can reveal a factor hidden by a square root.",
+        "ko": "인수분해와 켤레식. 켤레식을 곱하면 근호에 숨은 인수가 드러납니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Substitution gives 0/0. This is a signal to rewrite, not a final answer.",
+        "ko": "대입하면 0/0형입니다. 답이 아니라 식을 바꾸라는 신호입니다."
+      },
+      "math": [
+        "x\\ne4",
+        "\\sqrt{x+5}+3>0"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Substitution gives 0/0. This is a signal to rewrite, not a final answer.",
+        "ko": "먼저 조건을 확인. 대입하면 0/0형입니다. 답이 아니라 식을 바꾸라는 신호입니다."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "Use the difference of squares to remove the radical from the numerator.",
+        "ko": "제곱의 차를 이용해 분자의 근호를 정리합니다."
+      },
+      "math": [
+        "(a-b)(a+b)=a^2-b^2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. Use the difference of squares to remove the radical from the numerator.",
+        "ko": "개념을 눈으로 연결. 제곱의 차를 이용해 분자의 근호를 정리합니다."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "Multiply by a form of 1, so nearby values stay unchanged.",
+        "ko": "1과 같은 식을 곱하므로 주변 값은 바뀌지 않습니다."
+      },
+      "math": [
+        "\\frac{\\sqrt{x+5}-3}{x-4}\\cdot\\frac{\\sqrt{x+5}+3}{\\sqrt{x+5}+3}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. Multiply by a form of 1, so nearby values stay unchanged.",
+        "ko": "1단계  식을 세우기. 1과 같은 식을 곱하므로 주변 값은 바뀌지 않습니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "Cancel the exposed factor only where it is nonzero.",
+        "ko": "드러난 인수가 0이 아닐 때만 약분합니다."
+      },
+      "math": [
+        "\\frac{x-4}{(x-4)(\\sqrt{x+5}+3)}",
+        "=\\frac1{\\sqrt{x+5}+3}\\quad(x\\ne4)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. Cancel the exposed factor only where it is nonzero.",
+        "ko": "2단계  이유를 따라 계산. 드러난 인수가 0이 아닐 때만 약분합니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "Now substitution is valid in the rewritten nearby expression.",
+        "ko": "이제 주변에서 같은 식에 대입할 수 있습니다."
+      },
+      "math": [
+        "\\frac1{3+3}=\\frac16"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. Now substitution is valid in the rewritten nearby expression.",
+        "ko": "3단계  결과의 의미. 이제 주변에서 같은 식에 대입할 수 있습니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "Multiply both numerator and denominator by the conjugate.",
+        "ko": "분자와 분모에 모두 켤레식을 곱해야 합니다."
+      },
+      "math": [
+        "\\mathrm{limit}=\\frac16"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. Multiply both numerator and denominator by the conjugate.",
+        "ko": "이 실수는 피하세요. 분자와 분모에 모두 켤레식을 곱해야 합니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Which factor can you expose here?",
+        "ko": "이번에는 어떤 인수를 드러낼 수 있을까요?"
+      },
+      "math": [
+        "\\lim_{x\\to2}\\frac{x^2-4}{x-2}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Which factor can you expose here?",
+        "ko": "직접 풀어보세요. 이번에는 어떤 인수를 드러낼 수 있을까요?"
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "\\lim_{x\\to2}\\frac{x^2-4}{x-2}"
+    ],
+    "prompt": {
+      "en": "Which factor can you expose here?",
+      "ko": "이번에는 어떤 인수를 드러낼 수 있을까요?"
+    },
+    "answer": {
+      "en": "4. Factor x²−4=(x−2)(x+2), cancel for x≠2, then take the limit.",
+      "ko": "4입니다. x²−4를 인수분해하고 x≠2에서 약분한 뒤 극한을 구합니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "limit((sqrt(x+5)-3)/(x-4),x,4)",
+      "expected": "1/6"
+    },
+    {
+      "expression": "limit((x**2-4)/(x-2),x,2)",
+      "expected": "4"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L04\nFactoring and conjugates\n\nA conjugate can reveal a factor hidden by a square root.\nUse the difference of squares to remove the radical from the numerator.\n\n1. Multiply by a form of 1, so nearby values stay unchanged.\n2. Cancel the exposed factor only where it is nonzero.\n3. Now substitution is valid in the rewritten nearby expression.\n\nRemember: Multiply both numerator and denominator by the conjugate.\n\nCHECK ANSWER — try card 8 first\n4. Factor x²−4=(x−2)(x+2), cancel for x≠2, then take the limit.",
+    "ko": "AP Calculus AB • 04강\n인수분해와 켤레식\n\n켤레식을 곱하면 근호에 숨은 인수가 드러납니다.\n제곱의 차를 이용해 분자의 근호를 정리합니다.\n\n1. 1과 같은 식을 곱하므로 주변 값은 바뀌지 않습니다.\n2. 드러난 인수가 0이 아닐 때만 약분합니다.\n3. 이제 주변에서 같은 식에 대입할 수 있습니다.\n\n실수 점검: 분자와 분모에 모두 켤레식을 곱해야 합니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n4입니다. x²−4를 인수분해하고 x≠2에서 약분한 뒤 극한을 구합니다."
+  },
+  "graph_description": null
+}

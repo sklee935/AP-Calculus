@@ -1,0 +1,219 @@
+{
+  "id": "L43",
+  "number": 43,
+  "unit": 6,
+  "unit_title": {
+    "ko": "적분과 누적",
+    "en": "Integration and accumulation"
+  },
+  "title": {
+    "ko": "변수 적분구간의 미분",
+    "en": "Differentiating variable bounds"
+  },
+  "prerequisites": [
+    "L42"
+  ],
+  "week": 15,
+  "day": "Monday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U6-M02"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "The endpoint determines the current height; its derivative determines how fast the endpoint moves.",
+    "ko": "끝점은 현재 높이를 정하고 그 도함수는 끝점이 움직이는 속도를 정합니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "변수 적분구간의 미분",
+        "en": "Differentiating variable bounds"
+      },
+      "notes": {
+        "en": "A moving integration endpoint adds a chain-rule factor.",
+        "ko": "적분 끝점이 함수로 움직이면 연쇄법칙의 인수가 붙습니다."
+      },
+      "math": [
+        "F(x)=\\int_0^{x^2}\\sqrt{1+t}\\,dt"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Differentiating variable bounds. A moving integration endpoint adds a chain-rule factor.",
+        "ko": "변수 적분구간의 미분. 적분 끝점이 함수로 움직이면 연쇄법칙의 인수가 붙습니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "The integrand is continuous for t≥0, covering every integration interval here.",
+        "ko": "피적분함수는 t≥0에서 연속이며 여기의 모든 적분구간을 포함합니다."
+      },
+      "math": [
+        "g(x)=x^2,\\quad g^\\prime(x)=2x"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. The integrand is continuous for t≥0, covering every integration interval here.",
+        "ko": "먼저 조건을 확인. 피적분함수는 t≥0에서 연속이며 여기의 모든 적분구간을 포함합니다."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "The endpoint determines the current height; its derivative determines how fast the endpoint moves.",
+        "ko": "끝점은 현재 높이를 정하고 그 도함수는 끝점이 움직이는 속도를 정합니다."
+      },
+      "math": [
+        "\\frac{d}{dx}\\int_a^{g(x)}f(t)\\,dt=f(g(x))g^\\prime(x)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. The endpoint determines the current height; its derivative determines how fast the endpoint moves.",
+        "ko": "개념을 눈으로 연결. 끝점은 현재 높이를 정하고 그 도함수는 끝점이 움직이는 속도를 정합니다."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "Replace the dummy variable t by the upper endpoint x².",
+        "ko": "적분변수 t를 위 끝점 x²으로 바꿉니다."
+      },
+      "math": [
+        "f(g(x))=\\sqrt{1+x^2}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. Replace the dummy variable t by the upper endpoint x².",
+        "ko": "1단계  식을 세우기. 적분변수 t를 위 끝점 x²으로 바꿉니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "Multiply by the endpoint derivative.",
+        "ko": "끝점의 도함수를 곱합니다."
+      },
+      "math": [
+        "F^\\prime(x)=2x\\sqrt{1+x^2}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. Multiply by the endpoint derivative.",
+        "ko": "2단계  이유를 따라 계산. 끝점의 도함수를 곱합니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "No explicit antiderivative is needed for this derivative.",
+        "ko": "이 도함수를 구할 때 원시함수를 직접 계산할 필요는 없습니다."
+      },
+      "math": [
+        "F^\\prime(2)=4\\sqrt5"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. No explicit antiderivative is needed for this derivative.",
+        "ko": "3단계  결과의 의미. 이 도함수를 구할 때 원시함수를 직접 계산할 필요는 없습니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "If both bounds move, subtract the lower-bound contribution as well.",
+        "ko": "양쪽 끝점이 움직이면 아래 끝점의 기여도 빼야 합니다."
+      },
+      "math": [
+        "\\frac{d}{dx}\\int_{u(x)}^{v(x)}f(t)\\,dt",
+        "=f(v(x))v^\\prime(x)-f(u(x))u^\\prime(x)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. If both bounds move, subtract the lower-bound contribution as well.",
+        "ko": "이 실수는 피하세요. 양쪽 끝점이 움직이면 아래 끝점의 기여도 빼야 합니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Find H′(x).",
+        "ko": "H′(x)를 구하세요."
+      },
+      "math": [
+        "H(x)=\\int_x^{2x}t^2\\,dt"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Find H′(x).",
+        "ko": "직접 풀어보세요. H′(x)를 구하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "H(x)=\\int_x^{2x}t^2\\,dt"
+    ],
+    "prompt": {
+      "en": "Find H′(x).",
+      "ko": "H′(x)를 구하세요."
+    },
+    "answer": {
+      "en": "7x². The upper contribution is (2x)²·2=8x²; subtract the lower contribution x².",
+      "ko": "7x²입니다. 위 끝점 기여 (2x)²·2=8x²에서 아래 끝점 기여 x²을 뺍니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "(2*x*sqrt(1+x**2)).subs(x,2)",
+      "expected": "4*sqrt(5)"
+    },
+    {
+      "expression": "diff(integrate(t**2,(t,x,2*x)),x)",
+      "expected": "7*x**2"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L43\nDifferentiating variable bounds\n\nA moving integration endpoint adds a chain-rule factor.\nThe endpoint determines the current height; its derivative determines how fast the endpoint moves.\n\n1. Replace the dummy variable t by the upper endpoint x².\n2. Multiply by the endpoint derivative.\n3. No explicit antiderivative is needed for this derivative.\n\nRemember: If both bounds move, subtract the lower-bound contribution as well.\n\nCHECK ANSWER — try card 8 first\n7x². The upper contribution is (2x)²·2=8x²; subtract the lower contribution x².",
+    "ko": "AP Calculus AB • 43강\n변수 적분구간의 미분\n\n적분 끝점이 함수로 움직이면 연쇄법칙의 인수가 붙습니다.\n끝점은 현재 높이를 정하고 그 도함수는 끝점이 움직이는 속도를 정합니다.\n\n1. 적분변수 t를 위 끝점 x²으로 바꿉니다.\n2. 끝점의 도함수를 곱합니다.\n3. 이 도함수를 구할 때 원시함수를 직접 계산할 필요는 없습니다.\n\n실수 점검: 양쪽 끝점이 움직이면 아래 끝점의 기여도 빼야 합니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n7x²입니다. 위 끝점 기여 (2x)²·2=8x²에서 아래 끝점 기여 x²을 뺍니다."
+  },
+  "graph_description": null
+}

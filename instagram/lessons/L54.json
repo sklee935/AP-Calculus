@@ -1,0 +1,247 @@
+{
+  "id": "L54",
+  "number": 54,
+  "unit": 8,
+  "unit_title": {
+    "ko": "적분의 응용",
+    "en": "Applications of integration"
+  },
+  "title": {
+    "ko": "변위와 이동거리",
+    "en": "Displacement and total distance"
+  },
+  "prerequisites": [
+    "L53"
+  ],
+  "week": 18,
+  "day": "Friday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U8-M02"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "The integral of |v| adds the magnitudes of the negative and positive regions.",
+    "ko": "|v|의 적분은 음의 영역과 양의 영역의 크기를 모두 더합니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "변위와 이동거리",
+        "en": "Displacement and total distance"
+      },
+      "notes": {
+        "en": "Displacement allows cancellation; total distance counts every part of the trip positively.",
+        "ko": "변위에서는 반대 방향 이동이 상쇄되지만 이동거리는 모두 양수로 셉니다."
+      },
+      "math": [
+        "v(t)=t-1\\quad\\mathrm{on}\\ [0,3]"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Displacement and total distance. Displacement allows cancellation; total distance counts every part of the trip positively.",
+        "ko": "변위와 이동거리. 변위에서는 반대 방향 이동이 상쇄되지만 이동거리는 모두 양수로 셉니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Time is in seconds and velocity is in m/s. Split where velocity changes sign.",
+        "ko": "시간은 초, 속도는 m/s입니다. 속도의 부호가 바뀌는 점에서 나누세요."
+      },
+      "math": [
+        "v(1)=0"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Time is in seconds and velocity is in m/s. Split where velocity changes sign.",
+        "ko": "먼저 조건을 확인. 시간은 초, 속도는 m/s입니다. 속도의 부호가 바뀌는 점에서 나누세요."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "The integral of |v| adds the magnitudes of the negative and positive regions.",
+        "ko": "|v|의 적분은 음의 영역과 양의 영역의 크기를 모두 더합니다."
+      },
+      "math": [],
+      "visual": {
+        "kind": "graph",
+        "curves": [
+          {
+            "expr": "x-1",
+            "label": "velocity",
+            "color": "blue"
+          }
+        ],
+        "xlim": [
+          0,
+          3
+        ],
+        "ylim": [
+          -1.4,
+          2.5
+        ],
+        "xlabel": "t",
+        "shade": {
+          "top": "x-1",
+          "bottom": "0",
+          "interval": [
+            0,
+            3
+          ]
+        }
+      },
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. The integral of |v| adds the magnitudes of the negative and positive regions. Graph: velocity: y=x-1. x-range [0, 3], y-range [-1.4, 2.5].",
+        "ko": "개념을 눈으로 연결. |v|의 적분은 음의 영역과 양의 영역의 크기를 모두 더합니다. 그래프: velocity: y=x-1. x 표시구간 [0, 3], y 표시구간 [-1.4, 2.5]."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "Signed areas partially cancel.",
+        "ko": "부호가 다른 넓이는 일부 상쇄됩니다."
+      },
+      "math": [
+        "\\mathrm{displacement}=\\int_0^3(t-1)\\,dt=\\frac32\\ \\mathrm{m}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. Signed areas partially cancel.",
+        "ko": "1단계  식을 세우기. 부호가 다른 넓이는 일부 상쇄됩니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "For distance, reverse the sign on the negative-velocity interval.",
+        "ko": "이동거리는 속도가 음수인 구간의 부호를 바꿔 적분합니다."
+      },
+      "math": [
+        "\\int_0^1(1-t)\\,dt=\\frac12",
+        "\\int_1^3(t-1)\\,dt=2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. For distance, reverse the sign on the negative-velocity interval.",
+        "ko": "2단계  이유를 따라 계산. 이동거리는 속도가 음수인 구간의 부호를 바꿔 적분합니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "Distance is at least the magnitude of displacement.",
+        "ko": "이동거리는 변위의 절댓값 이상입니다."
+      },
+      "math": [
+        "\\mathrm{distance}=\\frac12+2=\\frac52\\ \\mathrm{m}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. Distance is at least the magnitude of displacement.",
+        "ko": "3단계  결과의 의미. 이동거리는 변위의 절댓값 이상입니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "Taking the absolute value after integrating loses reversals of direction.",
+        "ko": "적분한 뒤 절댓값만 취하면 방향 전환을 놓치게 됩니다."
+      },
+      "math": [
+        "\\int|v|\\ne\\left|\\int v\\right|\\quad\\mathrm{in\\ general}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. Taking the absolute value after integrating loses reversals of direction.",
+        "ko": "이 실수는 피하세요. 적분한 뒤 절댓값만 취하면 방향 전환을 놓치게 됩니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Find displacement and total distance.",
+        "ko": "변위와 총 이동거리를 구하세요."
+      },
+      "math": [
+        "v(t)=t-2\\quad\\mathrm{on}\\ [0,4]"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Find displacement and total distance.",
+        "ko": "직접 풀어보세요. 변위와 총 이동거리를 구하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "v(t)=t-2\\quad\\mathrm{on}\\ [0,4]"
+    ],
+    "prompt": {
+      "en": "Find displacement and total distance.",
+      "ko": "변위와 총 이동거리를 구하세요."
+    },
+    "answer": {
+      "en": "Displacement 0, distance 4. Two triangles each have area 2, with opposite signs for displacement.",
+      "ko": "변위 0, 이동거리 4입니다. 넓이 2인 삼각형 두 개가 변위에서는 반대 부호입니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "integrate(t-1,(t,0,3))",
+      "expected": "3/2"
+    },
+    {
+      "expression": "integrate(1-t,(t,0,1))+integrate(t-1,(t,1,3))",
+      "expected": "5/2"
+    },
+    {
+      "expression": "integrate(2-t,(t,0,2))+integrate(t-2,(t,2,4))",
+      "expected": "4"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L54\nDisplacement and total distance\n\nDisplacement allows cancellation; total distance counts every part of the trip positively.\nThe integral of |v| adds the magnitudes of the negative and positive regions.\n\n1. Signed areas partially cancel.\n2. For distance, reverse the sign on the negative-velocity interval.\n3. Distance is at least the magnitude of displacement.\n\nRemember: Taking the absolute value after integrating loses reversals of direction.\n\nCHECK ANSWER — try card 8 first\nDisplacement 0, distance 4. Two triangles each have area 2, with opposite signs for displacement.",
+    "ko": "AP Calculus AB • 54강\n변위와 이동거리\n\n변위에서는 반대 방향 이동이 상쇄되지만 이동거리는 모두 양수로 셉니다.\n|v|의 적분은 음의 영역과 양의 영역의 크기를 모두 더합니다.\n\n1. 부호가 다른 넓이는 일부 상쇄됩니다.\n2. 이동거리는 속도가 음수인 구간의 부호를 바꿔 적분합니다.\n3. 이동거리는 변위의 절댓값 이상입니다.\n\n실수 점검: 적분한 뒤 절댓값만 취하면 방향 전환을 놓치게 됩니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n변위 0, 이동거리 4입니다. 넓이 2인 삼각형 두 개가 변위에서는 반대 부호입니다."
+  },
+  "graph_description": null
+}

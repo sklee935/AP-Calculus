@@ -1,0 +1,33 @@
+AP Calculus AB • L26
+Cones and ladders
+
+Geometry supplies the relationship before calculus supplies the rate.
+A fixed ladder length links both moving distances. Cone geometry similarly links radius and depth.
+
+1. Differentiate the relationship with respect to time.
+2. The top moves downward at 1.5 feet per second.
+3. For a cone with height 8 and radius 4, eliminate r before differentiating.
+
+Remember: Use the current water radius, not the full cone radius, in the volume formula.
+
+CHECK ANSWER — try card 8 first
+3 cm/s. V′=(πh²/4)h′; at h=2, 3π=πh′.
+
+──────────
+
+AP Calculus AB • 26강
+원뿔과 사다리
+
+기하 관계식을 먼저 만들고 미분으로 변화율을 구합니다.
+사다리의 고정 길이가 두 거리를 연결합니다. 원뿔에서는 닮음이 반지름과 깊이를 연결합니다.
+
+1. 관계식을 시간에 대해 미분하고 세로 변화율을 정리합니다.
+2. 사다리 위쪽은 초당 1.5피트씩 내려갑니다.
+3. 높이 8, 반지름 4인 원뿔에서는 미분 전에 r을 h로 바꿉니다.
+
+실수 점검: 부피식에는 원뿔 전체 반지름이 아니라 현재 수면의 반지름을 쓰세요.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+3 cm/s입니다. V′=(πh²/4)h′에 h=2를 넣으면 3π=πh′입니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Inverse function derivatives. An inverse function reverses inputs and outputs, including their local rates. Math: g=f^(−1),f(3)=8; f^(′)(3)=4,g^(′)(8)=?",
+    "ko": "역함수 미분. 역함수는 입력과 출력을 바꾸며 국소 변화율도 역수 관계가 됩니다. 수식: g=f^(−1),f(3)=8; f^(′)(3)=4,g^(′)(8)=?"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. Assume f has a differentiable local inverse and a nonzero derivative at 3. Math: f^(′)(3)≠0",
+    "ko": "먼저 조건을 확인. f가 미분가능한 국소 역함수를 가지며 3에서 도함수가 0이 아니라고 합시다. 수식: f^(′)(3)≠0"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. The inverse slope at output 8 uses the original slope at input 3. Math: g^(′)(b)=(1)/(f^(′)(g(b)))",
+    "ko": "개념을 눈으로 연결. 역함수의 입력 8에서는 원래 함수의 입력 3에서의 기울기를 씁니다. 수식: g^(′)(b)=(1)/(f^(′)(g(b)))"
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. First find the original input that produced 8. Math: g(8)=3",
+    "ko": "1단계  식을 세우기. 먼저 출력 8을 만든 원래 입력을 찾습니다. 수식: g(8)=3"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. Take the reciprocal at the matched original input. Math: g^(′)(8)=(1)/(f^(′)(3))",
+    "ko": "2단계  이유를 따라 계산. 대응하는 원래 입력에서 기울기의 역수를 구합니다. 수식: g^(′)(8)=(1)/(f^(′)(3))"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. A steeper original graph corresponds to a flatter inverse graph. Math: g^(′)(8)=(1)/(4)",
+    "ko": "3단계  결과의 의미. 원래 그래프의 큰 기울기는 역함수의 작은 기울기에 대응합니다. 수식: g^(′)(8)=(1)/(4)"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. Do not use f′(8); 8 is the output of f in this question. Math: g^(′)(f(a))=(1)/(f^(′)(a))",
+    "ko": "이 실수는 피하세요. f′(8)을 쓰지 마세요. 이 문제에서 8은 f의 출력입니다. 수식: g^(′)(f(a))=(1)/(f^(′)(a))"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Find g′(ln 5). Math: f(x)=lnx,g=f^(−1)",
+    "ko": "직접 풀어보세요. g′(ln 5)를 구하세요. 수식: f(x)=lnx,g=f^(−1)"
+  }
+]

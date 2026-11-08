@@ -1,0 +1,33 @@
+AP Calculus AB • L12
+Differentiability and continuity
+
+A continuous graph can still have a corner.
+At the corner, the incoming and outgoing tangent slopes disagree.
+
+1. The nearby outputs match the value, so the function is continuous.
+2. The two sides approach the point with different slopes.
+3. No single finite tangent slope exists at the corner.
+
+Remember: Continuity alone does not imply differentiability.
+
+CHECK ANSWER — try card 8 first
+Continuous, but not differentiable: one-sided slopes are −1 and 1.
+
+──────────
+
+AP Calculus AB • 12강
+미분가능성과 연속
+
+연속인 그래프에도 뾰족한 점이 있을 수 있습니다.
+뾰족한 점에서는 들어오는 기울기와 나가는 기울기가 다릅니다.
+
+1. 주변 출력과 함숫값이 같으므로 연속입니다.
+2. 양쪽에서 서로 다른 기울기로 그 점에 접근합니다.
+3. 뾰족한 점에는 하나의 유한한 접선 기울기가 없습니다.
+
+실수 점검: 연속이라는 사실만으로 미분가능하다고 할 수 없습니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+연속이지만 미분가능하지 않습니다. 좌우 기울기가 −1과 1로 다릅니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

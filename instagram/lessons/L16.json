@@ -1,0 +1,219 @@
+{
+  "id": "L16",
+  "number": 16,
+  "unit": 2,
+  "unit_title": {
+    "ko": "미분의 기초",
+    "en": "Derivative foundations"
+  },
+  "title": {
+    "ko": "몫의 법칙",
+    "en": "The quotient rule"
+  },
+  "prerequisites": [
+    "L15"
+  ],
+  "week": 6,
+  "day": "Monday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U2-M03"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "Differentiate the top first, subtract the other contribution, then divide by the bottom squared.",
+    "ko": "분자를 먼저 미분한 항에서 다른 기여를 빼고 분모의 제곱으로 나눕니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "몫의 법칙",
+        "en": "The quotient rule"
+      },
+      "notes": {
+        "en": "For a quotient, the subtraction order matters.",
+        "ko": "몫을 미분할 때는 뺄셈 순서가 중요합니다."
+      },
+      "math": [
+        "f(x)=\\frac{x^2+1}{x+1}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "The quotient rule. For a quotient, the subtraction order matters.",
+        "ko": "몫의 법칙. 몫을 미분할 때는 뺄셈 순서가 중요합니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "The denominator must stay nonzero; here x≠−1.",
+        "ko": "분모는 0이 아니어야 하므로 여기서는 x≠−1입니다."
+      },
+      "math": [
+        "u=x^2+1,\\quad v=x+1",
+        "x\\ne-1"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. The denominator must stay nonzero; here x≠−1.",
+        "ko": "먼저 조건을 확인. 분모는 0이 아니어야 하므로 여기서는 x≠−1입니다."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "Differentiate the top first, subtract the other contribution, then divide by the bottom squared.",
+        "ko": "분자를 먼저 미분한 항에서 다른 기여를 빼고 분모의 제곱으로 나눕니다."
+      },
+      "math": [
+        "\\left(\\frac uv\\right)^\\prime=\\frac{u^\\prime v-uv^\\prime}{v^2}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. Differentiate the top first, subtract the other contribution, then divide by the bottom squared.",
+        "ko": "개념을 눈으로 연결. 분자를 먼저 미분한 항에서 다른 기여를 빼고 분모의 제곱으로 나눕니다."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "Find each derivative before assembling the quotient rule.",
+        "ko": "각 도함수를 구한 뒤 몫의 법칙에 넣습니다."
+      },
+      "math": [
+        "u^\\prime=2x,\\quad v^\\prime=1"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. Find each derivative before assembling the quotient rule.",
+        "ko": "1단계  식을 세우기. 각 도함수를 구한 뒤 몫의 법칙에 넣습니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "Parentheses protect the entire subtracted term.",
+        "ko": "괄호를 써서 빼는 항 전체를 보호합니다."
+      },
+      "math": [
+        "f^\\prime(x)=\\frac{2x(x+1)-(x^2+1)}{(x+1)^2}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. Parentheses protect the entire subtracted term.",
+        "ko": "2단계  이유를 따라 계산. 괄호를 써서 빼는 항 전체를 보호합니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "Evaluate numerator and denominator consistently at the same input.",
+        "ko": "분자와 분모에 같은 입력값을 일관되게 대입합니다."
+      },
+      "math": [
+        "f^\\prime(1)=\\frac{4-2}{4}=\\frac12"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. Evaluate numerator and denominator consistently at the same input.",
+        "ko": "3단계  결과의 의미. 분자와 분모에 같은 입력값을 일관되게 대입합니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "Do not divide the numerator derivative by the denominator derivative.",
+        "ko": "분자의 도함수를 분모의 도함수로 나누면 안 됩니다."
+      },
+      "math": [
+        "\\left(\\frac uv\\right)^\\prime\\ne\\frac{u^\\prime}{v^\\prime}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. Do not divide the numerator derivative by the denominator derivative.",
+        "ko": "이 실수는 피하세요. 분자의 도함수를 분모의 도함수로 나누면 안 됩니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Apply the quotient rule before evaluating.",
+        "ko": "몫의 미분법을 적용한 뒤 값을 구하세요."
+      },
+      "math": [
+        "g(x)=\\frac{x}{x+2},\\quad g^\\prime(1)=?"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Apply the quotient rule before evaluating.",
+        "ko": "직접 풀어보세요. 몫의 미분법을 적용한 뒤 값을 구하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "g(x)=\\frac{x}{x+2},\\quad g^\\prime(1)=?"
+    ],
+    "prompt": {
+      "en": "Apply the quotient rule before evaluating.",
+      "ko": "몫의 미분법을 적용한 뒤 값을 구하세요."
+    },
+    "answer": {
+      "en": "2/9. The derivative is 2/(x+2)², so the value at 1 is 2/9.",
+      "ko": "2/9입니다. 도함수는 2/(x+2)²이므로 1에서 2/9입니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "diff((x**2+1)/(x+1),x).subs(x,1)",
+      "expected": "1/2"
+    },
+    {
+      "expression": "diff(x/(x+2),x).subs(x,1)",
+      "expected": "2/9"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L16\nThe quotient rule\n\nFor a quotient, the subtraction order matters.\nDifferentiate the top first, subtract the other contribution, then divide by the bottom squared.\n\n1. Find each derivative before assembling the quotient rule.\n2. Parentheses protect the entire subtracted term.\n3. Evaluate numerator and denominator consistently at the same input.\n\nRemember: Do not divide the numerator derivative by the denominator derivative.\n\nCHECK ANSWER — try card 8 first\n2/9. The derivative is 2/(x+2)², so the value at 1 is 2/9.",
+    "ko": "AP Calculus AB • 16강\n몫의 법칙\n\n몫을 미분할 때는 뺄셈 순서가 중요합니다.\n분자를 먼저 미분한 항에서 다른 기여를 빼고 분모의 제곱으로 나눕니다.\n\n1. 각 도함수를 구한 뒤 몫의 법칙에 넣습니다.\n2. 괄호를 써서 빼는 항 전체를 보호합니다.\n3. 분자와 분모에 같은 입력값을 일관되게 대입합니다.\n\n실수 점검: 분자의 도함수를 분모의 도함수로 나누면 안 됩니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n2/9입니다. 도함수는 2/(x+2)²이므로 1에서 2/9입니다."
+  },
+  "graph_description": null
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Differentiability and continuity. A continuous graph can still have a corner. Math: f(x)=|x−2|at x=2",
+    "ko": "미분가능성과 연속. 연속인 그래프에도 뾰족한 점이 있을 수 있습니다. 수식: f(x)=|x−2|at x=2"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. Check continuity first, then compare one-sided slopes. Math: differentiable⇒continuous",
+    "ko": "먼저 조건을 확인. 연속성을 먼저 확인하고 좌우 기울기를 비교하세요. 수식: differentiable⇒continuous"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. At the corner, the incoming and outgoing tangent slopes disagree. Graph: f: y=Abs(x-2). x-range [0, 4], y-range [-0.3, 2.5]. Filled points: [[2, 0]].",
+    "ko": "개념을 눈으로 연결. 뾰족한 점에서는 들어오는 기울기와 나가는 기울기가 다릅니다. 그래프: f: y=Abs(x-2). x 표시구간 [0, 4], y 표시구간 [-0.3, 2.5]. 채운 점: [[2, 0]]."
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. The nearby outputs match the value, so the function is continuous. Math: lim_(x→2)|x−2|=0=f(2)",
+    "ko": "1단계  식을 세우기. 주변 출력과 함숫값이 같으므로 연속입니다. 수식: lim_(x→2)|x−2|=0=f(2)"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. The two sides approach the point with different slopes. Math: left slope=−1; right slope=1",
+    "ko": "2단계  이유를 따라 계산. 양쪽에서 서로 다른 기울기로 그 점에 접근합니다. 수식: left slope=−1; right slope=1"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. No single finite tangent slope exists at the corner. Math: f^(′)(2) DNE",
+    "ko": "3단계  결과의 의미. 뾰족한 점에는 하나의 유한한 접선 기울기가 없습니다. 수식: f^(′)(2) DNE"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. Continuity alone does not imply differentiability. Math: continuous ⇏ differentiable",
+    "ko": "이 실수는 피하세요. 연속이라는 사실만으로 미분가능하다고 할 수 없습니다. 수식: continuous ⇏ differentiable"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Is g continuous? Is it differentiable? Math: g(x)=|x|at x=0",
+    "ko": "직접 풀어보세요. g는 연속인가요? 미분가능한가요? 수식: g(x)=|x|at x=0"
+  }
+]

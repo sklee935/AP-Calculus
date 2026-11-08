@@ -1,0 +1,33 @@
+AP Calculus AB • L57
+Area with horizontal slices
+
+Horizontal slices can simplify a region when x is naturally written in terms of y.
+For 0≤y≤2, the right boundary is x=2y and the left boundary is x=y².
+
+1. Both boundary positions are x-coordinates at the same height y.
+2. A horizontal slice has thickness dy.
+3. The limits are y-values, not x-values.
+
+Remember: Do not mix a horizontal width expression with x-limits or dx.
+
+CHECK ANSWER — try card 8 first
+1/6. On 0≤y≤1, right minus left is y−y², whose integral is 1/6.
+
+──────────
+
+AP Calculus AB • 57강
+가로 단면의 넓이
+
+x가 y의 식으로 주어지면 가로 단면으로 영역을 더 쉽게 다룰 수 있습니다.
+0≤y≤2에서 오른쪽 경계는 x=2y, 왼쪽 경계는 x=y²입니다.
+
+1. 같은 높이 y에서 두 경계의 x좌표를 뺍니다.
+2. 가로 단면의 두께는 dy입니다.
+3. 적분구간은 x값이 아니라 y값입니다.
+
+실수 점검: 가로 폭의 식에 x 구간이나 dx를 섞지 마세요.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+1/6입니다. 0≤y≤1에서 오른쪽에서 왼쪽을 빼면 y−y²이며 그 적분은 1/6입니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

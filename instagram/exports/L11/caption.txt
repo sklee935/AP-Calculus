@@ -1,0 +1,33 @@
+AP Calculus AB • L11
+Estimating derivatives
+
+A table can estimate a derivative when no formula is given.
+A centered secant uses information from both directions.
+
+1. Read the output change from the outer two rows.
+2. Use the matching input interval, not just half of it.
+3. This is an estimate in output units per input unit.
+
+Remember: Finite tabular data does not usually determine an exact derivative.
+
+CHECK ANSWER — try card 8 first
+5. The centered estimate is (15−5)/(3−1)=5.
+
+──────────
+
+AP Calculus AB • 11강
+도함수 추정
+
+함수식이 없어도 표를 이용해 미분계수를 추정할 수 있습니다.
+중앙 할선은 양쪽 방향의 정보를 함께 사용합니다.
+
+1. 양옆 두 행에서 출력의 변화량을 읽습니다.
+2. 대응하는 입력 구간 전체의 길이를 사용하세요.
+3. 출력 단위를 입력 단위로 나눈 변화율의 추정값입니다.
+
+실수 점검: 유한한 표만으로 정확한 도함수 값이 정해지지는 않습니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+5입니다. 중앙 할선의 기울기는 (15−5)/(3−1)=5입니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Displacement and total distance. Displacement allows cancellation; total distance counts every part of the trip positively. Math: v(t)=t−1on [0,3]",
+    "ko": "변위와 이동거리. 변위에서는 반대 방향 이동이 상쇄되지만 이동거리는 모두 양수로 셉니다. 수식: v(t)=t−1on [0,3]"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. Time is in seconds and velocity is in m/s. Split where velocity changes sign. Math: v(1)=0",
+    "ko": "먼저 조건을 확인. 시간은 초, 속도는 m/s입니다. 속도의 부호가 바뀌는 점에서 나누세요. 수식: v(1)=0"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. The integral of |v| adds the magnitudes of the negative and positive regions. Graph: velocity: y=x-1. x-range [0, 3], y-range [-1.4, 2.5].",
+    "ko": "개념을 눈으로 연결. |v|의 적분은 음의 영역과 양의 영역의 크기를 모두 더합니다. 그래프: velocity: y=x-1. x 표시구간 [0, 3], y 표시구간 [-1.4, 2.5]."
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. Signed areas partially cancel. Math: displacement=∫_(0)^(3)(t−1)dt=(3)/(2) m",
+    "ko": "1단계  식을 세우기. 부호가 다른 넓이는 일부 상쇄됩니다. 수식: displacement=∫_(0)^(3)(t−1)dt=(3)/(2) m"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. For distance, reverse the sign on the negative-velocity interval. Math: ∫_(0)^(1)(1−t)dt=(1)/(2); ∫_(1)^(3)(t−1)dt=2",
+    "ko": "2단계  이유를 따라 계산. 이동거리는 속도가 음수인 구간의 부호를 바꿔 적분합니다. 수식: ∫_(0)^(1)(1−t)dt=(1)/(2); ∫_(1)^(3)(t−1)dt=2"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. Distance is at least the magnitude of displacement. Math: distance=(1)/(2)+2=(5)/(2) m",
+    "ko": "3단계  결과의 의미. 이동거리는 변위의 절댓값 이상입니다. 수식: distance=(1)/(2)+2=(5)/(2) m"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. Taking the absolute value after integrating loses reversals of direction. Math: ∫|v|≠|∫v|in general",
+    "ko": "이 실수는 피하세요. 적분한 뒤 절댓값만 취하면 방향 전환을 놓치게 됩니다. 수식: ∫|v|≠|∫v|in general"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Find displacement and total distance. Math: v(t)=t−2on [0,4]",
+    "ko": "직접 풀어보세요. 변위와 총 이동거리를 구하세요. 수식: v(t)=t−2on [0,4]"
+  }
+]

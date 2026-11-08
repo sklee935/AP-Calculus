@@ -1,0 +1,239 @@
+{
+  "id": "L36",
+  "number": 36,
+  "unit": 5,
+  "unit_title": {
+    "ko": "함수 분석",
+    "en": "Analyzing functions"
+  },
+  "title": {
+    "ko": "최적화",
+    "en": "Optimization"
+  },
+  "prerequisites": [
+    "L35"
+  ],
+  "week": 12,
+  "day": "Friday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U5-M06"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "Use the constraint to express area in one variable before differentiating.",
+    "ko": "제약식을 이용해 넓이를 한 변수로 나타낸 뒤 미분합니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "최적화",
+        "en": "Optimization"
+      },
+      "notes": {
+        "en": "Optimization starts with a feasible model, not with setting an arbitrary derivative to zero.",
+        "ko": "최적화는 아무 식이나 미분하는 대신 가능한 상황을 모형화하는 데서 시작합니다."
+      },
+      "math": [
+        "2x+2y=40\\ \\mathrm{m}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Optimization. Optimization starts with a feasible model, not with setting an arbitrary derivative to zero.",
+        "ko": "최적화. 최적화는 아무 식이나 미분하는 대신 가능한 상황을 모형화하는 데서 시작합니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "A rectangle has perimeter 40 m. Maximize its area with positive side lengths.",
+        "ko": "둘레 40m인 직사각형의 넓이를 최대로 하세요. 변의 길이는 양수입니다."
+      },
+      "math": [
+        "y=20-x,\\quad0<x<20"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. A rectangle has perimeter 40 m. Maximize its area with positive side lengths.",
+        "ko": "먼저 조건을 확인. 둘레 40m인 직사각형의 넓이를 최대로 하세요. 변의 길이는 양수입니다."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "Use the constraint to express area in one variable before differentiating.",
+        "ko": "제약식을 이용해 넓이를 한 변수로 나타낸 뒤 미분합니다."
+      },
+      "math": [],
+      "visual": {
+        "kind": "graph",
+        "curves": [
+          {
+            "expr": "x*(20-x)",
+            "label": "area",
+            "color": "blue"
+          }
+        ],
+        "xlim": [
+          0,
+          20
+        ],
+        "ylim": [
+          0,
+          110
+        ],
+        "points": [
+          [
+            10,
+            100
+          ]
+        ]
+      },
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. Use the constraint to express area in one variable before differentiating. Graph: area: y=x*(20-x). x-range [0, 20], y-range [0, 110]. Filled points: [[10, 100]].",
+        "ko": "개념을 눈으로 연결. 제약식을 이용해 넓이를 한 변수로 나타낸 뒤 미분합니다. 그래프: area: y=x*(20-x). x 표시구간 [0, 20], y 표시구간 [0, 110]. 채운 점: [[10, 100]]."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "Area is the objective; perimeter is the constraint.",
+        "ko": "넓이가 목표량이고 둘레는 제약조건입니다."
+      },
+      "math": [
+        "A(x)=x(20-x)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. Area is the objective; perimeter is the constraint.",
+        "ko": "1단계  식을 세우기. 넓이가 목표량이고 둘레는 제약조건입니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "Find the feasible stationary candidate.",
+        "ko": "가능한 범위 안에서 정지점 후보를 찾습니다."
+      },
+      "math": [
+        "A^\\prime(x)=20-2x=0\\Rightarrow x=10"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. Find the feasible stationary candidate.",
+        "ko": "2단계  이유를 따라 계산. 가능한 범위 안에서 정지점 후보를 찾습니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "The downward parabola has its global maximum at this vertex.",
+        "ko": "아래로 열린 포물선의 꼭짓점이 전체 최댓값을 줍니다."
+      },
+      "math": [
+        "A^{\\prime\\prime}=-2<0,\\quad A(10)=100\\ \\mathrm{m^2}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. The downward parabola has its global maximum at this vertex.",
+        "ko": "3단계  결과의 의미. 아래로 열린 포물선의 꼭짓점이 전체 최댓값을 줍니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "Check the domain and justify a maximum; a zero derivative alone is not enough.",
+        "ko": "정의역을 확인하고 최댓값임을 설명하세요. 도함수가 0이라는 것만으로 부족합니다."
+      },
+      "math": [
+        "x=y=10\\ \\mathrm{m}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. Check the domain and justify a maximum; a zero derivative alone is not enough.",
+        "ko": "이 실수는 피하세요. 정의역을 확인하고 최댓값임을 설명하세요. 도함수가 0이라는 것만으로 부족합니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "What is the greatest rectangle area?",
+        "ko": "가능한 직사각형의 최대 넓이는 얼마인가요?"
+      },
+      "math": [
+        "2x+2y=24\\ \\mathrm{m}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. What is the greatest rectangle area?",
+        "ko": "직접 풀어보세요. 가능한 직사각형의 최대 넓이는 얼마인가요?"
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "2x+2y=24\\ \\mathrm{m}"
+    ],
+    "prompt": {
+      "en": "What is the greatest rectangle area?",
+      "ko": "가능한 직사각형의 최대 넓이는 얼마인가요?"
+    },
+    "answer": {
+      "en": "36 m². A=x(12−x) has derivative 12−2x, so the maximum occurs at x=y=6.",
+      "ko": "36m²입니다. A=x(12−x)의 도함수 12−2x가 0인 x=y=6에서 최대입니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "(x*(20-x)).subs(x,10)",
+      "expected": "100"
+    },
+    {
+      "expression": "(x*(12-x)).subs(x,6)",
+      "expected": "36"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L36\nOptimization\n\nOptimization starts with a feasible model, not with setting an arbitrary derivative to zero.\nUse the constraint to express area in one variable before differentiating.\n\n1. Area is the objective; perimeter is the constraint.\n2. Find the feasible stationary candidate.\n3. The downward parabola has its global maximum at this vertex.\n\nRemember: Check the domain and justify a maximum; a zero derivative alone is not enough.\n\nCHECK ANSWER — try card 8 first\n36 m². A=x(12−x) has derivative 12−2x, so the maximum occurs at x=y=6.",
+    "ko": "AP Calculus AB • 36강\n최적화\n\n최적화는 아무 식이나 미분하는 대신 가능한 상황을 모형화하는 데서 시작합니다.\n제약식을 이용해 넓이를 한 변수로 나타낸 뒤 미분합니다.\n\n1. 넓이가 목표량이고 둘레는 제약조건입니다.\n2. 가능한 범위 안에서 정지점 후보를 찾습니다.\n3. 아래로 열린 포물선의 꼭짓점이 전체 최댓값을 줍니다.\n\n실수 점검: 정의역을 확인하고 최댓값임을 설명하세요. 도함수가 0이라는 것만으로 부족합니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n36m²입니다. A=x(12−x)의 도함수 12−2x가 0인 x=y=6에서 최대입니다."
+  },
+  "graph_description": null
+}

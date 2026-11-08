@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "The mean value theorem. Some instantaneous slope must match the average slope when the Mean Value Theorem applies. Math: f(x)=x^(2)on [1,5]",
+    "ko": "평균값정리. 평균값정리의 조건이 맞으면 순간 기울기가 평균 기울기와 같은 점이 있습니다. 수식: f(x)=x^(2)on [1,5]"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. Check continuity on the closed interval and differentiability on the open interval. Math: f continuous on [1,5]; f differentiable on (1,5)",
+    "ko": "먼저 조건을 확인. 닫힌 구간의 연속성과 열린 구간의 미분가능성을 확인하세요. 수식: f continuous on [1,5]; f differentiable on (1,5)"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. The theorem guarantees an interior tangent parallel to the endpoint secant. Graph: f: y=x**2; secant: y=6*x-5. x-range [0.7, 5.2], y-range [0, 28].",
+    "ko": "개념을 눈으로 연결. 정리는 양 끝점을 잇는 할선과 평행한 내부 접선을 보장합니다. 그래프: f: y=x**2; secant: y=6*x-5. x 표시구간 [0.7, 5.2], y 표시구간 [0, 28]."
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. Compute the average slope over the entire interval. Math: (f(5)−f(1))/(5−1)=(25−1)/(4)=6",
+    "ko": "1단계  식을 세우기. 구간 전체의 평균 기울기를 구합니다. 수식: (f(5)−f(1))/(5−1)=(25−1)/(4)=6"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. Set an interior derivative equal to that average slope. Math: f^(′)(c)=2c=6",
+    "ko": "2단계  이유를 따라 계산. 내부 점의 도함수를 평균 기울기와 같게 놓습니다. 수식: f^(′)(c)=2c=6"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. The solution lies inside the required open interval. Math: c=3∈(1,5)",
+    "ko": "3단계  결과의 의미. 구한 점이 필요한 열린 구간 안에 있습니다. 수식: c=3∈(1,5)"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. Solving an equation is not enough; verify the theorem’s hypotheses and the location of c. Math: f^(′)(c)=(f(b)−f(a))/(b−a)",
+    "ko": "이 실수는 피하세요. 방정식만 풀지 말고 정리의 조건과 c의 위치를 확인하세요. 수식: f^(′)(c)=(f(b)−f(a))/(b−a)"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Find the MVT point in (0,2). Math: f(x)=x^(3)on [0,2]",
+    "ko": "직접 풀어보세요. (0,2) 안의 평균값정리 점을 구하세요. 수식: f(x)=x^(3)on [0,2]"
+  }
+]

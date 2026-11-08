@@ -1,0 +1,222 @@
+{
+  "id": "L58",
+  "number": 58,
+  "unit": 8,
+  "unit_title": {
+    "ko": "적분의 응용",
+    "en": "Applications of integration"
+  },
+  "title": {
+    "ko": "단면으로 부피 구하기",
+    "en": "Volumes from cross sections"
+  },
+  "prerequisites": [
+    "L57"
+  ],
+  "week": 20,
+  "day": "Monday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U8-M05",
+    "E27"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "Turn the slice width into a square area before integrating along x.",
+    "ko": "단면 폭을 정사각형의 넓이로 바꾼 뒤 x방향으로 적분합니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "단면으로 부피 구하기",
+        "en": "Volumes from cross sections"
+      },
+      "notes": {
+        "en": "A solid’s volume accumulates cross-sectional area, not just the base width.",
+        "ko": "입체의 부피는 밑면의 폭만이 아니라 단면의 넓이를 누적합니다."
+      },
+      "math": [
+        "\\mathrm{base:}\\quad y=x,\\ y=x^2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Volumes from cross sections. A solid’s volume accumulates cross-sectional area, not just the base width.",
+        "ko": "단면으로 부피 구하기. 입체의 부피는 밑면의 폭만이 아니라 단면의 넓이를 누적합니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Perpendicular to the x-axis, each cross section is a square whose side spans the base.",
+        "ko": "x축에 수직인 각 단면은 밑면을 가로지르는 선분을 한 변으로 하는 정사각형입니다."
+      },
+      "math": [
+        "0\\le x\\le1,\\quad s(x)=x-x^2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Perpendicular to the x-axis, each cross section is a square whose side spans the base.",
+        "ko": "먼저 조건을 확인. x축에 수직인 각 단면은 밑면을 가로지르는 선분을 한 변으로 하는 정사각형입니다."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "Turn the slice width into a square area before integrating along x.",
+        "ko": "단면 폭을 정사각형의 넓이로 바꾼 뒤 x방향으로 적분합니다."
+      },
+      "math": [
+        "A(x)=[s(x)]^2",
+        "V=\\int_a^b A(x)\\,dx"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. Turn the slice width into a square area before integrating along x.",
+        "ko": "개념을 눈으로 연결. 단면 폭을 정사각형의 넓이로 바꾼 뒤 x방향으로 적분합니다."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "Square the full side length, including both terms.",
+        "ko": "두 항을 포함한 변의 길이 전체를 제곱합니다."
+      },
+      "math": [
+        "A(x)=(x-x^2)^2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. Square the full side length, including both terms.",
+        "ko": "1단계  식을 세우기. 두 항을 포함한 변의 길이 전체를 제곱합니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "Expanding the square makes termwise integration straightforward.",
+        "ko": "제곱을 전개하면 항별로 쉽게 적분할 수 있습니다."
+      },
+      "math": [
+        "V=\\int_0^1(x^2-2x^3+x^4)\\,dx"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. Expanding the square makes termwise integration straightforward.",
+        "ko": "2단계  이유를 따라 계산. 제곱을 전개하면 항별로 쉽게 적분할 수 있습니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "The result uses cubic units because area was accumulated along a length.",
+        "ko": "넓이를 길이 방향으로 누적했으므로 결과는 부피 단위입니다."
+      },
+      "math": [
+        "V=\\frac13-\\frac12+\\frac15=\\frac1{30}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. The result uses cubic units because area was accumulated along a length.",
+        "ko": "3단계  결과의 의미. 넓이를 길이 방향으로 누적했으므로 결과는 부피 단위입니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "The specified cross-sectional shape determines A(x); a width alone is not an area.",
+        "ko": "주어진 단면 모양에 따라 A(x)를 정합니다. 폭 자체는 넓이가 아닙니다."
+      },
+      "math": [
+        "\\mathrm{square}:A=s^2,\\quad\\mathrm{semicircle}:A=\\frac{\\pi s^2}{8}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. The specified cross-sectional shape determines A(x); a width alone is not an area.",
+        "ko": "이 실수는 피하세요. 주어진 단면 모양에 따라 A(x)를 정합니다. 폭 자체는 넓이가 아닙니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Find the volume for semicircular cross sections.",
+        "ko": "반원 단면의 부피를 구하세요."
+      },
+      "math": [
+        "s(x)=2-x,\\quad0\\le x\\le2",
+        "\\mathrm{semicircle\\ diameter}=s(x)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Find the volume for semicircular cross sections.",
+        "ko": "직접 풀어보세요. 반원 단면의 부피를 구하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "s(x)=2-x,\\quad0\\le x\\le2",
+      "\\mathrm{semicircle\\ diameter}=s(x)"
+    ],
+    "prompt": {
+      "en": "Find the volume for semicircular cross sections.",
+      "ko": "반원 단면의 부피를 구하세요."
+    },
+    "answer": {
+      "en": "π/3. A=π(2−x)²/8 because the radius is half the diameter; integrate from 0 to 2.",
+      "ko": "π/3입니다. 반지름은 지름의 절반이므로 A=π(2−x)²/8을 0부터 2까지 적분합니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "integrate((x-x**2)**2,(x,0,1))",
+      "expected": "1/30"
+    },
+    {
+      "expression": "integrate(pi*(2-x)**2/8,(x,0,2))",
+      "expected": "pi/3"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L58\nVolumes from cross sections\n\nA solid’s volume accumulates cross-sectional area, not just the base width.\nTurn the slice width into a square area before integrating along x.\n\n1. Square the full side length, including both terms.\n2. Expanding the square makes termwise integration straightforward.\n3. The result uses cubic units because area was accumulated along a length.\n\nRemember: The specified cross-sectional shape determines A(x); a width alone is not an area.\n\nCHECK ANSWER — try card 8 first\nπ/3. A=π(2−x)²/8 because the radius is half the diameter; integrate from 0 to 2.",
+    "ko": "AP Calculus AB • 58강\n단면으로 부피 구하기\n\n입체의 부피는 밑면의 폭만이 아니라 단면의 넓이를 누적합니다.\n단면 폭을 정사각형의 넓이로 바꾼 뒤 x방향으로 적분합니다.\n\n1. 두 항을 포함한 변의 길이 전체를 제곱합니다.\n2. 제곱을 전개하면 항별로 쉽게 적분할 수 있습니다.\n3. 넓이를 길이 방향으로 누적했으므로 결과는 부피 단위입니다.\n\n실수 점검: 주어진 단면 모양에 따라 A(x)를 정합니다. 폭 자체는 넓이가 아닙니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\nπ/3입니다. 반지름은 지름의 절반이므로 A=π(2−x)²/8을 0부터 2까지 적분합니다."
+  },
+  "graph_description": null
+}

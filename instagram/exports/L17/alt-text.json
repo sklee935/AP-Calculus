@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "The chain rule. An outer power contains an inner function. Both layers contribute to the derivative. Math: f(x)=(2x^(3)+1)^(4)",
+    "ko": "연쇄법칙. 바깥 거듭제곱 안에 함수가 있습니다. 두 층의 변화율을 함께 반영합니다. 수식: f(x)=(2x^(3)+1)^(4)"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. Recall the power rule, then identify what sits inside the power. Math: u=2x^(3)+1",
+    "ko": "먼저 조건을 확인. 거듭제곱 미분법을 복습하고 거듭제곱 안의 식을 찾으세요. 수식: u=2x^(3)+1"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. Differentiate the outside, keep the inside, then multiply by the inside derivative. Math: (d)/(dx)F(u(x))=F^(′)(u(x))u^(′)(x)",
+    "ko": "개념을 눈으로 연결. 안을 유지하며 바깥을 미분하고, 안의 도함수를 곱합니다. 수식: (d)/(dx)F(u(x))=F^(′)(u(x))u^(′)(x)"
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. The inside is not just x, so its derivative is essential. Math: u^(′)=6x^(2)",
+    "ko": "1단계  식을 세우기. 안이 단순히 x가 아니므로 안의 미분이 꼭 필요합니다. 수식: u^(′)=6x^(2)"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. Multiply the outer derivative by the inner derivative. Math: f^(′)(x)=4(2x^(3)+1)^(3)(6x^(2))",
+    "ko": "2단계  이유를 따라 계산. 바깥 미분과 안의 미분을 곱합니다. 수식: f^(′)(x)=4(2x^(3)+1)^(3)(6x^(2))"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. Substitute only after completing both layers. Math: f^(′)(1)=4·27·6=648",
+    "ko": "3단계  결과의 의미. 두 층의 미분을 마친 뒤 값을 대입합니다. 수식: f^(′)(1)=4·27·6=648"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. Leaving out the inner derivative loses the chain rule. Math: (u^(4))^(′)=4u^(3)u^(′)",
+    "ko": "이 실수는 피하세요. 안의 도함수를 빠뜨리지 마세요. 수식: (u^(4))^(′)=4u^(3)u^(′)"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Find g′(x). Math: g(x)=sin(x^(2))",
+    "ko": "직접 풀어보세요. g′(x)를 구하세요. 수식: g(x)=sin(x^(2))"
+  }
+]

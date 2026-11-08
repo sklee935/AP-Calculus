@@ -1,0 +1,223 @@
+{
+  "id": "L26",
+  "number": 26,
+  "unit": 4,
+  "unit_title": {
+    "ko": "미분의 실제 적용",
+    "en": "Contextual differentiation"
+  },
+  "title": {
+    "ko": "원뿔과 사다리",
+    "en": "Cones and ladders"
+  },
+  "prerequisites": [
+    "L25"
+  ],
+  "week": 9,
+  "day": "Wednesday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U4-M06",
+    "U4-F02"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "A fixed ladder length links both moving distances. Cone geometry similarly links radius and depth.",
+    "ko": "사다리의 고정 길이가 두 거리를 연결합니다. 원뿔에서는 닮음이 반지름과 깊이를 연결합니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "원뿔과 사다리",
+        "en": "Cones and ladders"
+      },
+      "notes": {
+        "en": "Geometry supplies the relationship before calculus supplies the rate.",
+        "ko": "기하 관계식을 먼저 만들고 미분으로 변화율을 구합니다."
+      },
+      "math": [
+        "x^2+y^2=10^2",
+        "x=6\\ \\mathrm{ft},\\quad x^\\prime=2\\ \\mathrm{ft/s}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Cones and ladders. Geometry supplies the relationship before calculus supplies the rate.",
+        "ko": "원뿔과 사다리. 기하 관계식을 먼저 만들고 미분으로 변화율을 구합니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "A 10-foot ladder slides along a level floor and vertical wall. x,y>0 are its horizontal and vertical distances.",
+        "ko": "길이 10피트 사다리가 바닥과 벽을 따라 움직입니다. x,y>0은 가로와 세로 거리입니다."
+      },
+      "math": [
+        "y=\\sqrt{100-6^2}=8\\ \\mathrm{ft}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. A 10-foot ladder slides along a level floor and vertical wall. x,y>0 are its horizontal and vertical distances.",
+        "ko": "먼저 조건을 확인. 길이 10피트 사다리가 바닥과 벽을 따라 움직입니다. x,y>0은 가로와 세로 거리입니다."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "A fixed ladder length links both moving distances. Cone geometry similarly links radius and depth.",
+        "ko": "사다리의 고정 길이가 두 거리를 연결합니다. 원뿔에서는 닮음이 반지름과 깊이를 연결합니다."
+      },
+      "math": [
+        "2xx^\\prime+2yy^\\prime=0"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. A fixed ladder length links both moving distances. Cone geometry similarly links radius and depth.",
+        "ko": "개념을 눈으로 연결. 사다리의 고정 길이가 두 거리를 연결합니다. 원뿔에서는 닮음이 반지름과 깊이를 연결합니다."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "Differentiate the relationship with respect to time.",
+        "ko": "관계식을 시간에 대해 미분하고 세로 변화율을 정리합니다."
+      },
+      "math": [
+        "y^\\prime=-\\frac{xx^\\prime}{y}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. Differentiate the relationship with respect to time.",
+        "ko": "1단계  식을 세우기. 관계식을 시간에 대해 미분하고 세로 변화율을 정리합니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "The top moves downward at 1.5 feet per second.",
+        "ko": "사다리 위쪽은 초당 1.5피트씩 내려갑니다."
+      },
+      "math": [
+        "y^\\prime=-\\frac{6\\cdot2}{8}=-\\frac32\\ \\mathrm{ft/s}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. The top moves downward at 1.5 feet per second.",
+        "ko": "2단계  이유를 따라 계산. 사다리 위쪽은 초당 1.5피트씩 내려갑니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "For a cone with height 8 and radius 4, eliminate r before differentiating.",
+        "ko": "높이 8, 반지름 4인 원뿔에서는 미분 전에 r을 h로 바꿉니다."
+      },
+      "math": [
+        "\\mathrm{cone:}\\quad r=h/2",
+        "V=\\frac13\\pi r^2h=\\frac{\\pi h^3}{12}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. For a cone with height 8 and radius 4, eliminate r before differentiating.",
+        "ko": "3단계  결과의 의미. 높이 8, 반지름 4인 원뿔에서는 미분 전에 r을 h로 바꿉니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "Use the current water radius, not the full cone radius, in the volume formula.",
+        "ko": "부피식에는 원뿔 전체 반지름이 아니라 현재 수면의 반지름을 쓰세요."
+      },
+      "math": [
+        "V^\\prime=\\frac{\\pi h^2}{4}h^\\prime"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. Use the current water radius, not the full cone radius, in the volume formula.",
+        "ko": "이 실수는 피하세요. 부피식에는 원뿔 전체 반지름이 아니라 현재 수면의 반지름을 쓰세요."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Find h′ for the cone model.",
+        "ko": "원뿔 모형에서 h′를 구하세요."
+      },
+      "math": [
+        "V=\\frac{\\pi h^3}{12},\\quad h=2\\ \\mathrm{cm}",
+        "V^\\prime=3\\pi\\ \\mathrm{cm^3/s}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Find h′ for the cone model.",
+        "ko": "직접 풀어보세요. 원뿔 모형에서 h′를 구하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "V=\\frac{\\pi h^3}{12},\\quad h=2\\ \\mathrm{cm}",
+      "V^\\prime=3\\pi\\ \\mathrm{cm^3/s}"
+    ],
+    "prompt": {
+      "en": "Find h′ for the cone model.",
+      "ko": "원뿔 모형에서 h′를 구하세요."
+    },
+    "answer": {
+      "en": "3 cm/s. V′=(πh²/4)h′; at h=2, 3π=πh′.",
+      "ko": "3 cm/s입니다. V′=(πh²/4)h′에 h=2를 넣으면 3π=πh′입니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "-6*Integer(2)/8",
+      "expected": "-3/2"
+    },
+    {
+      "expression": "(3*pi)/(pi*2**2/4)",
+      "expected": "3"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L26\nCones and ladders\n\nGeometry supplies the relationship before calculus supplies the rate.\nA fixed ladder length links both moving distances. Cone geometry similarly links radius and depth.\n\n1. Differentiate the relationship with respect to time.\n2. The top moves downward at 1.5 feet per second.\n3. For a cone with height 8 and radius 4, eliminate r before differentiating.\n\nRemember: Use the current water radius, not the full cone radius, in the volume formula.\n\nCHECK ANSWER — try card 8 first\n3 cm/s. V′=(πh²/4)h′; at h=2, 3π=πh′.",
+    "ko": "AP Calculus AB • 26강\n원뿔과 사다리\n\n기하 관계식을 먼저 만들고 미분으로 변화율을 구합니다.\n사다리의 고정 길이가 두 거리를 연결합니다. 원뿔에서는 닮음이 반지름과 깊이를 연결합니다.\n\n1. 관계식을 시간에 대해 미분하고 세로 변화율을 정리합니다.\n2. 사다리 위쪽은 초당 1.5피트씩 내려갑니다.\n3. 높이 8, 반지름 4인 원뿔에서는 미분 전에 r을 h로 바꿉니다.\n\n실수 점검: 부피식에는 원뿔 전체 반지름이 아니라 현재 수면의 반지름을 쓰세요.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n3 cm/s입니다. V′=(πh²/4)h′에 h=2를 넣으면 3π=πh′입니다."
+  },
+  "graph_description": null
+}

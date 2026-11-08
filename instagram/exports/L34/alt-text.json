@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Concavity and inflection. Concavity describes changing slopes; an inflection point needs a change of concavity. Math: f(x)=x^(3)−6x^(2)",
+    "ko": "오목성과 변곡점. 오목성은 기울기의 변화를 나타내며 변곡점에는 오목성 변화가 필요합니다. 수식: f(x)=x^(3)−6x^(2)"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. Positive f″ means slopes increase; negative f″ means slopes decrease. Math: f^(′′)(x)=6x−12",
+    "ko": "먼저 조건을 확인. f″이 양수이면 기울기가 증가하고 음수이면 감소합니다. 수식: f^(′′)(x)=6x−12"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. The second derivative changes from negative to positive at x=2. Graph: f: y=x**3-6*x**2. x-range [0, 4], y-range [-35, 3]. Filled points: [[2, -16]].",
+    "ko": "개념을 눈으로 연결. 이계도함수는 x=2에서 음수에서 양수로 바뀝니다. 그래프: f: y=x**3-6*x**2. x 표시구간 [0, 4], y 표시구간 [-35, 3]. 채운 점: [[2, -16]]."
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. Left of 2 the graph is concave down. Math: f^(′′)(x)<0(x<2)",
+    "ko": "1단계  식을 세우기. 2의 왼쪽에서는 그래프가 아래로 오목합니다. 수식: f^(′′)(x)<0(x<2)"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. Right of 2 the graph is concave up. Math: f^(′′)(x)>0(x>2)",
+    "ko": "2단계  이유를 따라 계산. 2의 오른쪽에서는 그래프가 위로 오목합니다. 수식: f^(′′)(x)>0(x>2)"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. The function is continuous and its concavity changes here. Math: inflection: (2,−16)",
+    "ko": "3단계  결과의 의미. 여기서 함수는 연속이고 오목성이 바뀝니다. 수식: inflection: (2,−16)"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. The equation f″=0 gives a candidate; it does not prove an inflection point. Math: inflection⇒concavity change",
+    "ko": "이 실수는 피하세요. f″=0은 후보를 줄 뿐 변곡점임을 증명하지 않습니다. 수식: inflection⇒concavity change"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Is 0 an inflection point? Explain with signs. Math: g(x)=x^(4)at x=0",
+    "ko": "직접 풀어보세요. 0은 변곡점인가요? 부호로 설명하세요. 수식: g(x)=x^(4)at x=0"
+  }
+]

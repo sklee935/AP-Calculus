@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Inflow outflow and net change. A tank’s final amount equals its initial amount plus accumulated net flow. Math: in(t)=5−t,out(t)=2; V(0)=10 L,0≤t≤2",
+    "ko": "유입 유출 순변화. 탱크의 최종량은 초기량에 순유입량을 누적하여 더한 값입니다. 수식: in(t)=5−t,out(t)=2; V(0)=10 L,0≤t≤2"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. Time is in minutes and both flow rates are in L/min. Math: V^(′)=in−out",
+    "ko": "먼저 조건을 확인. 시간은 분이며 두 유량의 단위는 L/min입니다. 수식: V^(′)=in−out"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. Integrating a rate gives change; adding the initial amount gives the actual amount. Math: V(b)=V(a)+∫_(a)^(b)V^(′)(t)dt",
+    "ko": "개념을 눈으로 연결. 변화율을 적분하면 변화량이며 초기량을 더해야 실제 양이 됩니다. 수식: V(b)=V(a)+∫_(a)^(b)V^(′)(t)dt"
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. Subtract outflow from inflow before integrating. Math: V^(′)(t)=(5−t)−2=3−t",
+    "ko": "1단계  식을 세우기. 적분 전에 유입량에서 유출량을 뺍니다. 수식: V^(′)(t)=(5−t)−2=3−t"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. The tank gains a net 4 liters. Math: ∫_(0)^(2)(3−t)dt=4 L",
+    "ko": "2단계  이유를 따라 계산. 탱크는 순수하게 4리터를 얻습니다. 수식: ∫_(0)^(2)(3−t)dt=4 L"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. The final volume includes the original 10 liters. Math: V(2)=10+4=14 L",
+    "ko": "3단계  결과의 의미. 최종 부피에는 처음의 10리터가 포함됩니다. 수식: V(2)=10+4=14 L"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. A negative net rate means volume decreases; it does not mean volume is already negative. Math: final=initial+net change",
+    "ko": "이 실수는 피하세요. 순변화율이 음수이면 양이 감소하는 것이며 이미 양이 음수라는 뜻은 아닙니다. 수식: final=initial+net change"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Find V(3) with constant rates over 3 minutes. Math: V(0)=8 L; in=1,out=2 L/min",
+    "ko": "직접 풀어보세요. 3분 동안 유량이 일정할 때 V(3)을 구하세요. 수식: V(0)=8 L; in=1,out=2 L/min"
+  }
+]

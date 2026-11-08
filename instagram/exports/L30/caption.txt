@@ -1,0 +1,33 @@
+AP Calculus AB • L30
+Extreme values and critical numbers
+
+Existence of absolute extrema and the search for candidates are separate steps.
+Interior critical numbers have zero or undefined derivatives, but must belong to the function domain.
+
+1. The polynomial has a derivative everywhere.
+2. These are the interior critical numbers.
+3. Endpoints also enter the absolute-extrema comparison.
+
+Remember: A point where the original function is undefined is not its critical number.
+
+CHECK ANSWER — try card 8 first
+0. The function is defined there but its left and right derivatives disagree.
+
+──────────
+
+AP Calculus AB • 30강
+최대최소정리와 임계수
+
+절대극값의 존재 확인과 후보점 찾기는 서로 다른 단계입니다.
+내부 임계수는 도함수가 0이거나 존재하지 않는 점이며 함수의 정의역에 속해야 합니다.
+
+1. 다항함수는 모든 실수에서 미분가능합니다.
+2. 이 두 점이 구간 내부의 임계수입니다.
+3. 절대극값을 비교할 때는 끝점도 포함합니다.
+
+실수 점검: 원래 함수가 정의되지 않는 점은 그 함수의 임계수가 아닙니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+0입니다. 함수는 정의되지만 좌우 미분계수가 달라 도함수가 존재하지 않습니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

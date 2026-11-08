@@ -1,0 +1,33 @@
+AP Calculus AB • L17
+The chain rule
+
+An outer power contains an inner function. Both layers contribute to the derivative.
+Differentiate the outside, keep the inside, then multiply by the inside derivative.
+
+1. The inside is not just x, so its derivative is essential.
+2. Multiply the outer derivative by the inner derivative.
+3. Substitute only after completing both layers.
+
+Remember: Leaving out the inner derivative loses the chain rule.
+
+CHECK ANSWER — try card 8 first
+2x cos(x²). The outer sine gives cosine, and the inner x² gives 2x.
+
+──────────
+
+AP Calculus AB • 17강
+연쇄법칙
+
+바깥 거듭제곱 안에 함수가 있습니다. 두 층의 변화율을 함께 반영합니다.
+안을 유지하며 바깥을 미분하고, 안의 도함수를 곱합니다.
+
+1. 안이 단순히 x가 아니므로 안의 미분이 꼭 필요합니다.
+2. 바깥 미분과 안의 미분을 곱합니다.
+3. 두 층의 미분을 마친 뒤 값을 대입합니다.
+
+실수 점검: 안의 도함수를 빠뜨리지 마세요.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+2x cos(x²)입니다. 바깥 사인은 코사인으로, 안의 x²는 2x로 미분합니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

@@ -1,0 +1,33 @@
+AP Calculus AB • L56
+Area with vertical slices
+
+Vertical slices measure area with upper height minus lower height.
+On [0,1], x≥x², so each vertical slice has height x−x².
+
+1. Use top minus bottom with a horizontal width dx.
+2. Integrate each height term.
+3. The answer is positive and measured in square units.
+
+Remember: If the curves switch order, split the interval or use an absolute difference.
+
+CHECK ANSWER — try card 8 first
+4/3. Intersections are x=0,2 and 2x is above x² there, so integrate 2x−x² from 0 to 2.
+
+──────────
+
+AP Calculus AB • 56강
+세로 단면의 넓이
+
+세로 단면에서는 위쪽 높이에서 아래쪽 높이를 빼서 넓이를 구합니다.
+[0,1]에서는 x≥x²이므로 각 세로 단면의 높이는 x−x²입니다.
+
+1. 위에서 아래를 빼고 가로 폭 dx를 곱합니다.
+2. 높이의 각 항을 적분합니다.
+3. 답은 양수이며 넓이 단위입니다.
+
+실수 점검: 곡선의 위아래가 바뀌면 구간을 나누거나 차의 절댓값을 사용하세요.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+4/3입니다. 교점은 x=0,2이며 그 사이에서 2x가 위이므로 0부터 2까지 2x−x²을 적분합니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

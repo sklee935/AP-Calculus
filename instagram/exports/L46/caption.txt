@@ -1,0 +1,33 @@
+AP Calculus AB • L46
+Algebra and inverse trigonometric integrals
+
+Algebra can reveal a familiar inverse-trig antiderivative hidden in a quadratic denominator.
+The arctangent pattern is a reciprocal of a positive square plus a constant square.
+
+1. Scale the squared expression so the denominator becomes 4(1+u²).
+2. Retain the coefficient introduced by the substitution.
+3. Return to x; differentiating verifies the result for all real x.
+
+Remember: A numerator unlike the denominator derivative does not automatically give a logarithm.
+
+CHECK ANSWER — try card 8 first
+x²/2+ln x+C. Split the integrand into x+1/x and integrate each term.
+
+──────────
+
+AP Calculus AB • 46강
+식 정리와 역삼각 적분
+
+분모의 이차식을 정리하면 익숙한 역삼각함수 적분 형태가 보입니다.
+아크탄젠트 형태는 제곱식과 양의 상수 제곱의 합을 분모로 가집니다.
+
+1. 분모가 4(1+u²)이 되도록 제곱식을 조정합니다.
+2. 치환에서 생긴 계수를 유지합니다.
+3. x로 되돌리고 미분해 확인합니다. 모든 실수 x에서 성립합니다.
+
+실수 점검: 분자가 분모의 도함수와 다르면 무조건 로그로 적분할 수 없습니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+x²/2+ln x+C입니다. 피적분함수를 x+1/x로 나누어 항별로 적분합니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

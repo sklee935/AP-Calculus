@@ -1,0 +1,220 @@
+{
+  "id": "L30",
+  "number": 30,
+  "unit": 5,
+  "unit_title": {
+    "ko": "함수 분석",
+    "en": "Analyzing functions"
+  },
+  "title": {
+    "ko": "최대최소정리와 임계수",
+    "en": "Extreme values and critical numbers"
+  },
+  "prerequisites": [
+    "L29"
+  ],
+  "week": 10,
+  "day": "Friday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [],
+  "example_origin": "independently authored foundational example with symbolic checks",
+  "learning_goal": {
+    "en": "Interior critical numbers have zero or undefined derivatives, but must belong to the function domain.",
+    "ko": "내부 임계수는 도함수가 0이거나 존재하지 않는 점이며 함수의 정의역에 속해야 합니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "최대최소정리와 임계수",
+        "en": "Extreme values and critical numbers"
+      },
+      "notes": {
+        "en": "Existence of absolute extrema and the search for candidates are separate steps.",
+        "ko": "절대극값의 존재 확인과 후보점 찾기는 서로 다른 단계입니다."
+      },
+      "math": [
+        "f(x)=x^3-3x\\quad\\mathrm{on}\\ [-2,2]"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Extreme values and critical numbers. Existence of absolute extrema and the search for candidates are separate steps.",
+        "ko": "최대최소정리와 임계수. 절대극값의 존재 확인과 후보점 찾기는 서로 다른 단계입니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "A continuous function on a closed bounded interval attains both absolute extrema.",
+        "ko": "닫히고 유계인 구간의 연속함수는 절대최댓값과 절대최솟값을 갖습니다."
+      },
+      "math": [
+        "f\\ \\mathrm{continuous\\ on}\\ [-2,2]"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. A continuous function on a closed bounded interval attains both absolute extrema.",
+        "ko": "먼저 조건을 확인. 닫히고 유계인 구간의 연속함수는 절대최댓값과 절대최솟값을 갖습니다."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "Interior critical numbers have zero or undefined derivatives, but must belong to the function domain.",
+        "ko": "내부 임계수는 도함수가 0이거나 존재하지 않는 점이며 함수의 정의역에 속해야 합니다."
+      },
+      "math": [
+        "f^\\prime(c)=0\\quad\\mathrm{or}\\quad f^\\prime(c)\\ \\mathrm{DNE}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. Interior critical numbers have zero or undefined derivatives, but must belong to the function domain.",
+        "ko": "개념을 눈으로 연결. 내부 임계수는 도함수가 0이거나 존재하지 않는 점이며 함수의 정의역에 속해야 합니다."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "The polynomial has a derivative everywhere.",
+        "ko": "다항함수는 모든 실수에서 미분가능합니다."
+      },
+      "math": [
+        "f^\\prime(x)=3x^2-3"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. The polynomial has a derivative everywhere.",
+        "ko": "1단계  식을 세우기. 다항함수는 모든 실수에서 미분가능합니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "These are the interior critical numbers.",
+        "ko": "이 두 점이 구간 내부의 임계수입니다."
+      },
+      "math": [
+        "3(x-1)(x+1)=0\\Rightarrow x=-1,1"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. These are the interior critical numbers.",
+        "ko": "2단계  이유를 따라 계산. 이 두 점이 구간 내부의 임계수입니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "Endpoints also enter the absolute-extrema comparison.",
+        "ko": "절대극값을 비교할 때는 끝점도 포함합니다."
+      },
+      "math": [
+        "\\mathrm{candidates}:\\ -2,-1,1,2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. Endpoints also enter the absolute-extrema comparison.",
+        "ko": "3단계  결과의 의미. 절대극값을 비교할 때는 끝점도 포함합니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "A point where the original function is undefined is not its critical number.",
+        "ko": "원래 함수가 정의되지 않는 점은 그 함수의 임계수가 아닙니다."
+      },
+      "math": [
+        "\\mathrm{endpoints}+\\mathrm{critical\\ numbers}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. A point where the original function is undefined is not its critical number.",
+        "ko": "이 실수는 피하세요. 원래 함수가 정의되지 않는 점은 그 함수의 임계수가 아닙니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Which interior number is critical, and why?",
+        "ko": "내부 임계수는 무엇이며 이유는 무엇인가요?"
+      },
+      "math": [
+        "g(x)=|x|\\quad\\mathrm{on}\\ [-1,2]"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Which interior number is critical, and why?",
+        "ko": "직접 풀어보세요. 내부 임계수는 무엇이며 이유는 무엇인가요?"
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "g(x)=|x|\\quad\\mathrm{on}\\ [-1,2]"
+    ],
+    "prompt": {
+      "en": "Which interior number is critical, and why?",
+      "ko": "내부 임계수는 무엇이며 이유는 무엇인가요?"
+    },
+    "answer": {
+      "en": "0. The function is defined there but its left and right derivatives disagree.",
+      "ko": "0입니다. 함수는 정의되지만 좌우 미분계수가 달라 도함수가 존재하지 않습니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "diff(x**3-3*x,x).subs(x,-1)",
+      "expected": "0"
+    },
+    {
+      "expression": "diff(x**3-3*x,x).subs(x,1)",
+      "expected": "0"
+    },
+    {
+      "expression": "limit(Abs(x)/x,x,0,dir='-')",
+      "expected": "-1"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L30\nExtreme values and critical numbers\n\nExistence of absolute extrema and the search for candidates are separate steps.\nInterior critical numbers have zero or undefined derivatives, but must belong to the function domain.\n\n1. The polynomial has a derivative everywhere.\n2. These are the interior critical numbers.\n3. Endpoints also enter the absolute-extrema comparison.\n\nRemember: A point where the original function is undefined is not its critical number.\n\nCHECK ANSWER — try card 8 first\n0. The function is defined there but its left and right derivatives disagree.",
+    "ko": "AP Calculus AB • 30강\n최대최소정리와 임계수\n\n절대극값의 존재 확인과 후보점 찾기는 서로 다른 단계입니다.\n내부 임계수는 도함수가 0이거나 존재하지 않는 점이며 함수의 정의역에 속해야 합니다.\n\n1. 다항함수는 모든 실수에서 미분가능합니다.\n2. 이 두 점이 구간 내부의 임계수입니다.\n3. 절대극값을 비교할 때는 끝점도 포함합니다.\n\n실수 점검: 원래 함수가 정의되지 않는 점은 그 함수의 임계수가 아닙니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n0입니다. 함수는 정의되지만 좌우 미분계수가 달라 도함수가 존재하지 않습니다."
+  },
+  "graph_description": null
+}

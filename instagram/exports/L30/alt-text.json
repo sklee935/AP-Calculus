@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Extreme values and critical numbers. Existence of absolute extrema and the search for candidates are separate steps. Math: f(x)=x^(3)−3xon [−2,2]",
+    "ko": "최대최소정리와 임계수. 절대극값의 존재 확인과 후보점 찾기는 서로 다른 단계입니다. 수식: f(x)=x^(3)−3xon [−2,2]"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. A continuous function on a closed bounded interval attains both absolute extrema. Math: f continuous on [−2,2]",
+    "ko": "먼저 조건을 확인. 닫히고 유계인 구간의 연속함수는 절대최댓값과 절대최솟값을 갖습니다. 수식: f continuous on [−2,2]"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. Interior critical numbers have zero or undefined derivatives, but must belong to the function domain. Math: f^(′)(c)=0orf^(′)(c) DNE",
+    "ko": "개념을 눈으로 연결. 내부 임계수는 도함수가 0이거나 존재하지 않는 점이며 함수의 정의역에 속해야 합니다. 수식: f^(′)(c)=0orf^(′)(c) DNE"
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. The polynomial has a derivative everywhere. Math: f^(′)(x)=3x^(2)−3",
+    "ko": "1단계  식을 세우기. 다항함수는 모든 실수에서 미분가능합니다. 수식: f^(′)(x)=3x^(2)−3"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. These are the interior critical numbers. Math: 3(x−1)(x+1)=0⇒x=−1,1",
+    "ko": "2단계  이유를 따라 계산. 이 두 점이 구간 내부의 임계수입니다. 수식: 3(x−1)(x+1)=0⇒x=−1,1"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. Endpoints also enter the absolute-extrema comparison. Math: candidates: −2,−1,1,2",
+    "ko": "3단계  결과의 의미. 절대극값을 비교할 때는 끝점도 포함합니다. 수식: candidates: −2,−1,1,2"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. A point where the original function is undefined is not its critical number. Math: endpoints+critical numbers",
+    "ko": "이 실수는 피하세요. 원래 함수가 정의되지 않는 점은 그 함수의 임계수가 아닙니다. 수식: endpoints+critical numbers"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Which interior number is critical, and why? Math: g(x)=|x|on [−1,2]",
+    "ko": "직접 풀어보세요. 내부 임계수는 무엇이며 이유는 무엇인가요? 수식: g(x)=|x|on [−1,2]"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Power and sum rules. Differentiate a polynomial one term at a time. Math: f(x)=3x^(4)−2x+7",
+    "ko": "거듭제곱과 합의 미분. 다항식은 항별로 하나씩 미분합니다. 수식: f(x)=3x^(4)−2x+7"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. Keep each coefficient and reduce the power by one after multiplying. Math: (x^(n))^(′)=nx^(n−1)",
+    "ko": "먼저 조건을 확인. 계수를 유지하고 지수를 곱한 뒤 지수를 하나 줄이세요. 수식: (x^(n))^(′)=nx^(n−1)"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. The derivative of a sum is the sum of the derivatives. Constants contribute zero. Math: (u+v)^(′)=u^(′)+v^(′)",
+    "ko": "개념을 눈으로 연결. 합의 도함수는 각 도함수의 합입니다. 상수의 기여는 0입니다. 수식: (u+v)^(′)=u^(′)+v^(′)"
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. Apply the power rule to the variable terms. Math: (3x^(4))^(′)=12x^(3); (−2x)^(′)=−2",
+    "ko": "1단계  식을 세우기. 변수가 있는 항에 거듭제곱 미분법을 적용합니다. 수식: (3x^(4))^(′)=12x^(3); (−2x)^(′)=−2"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. The constant 7 disappears because it does not change. Math: f^(′)(x)=12x^(3)−2",
+    "ko": "2단계  이유를 따라 계산. 상수 7은 변하지 않으므로 미분하면 사라집니다. 수식: f^(′)(x)=12x^(3)−2"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. Evaluate the derivative only after finding its formula. Math: f^(′)(1)=10",
+    "ko": "3단계  결과의 의미. 도함수의 식을 구한 뒤 값을 대입합니다. 수식: f^(′)(1)=10"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. Reducing an exponent without multiplying by the original exponent misses a factor. Math: (ax^(n))^(′)=anx^(n−1)",
+    "ko": "이 실수는 피하세요. 원래 지수를 곱하지 않고 지수만 줄이면 계수가 빠집니다. 수식: (ax^(n))^(′)=anx^(n−1)"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Find the derivative as a function. Math: (d)/(dx)(2x^(3)−5x)",
+    "ko": "직접 풀어보세요. 도함수의 식을 구하세요. 수식: (d)/(dx)(2x^(3)−5x)"
+  }
+]

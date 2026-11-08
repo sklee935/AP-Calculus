@@ -1,0 +1,245 @@
+{
+  "id": "L35",
+  "number": 35,
+  "unit": 5,
+  "unit_title": {
+    "ko": "함수 분석",
+    "en": "Analyzing functions"
+  },
+  "title": {
+    "ko": "함수와 도함수 그래프",
+    "en": "Connecting derivative graphs"
+  },
+  "prerequisites": [
+    "L34"
+  ],
+  "week": 12,
+  "day": "Wednesday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [],
+  "example_origin": "independently authored foundational example with symbolic checks",
+  "learning_goal": {
+    "en": "At a zero of f′, a nonzero second derivative classifies the stationary point.",
+    "ko": "f′이 0인 점에서 f″이 0이 아니면 정지점을 판정할 수 있습니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "함수와 도함수 그래프",
+        "en": "Connecting derivative graphs"
+      },
+      "notes": {
+        "en": "A graph of f′ records slopes of f, and its own slope records f″.",
+        "ko": "f′의 그래프 높이는 f의 기울기이고, 그 그래프의 기울기는 f″입니다."
+      },
+      "math": [
+        "f^\\prime(x)=3x^2-6x"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Connecting derivative graphs. A graph of f′ records slopes of f, and its own slope records f″.",
+        "ko": "함수와 도함수 그래프. f′의 그래프 높이는 f의 기울기이고, 그 그래프의 기울기는 f″입니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Read the derivative graph’s height and slope as different pieces of information.",
+        "ko": "도함수 그래프의 높이와 기울기를 서로 다른 정보로 읽으세요."
+      },
+      "math": [
+        "f^{\\prime\\prime}(x)=6x-6"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Read the derivative graph’s height and slope as different pieces of information.",
+        "ko": "먼저 조건을 확인. 도함수 그래프의 높이와 기울기를 서로 다른 정보로 읽으세요."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "At a zero of f′, a nonzero second derivative classifies the stationary point.",
+        "ko": "f′이 0인 점에서 f″이 0이 아니면 정지점을 판정할 수 있습니다."
+      },
+      "math": [],
+      "visual": {
+        "kind": "graph",
+        "curves": [
+          {
+            "expr": "3*x**2-6*x",
+            "label": "f prime",
+            "color": "blue"
+          }
+        ],
+        "xlim": [
+          -1,
+          3
+        ],
+        "ylim": [
+          -4,
+          10
+        ],
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. At a zero of f′, a nonzero second derivative classifies the stationary point. Graph: f prime: y=3*x**2-6*x. x-range [-1, 3], y-range [-4, 10]. Filled points: [[0, 0], [2, 0]].",
+        "ko": "개념을 눈으로 연결. f′이 0인 점에서 f″이 0이 아니면 정지점을 판정할 수 있습니다. 그래프: f prime: y=3*x**2-6*x. x 표시구간 [-1, 3], y 표시구간 [-4, 10]. 채운 점: [[0, 0], [2, 0]]."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "The derivative graph meets the axis at two stationary inputs.",
+        "ko": "도함수 그래프가 축과 만나는 두 입력이 정지점 후보입니다."
+      },
+      "math": [
+        "f^\\prime(0)=f^\\prime(2)=0"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. The derivative graph meets the axis at two stationary inputs.",
+        "ko": "1단계  식을 세우기. 도함수 그래프가 축과 만나는 두 입력이 정지점 후보입니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "At 0, the slope of f is decreasing through zero: a local maximum.",
+        "ko": "0에서는 f의 기울기가 감소하며 0을 지나므로 국소최대입니다."
+      },
+      "math": [
+        "f^{\\prime\\prime}(0)=-6<0"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. At 0, the slope of f is decreasing through zero: a local maximum.",
+        "ko": "2단계  이유를 따라 계산. 0에서는 f의 기울기가 감소하며 0을 지나므로 국소최대입니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "At 2, the slope increases through zero: a local minimum.",
+        "ko": "2에서는 기울기가 증가하며 0을 지나므로 국소최소입니다."
+      },
+      "math": [
+        "f^{\\prime\\prime}(2)=6>0"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. At 2, the slope increases through zero: a local minimum.",
+        "ko": "3단계  결과의 의미. 2에서는 기울기가 증가하며 0을 지나므로 국소최소입니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "If f″(c)=0, the second derivative test is inconclusive; use another test.",
+        "ko": "f″(c)=0이면 이계도함수 판정법으로 결론을 내릴 수 없습니다."
+      },
+      "math": [
+        "f^\\prime(c)=0,\\ f^{\\prime\\prime}(c)>0\\Rightarrow\\mathrm{local\\ min}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. If f″(c)=0, the second derivative test is inconclusive; use another test.",
+        "ko": "이 실수는 피하세요. f″(c)=0이면 이계도함수 판정법으로 결론을 내릴 수 없습니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "What does the second derivative test say? What is actually true?",
+        "ko": "이계도함수 판정법의 결과와 실제 극값을 구별하세요."
+      },
+      "math": [
+        "g(x)=x^4\\quad\\mathrm{at}\\ x=0"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. What does the second derivative test say? What is actually true?",
+        "ko": "직접 풀어보세요. 이계도함수 판정법의 결과와 실제 극값을 구별하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "g(x)=x^4\\quad\\mathrm{at}\\ x=0"
+    ],
+    "prompt": {
+      "en": "What does the second derivative test say? What is actually true?",
+      "ko": "이계도함수 판정법의 결과와 실제 극값을 구별하세요."
+    },
+    "answer": {
+      "en": "The test is inconclusive since g″(0)=0. The first derivative changes − to +, so 0 is a minimum.",
+      "ko": "g″(0)=0이므로 판정 불가입니다. 일계도함수는 −에서 +로 바뀌므로 0은 최솟점입니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "(6*x-6).subs(x,0)",
+      "expected": "-6"
+    },
+    {
+      "expression": "(6*x-6).subs(x,2)",
+      "expected": "6"
+    },
+    {
+      "expression": "diff(x**4,x,2).subs(x,0)",
+      "expected": "0"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L35\nConnecting derivative graphs\n\nA graph of f′ records slopes of f, and its own slope records f″.\nAt a zero of f′, a nonzero second derivative classifies the stationary point.\n\n1. The derivative graph meets the axis at two stationary inputs.\n2. At 0, the slope of f is decreasing through zero: a local maximum.\n3. At 2, the slope increases through zero: a local minimum.\n\nRemember: If f″(c)=0, the second derivative test is inconclusive; use another test.\n\nCHECK ANSWER — try card 8 first\nThe test is inconclusive since g″(0)=0. The first derivative changes − to +, so 0 is a minimum.",
+    "ko": "AP Calculus AB • 35강\n함수와 도함수 그래프\n\nf′의 그래프 높이는 f의 기울기이고, 그 그래프의 기울기는 f″입니다.\nf′이 0인 점에서 f″이 0이 아니면 정지점을 판정할 수 있습니다.\n\n1. 도함수 그래프가 축과 만나는 두 입력이 정지점 후보입니다.\n2. 0에서는 f의 기울기가 감소하며 0을 지나므로 국소최대입니다.\n3. 2에서는 기울기가 증가하며 0을 지나므로 국소최소입니다.\n\n실수 점검: f″(c)=0이면 이계도함수 판정법으로 결론을 내릴 수 없습니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\ng″(0)=0이므로 판정 불가입니다. 일계도함수는 −에서 +로 바뀌므로 0은 최솟점입니다."
+  },
+  "graph_description": null
+}

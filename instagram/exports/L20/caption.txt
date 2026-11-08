@@ -1,0 +1,33 @@
+AP Calculus AB • L20
+Inverse trigonometric derivatives
+
+Inverse trigonometric derivatives are algebraic expressions with specific domains.
+Use the inverse-trig rule on the outside and the chain rule on the inside.
+
+1. Name the inner function to avoid losing its coefficient.
+2. Square the entire inner expression in the denominator.
+3. The slope is positive; arctangent is increasing.
+
+Remember: For arcsin, the derivative denominator vanishes at the domain endpoints.
+
+CHECK ANSWER — try card 8 first
+2/√3. Since 1/2 lies between −1 and 1, use 1/√(1−x²).
+
+──────────
+
+AP Calculus AB • 20강
+역삼각함수 미분
+
+역삼각함수의 도함수는 정의역 조건을 가진 대수식입니다.
+바깥에는 역삼각함수 공식을, 안에는 연쇄법칙을 적용합니다.
+
+1. 안의 함수를 정해 계수를 빠뜨리지 않도록 합니다.
+2. 분모에서는 안의 식 전체를 제곱합니다.
+3. 기울기가 양수이므로 아크탄젠트는 증가합니다.
+
+실수 점검: arcsin의 정의역 끝점에서는 도함수의 분모가 0입니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+2/√3입니다. 1/2는 −1과 1 사이이므로 1/√(1−x²)에 대입합니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

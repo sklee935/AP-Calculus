@@ -1,0 +1,33 @@
+AP Calculus AB • L54
+Displacement and total distance
+
+Displacement allows cancellation; total distance counts every part of the trip positively.
+The integral of |v| adds the magnitudes of the negative and positive regions.
+
+1. Signed areas partially cancel.
+2. For distance, reverse the sign on the negative-velocity interval.
+3. Distance is at least the magnitude of displacement.
+
+Remember: Taking the absolute value after integrating loses reversals of direction.
+
+CHECK ANSWER — try card 8 first
+Displacement 0, distance 4. Two triangles each have area 2, with opposite signs for displacement.
+
+──────────
+
+AP Calculus AB • 54강
+변위와 이동거리
+
+변위에서는 반대 방향 이동이 상쇄되지만 이동거리는 모두 양수로 셉니다.
+|v|의 적분은 음의 영역과 양의 영역의 크기를 모두 더합니다.
+
+1. 부호가 다른 넓이는 일부 상쇄됩니다.
+2. 이동거리는 속도가 음수인 구간의 부호를 바꿔 적분합니다.
+3. 이동거리는 변위의 절댓값 이상입니다.
+
+실수 점검: 적분한 뒤 절댓값만 취하면 방향 전환을 놓치게 됩니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+변위 0, 이동거리 4입니다. 넓이 2인 삼각형 두 개가 변위에서는 반대 부호입니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

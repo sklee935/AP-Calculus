@@ -41,22 +41,25 @@ Calculus AB 수업을 위한 독립 제작 초판이다. 개념 요약과 예제
 
 ## 다시 만들기
 
-Python 3.12와 `requirements.txt`의 라이브러리를 준비한다. Codex에서는 워크스페이스 의존성 도구가 반환한 Python과 문서 렌더러를 사용한다.
+저장소 루트의 [설치·생성 안내](../README.md)를 따릅니다. Python 3.12, Node/Chromium은 카드 제작에, LibreOffice와 Poppler는 교재 PDF 변환과 페이지 검수에 사용합니다. 특정 개발 앱의 설치 경로에 의존하지 않습니다.
+
+저장소 루트에서 실행합니다.
 
 ```bash
-python scripts/validate_content.py
-python scripts/build_books.py
+# 원본을 변경하지 않는 내용 검사
+python ap-calculus-ab/scripts/validate_content.py --check
+# 교재 원본에서 게시 데이터와 Word 재생성
+python ap-calculus-ab/scripts/build_books.py
+# LibreOffice PDF 변환 + Poppler 페이지 렌더링
+python scripts/render_documents.py --pages
+python ap-calculus-ab/scripts/validate_artifacts.py
 ```
 
-Word를 PDF로 변환할 때는 `render_docx.py`로 각 파일을 렌더링하고 페이지 PNG를 확인한다. 최종 렌더 PDF를 `deliverables/`에 복사한 뒤 다음을 실행한다.
+마지막 구조 검사는 모든 교재의 페이지 PNG가 `tmp/qa/final-korean`, `final-english`, `final-teacher`에 있어야 실행됩니다. 새 PDF의 페이지 화면도 확인합니다. CI는 `--check`를 사용하며 원본/게시 데이터를 갱신하지 않습니다. 생성 명령과 구조 검사는 출력 및 보고서를 갱신합니다.
 
-```bash
-python scripts/validate_artifacts.py
-```
+수정 시 정답을 PDF나 게시 JSON에서 직접 고치지 말고 `scripts/curriculum.py`, `scripts/questions.py`, `scripts/unit_frq.py`, `scripts/exam.py` 원본을 고친 뒤 검증하고 생성합니다. `tmp/`는 렌더링·검수용이며 Git에서 제외합니다.
 
-수정 시 수식이나 정답을 PDF에서 직접 고치지 말고 `scripts/curriculum.py`, `scripts/questions.py`, `scripts/unit_frq.py`, `scripts/exam.py`의 원본을 고친 뒤 다시 검증하고 생성한다. `tmp/`는 렌더링과 검수용이며 배포 묶음에서 제외한다.
-
-한글 글꼴은 SIL Open Font License로 제공되는 Noto Sans CJK KR이다. 배포용 부분 글꼴과 라이선스는 `assets/fonts/`에 있으며, 원본은 [Noto CJK](https://github.com/notofonts/noto-cjk)에서 제공한다. 새 글자를 추가하여 부분 글꼴을 다시 만들려면 원본 `NotoSansCJKkr-Regular.otf`를 같은 폴더에 준비하고 기존 부분 글꼴을 다시 생성한다.
+한글 글꼴 Noto Sans CJK KR의 전체 원본·부분 글꼴·SIL Open Font License는 `assets/fonts/`에 있습니다. Word 변환 전 운영체제에 전체 OTF 글꼴을 설치하세요. 원본 제공처는 [Noto CJK](https://github.com/notofonts/noto-cjk)입니다.
 
 ## BC 확장
 

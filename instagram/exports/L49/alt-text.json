@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Separation and equilibrium. Separate variables while keeping track of any equilibrium solution lost by division. Math: (dy)/(dx)=2(y−3)",
+    "ko": "변수분리와 평형해. 변수를 분리할 때 나눗셈 때문에 빠질 수 있는 평형해도 확인합니다. 수식: (dy)/(dx)=2(y−3)"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. The constant function y=3 solves the equation before any division. Math: y≠3during division",
+    "ko": "먼저 조건을 확인. 나누기 전에 상수함수 y=3이 방정식의 해임을 확인하세요. 수식: y≠3during division"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. Put all y-dependence on one side and x-dependence on the other. Math: (dy)/(y−3)=2dx",
+    "ko": "개념을 눈으로 연결. y에 관한 식과 x에 관한 식을 서로 다른 쪽에 모읍니다. 수식: (dy)/(y−3)=2dx"
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. Integrate both sides and retain the absolute value in the logarithm. Math: ln|y−3|=2x+C",
+    "ko": "1단계  식을 세우기. 양변을 적분하고 로그의 절댓값을 유지합니다. 수식: ln|y−3|=2x+C"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. Exponentiation and a signed constant capture both non-equilibrium branches. Math: y−3=Ce^(2x)(C≠0)",
+    "ko": "2단계  이유를 따라 계산. 지수화하고 부호 있는 상수를 사용하여 두 비평형 가지를 나타냅니다. 수식: y−3=Ce^(2x)(C≠0)"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. Allowing C=0 restores the equilibrium solution. Math: y=3+Ce^(2x)(C∈ℝ)",
+    "ko": "3단계  결과의 의미. C=0도 허용하면 평형해가 다시 포함됩니다. 수식: y=3+Ce^(2x)(C∈ℝ)"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. Dividing by y−3 without checking y=3 can discard a valid solution. Math: y=3is an equilibrium",
+    "ko": "이 실수는 피하세요. y=3을 확인하지 않고 y−3으로 나누면 올바른 해를 잃을 수 있습니다. 수식: y=3is an equilibrium"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Find the equilibrium solution. Math: y^(′)=−2(y−7)",
+    "ko": "직접 풀어보세요. 평형해를 구하세요. 수식: y^(′)=−2(y−7)"
+  }
+]

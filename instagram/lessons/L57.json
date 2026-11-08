@@ -1,0 +1,246 @@
+{
+  "id": "L57",
+  "number": 57,
+  "unit": 8,
+  "unit_title": {
+    "ko": "적분의 응용",
+    "en": "Applications of integration"
+  },
+  "title": {
+    "ko": "가로 단면의 넓이",
+    "en": "Area with horizontal slices"
+  },
+  "prerequisites": [
+    "L56"
+  ],
+  "week": 19,
+  "day": "Friday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U8-M06"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "For 0≤y≤2, the right boundary is x=2y and the left boundary is x=y².",
+    "ko": "0≤y≤2에서 오른쪽 경계는 x=2y, 왼쪽 경계는 x=y²입니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "가로 단면의 넓이",
+        "en": "Area with horizontal slices"
+      },
+      "notes": {
+        "en": "Horizontal slices can simplify a region when x is naturally written in terms of y.",
+        "ko": "x가 y의 식으로 주어지면 가로 단면으로 영역을 더 쉽게 다룰 수 있습니다."
+      },
+      "math": [
+        "x=y^2,\\quad x=2y"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Area with horizontal slices. Horizontal slices can simplify a region when x is naturally written in terms of y.",
+        "ko": "가로 단면의 넓이. x가 y의 식으로 주어지면 가로 단면으로 영역을 더 쉽게 다룰 수 있습니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "With horizontal slices, use right minus left and integrate with respect to y.",
+        "ko": "가로 단면에서는 오른쪽에서 왼쪽을 빼고 y에 대해 적분합니다."
+      },
+      "math": [
+        "y^2=2y\\Rightarrow y=0,2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. With horizontal slices, use right minus left and integrate with respect to y.",
+        "ko": "먼저 조건을 확인. 가로 단면에서는 오른쪽에서 왼쪽을 빼고 y에 대해 적분합니다."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "For 0≤y≤2, the right boundary is x=2y and the left boundary is x=y².",
+        "ko": "0≤y≤2에서 오른쪽 경계는 x=2y, 왼쪽 경계는 x=y²입니다."
+      },
+      "math": [],
+      "visual": {
+        "kind": "graph",
+        "curves": [
+          {
+            "expr": "sqrt(x)",
+            "label": "x=y squared",
+            "color": "blue"
+          },
+          {
+            "expr": "x/2",
+            "label": "x=2y",
+            "color": "red"
+          }
+        ],
+        "xlim": [
+          0,
+          4
+        ],
+        "ylim": [
+          0,
+          2.2
+        ],
+        "shade": {
+          "top": "sqrt(x)",
+          "bottom": "x/2",
+          "interval": [
+            0,
+            4
+          ]
+        }
+      },
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. For 0≤y≤2, the right boundary is x=2y and the left boundary is x=y². Graph: x=y squared: y=sqrt(x); x=2y: y=x/2. x-range [0, 4], y-range [0, 2.2].",
+        "ko": "개념을 눈으로 연결. 0≤y≤2에서 오른쪽 경계는 x=2y, 왼쪽 경계는 x=y²입니다. 그래프: x=y squared: y=sqrt(x); x=2y: y=x/2. x 표시구간 [0, 4], y 표시구간 [0, 2.2]."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "Both boundary positions are x-coordinates at the same height y.",
+        "ko": "같은 높이 y에서 두 경계의 x좌표를 뺍니다."
+      },
+      "math": [
+        "\\mathrm{width}=2y-y^2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. Both boundary positions are x-coordinates at the same height y.",
+        "ko": "1단계  식을 세우기. 같은 높이 y에서 두 경계의 x좌표를 뺍니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "A horizontal slice has thickness dy.",
+        "ko": "가로 단면의 두께는 dy입니다."
+      },
+      "math": [
+        "A=\\int_0^2(2y-y^2)\\,dy"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. A horizontal slice has thickness dy.",
+        "ko": "2단계  이유를 따라 계산. 가로 단면의 두께는 dy입니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "The limits are y-values, not x-values.",
+        "ko": "적분구간은 x값이 아니라 y값입니다."
+      },
+      "math": [
+        "A=\\left[y^2-\\frac{y^3}{3}\\right]_0^2=\\frac43"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. The limits are y-values, not x-values.",
+        "ko": "3단계  결과의 의미. 적분구간은 x값이 아니라 y값입니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "Do not mix a horizontal width expression with x-limits or dx.",
+        "ko": "가로 폭의 식에 x 구간이나 dx를 섞지 마세요."
+      },
+      "math": [
+        "A=\\int_c^d(\\mathrm{right}-\\mathrm{left})\\,dy"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. Do not mix a horizontal width expression with x-limits or dx.",
+        "ko": "이 실수는 피하세요. 가로 폭의 식에 x 구간이나 dx를 섞지 마세요."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Use horizontal slices to find the enclosed area.",
+        "ko": "가로 단면으로 둘러싸인 넓이를 구하세요."
+      },
+      "math": [
+        "x=y,\\quad x=y^2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Use horizontal slices to find the enclosed area.",
+        "ko": "직접 풀어보세요. 가로 단면으로 둘러싸인 넓이를 구하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "x=y,\\quad x=y^2"
+    ],
+    "prompt": {
+      "en": "Use horizontal slices to find the enclosed area.",
+      "ko": "가로 단면으로 둘러싸인 넓이를 구하세요."
+    },
+    "answer": {
+      "en": "1/6. On 0≤y≤1, right minus left is y−y², whose integral is 1/6.",
+      "ko": "1/6입니다. 0≤y≤1에서 오른쪽에서 왼쪽을 빼면 y−y²이며 그 적분은 1/6입니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "integrate(2*y-y**2,(y,0,2))",
+      "expected": "4/3"
+    },
+    {
+      "expression": "integrate(y-y**2,(y,0,1))",
+      "expected": "1/6"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L57\nArea with horizontal slices\n\nHorizontal slices can simplify a region when x is naturally written in terms of y.\nFor 0≤y≤2, the right boundary is x=2y and the left boundary is x=y².\n\n1. Both boundary positions are x-coordinates at the same height y.\n2. A horizontal slice has thickness dy.\n3. The limits are y-values, not x-values.\n\nRemember: Do not mix a horizontal width expression with x-limits or dx.\n\nCHECK ANSWER — try card 8 first\n1/6. On 0≤y≤1, right minus left is y−y², whose integral is 1/6.",
+    "ko": "AP Calculus AB • 57강\n가로 단면의 넓이\n\nx가 y의 식으로 주어지면 가로 단면으로 영역을 더 쉽게 다룰 수 있습니다.\n0≤y≤2에서 오른쪽 경계는 x=2y, 왼쪽 경계는 x=y²입니다.\n\n1. 같은 높이 y에서 두 경계의 x좌표를 뺍니다.\n2. 가로 단면의 두께는 dy입니다.\n3. 적분구간은 x값이 아니라 y값입니다.\n\n실수 점검: 가로 폭의 식에 x 구간이나 dx를 섞지 마세요.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n1/6입니다. 0≤y≤1에서 오른쪽에서 왼쪽을 빼면 y−y²이며 그 적분은 1/6입니다."
+  },
+  "graph_description": null
+}

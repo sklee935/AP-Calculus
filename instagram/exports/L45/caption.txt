@@ -1,0 +1,33 @@
+AP Calculus AB • L45
+Substitution
+
+Substitution reverses the chain rule when an inner derivative is available.
+Changing variables changes both the differential and the endpoint values.
+
+1. Replace the full differential 6x dx by du.
+2. Evaluate using the new variable and new bounds.
+3. The positive integrand gives a positive answer.
+
+Remember: Do not combine a u-antiderivative with unchanged x-bounds.
+
+CHECK ANSWER — try card 8 first
+e−1. The bounds become 0 and 1 and the integral becomes the integral of eᵘ du.
+
+──────────
+
+AP Calculus AB • 45강
+치환적분
+
+치환적분은 안의 도함수가 있을 때 연쇄법칙을 거꾸로 적용합니다.
+변수를 바꾸면 미분요소와 끝점 값도 함께 바뀝니다.
+
+1. 미분요소 6x dx 전체를 du로 바꿉니다.
+2. 새 변수와 새 구간으로 계산합니다.
+3. 피적분함수가 양수이므로 답도 양수인지 확인합니다.
+
+실수 점검: u로 적분한 식에 원래 x 구간을 그대로 넣지 마세요.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+e−1입니다. 구간은 0과 1이고 적분은 eᵘ du의 적분으로 바뀝니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

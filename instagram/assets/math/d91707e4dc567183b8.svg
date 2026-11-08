@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns2="http://creativecommons.org/ns#" xmlns:ns4="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="285pt" height="81pt" viewBox="0 0 285 81" version="1.1">
+ <ns0:metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:date>2026-11-08T10:13:32.908815</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </ns0:metadata>
+ <ns0:defs>
+  <ns0:style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</ns0:style>
+ </ns0:defs>
+ <ns0:g id="figure_1">
+  <ns0:g id="text_1">
+
+   <ns0:g style="fill: #17243b" transform="translate(0 48) scale(0.54 -0.54)">
+    <ns0:defs>
+     <ns0:path id="STIXGeneral-Italic-4a" d="M 3014 2342  L 2701 2342  Q 2758 2227 2758 2016  Q 2758 1613 2390 1289  Q 2022 966 1574 966  Q 1459 966 1376 986  Q 1357 992 1331 992  Q 1248 992 1174 909  Q 1101 826 1101 730  Q 1101 576 1555 461  Q 2464 243 2464 -352  Q 2464 -781 2105 -1049  Q 1747 -1318 1120 -1318  Q 621 -1318 336 -1142  Q 51 -966 51 -627  Q 51 -378 195 -202  Q 339 -26 800 250  Q 627 352 627 499  Q 627 806 1120 1037  Q 614 1216 614 1728  Q 614 2202 1004 2512  Q 1395 2822 1901 2822  Q 2272 2822 2528 2643  Q 2598 2592 2630 2592  L 3014 2592  L 3014 2342  z M 2253 2227  Q 2253 2477 2166 2579  Q 2080 2682 1894 2682  Q 1587 2682 1350 2362  Q 1114 2042 1114 1581  Q 1114 1357 1216 1229  Q 1318 1101 1498 1101  Q 1818 1101 2042 1478  Q 2253 1837 2253 2227  z M 2080 -576  Q 2080 -352 1878 -201  Q 1677 -51 1165 109  Q 1011 154 947 179  Q 902 179 752 57  Q 602 -64 531 -154  Q 403 -314 403 -525  Q 403 -1178 1216 -1178  Q 1594 -1178 1837 -1002  Q 2080 -826 2080 -576  z " transform="scale(0.015625)" />
+     <ns0:path id="STIXGeneral-Regular-330" d="M 480 2630  L 909 4045  Q 934 4141 960 4195  Q 986 4250 1043 4294  Q 1101 4339 1190 4339  Q 1274 4339 1322 4278  Q 1370 4218 1370 4128  Q 1370 4058 1280 3878  L 602 2573  L 480 2630  z " transform="scale(0.015625)" />
+     <ns0:path id="STIXGeneral-Regular-b" d="M 1946 -1030  L 1869 -1133  Q 1126 -710 716 32  Q 307 774 307 1613  Q 307 3386 1888 4326  L 1946 4224  Q 1293 3667 1075 3126  Q 858 2586 858 1632  Q 858 685 1082 96  Q 1306 -493 1946 -1030  z " transform="scale(0.015625)" />
+     <ns0:path id="STIXGeneral-Italic-45" d="M 1043 1856  L 1050 1856  Q 1370 2387 1654 2604  Q 1939 2822 2285 2822  Q 2618 2822 2822 2617  Q 3027 2413 3027 2054  Q 3027 1562 2726 1062  Q 2426 563 1942 246  Q 1459 -70 979 -70  Q 685 -70 416 32  Q 147 134 147 269  L 147 307  L 1056 3654  Q 1114 3885 1114 3955  Q 1114 4058 1053 4080  Q 992 4102 704 4115  L 704 4224  Q 1184 4282 1683 4371  L 1715 4339  L 1581 3814  L 1043 1856  z M 2483 1958  Q 2483 2509 2035 2509  Q 1594 2509 1158 1773  Q 954 1427 826 1008  Q 698 589 698 294  Q 698 77 992 77  Q 1414 77 1779 454  Q 2074 762 2278 1187  Q 2483 1613 2483 1958  z " transform="scale(0.015625)" />
+     <ns0:path id="STIXGeneral-Regular-c" d="M 186 4224  L 262 4326  Q 992 3891 1408 3148  Q 1824 2406 1824 1581  Q 1824 -166 243 -1133  L 186 -1030  Q 845 -486 1059 54  Q 1274 595 1274 1562  Q 1274 2534 1059 3120  Q 845 3706 186 4224  z " transform="scale(0.015625)" />
+     <ns0:path id="STIXGeneral-Regular-20" d="M 4077 2048  L 307 2048  L 307 2470  L 4077 2470  L 4077 2048  z M 4077 768  L 307 768  L 307 1190  L 4077 1190  L 4077 768  z " transform="scale(0.015625)" />
+     <ns0:path id="STIXGeneral-Regular-14" d="M 2522 0  L 755 0  L 755 96  Q 1107 115 1235 227  Q 1363 339 1363 608  L 1363 3482  Q 1363 3795 1171 3795  Q 1082 3795 883 3718  L 710 3654  L 710 3744  L 1856 4326  L 1914 4307  L 1914 486  Q 1914 275 2042 185  Q 2170 96 2522 96  L 2522 0  z " transform="scale(0.015625)" />
+     <ns0:path id="STIXGeneral-Italic-49" d="M 262 2739  L 858 2739  Q 1107 3546 1318 3846  Q 1664 4339 2163 4339  Q 2400 4339 2557 4227  Q 2714 4115 2714 3942  Q 2714 3834 2634 3750  Q 2554 3667 2445 3667  Q 2355 3667 2281 3737  Q 2208 3808 2208 3917  Q 2208 3981 2240 4038  Q 2272 4096 2272 4115  Q 2272 4198 2131 4198  Q 1862 4198 1676 3849  Q 1491 3501 1350 2739  L 2035 2739  L 1997 2534  L 1306 2534  L 845 486  Q 435 -1325 -435 -1325  Q -653 -1325 -797 -1213  Q -941 -1101 -941 -934  Q -941 -826 -870 -746  Q -800 -666 -698 -666  Q -589 -666 -521 -733  Q -454 -800 -454 -902  Q -454 -947 -483 -1001  Q -512 -1056 -512 -1088  Q -512 -1190 -384 -1190  Q 13 -1190 237 -154  L 800 2534  L 218 2534  L 262 2739  z " transform="scale(0.015625)" />
+    </ns0:defs>
+    <ns0:use ns4:href="#STIXGeneral-Italic-4a" transform="translate(0 0.242188)" />
+    <ns0:use ns4:href="#STIXGeneral-Regular-330" transform="translate(56.109642 41.542188) scale(0.7)" />
+    <ns0:use ns4:href="#STIXGeneral-Regular-b" transform="translate(80.839627 0.242188)" />
+    <ns0:use ns4:href="#STIXGeneral-Italic-45" transform="translate(114.139599 0.242188)" />
+    <ns0:use ns4:href="#STIXGeneral-Regular-c" transform="translate(164.139554 0.242188)" />
+    <ns0:use ns4:href="#STIXGeneral-Regular-20" transform="translate(217.439526 0.242188)" />
+    <ns0:use ns4:href="#STIXGeneral-Regular-14" transform="translate(398.189465 34.617187) scale(0.7)" />
+    <ns0:use ns4:href="#STIXGeneral-Italic-49" transform="translate(312.189465 -46.263281) scale(0.7)" />
+    <ns0:use ns4:href="#STIXGeneral-Regular-330" transform="translate(339.410586 -17.353281) scale(0.49)" />
+    <ns0:use ns4:href="#STIXGeneral-Regular-b" transform="translate(356.721576 -46.263281) scale(0.7)" />
+    <ns0:use ns4:href="#STIXGeneral-Italic-4a" transform="translate(380.031557 -46.263281) scale(0.7)" />
+    <ns0:use ns4:href="#STIXGeneral-Regular-b" transform="translate(415.031525 -46.263281) scale(0.7)" />
+    <ns0:use ns4:href="#STIXGeneral-Italic-45" transform="translate(438.341505 -46.263281) scale(0.7)" />
+    <ns0:use ns4:href="#STIXGeneral-Regular-c" transform="translate(473.341473 -46.263281) scale(0.7)" />
+    <ns0:use ns4:href="#STIXGeneral-Regular-c" transform="translate(496.651454 -46.263281) scale(0.7)" />
+    <ns0:path d="M 312.189465 22.117187  L 312.189465 28.367187  L 519.961435 28.367187  L 519.961435 22.117187  L 312.189465 22.117187  z " />
+   </ns0:g>
+  </ns0:g>
+ </ns0:g>
+</ns0:svg>

@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "The quotient rule. For a quotient, the subtraction order matters. Math: f(x)=(x^(2)+1)/(x+1)",
+    "ko": "몫의 법칙. 몫을 미분할 때는 뺄셈 순서가 중요합니다. 수식: f(x)=(x^(2)+1)/(x+1)"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. The denominator must stay nonzero; here x≠−1. Math: u=x^(2)+1,v=x+1; x≠−1",
+    "ko": "먼저 조건을 확인. 분모는 0이 아니어야 하므로 여기서는 x≠−1입니다. 수식: u=x^(2)+1,v=x+1; x≠−1"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. Differentiate the top first, subtract the other contribution, then divide by the bottom squared. Math: ((u)/(v))^(′)=(u^(′)v−uv^(′))/(v^(2))",
+    "ko": "개념을 눈으로 연결. 분자를 먼저 미분한 항에서 다른 기여를 빼고 분모의 제곱으로 나눕니다. 수식: ((u)/(v))^(′)=(u^(′)v−uv^(′))/(v^(2))"
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. Find each derivative before assembling the quotient rule. Math: u^(′)=2x,v^(′)=1",
+    "ko": "1단계  식을 세우기. 각 도함수를 구한 뒤 몫의 법칙에 넣습니다. 수식: u^(′)=2x,v^(′)=1"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. Parentheses protect the entire subtracted term. Math: f^(′)(x)=(2x(x+1)−(x^(2)+1))/((x+1)^(2))",
+    "ko": "2단계  이유를 따라 계산. 괄호를 써서 빼는 항 전체를 보호합니다. 수식: f^(′)(x)=(2x(x+1)−(x^(2)+1))/((x+1)^(2))"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. Evaluate numerator and denominator consistently at the same input. Math: f^(′)(1)=(4−2)/(4)=(1)/(2)",
+    "ko": "3단계  결과의 의미. 분자와 분모에 같은 입력값을 일관되게 대입합니다. 수식: f^(′)(1)=(4−2)/(4)=(1)/(2)"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. Do not divide the numerator derivative by the denominator derivative. Math: ((u)/(v))^(′)≠(u^(′))/(v^(′))",
+    "ko": "이 실수는 피하세요. 분자의 도함수를 분모의 도함수로 나누면 안 됩니다. 수식: ((u)/(v))^(′)≠(u^(′))/(v^(′))"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Apply the quotient rule before evaluating. Math: g(x)=(x)/(x+2),g^(′)(1)=?",
+    "ko": "직접 풀어보세요. 몫의 미분법을 적용한 뒤 값을 구하세요. 수식: g(x)=(x)/(x+2),g^(′)(1)=?"
+  }
+]

@@ -1,0 +1,218 @@
+{
+  "id": "L21",
+  "number": 21,
+  "unit": 3,
+  "unit_title": {
+    "ko": "합성함수와 음함수 및 역함수",
+    "en": "Composite implicit and inverse functions"
+  },
+  "title": {
+    "ko": "고계도함수",
+    "en": "Higher derivatives"
+  },
+  "prerequisites": [
+    "L20"
+  ],
+  "week": 7,
+  "day": "Friday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U3-M05"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "Each differentiation of a composite function needs its own inner derivative.",
+    "ko": "합성함수를 미분할 때마다 안의 도함수를 다시 곱해야 합니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "고계도함수",
+        "en": "Higher derivatives"
+      },
+      "notes": {
+        "en": "A second derivative measures how the first derivative changes.",
+        "ko": "이계도함수는 일계도함수가 어떻게 변하는지 나타냅니다."
+      },
+      "math": [
+        "f(x)=\\sin(2x),\\quad f^{\\prime\\prime}(\\pi/4)=?"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Higher derivatives. A second derivative measures how the first derivative changes.",
+        "ko": "고계도함수. 이계도함수는 일계도함수가 어떻게 변하는지 나타냅니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Differentiate once, then differentiate the whole result again.",
+        "ko": "한 번 미분한 결과 전체를 다시 미분하세요."
+      },
+      "math": [
+        "f^{\\prime\\prime}=(f^\\prime)^\\prime"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Differentiate once, then differentiate the whole result again.",
+        "ko": "먼저 조건을 확인. 한 번 미분한 결과 전체를 다시 미분하세요."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "Each differentiation of a composite function needs its own inner derivative.",
+        "ko": "합성함수를 미분할 때마다 안의 도함수를 다시 곱해야 합니다."
+      },
+      "math": [
+        "f\\ \\longrightarrow\\ f^\\prime\\ \\longrightarrow\\ f^{\\prime\\prime}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. Each differentiation of a composite function needs its own inner derivative.",
+        "ko": "개념을 눈으로 연결. 합성함수를 미분할 때마다 안의 도함수를 다시 곱해야 합니다."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "The first chain-rule factor is 2.",
+        "ko": "첫 번째 연쇄법칙의 계수는 2입니다."
+      },
+      "math": [
+        "f^\\prime(x)=2\\cos(2x)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. The first chain-rule factor is 2.",
+        "ko": "1단계  식을 세우기. 첫 번째 연쇄법칙의 계수는 2입니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "The second differentiation contributes another factor 2 and a minus sign.",
+        "ko": "두 번째 미분에서 2가 다시 곱해지고 음수가 붙습니다."
+      },
+      "math": [
+        "f^{\\prime\\prime}(x)=-4\\sin(2x)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. The second differentiation contributes another factor 2 and a minus sign.",
+        "ko": "2단계  이유를 따라 계산. 두 번째 미분에서 2가 다시 곱해지고 음수가 붙습니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "A negative second derivative means the slope is decreasing nearby.",
+        "ko": "이계도함수가 음수이면 주변에서 기울기가 감소합니다."
+      },
+      "math": [
+        "f^{\\prime\\prime}(\\pi/4)=-4"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. A negative second derivative means the slope is decreasing nearby.",
+        "ko": "3단계  결과의 의미. 이계도함수가 음수이면 주변에서 기울기가 감소합니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "The second derivative is not the square of the first derivative.",
+        "ko": "이계도함수는 일계도함수의 제곱이 아닙니다."
+      },
+      "math": [
+        "f^{\\prime\\prime}\\ne(f^\\prime)^2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. The second derivative is not the square of the first derivative.",
+        "ko": "이 실수는 피하세요. 이계도함수는 일계도함수의 제곱이 아닙니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Differentiate twice before evaluating.",
+        "ko": "두 번 미분한 뒤 값을 구하세요."
+      },
+      "math": [
+        "g(x)=x^4,\\quad g^{\\prime\\prime}(2)=?"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Differentiate twice before evaluating.",
+        "ko": "직접 풀어보세요. 두 번 미분한 뒤 값을 구하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "g(x)=x^4,\\quad g^{\\prime\\prime}(2)=?"
+    ],
+    "prompt": {
+      "en": "Differentiate twice before evaluating.",
+      "ko": "두 번 미분한 뒤 값을 구하세요."
+    },
+    "answer": {
+      "en": "48. The first derivative is 4x³ and the second is 12x², giving 48 at 2.",
+      "ko": "48입니다. 일계도함수는 4x³, 이계도함수는 12x²이므로 2에서 48입니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "diff(sin(2*x),x,2).subs(x,pi/4)",
+      "expected": "-4"
+    },
+    {
+      "expression": "diff(x**4,x,2).subs(x,2)",
+      "expected": "48"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L21\nHigher derivatives\n\nA second derivative measures how the first derivative changes.\nEach differentiation of a composite function needs its own inner derivative.\n\n1. The first chain-rule factor is 2.\n2. The second differentiation contributes another factor 2 and a minus sign.\n3. A negative second derivative means the slope is decreasing nearby.\n\nRemember: The second derivative is not the square of the first derivative.\n\nCHECK ANSWER — try card 8 first\n48. The first derivative is 4x³ and the second is 12x², giving 48 at 2.",
+    "ko": "AP Calculus AB • 21강\n고계도함수\n\n이계도함수는 일계도함수가 어떻게 변하는지 나타냅니다.\n합성함수를 미분할 때마다 안의 도함수를 다시 곱해야 합니다.\n\n1. 첫 번째 연쇄법칙의 계수는 2입니다.\n2. 두 번째 미분에서 2가 다시 곱해지고 음수가 붙습니다.\n3. 이계도함수가 음수이면 주변에서 기울기가 감소합니다.\n\n실수 점검: 이계도함수는 일계도함수의 제곱이 아닙니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n48입니다. 일계도함수는 4x³, 이계도함수는 12x²이므로 2에서 48입니다."
+  },
+  "graph_description": null
+}

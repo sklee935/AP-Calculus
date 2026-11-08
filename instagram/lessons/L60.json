@@ -1,0 +1,246 @@
+{
+  "id": "L60",
+  "number": 60,
+  "unit": 8,
+  "unit_title": {
+    "ko": "적분의 응용",
+    "en": "Applications of integration"
+  },
+  "title": {
+    "ko": "와셔법과 과정 정리",
+    "en": "The washer method and course review"
+  },
+  "prerequisites": [
+    "L59"
+  ],
+  "week": 20,
+  "day": "Friday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U8-F02"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "The cross-sectional area is outer disk area minus inner disk area.",
+    "ko": "단면의 넓이는 바깥 원판 넓이에서 안쪽 원판 넓이를 뺀 값입니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "와셔법과 과정 정리",
+        "en": "The washer method and course review"
+      },
+      "notes": {
+        "en": "A washer removes the inner disk; finish by checking geometry, bounds and units.",
+        "ko": "와셔는 안쪽 원판을 뺍니다. 기하 관계, 구간, 단위까지 확인하며 마무리합니다."
+      },
+      "math": [
+        "y=x,\\quad y=x^2\\quad(0\\le x\\le1)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "The washer method and course review. A washer removes the inner disk; finish by checking geometry, bounds and units.",
+        "ko": "와셔법과 과정 정리. 와셔는 안쪽 원판을 뺍니다. 기하 관계, 구간, 단위까지 확인하며 마무리합니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Rotate the enclosed region about the x-axis. Recall that x≥x² here.",
+        "ko": "둘러싸인 영역을 x축 둘레로 회전합니다. 이 구간에서는 x≥x²입니다."
+      },
+      "math": [
+        "R=x,\\quad r=x^2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Rotate the enclosed region about the x-axis. Recall that x≥x² here.",
+        "ko": "먼저 조건을 확인. 둘러싸인 영역을 x축 둘레로 회전합니다. 이 구간에서는 x≥x²입니다."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "The cross-sectional area is outer disk area minus inner disk area.",
+        "ko": "단면의 넓이는 바깥 원판 넓이에서 안쪽 원판 넓이를 뺀 값입니다."
+      },
+      "math": [],
+      "visual": {
+        "kind": "graph",
+        "curves": [
+          {
+            "expr": "x",
+            "label": "outer radius",
+            "color": "blue"
+          },
+          {
+            "expr": "x**2",
+            "label": "inner radius",
+            "color": "red"
+          }
+        ],
+        "xlim": [
+          0,
+          1
+        ],
+        "ylim": [
+          0,
+          1.1
+        ],
+        "shade": {
+          "top": "x",
+          "bottom": "x**2",
+          "interval": [
+            0,
+            1
+          ]
+        }
+      },
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. The cross-sectional area is outer disk area minus inner disk area. Graph: outer radius: y=x; inner radius: y=x**2. x-range [0, 1], y-range [0, 1.1].",
+        "ko": "개념을 눈으로 연결. 단면의 넓이는 바깥 원판 넓이에서 안쪽 원판 넓이를 뺀 값입니다. 그래프: outer radius: y=x; inner radius: y=x**2. x 표시구간 [0, 1], y 표시구간 [0, 1.1]."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "Square each radius separately, then subtract.",
+        "ko": "각 반지름을 따로 제곱한 뒤 뺍니다."
+      },
+      "math": [
+        "A(x)=\\pi(R^2-r^2)=\\pi(x^2-x^4)"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. Square each radius separately, then subtract.",
+        "ko": "1단계  식을 세우기. 각 반지름을 따로 제곱한 뒤 뺍니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "The intersection inputs set the integration bounds.",
+        "ko": "교점의 입력값으로 적분구간을 정합니다."
+      },
+      "math": [
+        "V=\\pi\\int_0^1(x^2-x^4)\\,dx"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. The intersection inputs set the integration bounds.",
+        "ko": "2단계  이유를 따라 계산. 교점의 입력값으로 적분구간을 정합니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "Across calculus, connect the model, conditions, method and interpretation.",
+        "ko": "미적분 전체에서 모형, 조건, 방법, 해석을 연결하는 습관을 유지하세요."
+      },
+      "math": [
+        "V=\\pi\\left(\\frac13-\\frac15\\right)=\\frac{2\\pi}{15}"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. Across calculus, connect the model, conditions, method and interpretation.",
+        "ko": "3단계  결과의 의미. 미적분 전체에서 모형, 조건, 방법, 해석을 연결하는 습관을 유지하세요."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "The washer area is π(R²−r²), not π(R−r)².",
+        "ko": "와셔 넓이는 π(R²−r²)이며 π(R−r)²이 아닙니다."
+      },
+      "math": [
+        "\\pi(R^2-r^2)\\ne\\pi(R-r)^2"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. The washer area is π(R²−r²), not π(R−r)².",
+        "ko": "이 실수는 피하세요. 와셔 넓이는 π(R²−r²)이며 π(R−r)²이 아닙니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Rotate the same region about y=2. Find the volume.",
+        "ko": "같은 영역을 y=2 둘레로 회전한 부피를 구하세요."
+      },
+      "math": [
+        "y=x,\\quad y=x^2,\\quad0\\le x\\le1"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Rotate the same region about y=2. Find the volume.",
+        "ko": "직접 풀어보세요. 같은 영역을 y=2 둘레로 회전한 부피를 구하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "y=x,\\quad y=x^2,\\quad0\\le x\\le1"
+    ],
+    "prompt": {
+      "en": "Rotate the same region about y=2. Find the volume.",
+      "ko": "같은 영역을 y=2 둘레로 회전한 부피를 구하세요."
+    },
+    "answer": {
+      "en": "8π/15. Now R=2−x² and r=2−x. Integrate π[(2−x²)²−(2−x)²] from 0 to 1.",
+      "ko": "8π/15입니다. R=2−x², r=2−x이므로 π[(2−x²)²−(2−x)²]을 0부터 1까지 적분합니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "integrate(pi*(x**2-x**4),(x,0,1))",
+      "expected": "2*pi/15"
+    },
+    {
+      "expression": "integrate(pi*((2-x**2)**2-(2-x)**2),(x,0,1))",
+      "expected": "8*pi/15"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L60\nThe washer method and course review\n\nA washer removes the inner disk; finish by checking geometry, bounds and units.\nThe cross-sectional area is outer disk area minus inner disk area.\n\n1. Square each radius separately, then subtract.\n2. The intersection inputs set the integration bounds.\n3. Across calculus, connect the model, conditions, method and interpretation.\n\nRemember: The washer area is π(R²−r²), not π(R−r)².\n\nCHECK ANSWER — try card 8 first\n8π/15. Now R=2−x² and r=2−x. Integrate π[(2−x²)²−(2−x)²] from 0 to 1.",
+    "ko": "AP Calculus AB • 60강\n와셔법과 과정 정리\n\n와셔는 안쪽 원판을 뺍니다. 기하 관계, 구간, 단위까지 확인하며 마무리합니다.\n단면의 넓이는 바깥 원판 넓이에서 안쪽 원판 넓이를 뺀 값입니다.\n\n1. 각 반지름을 따로 제곱한 뒤 뺍니다.\n2. 교점의 입력값으로 적분구간을 정합니다.\n3. 미적분 전체에서 모형, 조건, 방법, 해석을 연결하는 습관을 유지하세요.\n\n실수 점검: 와셔 넓이는 π(R²−r²)이며 π(R−r)²이 아닙니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n8π/15입니다. R=2−x², r=2−x이므로 π[(2−x²)²−(2−x)²]을 0부터 1까지 적분합니다."
+  },
+  "graph_description": null
+}

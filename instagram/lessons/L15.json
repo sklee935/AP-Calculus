@@ -1,0 +1,218 @@
+{
+  "id": "L15",
+  "number": 15,
+  "unit": 2,
+  "unit_title": {
+    "ko": "미분의 기초",
+    "en": "Derivative foundations"
+  },
+  "title": {
+    "ko": "곱의 법칙",
+    "en": "The product rule"
+  },
+  "prerequisites": [
+    "L14"
+  ],
+  "week": 5,
+  "day": "Friday",
+  "status": "ready",
+  "schema_version": 1,
+  "source_question_ids": [
+    "U2-M02"
+  ],
+  "example_origin": "adapted from linked textbook items; independently verified calculations",
+  "learning_goal": {
+    "en": "The product rule keeps one factor while differentiating the other, then adds both contributions.",
+    "ko": "한 인수를 유지하고 다른 인수를 미분한 두 기여를 더합니다."
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": {
+        "ko": "곱의 법칙",
+        "en": "The product rule"
+      },
+      "notes": {
+        "en": "A product changes because either factor can change.",
+        "ko": "곱은 두 인수 중 어느 쪽이 변해도 달라집니다."
+      },
+      "math": [
+        "f(x)=x^2\\sin x"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "The product rule. A product changes because either factor can change.",
+        "ko": "곱의 법칙. 곱은 두 인수 중 어느 쪽이 변해도 달라집니다."
+      }
+    },
+    {
+      "number": 2,
+      "title": {
+        "en": "Check the conditions",
+        "ko": "먼저 조건을 확인"
+      },
+      "notes": {
+        "en": "Identify two factors before choosing a differentiation rule.",
+        "ko": "미분법을 고르기 전에 두 인수를 찾으세요."
+      },
+      "math": [
+        "u=x^2,\\quad v=\\sin x"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Check the conditions. Identify two factors before choosing a differentiation rule.",
+        "ko": "먼저 조건을 확인. 미분법을 고르기 전에 두 인수를 찾으세요."
+      }
+    },
+    {
+      "number": 3,
+      "title": {
+        "en": "Connect the idea",
+        "ko": "개념을 눈으로 연결"
+      },
+      "notes": {
+        "en": "The product rule keeps one factor while differentiating the other, then adds both contributions.",
+        "ko": "한 인수를 유지하고 다른 인수를 미분한 두 기여를 더합니다."
+      },
+      "math": [
+        "(uv)^\\prime=u^\\prime v+uv^\\prime"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Connect the idea. The product rule keeps one factor while differentiating the other, then adds both contributions.",
+        "ko": "개념을 눈으로 연결. 한 인수를 유지하고 다른 인수를 미분한 두 기여를 더합니다."
+      }
+    },
+    {
+      "number": 4,
+      "title": {
+        "en": "Step 1  Set it up",
+        "ko": "1단계  식을 세우기"
+      },
+      "notes": {
+        "en": "Differentiate the two factors separately first.",
+        "ko": "먼저 두 인수를 따로 미분합니다."
+      },
+      "math": [
+        "u^\\prime=2x,\\quad v^\\prime=\\cos x"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 1  Set it up. Differentiate the two factors separately first.",
+        "ko": "1단계  식을 세우기. 먼저 두 인수를 따로 미분합니다."
+      }
+    },
+    {
+      "number": 5,
+      "title": {
+        "en": "Step 2  Work carefully",
+        "ko": "2단계  이유를 따라 계산"
+      },
+      "notes": {
+        "en": "Write both product-rule terms.",
+        "ko": "곱의 미분법에서 생기는 두 항을 모두 씁니다."
+      },
+      "math": [
+        "f^\\prime(x)=2x\\sin x+x^2\\cos x"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 2  Work carefully. Write both product-rule terms.",
+        "ko": "2단계  이유를 따라 계산. 곱의 미분법에서 생기는 두 항을 모두 씁니다."
+      }
+    },
+    {
+      "number": 6,
+      "title": {
+        "en": "Step 3  Interpret",
+        "ko": "3단계  결과의 의미"
+      },
+      "notes": {
+        "en": "At π/2, sine is 1 and cosine is 0.",
+        "ko": "π/2에서 사인은 1, 코사인은 0입니다."
+      },
+      "math": [
+        "f^\\prime(\\pi/2)=\\pi"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Step 3  Interpret. At π/2, sine is 1 and cosine is 0.",
+        "ko": "3단계  결과의 의미. π/2에서 사인은 1, 코사인은 0입니다."
+      }
+    },
+    {
+      "number": 7,
+      "title": {
+        "en": "Avoid this mistake",
+        "ko": "이 실수는 피하세요"
+      },
+      "notes": {
+        "en": "Multiplying the two derivatives is not the derivative of a product.",
+        "ko": "두 도함수를 곱하는 것은 곱의 미분법이 아닙니다."
+      },
+      "math": [
+        "(uv)^\\prime\\ne u^\\prime v^\\prime"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Avoid this mistake. Multiplying the two derivatives is not the derivative of a product.",
+        "ko": "이 실수는 피하세요. 두 도함수를 곱하는 것은 곱의 미분법이 아닙니다."
+      }
+    },
+    {
+      "number": 8,
+      "title": {
+        "en": "Your turn",
+        "ko": "직접 풀어보세요"
+      },
+      "notes": {
+        "en": "Keep both contributions before substituting.",
+        "ko": "두 기여를 모두 쓴 뒤 대입하세요."
+      },
+      "math": [
+        "g(x)=xe^x,\\quad g^\\prime(1)=?"
+      ],
+      "visual": null,
+      "annotation": null,
+      "alt_text": {
+        "en": "Your turn. Keep both contributions before substituting.",
+        "ko": "직접 풀어보세요. 두 기여를 모두 쓴 뒤 대입하세요."
+      }
+    }
+  ],
+  "self_check": {
+    "math": [
+      "g(x)=xe^x,\\quad g^\\prime(1)=?"
+    ],
+    "prompt": {
+      "en": "Keep both contributions before substituting.",
+      "ko": "두 기여를 모두 쓴 뒤 대입하세요."
+    },
+    "answer": {
+      "en": "2e. The derivative is eˣ+xeˣ, so its value at 1 is 2e.",
+      "ko": "2e입니다. 도함수는 eˣ+xeˣ이므로 1에서 2e입니다."
+    }
+  },
+  "verification": [
+    {
+      "expression": "diff(x**2*sin(x),x).subs(x,pi/2)",
+      "expected": "pi"
+    },
+    {
+      "expression": "diff(x*exp(x),x).subs(x,1)",
+      "expected": "2*exp(1)"
+    }
+  ],
+  "caption": {
+    "en": "AP Calculus AB • L15\nThe product rule\n\nA product changes because either factor can change.\nThe product rule keeps one factor while differentiating the other, then adds both contributions.\n\n1. Differentiate the two factors separately first.\n2. Write both product-rule terms.\n3. At π/2, sine is 1 and cosine is 0.\n\nRemember: Multiplying the two derivatives is not the derivative of a product.\n\nCHECK ANSWER — try card 8 first\n2e. The derivative is eˣ+xeˣ, so its value at 1 is 2e.",
+    "ko": "AP Calculus AB • 15강\n곱의 법칙\n\n곱은 두 인수 중 어느 쪽이 변해도 달라집니다.\n한 인수를 유지하고 다른 인수를 미분한 두 기여를 더합니다.\n\n1. 먼저 두 인수를 따로 미분합니다.\n2. 곱의 미분법에서 생기는 두 항을 모두 씁니다.\n3. π/2에서 사인은 1, 코사인은 0입니다.\n\n실수 점검: 두 도함수를 곱하는 것은 곱의 미분법이 아닙니다.\n\n확인 문제 정답 — 8번 카드를 먼저 풀어보세요\n2e입니다. 도함수는 eˣ+xeˣ이므로 1에서 2e입니다."
+  },
+  "graph_description": null
+}

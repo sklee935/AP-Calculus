@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Infinite limits and limits at infinity. A point going to infinity differs from an input going to infinity. Math: lim_(x→∞)(3x^(2)−x)/(2x^(2)+7)",
+    "ko": "무한극한과 무한대극한. 함숫값이 무한히 커지는 것과 입력이 무한히 커지는 것은 다릅니다. 수식: lim_(x→∞)(3x^(2)−x)/(2x^(2)+7)"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. Identify what approaches infinity before choosing a method. Math: x→aorx→∞",
+    "ko": "먼저 조건을 확인. 무엇이 무한대로 가는지 먼저 확인하세요. 수식: x→aorx→∞"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. For end behavior of a rational function, compare the highest-degree terms. Graph: f: y=(3*x**2-x)/(2*x**2+7); y=1.5: y=1.5. x-range [1, 20], y-range [0, 1.8].",
+    "ko": "개념을 눈으로 연결. 유리함수의 먼 곳 거동은 최고차항을 비교해 읽습니다. 그래프: f: y=(3*x**2-x)/(2*x**2+7); y=1.5: y=1.5. x 표시구간 [1, 20], y 표시구간 [0, 1.8]."
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. Divide numerator and denominator by x². Math: (3−1/x)/(2+7/x^(2))",
+    "ko": "1단계  식을 세우기. 분자와 분모를 x²으로 나눕니다. 수식: (3−1/x)/(2+7/x^(2))"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. Lower-order contributions disappear as the input grows. Math: 1/x→0; 7/x^(2)→0",
+    "ko": "2단계  이유를 따라 계산. 입력이 커지면 낮은 차수의 기여가 사라집니다. 수식: 1/x→0; 7/x^(2)→0"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. The graph approaches horizontal height 1.5. Math: limit=(3)/(2)",
+    "ko": "3단계  결과의 의미. 그래프가 수평 높이 1.5에 가까워집니다. 수식: limit=(3)/(2)"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. A vertical asymptote describes behavior near a finite input, not far-away input behavior. Math: horizontal height=(3)/(2)",
+    "ko": "이 실수는 피하세요. 수직점근선은 한 입력 근처의 거동입니다. 먼 곳의 거동과 구별하세요. 수식: horizontal height=(3)/(2)"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Check the denominator sign from both sides. Math: lim_(x→2)(1)/((x−2)^(2))",
+    "ko": "직접 풀어보세요. 양쪽에서 분모의 부호를 확인하세요. 수식: lim_(x→2)(1)/((x−2)^(2))"
+  }
+]

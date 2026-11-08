@@ -1,0 +1,33 @@
+AP Calculus AB • L58
+Volumes from cross sections
+
+A solid’s volume accumulates cross-sectional area, not just the base width.
+Turn the slice width into a square area before integrating along x.
+
+1. Square the full side length, including both terms.
+2. Expanding the square makes termwise integration straightforward.
+3. The result uses cubic units because area was accumulated along a length.
+
+Remember: The specified cross-sectional shape determines A(x); a width alone is not an area.
+
+CHECK ANSWER — try card 8 first
+π/3. A=π(2−x)²/8 because the radius is half the diameter; integrate from 0 to 2.
+
+──────────
+
+AP Calculus AB • 58강
+단면으로 부피 구하기
+
+입체의 부피는 밑면의 폭만이 아니라 단면의 넓이를 누적합니다.
+단면 폭을 정사각형의 넓이로 바꾼 뒤 x방향으로 적분합니다.
+
+1. 두 항을 포함한 변의 길이 전체를 제곱합니다.
+2. 제곱을 전개하면 항별로 쉽게 적분할 수 있습니다.
+3. 넓이를 길이 방향으로 누적했으므로 결과는 부피 단위입니다.
+
+실수 점검: 주어진 단면 모양에 따라 A(x)를 정합니다. 폭 자체는 넓이가 아닙니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+π/3입니다. 반지름은 지름의 절반이므로 A=π(2−x)²/8을 0부터 2까지 적분합니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

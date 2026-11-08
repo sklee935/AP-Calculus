@@ -1,0 +1,33 @@
+AP Calculus AB • L31
+Increasing and decreasing
+
+The sign of f′ tells whether the function rises or falls on an interval.
+Test one input in each interval because the derivative has no other zeros or breaks.
+
+1. Two negative factors make a positive product on the left.
+2. Between the zeros, the factors have opposite signs.
+3. So f increases outside [1,3] and decreases between 1 and 3.
+
+Remember: The sign of f itself tells height, not whether the graph is increasing.
+
+CHECK ANSWER — try card 8 first
+(0,2). The derivative has opposite-sign factors exactly between 0 and 2.
+
+──────────
+
+AP Calculus AB • 31강
+증가와 감소
+
+도함수의 부호로 구간에서 함수의 증가와 감소를 판단합니다.
+다른 영점이나 단절이 없으므로 각 구간에서 한 입력으로 부호를 확인합니다.
+
+1. 왼쪽에서는 두 음수의 곱이 양수입니다.
+2. 두 영점 사이에서는 인수의 부호가 반대입니다.
+3. 따라서 1보다 작거나 3보다 큰 구간에서는 증가하고 그 사이에서는 감소합니다.
+
+실수 점검: f 자체의 부호는 높이를 나타내며 증가 여부를 결정하지 않습니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+(0,2)입니다. 이 구간에서만 두 인수의 부호가 반대여서 도함수가 음수입니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Initial values and domains. An initial condition chooses a branch and its valid interval, not just a constant. Math: y^(′)=(x)/(y),y(0)=2",
+    "ko": "초기조건과 정의역. 초기조건은 상수뿐 아니라 해의 가지와 유효 구간도 결정합니다. 수식: y^(′)=(x)/(y),y(0)=2"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. The differential equation is undefined when y=0. Math: y≠0",
+    "ko": "먼저 조건을 확인. y=0에서는 미분방정식의 우변이 정의되지 않습니다. 수식: y≠0"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. The initial positive value selects the positive square-root branch. Math: ydy=xdx",
+    "ko": "개념을 눈으로 연결. 초기값이 양수이므로 양의 제곱근 가지를 선택합니다. 수식: ydy=xdx"
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. Integrate both sides, absorbing constant factors into C. Math: y^(2)=x^(2)+C",
+    "ko": "1단계  식을 세우기. 양변을 적분하고 상수의 배수를 C에 포함합니다. 수식: y^(2)=x^(2)+C"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. Use the initial condition before selecting a branch. Math: 4=0+C⇒C=4",
+    "ko": "2단계  이유를 따라 계산. 초기조건으로 상수를 구한 뒤 가지를 고릅니다. 수식: 4=0+C⇒C=4"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. This branch stays positive, so the differential equation remains defined. Math: y=sqrt(x^(2)+4),−∞<x<∞",
+    "ko": "3단계  결과의 의미. 이 가지는 항상 양수이므로 방정식이 계속 정의됩니다. 수식: y=sqrt(x^(2)+4),−∞<x<∞"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. Writing ±√(x²+4) as the initial-value solution includes a branch that fails y(0)=2. Math: y(0)=2⇒positive branch",
+    "ko": "이 실수는 피하세요. ±√(x²+4)를 답으로 쓰면 초기조건에 맞지 않는 가지도 포함됩니다. 수식: y(0)=2⇒positive branch"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Given y=1/(1−x), state its maximal interval containing 0. Math: y^(′)=y^(2),y(0)=1",
+    "ko": "직접 풀어보세요. 해가 y=1/(1−x)일 때 0을 포함하는 최대 구간을 쓰세요. 수식: y^(′)=y^(2),y(0)=1"
+  }
+]

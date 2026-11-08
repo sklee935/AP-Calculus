@@ -1,0 +1,33 @@
+AP Calculus AB • L16
+The quotient rule
+
+For a quotient, the subtraction order matters.
+Differentiate the top first, subtract the other contribution, then divide by the bottom squared.
+
+1. Find each derivative before assembling the quotient rule.
+2. Parentheses protect the entire subtracted term.
+3. Evaluate numerator and denominator consistently at the same input.
+
+Remember: Do not divide the numerator derivative by the denominator derivative.
+
+CHECK ANSWER — try card 8 first
+2/9. The derivative is 2/(x+2)², so the value at 1 is 2/9.
+
+──────────
+
+AP Calculus AB • 16강
+몫의 법칙
+
+몫을 미분할 때는 뺄셈 순서가 중요합니다.
+분자를 먼저 미분한 항에서 다른 기여를 빼고 분모의 제곱으로 나눕니다.
+
+1. 각 도함수를 구한 뒤 몫의 법칙에 넣습니다.
+2. 괄호를 써서 빼는 항 전체를 보호합니다.
+3. 분자와 분모에 같은 입력값을 일관되게 대입합니다.
+
+실수 점검: 분자의 도함수를 분모의 도함수로 나누면 안 됩니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+2/9입니다. 도함수는 2/(x+2)²이므로 1에서 2/9입니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

@@ -1,0 +1,33 @@
+AP Calculus AB • L18
+Implicit differentiation
+
+When x and y share an equation, differentiate without isolating y first.
+On the upper semicircle, the slope becomes more negative as x increases.
+
+1. Differentiate both sides with respect to x.
+2. Solve for the derivative and keep its denominator condition.
+3. The tangent falls 3 units for each 4 units to the right.
+
+Remember: Writing the derivative of y² as just 2y omits dy/dx.
+
+CHECK ANSWER — try card 8 first
+−4/5. Differentiate to get 2x+y+(x+2y)y′=0, then substitute (1,2).
+
+──────────
+
+AP Calculus AB • 18강
+음함수 미분
+
+x와 y가 한 식에 함께 있어도 y를 먼저 풀어내지 않고 미분할 수 있습니다.
+위쪽 반원에서는 x가 커질수록 기울기가 더 음수가 됩니다.
+
+1. 양변을 x에 대해 미분합니다.
+2. 도함수를 정리하고 분모 조건도 유지합니다.
+3. 접선은 오른쪽으로 4만큼 갈 때 3만큼 내려갑니다.
+
+실수 점검: y²의 도함수를 2y만 쓰면 dy/dx가 빠집니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+−4/5입니다. 2x+y+(x+2y)y′=0을 얻은 뒤 (1,2)를 대입합니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

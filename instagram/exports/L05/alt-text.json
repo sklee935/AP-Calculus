@@ -1,0 +1,42 @@
+[
+  {
+    "card": 1,
+    "en": "Trigonometric limits and squeezing. Oscillation can still have a limit when its size shrinks. Math: lim_(x→0)x^(2)sin(1/x)",
+    "ko": "삼각극한과 조임정리. 진동하더라도 폭이 줄어들면 극한이 존재할 수 있습니다. 수식: lim_(x→0)x^(2)sin(1/x)"
+  },
+  {
+    "card": 2,
+    "en": "Check the conditions. Use radians. Sine stays between −1 and 1. Math: −1≤sinu≤1; lim_(x→0)(sinx)/(x)=1",
+    "ko": "먼저 조건을 확인. 각도는 라디안입니다. 사인값은 −1과 1 사이에 있습니다. 수식: −1≤sinu≤1; lim_(x→0)(sinx)/(x)=1"
+  },
+  {
+    "card": 3,
+    "en": "Connect the idea. The oscillating curve is trapped between two bounds approaching zero. Graph: f: y=x**2*sin(1/x); upper: y=x**2; lower: y=-x**2. x-range [-0.5, 0.5], y-range [-0.3, 0.3].",
+    "ko": "개념을 눈으로 연결. 진동하는 곡선이 모두 0으로 가는 두 경계 사이에 갇힙니다. 그래프: f: y=x**2*sin(1/x); upper: y=x**2; lower: y=-x**2. x 표시구간 [-0.5, 0.5], y 표시구간 [-0.3, 0.3]."
+  },
+  {
+    "card": 4,
+    "en": "Step 1  Set it up. Multiplying by nonnegative x² preserves both inequality directions. Math: −x^(2)≤x^(2)sin(1/x)≤x^(2)",
+    "ko": "1단계  식을 세우기. 음이 아닌 x²을 곱하므로 부등호 방향이 유지됩니다. 수식: −x^(2)≤x^(2)sin(1/x)≤x^(2)"
+  },
+  {
+    "card": 5,
+    "en": "Step 2  Work carefully. Both bounding curves approach the same value. Math: lim_(x→0)(−x^(2))=lim_(x→0)x^(2)=0",
+    "ko": "2단계  이유를 따라 계산. 양쪽 경계 곡선이 같은 값에 가까워집니다. 수식: lim_(x→0)(−x^(2))=lim_(x→0)x^(2)=0"
+  },
+  {
+    "card": 6,
+    "en": "Step 3  Interpret. The squeeze theorem forces the trapped function toward zero. Math: lim_(x→0)x^(2)sin(1/x)=0",
+    "ko": "3단계  결과의 의미. 조임정리에 따라 가운데 함수도 0으로 갑니다. 수식: lim_(x→0)x^(2)sin(1/x)=0"
+  },
+  {
+    "card": 7,
+    "en": "Avoid this mistake. An oscillating factor alone does not determine the product limit. Math: same bounds⇒same limit",
+    "ko": "이 실수는 피하세요. 한 인수가 진동한다는 사실만으로 곱의 극한을 판단하지 마세요. 수식: same bounds⇒same limit"
+  },
+  {
+    "card": 8,
+    "en": "Your turn. Use the standard sine limit with its input matched. Math: lim_(x→0)(sin(3x))/(2x)",
+    "ko": "직접 풀어보세요. 기본 사인 극한의 입력을 맞춰 사용하세요. 수식: lim_(x→0)(sin(3x))/(2x)"
+  }
+]

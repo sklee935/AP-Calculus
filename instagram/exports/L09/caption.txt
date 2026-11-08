@@ -1,0 +1,33 @@
+AP Calculus AB • L09
+Average and instantaneous rates
+
+A secant measures change over an interval; a tangent measures change at an instant.
+As the interval shrinks, the secant slope approaches the tangent slope.
+
+1. Keep the whole change in output inside the numerator.
+2. Simplify while h is nonzero.
+3. The instantaneous rate is the limiting slope, 4.
+
+Remember: The tangent slope is a rate, not the function height.
+
+CHECK ANSWER — try card 8 first
+4. The average rate is (9−1)/(3−1)=4; this is an interval calculation.
+
+──────────
+
+AP Calculus AB • 09강
+평균변화율과 순간변화율
+
+할선은 구간의 변화율을, 접선은 한 순간의 변화율을 나타냅니다.
+구간이 줄어들면 할선의 기울기가 접선의 기울기에 가까워집니다.
+
+1. 출력의 변화량 전체를 분자에 넣습니다.
+2. h가 0이 아닐 때 식을 정리합니다.
+3. 순간변화율은 기울기의 극한인 4입니다.
+
+실수 점검: 접선의 기울기는 변화율입니다. 함수의 높이와 구별하세요.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+4입니다. (9−1)/(3−1)=4이며, 구간 전체의 평균변화율입니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

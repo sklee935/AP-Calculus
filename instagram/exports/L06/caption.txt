@@ -1,0 +1,33 @@
+AP Calculus AB • L06
+Continuity and discontinuity
+
+Continuity requires the nearby value to match the defined value.
+Check that the value exists, the limit exists, and they agree.
+
+1. The branch containing the point determines its actual value.
+2. The left limit must equal the right limit and the value 9.
+3. Each polynomial piece is continuous elsewhere, so matching the junction finishes the job.
+
+Remember: Fixing a single point can repair a hole, but not a jump between different limits.
+
+CHECK ANSWER — try card 8 first
+a=3. The left limit a must match the right limit and point value 3.
+
+──────────
+
+AP Calculus AB • 06강
+연속과 불연속
+
+연속이려면 가까워지는 값과 정해진 값이 일치해야 합니다.
+함숫값, 극한의 존재, 두 값의 일치를 차례로 확인합니다.
+
+1. 그 점을 포함하는 조각으로 실제 함숫값을 정합니다.
+2. 좌극한이 우극한과 함숫값 9에 같아야 합니다.
+3. 다른 점에서는 각 다항식이 연속이므로 접합점만 맞추면 됩니다.
+
+실수 점검: 한 점의 값을 바꿔 구멍은 메울 수 있지만 점프는 없앨 수 없습니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+a=3입니다. 좌극한 a가 우극한과 함숫값 3에 같아야 합니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

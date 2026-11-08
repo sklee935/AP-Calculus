@@ -1,0 +1,33 @@
+AP Calculus AB • L52
+Cooling models
+
+Cooling depends on the temperature difference from a constant environment.
+The excess temperature T−20 decays exponentially toward zero.
+
+1. The equilibrium is 20, so add it back after solving the decay equation.
+2. The coefficient is the initial temperature difference.
+3. The temperature remains above 20 and approaches it over time.
+
+Remember: Using 60 as the exponential coefficient forgets the ambient-temperature offset.
+
+CHECK ANSWER — try card 8 first
+20°C. T=10+20e^(−t), so the excess temperature halves at ln 2.
+
+──────────
+
+AP Calculus AB • 52강
+냉각 모형
+
+냉각 속도는 일정한 주변 온도와의 온도 차에 비례합니다.
+초과 온도 T−20이 지수적으로 감소하여 0에 가까워집니다.
+
+1. 평형온도 20을 감소 모형에 다시 더합니다.
+2. 계수는 초기 온도 차입니다.
+3. 온도는 20보다 높게 유지되며 시간이 지나면 20에 가까워집니다.
+
+실수 점검: 지수항의 계수를 60으로 쓰면 주변 온도만큼의 차이를 빠뜨립니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+20°C입니다. T=10+20e^(−t)이므로 ln 2에서 초과 온도가 절반이 됩니다.
+
+#APCalculusAB #Calculus #미적분 #수학공부

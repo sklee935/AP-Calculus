@@ -1,7 +1,9 @@
-# Claude Code handoff
+# Claude Code and other tools
 
-Read AGENTS.md, README.md, and docs/HANDOFF.md first. They are the shared project instructions and current checkpoint for Claude Code and other development tools.
+Start with [AGENTS.md](AGENTS.md), [README.md](README.md), and [docs/HANDOFF.md](docs/HANDOFF.md). These are the shared instructions and current checkpoint.
 
 Repository: https://github.com/sklee935/AP-Calculus
 
-Preserve the existing AP textbook sources and delivered PDF/Word files. Extend the bilingual 60-lesson Instagram course using the documented source data, renderer, and checks. Work from the exact next step in the handoff, and record only checks you actually completed. No Instagram publishing is authorized by this repository setup.
+The AB course contains 60 completed bilingual lessons and 480 cards. Edit `instagram/lessons/Lxx.json`; use the root README commands to build and validate. Textbook answers originate in `ap-calculus-ab/scripts/` Python, while `content/question_bank.json` is generated publication data. Do not edit the textbook and card answers as independent authorities.
+
+Keep conditions, units, both languages, licensed fonts and 1080×1350/80px/40px layout rules. Update the handoff and actual QA record, then commit and push verified changes to main without force pushing. No social publishing or dated scheduling is included. BC content is a future extension.
