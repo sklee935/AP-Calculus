@@ -1,0 +1,36 @@
+Logos Crest Math Academy | Suwanee, GA
+English + Korean • 한영 수학 강의
+
+AP Calculus AB • L04
+Factoring and conjugates
+
+A conjugate can reveal a factor hidden by a square root.
+Use the difference of squares to remove the radical from the numerator.
+
+1. Multiply by a form of 1, so nearby values stay unchanged.
+2. Cancel the exposed factor only where it is nonzero.
+3. Now substitution is valid in the rewritten nearby expression.
+
+Remember: Multiply both numerator and denominator by the conjugate.
+
+CHECK ANSWER — try card 8 first
+4. Factor x²−4=(x−2)(x+2), cancel for x≠2, then take the limit.
+
+──────────
+
+AP Calculus AB • 04강
+인수분해와 켤레식
+
+켤레식을 곱하면 근호에 숨은 인수가 드러납니다.
+제곱의 차를 이용해 분자의 근호를 정리합니다.
+
+1. 1과 같은 식을 곱하므로 주변 값은 바뀌지 않습니다.
+2. 드러난 인수가 0이 아닐 때만 약분합니다.
+3. 이제 주변에서 같은 식에 대입할 수 있습니다.
+
+실수 점검: 분자와 분모에 모두 켤레식을 곱해야 합니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+4입니다. x²−4를 인수분해하고 x≠2에서 약분한 뒤 극한을 구합니다.
+
+#Suwanee #SuwaneeMath #APCalculusAB #미적분 #수학공부

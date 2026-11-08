@@ -1,11 +1,13 @@
 # Manual publication log / 수동 게시 기록
 
-The user requested the profile launch and first post, then separately requested **one more** post. On 2026-11-08 (America/New_York), these two publications were completed on [@logoscrest.math](https://www.instagram.com/logoscrest.math/).
+The user requested the profile launch and first post, then one more post, then **two additional** posts. On 2026-11-08 (America/New_York), these four publications were completed on [@logoscrest.math](https://www.instagram.com/logoscrest.math/).
 
 | Lesson | Published content | Location | Record |
 |---|---|---|---|
 | L01 · 극한의 뜻 / What a limit means | [Eight-card Instagram carousel](https://www.instagram.com/p/DfftFgOGyO5/) | [Suwanee, Georgia](https://www.instagram.com/explore/locations/229850873/suwanee-georgia/) | [Post manifest](L01-post.json) · [Actual caption](L01-caption.txt) |
 | L02 · 좌우극한 / One-sided limits | [Eight-card Instagram carousel](https://www.instagram.com/p/DffuwIvm9b1/) | [Suwanee, Georgia](https://www.instagram.com/explore/locations/229850873/suwanee-georgia/) | [Post manifest](L02-post.json) · [Actual caption](L02-caption.txt) |
+| L03 · 표와 그래프의 극한 / Limits from tables and graphs | [Eight-card Instagram carousel](https://www.instagram.com/p/DffwVVDmwZf/) | [Suwanee, Georgia](https://www.instagram.com/explore/locations/229850873/suwanee-georgia/) | [Post manifest](L03-post.json) · [Actual caption](L03-caption.txt) |
+| L04 · 인수분해와 켤레식 / Factoring and conjugates | [Eight-card Instagram carousel](https://www.instagram.com/p/DffwrPmGwgb/) | [Suwanee, Georgia](https://www.instagram.com/explore/locations/229850873/suwanee-georgia/) | [Post manifest](L04-post.json) · [Actual caption](L04-caption.txt) |
 
 For **L01**, the original eight PNGs were uploaded in `01.png`–`08.png` order with **4:5** selected and the original filter retained. The branded caption adds the public academy name, city and five topic/location hashtags to the validated bilingual lesson. All eight alt texts came from the lesson export, joined as `English | 한국어` because Instagram's single-line fields remove newlines. The caption, original function restriction `x≠3`, check restriction `x≠4`, and answers 6 and 8 were retained. No Facebook cross-post was enabled.
 
@@ -13,9 +15,11 @@ Instagram showed “Your post has been shared.” The public profile then showed
 
 For **L02**, the same 8-card order, 4:5 ratio, original filter, bilingual alt-text join and city tag were used. The caption is 888 characters, including brand introduction and five hashtags, and retains the validated English/Korean teaching text. The main example has left limit 2 and right limit 5; the check on `|x|/x` has left limit −1 and right limit 1. Both two-sided limits do not exist. The local contact sheet was reviewed; read-only validation passed 8 cards, 3 math checks and 8 PNGs. Instagram confirmed sharing, the profile showed **two posts**, and the live L02 carousel reached all eight indices. Cards 1, 3 (the graph) and 8 were visually inspected in the published post. No Facebook cross-post was enabled.
 
+For **L03 and L04**, each post uses the original eight PNGs in numerical order, 4:5 ratio, original filter, bilingual alt text joined with ` | `, and the Suwanee, Georgia city tag. Canonical English/Korean caption bodies are preserved with the same brand introduction and five hashtags. L03's 1,031-character caption explains the distinction between limit 2 and point value 4; its check answer is 4 despite h(2)=10. L04's 929-character caption preserves conjugate multiplication, nonzero cancellation and the check answer 4 with x≠2. Both local contact sheets were reviewed and combined validation passed 16 cards, 4 math checks and 16 PNGs. Instagram confirmed each share and the profile count increased to three, then **four posts**. Both carousels reached index 8. Published cards visually reviewed: L03 1/3/8 (graph: open (1,2), filled (1,4)); L04 1/5/8 (dense cancellation step retains x≠4). No Facebook cross-post was enabled. This completes the request for exactly two additional posts.
+
 ## Continue safely
 
 - `../lessons/Lxx.json` remains the editable teaching-script and answer authority. `Lxx-caption.txt` records the published branded caption, not a competing math source. If a lesson changes, update the generated assets and explicitly record any later post correction.
 - `Lxx-post.json` records actual publication status, public URL and selected city. All asset paths are relative to that manifest's directory.
-- Future posting, editing, cross-posting and dated scheduling require a separate user request. L03–L60 remain prepared assets; do not post them just because they are ready.
+- Future posting, editing, cross-posting and dated scheduling require a separate user request. L05–L60 remain prepared assets; do not post them just because they are ready.
 - The 20-week course schedule remains relative. There is no posting daemon, login token or account password in this repository.
