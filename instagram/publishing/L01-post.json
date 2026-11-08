@@ -1,0 +1,36 @@
+{
+  "lesson_id": "L01",
+  "account": "logoscrest.math",
+  "status": "published",
+  "post_url": "https://www.instagram.com/p/DfftFgOGyO5/",
+  "verified_at_utc": "2026-11-08T21:19:25Z",
+  "local_date": "2026-11-08",
+  "timezone": "America/New_York",
+  "location_requested": "Suwanee, Georgia",
+  "location_selected": "Suwanee, Georgia",
+  "location_url": "https://www.instagram.com/explore/locations/229850873/suwanee-georgia/",
+  "aspect_ratio": "4:5",
+  "carousel_count": 8,
+  "alt_text_join": " | ",
+  "facebook_crosspost": false,
+  "verification": {
+    "instagram_share_success": true,
+    "public_profile_post_count": 1,
+    "carousel_advanced_through_index": 8,
+    "visual_review_live_cards": [1, 8],
+    "caption_and_location_verified": true
+  },
+  "caption_file": "L01-caption.txt",
+  "cards": [
+    "../exports/L01/01.png",
+    "../exports/L01/02.png",
+    "../exports/L01/03.png",
+    "../exports/L01/04.png",
+    "../exports/L01/05.png",
+    "../exports/L01/06.png",
+    "../exports/L01/07.png",
+    "../exports/L01/08.png"
+  ],
+  "alt_text_file": "../exports/L01/alt-text.json",
+  "user_authorized_manual_publication": true
+}

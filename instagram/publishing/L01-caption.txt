@@ -1,0 +1,36 @@
+Logos Crest Math Academy | Suwanee, GA
+English + Korean • 한영 수학 강의
+
+AP Calculus AB • L01
+What a limit means
+
+Can a limit exist when the function value is missing?
+Both sides approach the same output, 6. The value at 3 is a different question.
+
+1. Factor the difference of squares to reveal the shared factor.
+2. Cancel only at nearby inputs where x−3 is nonzero.
+3. Nearby outputs tend to 6, even though the original function has a hole.
+
+Remember: Cancellation does not redefine the original value at x=3.
+
+CHECK ANSWER — try card 8 first
+8. For x≠4, the quotient is x+4; nearby outputs tend to 8.
+
+──────────
+
+AP Calculus AB • 01강
+극한의 뜻
+
+함숫값이 없어도 극한은 존재할 수 있을까요?
+양쪽의 출력이 모두 6에 가까워집니다. 3에서의 함숫값과는 다른 질문입니다.
+
+1. 제곱의 차를 인수분해하면 공통인수가 보입니다.
+2. x−3이 0이 아닌 주변 입력에서만 약분합니다.
+3. 원래 함수에 구멍이 있어도 주변 출력은 6으로 갑니다.
+
+실수 점검: 약분했다고 원래 함수의 x=3 값이 생기지는 않습니다.
+
+확인 문제 정답 — 8번 카드를 먼저 풀어보세요
+8입니다. x≠4에서 식은 x+4이고, 주변 출력은 8로 갑니다.
+
+#Suwanee #SuwaneeMath #APCalculusAB #미적분 #수학공부

@@ -8,7 +8,7 @@ course=json.loads((IG/'course.json').read_text());rows=course['lessons']
 with (IG/'schedule.csv').open('w',newline='') as f:
  w=csv.writer(f,lineterminator='\n');w.writerow(['week','day','lesson','unit','title_en','title_ko','status'])
  for d in rows:w.writerow([d['week'],d['day'],d['id'],d['unit'],d['title']['en'],d['title']['ko'],d['status']])
-md=['# 60강 카드 강의 목록 / Course catalog','','월·수·금 3회 × 20주. 날짜와 자동 게시 설정은 포함하지 않습니다. / Relative weeks only.','','[전체 편집 원본](lessons/) · [CSV 편성표](schedule.csv) · [브라우저 갤러리](exports/index.html)','','| 강의 | 주/요일 | 주제 | 카드 미리보기 | 게시 자료 |','|---|---|---|---|---|']
+md=['# 60강 카드 강의 목록 / Course catalog','','월·수·금 3회 × 20주. 날짜와 자동 게시 설정은 포함하지 않습니다. / Relative weeks only.','','[전체 편집 원본](lessons/) · [CSV 편성표](schedule.csv) · [브라우저 갤러리](exports/index.html) · [실제 게시 기록](publishing/README.md)','','| 강의 | 주/요일 | 주제 | 카드 미리보기 | 게시 자료 |','|---|---|---|---|---|']
 gallery=[]
 for d in rows:
  id=d['id'];folder=IG/'exports'/id

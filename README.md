@@ -7,9 +7,10 @@
 - **[60강 전체 목록과 카드](instagram/CATALOG.md)** · [첫 강의 8장 미리보기](instagram/exports/L01/preview.jpg)
 - [20주 월·수·금 편성표 CSV](instagram/schedule.csv) · [과정 메타데이터](instagram/course.json)
 - [작업 재개와 검증 결과](docs/HANDOFF.md) · [콘텐츠 작성 규칙](instagram/README.md)
+- **[Logos Crest Math Academy | Suwanee](https://www.instagram.com/logoscrest.math/)** · [첫 게시물](https://www.instagram.com/p/DfftFgOGyO5/) · [게시 기록](instagram/publishing/README.md) · [로고와 브랜드 원본](branding/logos-crest/README.md)
 - [공통 작업 지침](AGENTS.md) · [Claude Code 안내](CLAUDE.md) · [승인된 계획](docs/PLAN.md)
 
-카드는 1080×1350px이며 모두 영어와 한국어를 함께 제공합니다. 각 강의 폴더에는 `01.png`–`08.png`, 정답·풀이가 포함된 한영 `caption.txt`, 카드별 `alt-text.json`, `preview.jpg`, 편집 가능한 `lesson.html`, 검증용 `manifest.json`이 있습니다. 실제 게시일과 인스타그램 자동 게시는 설정하지 않았습니다.
+카드는 1080×1350px이며 모두 영어와 한국어를 함께 제공합니다. 각 강의 폴더에는 `01.png`–`08.png`, 정답·풀이가 포함된 한영 `caption.txt`, 카드별 `alt-text.json`, `preview.jpg`, 편집 가능한 `lesson.html`, 검증용 `manifest.json`이 있습니다. 별도 사용자 요청으로 2026-11-08에 L01 8장을 수동 게시했습니다. 전체 편성표는 상대 주차를 유지하며 자동 게시는 설정하지 않았습니다.
 
 HTML 갤러리는 저장소를 복제한 뒤 `python -m http.server 8000`을 실행하고 `http://localhost:8000/instagram/exports/`에서 열 수 있습니다. GitHub에서는 위 목록의 이미지 링크를 사용하세요.
 

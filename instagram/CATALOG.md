@@ -2,7 +2,7 @@
 
 월·수·금 3회 × 20주. 날짜와 자동 게시 설정은 포함하지 않습니다. / Relative weeks only.
 
-[전체 편집 원본](lessons/) · [CSV 편성표](schedule.csv) · [브라우저 갤러리](exports/index.html)
+[전체 편집 원본](lessons/) · [CSV 편성표](schedule.csv) · [브라우저 갤러리](exports/index.html) · [실제 게시 기록](publishing/README.md)
 
 | 강의 | 주/요일 | 주제 | 카드 미리보기 | 게시 자료 |
 |---|---|---|---|---|

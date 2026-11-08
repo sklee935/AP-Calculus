@@ -1,0 +1,19 @@
+{
+  "display_name": "Logos Crest Math Academy | Suwanee",
+  "instagram_username": "logoscrest.math",
+  "instagram_url": "https://www.instagram.com/logoscrest.math/",
+  "location": {
+    "city": "Suwanee",
+    "state": "GA",
+    "country": "United States"
+  },
+  "bio": "Suwanee, GA\nAP Calculus • Math Foundations\nEnglish & Korean | 한영 수학\nRooted in Faith. Pursuing Excellence.",
+  "avatar": "profile-emblem-v1.png",
+  "avatar_sha256": "02c666c410d22195ad5e00921fe1b4a7906bda909fa4fd17517aca74bd7a0b86",
+  "generation": {
+    "mode": "built-in image_gen",
+    "use_case": "logo-brand",
+    "prompt_file": "image-prompt.txt"
+  },
+  "affiliation": "independent academy brand; no university or College Board affiliation claimed"
+}

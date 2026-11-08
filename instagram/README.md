@@ -12,6 +12,7 @@
 | `assets/math`, `assets/graphs` | 생성한 수식·그래프 SVG | 직접 수정하지 않음 |
 | `exports/Lxx/` | 최종 8장 PNG·HTML·캡션·대체텍스트·미리보기·manifest | 원본 수정 후 재생성 |
 | `schedule.csv`, `CATALOG.md`, `exports/index.html` | 목록과 상대 편성표 | catalog.py로 재생성 |
+| `publishing/` | 별도 요청으로 실제 게시한 캡션·링크·지역 기록 | 수동 게시 후 실제 결과만 기록; 대본·정답의 별도 원본이 아님 |
 
 임시 대본 작성 스크립트는 원본이 아닙니다. 배포하는 JSON을 직접 수정하고 검증하세요. 교재에서 가져온 정답을 바꿀 경우 먼저 교재의 Python 원본을 수정·검증·게시한 뒤 카드에 반영합니다.
 

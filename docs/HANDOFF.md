@@ -7,7 +7,9 @@ Updated 2026-11-08. **AP Calculus AB: 60 lessons, 480 bilingual Instagram cards 
 - Existing textbook Python, 124-question bank, graphs, PDF/Word editions, licensed full/subset Korean fonts and historical verification reports. Student books: 81 pages each; teacher guide: 56 pages.
 - `instagram/lessons/L01.json`–`L60.json`: authoritative editable bilingual scripts, math, graphs/tables, source question links, prerequisites, self-check solutions, captions, alt text and 130 computation checks.
 - Each `instagram/exports/Lxx/`: eight final PNGs, bilingual caption, eight alt texts, editable HTML, 8-card preview and source/CSS/PNG manifest.
-- `instagram/CATALOG.md`, `instagram/schedule.csv`, browser gallery: 20 relative weeks, Monday/Wednesday/Friday. No dated schedule or Instagram posting.
+- `instagram/CATALOG.md`, `instagram/schedule.csv`, browser gallery: 20 relative weeks, Monday/Wednesday/Friday. No dated or automated course schedule.
+- Separate user-requested launch: [@logoscrest.math](https://www.instagram.com/logoscrest.math/) now uses **Logos Crest Math Academy | Suwanee**, the book/cross/geometry crest avatar, and a Suwanee, GA bilingual-study bio. Public brand assets and the exact built-in image-generation prompt are under `branding/logos-crest/`.
+- **L01 manually published on 2026-11-08** as one 8-card 4:5 carousel, with bilingual caption/alt text and the Suwanee, Georgia city tag. [Live post](https://www.instagram.com/p/DfftFgOGyO5/) · [publication log](../instagram/publishing/README.md). L02–L60 have not been published by this task. No Facebook cross-post.
 - HTML/CSS + SVG + Playwright renderer; portable LibreOffice/Poppler textbook conversion; read-only validators, seven regression tests and GitHub Actions workflow.
 
 ## Setup and commands
@@ -33,7 +35,9 @@ Textbook rebuild: `python ap-calculus-ab/scripts/build_books.py`, `python script
 
 The full course passes the 130 math checks, all 480 PNG/manifest checks, seven regression tests, and 480-card Chromium layout checks. Actual sampled visual review and the portable English-PDF smoke test are documented in [QA.md](QA.md). The first textbook checkpoint was pushed before the card course. GitHub Actions checks each subsequent push and performs a clean L01 rebuild.
 
-No required AB implementation remains. Next optional work is instructor/academy branding once names are supplied, student feedback-based revisions, or the separate BC extension described in the textbook. Do not invent credentials, publish to Instagram, or assign real posting dates without a new user request.
+Launch checkpoint validation: `python instagram/scripts/validate.py --lessons L01 --exports` passed (8 cards, 2 math checks, 8 PNGs); `git diff --check` passed. A read-only metadata inspection verified the avatar SHA-256/1254×1254 RGB format, 105-character bio, eight 1080×1350 card paths, 953-character actual caption, eight bilingual alt texts and publication-log link in both catalog output and generator. Lesson source/CSS/exports were not changed for this launch.
+
+No required AB implementation or launch action remains. The logo and first post were completed under the user's separate launch request. Actual UI verification: profile photo/bio saved, profile showed one post, published caption and Suwanee location were visible, carousel advanced through all eight indices; live cards 1 and 8 were visually reviewed. No additional visual certification of middle cards is implied. No street address or trademark clearance is available. Next optional work is student feedback-based revisions, new branded lesson variants, or the separate BC extension described in the textbook. Do not invent credentials, publish additional content, or assign real posting dates without a new user request.
 
 ## Source ownership and commit procedure
 
