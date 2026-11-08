@@ -1,0 +1,145 @@
+{
+  "checked_on": "2026-10-28",
+  "questions": 124,
+  "mcq": 102,
+  "frq": 22,
+  "mcq_oracle_checks": 88,
+  "frq_scalar_identity_checks": 37,
+  "worked_example_checks": 16,
+  "editorially_reviewed_reasoning_items": [
+    "D07",
+    "U1-M02",
+    "U1-M06",
+    "U2-M05",
+    "U4-M01",
+    "U4-M05",
+    "U5-M03",
+    "U5-M04",
+    "U7-M05",
+    "U1-F01-1",
+    "U1-F01-2",
+    "U1-F02-1",
+    "U1-F02-2",
+    "U1-F02-3",
+    "U2-F01-2",
+    "U3-F01-2",
+    "U3-F02-1",
+    "U4-F01-1",
+    "U4-F01-2",
+    "U4-F02-1",
+    "U5-F01-1",
+    "U5-F01-2",
+    "U5-F02-1",
+    "U6-F01-1",
+    "U6-F01-2",
+    "U6-F01-3",
+    "U6-F02-3",
+    "U7-F01-1",
+    "U7-F01-3",
+    "U7-F02-1",
+    "U8-F01-3",
+    "E04",
+    "E13",
+    "E17",
+    "E25",
+    "E28",
+    "EF02-3",
+    "EF03-1",
+    "EF03-2",
+    "EF03-3",
+    "EF04-1",
+    "EF04-3",
+    "EF06-1"
+  ],
+  "exam_mcq_counts_by_unit": {
+    "1": 5,
+    "2": 5,
+    "3": 3,
+    "4": 5,
+    "5": 7,
+    "6": 8,
+    "7": 3,
+    "8": 6
+  },
+  "exam_mcq_weights_percent": {
+    "1": 11.905,
+    "2": 11.905,
+    "3": 7.143,
+    "4": 11.905,
+    "5": 16.667,
+    "6": 19.048,
+    "7": 7.143,
+    "8": 14.286
+  },
+  "exam_format": {
+    "mcq_a": [
+      29,
+      62
+    ],
+    "mcq_b": [
+      13,
+      38
+    ],
+    "frq_a": [
+      2,
+      30
+    ],
+    "frq_b": [
+      4,
+      60
+    ]
+  },
+  "numerical_cross_checks": [
+    {
+      "kind": "root_residual",
+      "expression": "x**3 + x - 4",
+      "residual": "1.069105884036878258456214586860592751526078752042e-50"
+    },
+    {
+      "kind": "root_residual",
+      "expression": "2*x - exp(-x)",
+      "residual": "0.0"
+    },
+    {
+      "kind": "root_residual",
+      "expression": "-x + 2*cos(x)",
+      "residual": "0.0"
+    },
+    {
+      "kind": "quadrature_cross_check",
+      "expression": "exp(-x**2)",
+      "difference": "4.6470053283813443253291035846057468264971837101736e-16"
+    },
+    {
+      "kind": "root_residual",
+      "expression": "-x/2 + exp(-x)",
+      "residual": "6.6819117752304891153513411678787046970379922002626e-52"
+    },
+    {
+      "kind": "quadrature_cross_check",
+      "expression": "-x/2 + exp(-x)",
+      "difference": "9.5737695122275226294476207248346818481319001921725e-17"
+    },
+    {
+      "kind": "quadrature_cross_check",
+      "expression": "-t + 3*sin(t**2/4) + 4",
+      "difference": "0.0000000000018188869272424499339214189226505561984634963730432"
+    },
+    {
+      "kind": "root_residual",
+      "expression": "-t + 3*sin(t**2/4) + 4",
+      "residual": "1.069105884036878258456214586860592751526078752042e-50"
+    },
+    {
+      "kind": "quadrature_cross_check",
+      "expression": "x/4 + exp(-x**2)",
+      "difference": "0.0000000000000037017727300811058985371869386640806200885102980195"
+    },
+    {
+      "kind": "root_residual",
+      "expression": "-2*x*exp(-x**2) + 1/4",
+      "residual": "0.0"
+    }
+  ],
+  "limitations": "Author-created rubrics and teaching difficulty labels are not College Board scoring guidelines or calibrated AP score conversions. Symbolic checks do not validate every prose argument."
+}

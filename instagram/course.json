@@ -1,0 +1,1154 @@
+{
+  "schema_version": 1,
+  "course": "AP Calculus AB",
+  "languages": [
+    "en",
+    "ko"
+  ],
+  "slides_per_lesson": 8,
+  "canvas": [
+    1080,
+    1350
+  ],
+  "schedule": "20 relative weeks; Monday Wednesday Friday; no posting dates",
+  "lessons": [
+    {
+      "id": "L01",
+      "number": 1,
+      "unit": 1,
+      "unit_title": {
+        "ko": "극한과 연속",
+        "en": "Limits and continuity"
+      },
+      "title": {
+        "ko": "극한의 뜻",
+        "en": "What a limit means"
+      },
+      "prerequisites": [],
+      "week": 1,
+      "day": "Monday",
+      "status": "planned"
+    },
+    {
+      "id": "L02",
+      "number": 2,
+      "unit": 1,
+      "unit_title": {
+        "ko": "극한과 연속",
+        "en": "Limits and continuity"
+      },
+      "title": {
+        "ko": "좌우극한",
+        "en": "One-sided limits"
+      },
+      "prerequisites": [
+        "L01"
+      ],
+      "week": 1,
+      "day": "Wednesday",
+      "status": "planned"
+    },
+    {
+      "id": "L03",
+      "number": 3,
+      "unit": 1,
+      "unit_title": {
+        "ko": "극한과 연속",
+        "en": "Limits and continuity"
+      },
+      "title": {
+        "ko": "표와 그래프의 극한",
+        "en": "Limits from tables and graphs"
+      },
+      "prerequisites": [
+        "L02"
+      ],
+      "week": 1,
+      "day": "Friday",
+      "status": "planned"
+    },
+    {
+      "id": "L04",
+      "number": 4,
+      "unit": 1,
+      "unit_title": {
+        "ko": "극한과 연속",
+        "en": "Limits and continuity"
+      },
+      "title": {
+        "ko": "인수분해와 켤레식",
+        "en": "Factoring and conjugates"
+      },
+      "prerequisites": [
+        "L03"
+      ],
+      "week": 2,
+      "day": "Monday",
+      "status": "planned"
+    },
+    {
+      "id": "L05",
+      "number": 5,
+      "unit": 1,
+      "unit_title": {
+        "ko": "극한과 연속",
+        "en": "Limits and continuity"
+      },
+      "title": {
+        "ko": "삼각극한과 조임정리",
+        "en": "Trigonometric limits and squeezing"
+      },
+      "prerequisites": [
+        "L04"
+      ],
+      "week": 2,
+      "day": "Wednesday",
+      "status": "planned"
+    },
+    {
+      "id": "L06",
+      "number": 6,
+      "unit": 1,
+      "unit_title": {
+        "ko": "극한과 연속",
+        "en": "Limits and continuity"
+      },
+      "title": {
+        "ko": "연속과 불연속",
+        "en": "Continuity and discontinuity"
+      },
+      "prerequisites": [
+        "L05"
+      ],
+      "week": 2,
+      "day": "Friday",
+      "status": "planned"
+    },
+    {
+      "id": "L07",
+      "number": 7,
+      "unit": 1,
+      "unit_title": {
+        "ko": "극한과 연속",
+        "en": "Limits and continuity"
+      },
+      "title": {
+        "ko": "무한극한과 무한대극한",
+        "en": "Infinite limits and limits at infinity"
+      },
+      "prerequisites": [
+        "L06"
+      ],
+      "week": 3,
+      "day": "Monday",
+      "status": "planned"
+    },
+    {
+      "id": "L08",
+      "number": 8,
+      "unit": 1,
+      "unit_title": {
+        "ko": "극한과 연속",
+        "en": "Limits and continuity"
+      },
+      "title": {
+        "ko": "중간값정리",
+        "en": "The intermediate value theorem"
+      },
+      "prerequisites": [
+        "L07"
+      ],
+      "week": 3,
+      "day": "Wednesday",
+      "status": "planned"
+    },
+    {
+      "id": "L09",
+      "number": 9,
+      "unit": 2,
+      "unit_title": {
+        "ko": "미분의 기초",
+        "en": "Derivative foundations"
+      },
+      "title": {
+        "ko": "평균변화율과 순간변화율",
+        "en": "Average and instantaneous rates"
+      },
+      "prerequisites": [
+        "L08"
+      ],
+      "week": 3,
+      "day": "Friday",
+      "status": "planned"
+    },
+    {
+      "id": "L10",
+      "number": 10,
+      "unit": 2,
+      "unit_title": {
+        "ko": "미분의 기초",
+        "en": "Derivative foundations"
+      },
+      "title": {
+        "ko": "미분의 정의",
+        "en": "The derivative definition"
+      },
+      "prerequisites": [
+        "L09"
+      ],
+      "week": 4,
+      "day": "Monday",
+      "status": "planned"
+    },
+    {
+      "id": "L11",
+      "number": 11,
+      "unit": 2,
+      "unit_title": {
+        "ko": "미분의 기초",
+        "en": "Derivative foundations"
+      },
+      "title": {
+        "ko": "도함수 추정",
+        "en": "Estimating derivatives"
+      },
+      "prerequisites": [
+        "L10"
+      ],
+      "week": 4,
+      "day": "Wednesday",
+      "status": "planned"
+    },
+    {
+      "id": "L12",
+      "number": 12,
+      "unit": 2,
+      "unit_title": {
+        "ko": "미분의 기초",
+        "en": "Derivative foundations"
+      },
+      "title": {
+        "ko": "미분가능성과 연속",
+        "en": "Differentiability and continuity"
+      },
+      "prerequisites": [
+        "L11"
+      ],
+      "week": 4,
+      "day": "Friday",
+      "status": "planned"
+    },
+    {
+      "id": "L13",
+      "number": 13,
+      "unit": 2,
+      "unit_title": {
+        "ko": "미분의 기초",
+        "en": "Derivative foundations"
+      },
+      "title": {
+        "ko": "거듭제곱과 합의 미분",
+        "en": "Power and sum rules"
+      },
+      "prerequisites": [
+        "L12"
+      ],
+      "week": 5,
+      "day": "Monday",
+      "status": "planned"
+    },
+    {
+      "id": "L14",
+      "number": 14,
+      "unit": 2,
+      "unit_title": {
+        "ko": "미분의 기초",
+        "en": "Derivative foundations"
+      },
+      "title": {
+        "ko": "기본 함수의 도함수",
+        "en": "Basic function derivatives"
+      },
+      "prerequisites": [
+        "L13"
+      ],
+      "week": 5,
+      "day": "Wednesday",
+      "status": "planned"
+    },
+    {
+      "id": "L15",
+      "number": 15,
+      "unit": 2,
+      "unit_title": {
+        "ko": "미분의 기초",
+        "en": "Derivative foundations"
+      },
+      "title": {
+        "ko": "곱의 법칙",
+        "en": "The product rule"
+      },
+      "prerequisites": [
+        "L14"
+      ],
+      "week": 5,
+      "day": "Friday",
+      "status": "planned"
+    },
+    {
+      "id": "L16",
+      "number": 16,
+      "unit": 2,
+      "unit_title": {
+        "ko": "미분의 기초",
+        "en": "Derivative foundations"
+      },
+      "title": {
+        "ko": "몫의 법칙",
+        "en": "The quotient rule"
+      },
+      "prerequisites": [
+        "L15"
+      ],
+      "week": 6,
+      "day": "Monday",
+      "status": "planned"
+    },
+    {
+      "id": "L17",
+      "number": 17,
+      "unit": 3,
+      "unit_title": {
+        "ko": "합성함수와 음함수 및 역함수",
+        "en": "Composite implicit and inverse functions"
+      },
+      "title": {
+        "ko": "연쇄법칙",
+        "en": "The chain rule"
+      },
+      "prerequisites": [
+        "L16"
+      ],
+      "week": 6,
+      "day": "Wednesday",
+      "status": "planned"
+    },
+    {
+      "id": "L18",
+      "number": 18,
+      "unit": 3,
+      "unit_title": {
+        "ko": "합성함수와 음함수 및 역함수",
+        "en": "Composite implicit and inverse functions"
+      },
+      "title": {
+        "ko": "음함수 미분",
+        "en": "Implicit differentiation"
+      },
+      "prerequisites": [
+        "L17"
+      ],
+      "week": 6,
+      "day": "Friday",
+      "status": "planned"
+    },
+    {
+      "id": "L19",
+      "number": 19,
+      "unit": 3,
+      "unit_title": {
+        "ko": "합성함수와 음함수 및 역함수",
+        "en": "Composite implicit and inverse functions"
+      },
+      "title": {
+        "ko": "역함수 미분",
+        "en": "Inverse function derivatives"
+      },
+      "prerequisites": [
+        "L18"
+      ],
+      "week": 7,
+      "day": "Monday",
+      "status": "planned"
+    },
+    {
+      "id": "L20",
+      "number": 20,
+      "unit": 3,
+      "unit_title": {
+        "ko": "합성함수와 음함수 및 역함수",
+        "en": "Composite implicit and inverse functions"
+      },
+      "title": {
+        "ko": "역삼각함수 미분",
+        "en": "Inverse trigonometric derivatives"
+      },
+      "prerequisites": [
+        "L19"
+      ],
+      "week": 7,
+      "day": "Wednesday",
+      "status": "planned"
+    },
+    {
+      "id": "L21",
+      "number": 21,
+      "unit": 3,
+      "unit_title": {
+        "ko": "합성함수와 음함수 및 역함수",
+        "en": "Composite implicit and inverse functions"
+      },
+      "title": {
+        "ko": "고계도함수",
+        "en": "Higher derivatives"
+      },
+      "prerequisites": [
+        "L20"
+      ],
+      "week": 7,
+      "day": "Friday",
+      "status": "planned"
+    },
+    {
+      "id": "L22",
+      "number": 22,
+      "unit": 3,
+      "unit_title": {
+        "ko": "합성함수와 음함수 및 역함수",
+        "en": "Composite implicit and inverse functions"
+      },
+      "title": {
+        "ko": "미분법 선택",
+        "en": "Choosing derivative rules"
+      },
+      "prerequisites": [
+        "L21"
+      ],
+      "week": 8,
+      "day": "Monday",
+      "status": "planned"
+    },
+    {
+      "id": "L23",
+      "number": 23,
+      "unit": 4,
+      "unit_title": {
+        "ko": "미분의 실제 적용",
+        "en": "Contextual differentiation"
+      },
+      "title": {
+        "ko": "변화율과 단위",
+        "en": "Rates and units"
+      },
+      "prerequisites": [
+        "L22"
+      ],
+      "week": 8,
+      "day": "Wednesday",
+      "status": "planned"
+    },
+    {
+      "id": "L24",
+      "number": 24,
+      "unit": 4,
+      "unit_title": {
+        "ko": "미분의 실제 적용",
+        "en": "Contextual differentiation"
+      },
+      "title": {
+        "ko": "속도 가속도 속력",
+        "en": "Velocity acceleration and speed"
+      },
+      "prerequisites": [
+        "L23"
+      ],
+      "week": 8,
+      "day": "Friday",
+      "status": "planned"
+    },
+    {
+      "id": "L25",
+      "number": 25,
+      "unit": 4,
+      "unit_title": {
+        "ko": "미분의 실제 적용",
+        "en": "Contextual differentiation"
+      },
+      "title": {
+        "ko": "기본 관련변화율",
+        "en": "Related rates foundations"
+      },
+      "prerequisites": [
+        "L24"
+      ],
+      "week": 9,
+      "day": "Monday",
+      "status": "planned"
+    },
+    {
+      "id": "L26",
+      "number": 26,
+      "unit": 4,
+      "unit_title": {
+        "ko": "미분의 실제 적용",
+        "en": "Contextual differentiation"
+      },
+      "title": {
+        "ko": "원뿔과 사다리",
+        "en": "Cones and ladders"
+      },
+      "prerequisites": [
+        "L25"
+      ],
+      "week": 9,
+      "day": "Wednesday",
+      "status": "planned"
+    },
+    {
+      "id": "L27",
+      "number": 27,
+      "unit": 4,
+      "unit_title": {
+        "ko": "미분의 실제 적용",
+        "en": "Contextual differentiation"
+      },
+      "title": {
+        "ko": "선형근사와 오차",
+        "en": "Linearization and error direction"
+      },
+      "prerequisites": [
+        "L26"
+      ],
+      "week": 9,
+      "day": "Friday",
+      "status": "planned"
+    },
+    {
+      "id": "L28",
+      "number": 28,
+      "unit": 4,
+      "unit_title": {
+        "ko": "미분의 실제 적용",
+        "en": "Contextual differentiation"
+      },
+      "title": {
+        "ko": "로피탈의 정리",
+        "en": "L Hospital rule"
+      },
+      "prerequisites": [
+        "L27"
+      ],
+      "week": 10,
+      "day": "Monday",
+      "status": "planned"
+    },
+    {
+      "id": "L29",
+      "number": 29,
+      "unit": 5,
+      "unit_title": {
+        "ko": "함수 분석",
+        "en": "Analyzing functions"
+      },
+      "title": {
+        "ko": "평균값정리",
+        "en": "The mean value theorem"
+      },
+      "prerequisites": [
+        "L28"
+      ],
+      "week": 10,
+      "day": "Wednesday",
+      "status": "planned"
+    },
+    {
+      "id": "L30",
+      "number": 30,
+      "unit": 5,
+      "unit_title": {
+        "ko": "함수 분석",
+        "en": "Analyzing functions"
+      },
+      "title": {
+        "ko": "최대최소정리와 임계수",
+        "en": "Extreme values and critical numbers"
+      },
+      "prerequisites": [
+        "L29"
+      ],
+      "week": 10,
+      "day": "Friday",
+      "status": "planned"
+    },
+    {
+      "id": "L31",
+      "number": 31,
+      "unit": 5,
+      "unit_title": {
+        "ko": "함수 분석",
+        "en": "Analyzing functions"
+      },
+      "title": {
+        "ko": "증가와 감소",
+        "en": "Increasing and decreasing"
+      },
+      "prerequisites": [
+        "L30"
+      ],
+      "week": 11,
+      "day": "Monday",
+      "status": "planned"
+    },
+    {
+      "id": "L32",
+      "number": 32,
+      "unit": 5,
+      "unit_title": {
+        "ko": "함수 분석",
+        "en": "Analyzing functions"
+      },
+      "title": {
+        "ko": "첫 도함수 판정",
+        "en": "The first derivative test"
+      },
+      "prerequisites": [
+        "L31"
+      ],
+      "week": 11,
+      "day": "Wednesday",
+      "status": "planned"
+    },
+    {
+      "id": "L33",
+      "number": 33,
+      "unit": 5,
+      "unit_title": {
+        "ko": "함수 분석",
+        "en": "Analyzing functions"
+      },
+      "title": {
+        "ko": "절대극값",
+        "en": "Absolute extrema"
+      },
+      "prerequisites": [
+        "L32"
+      ],
+      "week": 11,
+      "day": "Friday",
+      "status": "planned"
+    },
+    {
+      "id": "L34",
+      "number": 34,
+      "unit": 5,
+      "unit_title": {
+        "ko": "함수 분석",
+        "en": "Analyzing functions"
+      },
+      "title": {
+        "ko": "오목성과 변곡점",
+        "en": "Concavity and inflection"
+      },
+      "prerequisites": [
+        "L33"
+      ],
+      "week": 12,
+      "day": "Monday",
+      "status": "planned"
+    },
+    {
+      "id": "L35",
+      "number": 35,
+      "unit": 5,
+      "unit_title": {
+        "ko": "함수 분석",
+        "en": "Analyzing functions"
+      },
+      "title": {
+        "ko": "함수와 도함수 그래프",
+        "en": "Connecting derivative graphs"
+      },
+      "prerequisites": [
+        "L34"
+      ],
+      "week": 12,
+      "day": "Wednesday",
+      "status": "planned"
+    },
+    {
+      "id": "L36",
+      "number": 36,
+      "unit": 5,
+      "unit_title": {
+        "ko": "함수 분석",
+        "en": "Analyzing functions"
+      },
+      "title": {
+        "ko": "최적화",
+        "en": "Optimization"
+      },
+      "prerequisites": [
+        "L35"
+      ],
+      "week": 12,
+      "day": "Friday",
+      "status": "planned"
+    },
+    {
+      "id": "L37",
+      "number": 37,
+      "unit": 6,
+      "unit_title": {
+        "ko": "적분과 누적",
+        "en": "Integration and accumulation"
+      },
+      "title": {
+        "ko": "누적과 정적분",
+        "en": "Accumulation and definite integrals"
+      },
+      "prerequisites": [
+        "L36"
+      ],
+      "week": 13,
+      "day": "Monday",
+      "status": "planned"
+    },
+    {
+      "id": "L38",
+      "number": 38,
+      "unit": 6,
+      "unit_title": {
+        "ko": "적분과 누적",
+        "en": "Integration and accumulation"
+      },
+      "title": {
+        "ko": "리만합과 합 기호",
+        "en": "Riemann sums and sigma notation"
+      },
+      "prerequisites": [
+        "L37"
+      ],
+      "week": 13,
+      "day": "Wednesday",
+      "status": "planned"
+    },
+    {
+      "id": "L39",
+      "number": 39,
+      "unit": 6,
+      "unit_title": {
+        "ko": "적분과 누적",
+        "en": "Integration and accumulation"
+      },
+      "title": {
+        "ko": "사다리꼴 근사",
+        "en": "Trapezoidal approximation"
+      },
+      "prerequisites": [
+        "L38"
+      ],
+      "week": 13,
+      "day": "Friday",
+      "status": "planned"
+    },
+    {
+      "id": "L40",
+      "number": 40,
+      "unit": 6,
+      "unit_title": {
+        "ko": "적분과 누적",
+        "en": "Integration and accumulation"
+      },
+      "title": {
+        "ko": "적분의 성질",
+        "en": "Properties of integrals"
+      },
+      "prerequisites": [
+        "L39"
+      ],
+      "week": 14,
+      "day": "Monday",
+      "status": "planned"
+    },
+    {
+      "id": "L41",
+      "number": 41,
+      "unit": 6,
+      "unit_title": {
+        "ko": "적분과 누적",
+        "en": "Integration and accumulation"
+      },
+      "title": {
+        "ko": "기본 원시함수",
+        "en": "Basic antiderivatives"
+      },
+      "prerequisites": [
+        "L40"
+      ],
+      "week": 14,
+      "day": "Wednesday",
+      "status": "planned"
+    },
+    {
+      "id": "L42",
+      "number": 42,
+      "unit": 6,
+      "unit_title": {
+        "ko": "적분과 누적",
+        "en": "Integration and accumulation"
+      },
+      "title": {
+        "ko": "기본정리와 정적분",
+        "en": "Evaluating with the fundamental theorem"
+      },
+      "prerequisites": [
+        "L41"
+      ],
+      "week": 14,
+      "day": "Friday",
+      "status": "planned"
+    },
+    {
+      "id": "L43",
+      "number": 43,
+      "unit": 6,
+      "unit_title": {
+        "ko": "적분과 누적",
+        "en": "Integration and accumulation"
+      },
+      "title": {
+        "ko": "변수 적분구간의 미분",
+        "en": "Differentiating variable bounds"
+      },
+      "prerequisites": [
+        "L42"
+      ],
+      "week": 15,
+      "day": "Monday",
+      "status": "planned"
+    },
+    {
+      "id": "L44",
+      "number": 44,
+      "unit": 6,
+      "unit_title": {
+        "ko": "적분과 누적",
+        "en": "Integration and accumulation"
+      },
+      "title": {
+        "ko": "누적함수 그래프",
+        "en": "Accumulation function graphs"
+      },
+      "prerequisites": [
+        "L43"
+      ],
+      "week": 15,
+      "day": "Wednesday",
+      "status": "planned"
+    },
+    {
+      "id": "L45",
+      "number": 45,
+      "unit": 6,
+      "unit_title": {
+        "ko": "적분과 누적",
+        "en": "Integration and accumulation"
+      },
+      "title": {
+        "ko": "치환적분",
+        "en": "Substitution"
+      },
+      "prerequisites": [
+        "L44"
+      ],
+      "week": 15,
+      "day": "Friday",
+      "status": "planned"
+    },
+    {
+      "id": "L46",
+      "number": 46,
+      "unit": 6,
+      "unit_title": {
+        "ko": "적분과 누적",
+        "en": "Integration and accumulation"
+      },
+      "title": {
+        "ko": "식 정리와 역삼각 적분",
+        "en": "Algebra and inverse trigonometric integrals"
+      },
+      "prerequisites": [
+        "L45"
+      ],
+      "week": 16,
+      "day": "Monday",
+      "status": "planned"
+    },
+    {
+      "id": "L47",
+      "number": 47,
+      "unit": 7,
+      "unit_title": {
+        "ko": "미분방정식",
+        "en": "Differential equations"
+      },
+      "title": {
+        "ko": "미분방정식과 해 검증",
+        "en": "Differential equations and verification"
+      },
+      "prerequisites": [
+        "L46"
+      ],
+      "week": 16,
+      "day": "Wednesday",
+      "status": "planned"
+    },
+    {
+      "id": "L48",
+      "number": 48,
+      "unit": 7,
+      "unit_title": {
+        "ko": "미분방정식",
+        "en": "Differential equations"
+      },
+      "title": {
+        "ko": "기울기장",
+        "en": "Slope fields"
+      },
+      "prerequisites": [
+        "L47"
+      ],
+      "week": 16,
+      "day": "Friday",
+      "status": "planned"
+    },
+    {
+      "id": "L49",
+      "number": 49,
+      "unit": 7,
+      "unit_title": {
+        "ko": "미분방정식",
+        "en": "Differential equations"
+      },
+      "title": {
+        "ko": "변수분리와 평형해",
+        "en": "Separation and equilibrium"
+      },
+      "prerequisites": [
+        "L48"
+      ],
+      "week": 17,
+      "day": "Monday",
+      "status": "planned"
+    },
+    {
+      "id": "L50",
+      "number": 50,
+      "unit": 7,
+      "unit_title": {
+        "ko": "미분방정식",
+        "en": "Differential equations"
+      },
+      "title": {
+        "ko": "초기조건과 정의역",
+        "en": "Initial values and domains"
+      },
+      "prerequisites": [
+        "L49"
+      ],
+      "week": 17,
+      "day": "Wednesday",
+      "status": "planned"
+    },
+    {
+      "id": "L51",
+      "number": 51,
+      "unit": 7,
+      "unit_title": {
+        "ko": "미분방정식",
+        "en": "Differential equations"
+      },
+      "title": {
+        "ko": "지수성장과 감소",
+        "en": "Exponential growth and decay"
+      },
+      "prerequisites": [
+        "L50"
+      ],
+      "week": 17,
+      "day": "Friday",
+      "status": "planned"
+    },
+    {
+      "id": "L52",
+      "number": 52,
+      "unit": 7,
+      "unit_title": {
+        "ko": "미분방정식",
+        "en": "Differential equations"
+      },
+      "title": {
+        "ko": "냉각 모형",
+        "en": "Cooling models"
+      },
+      "prerequisites": [
+        "L51"
+      ],
+      "week": 18,
+      "day": "Monday",
+      "status": "planned"
+    },
+    {
+      "id": "L53",
+      "number": 53,
+      "unit": 8,
+      "unit_title": {
+        "ko": "적분의 응용",
+        "en": "Applications of integration"
+      },
+      "title": {
+        "ko": "함수의 평균값",
+        "en": "Average value of a function"
+      },
+      "prerequisites": [
+        "L52"
+      ],
+      "week": 18,
+      "day": "Wednesday",
+      "status": "planned"
+    },
+    {
+      "id": "L54",
+      "number": 54,
+      "unit": 8,
+      "unit_title": {
+        "ko": "적분의 응용",
+        "en": "Applications of integration"
+      },
+      "title": {
+        "ko": "변위와 이동거리",
+        "en": "Displacement and total distance"
+      },
+      "prerequisites": [
+        "L53"
+      ],
+      "week": 18,
+      "day": "Friday",
+      "status": "planned"
+    },
+    {
+      "id": "L55",
+      "number": 55,
+      "unit": 8,
+      "unit_title": {
+        "ko": "적분의 응용",
+        "en": "Applications of integration"
+      },
+      "title": {
+        "ko": "유입 유출 순변화",
+        "en": "Inflow outflow and net change"
+      },
+      "prerequisites": [
+        "L54"
+      ],
+      "week": 19,
+      "day": "Monday",
+      "status": "planned"
+    },
+    {
+      "id": "L56",
+      "number": 56,
+      "unit": 8,
+      "unit_title": {
+        "ko": "적분의 응용",
+        "en": "Applications of integration"
+      },
+      "title": {
+        "ko": "세로 단면의 넓이",
+        "en": "Area with vertical slices"
+      },
+      "prerequisites": [
+        "L55"
+      ],
+      "week": 19,
+      "day": "Wednesday",
+      "status": "planned"
+    },
+    {
+      "id": "L57",
+      "number": 57,
+      "unit": 8,
+      "unit_title": {
+        "ko": "적분의 응용",
+        "en": "Applications of integration"
+      },
+      "title": {
+        "ko": "가로 단면의 넓이",
+        "en": "Area with horizontal slices"
+      },
+      "prerequisites": [
+        "L56"
+      ],
+      "week": 19,
+      "day": "Friday",
+      "status": "planned"
+    },
+    {
+      "id": "L58",
+      "number": 58,
+      "unit": 8,
+      "unit_title": {
+        "ko": "적분의 응용",
+        "en": "Applications of integration"
+      },
+      "title": {
+        "ko": "단면으로 부피 구하기",
+        "en": "Volumes from cross sections"
+      },
+      "prerequisites": [
+        "L57"
+      ],
+      "week": 20,
+      "day": "Monday",
+      "status": "planned"
+    },
+    {
+      "id": "L59",
+      "number": 59,
+      "unit": 8,
+      "unit_title": {
+        "ko": "적분의 응용",
+        "en": "Applications of integration"
+      },
+      "title": {
+        "ko": "원판법",
+        "en": "The disk method"
+      },
+      "prerequisites": [
+        "L58"
+      ],
+      "week": 20,
+      "day": "Wednesday",
+      "status": "planned"
+    },
+    {
+      "id": "L60",
+      "number": 60,
+      "unit": 8,
+      "unit_title": {
+        "ko": "적분의 응용",
+        "en": "Applications of integration"
+      },
+      "title": {
+        "ko": "와셔법과 과정 정리",
+        "en": "The washer method and course review"
+      },
+      "prerequisites": [
+        "L59"
+      ],
+      "week": 20,
+      "day": "Friday",
+      "status": "planned"
+    }
+  ]
+}

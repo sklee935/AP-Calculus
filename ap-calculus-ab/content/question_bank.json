@@ -1,0 +1,5835 @@
+{
+  "schema_version": 1,
+  "title": "AP Calculus AB bilingual first edition",
+  "verified_on": "2026-10-28",
+  "questions": [
+    {
+      "id": "D01",
+      "unit": 0,
+      "skill": "Algebra",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$x^2-5x+6=0$의 큰 해는?",
+        "en": "What is the larger root of $x^2-5x+6=0$?"
+      },
+      "choices": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "6"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "5"
+        }
+      ],
+      "answer": 0,
+      "solution": {
+        "ko": "$(x-2)(x-3)=0$이므로 큰 해는 $3$이다.",
+        "en": "Factoring gives roots $2$ and $3$, so the larger is $3$."
+      },
+      "oracle": "max(solve(x**2-5*x+6,x))",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "3",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "D02",
+      "unit": 0,
+      "skill": "Rational expressions",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$x\\ne4$에서 $(x^2-16)/(x-4)$와 같은 식은?",
+        "en": "For $x\\ne4$, simplify $(x^2-16)/(x-4)$."
+      },
+      "choices": [
+        {
+          "value": "x+4"
+        },
+        {
+          "value": "x**2+4"
+        },
+        {
+          "value": "x-4"
+        },
+        {
+          "value": "4"
+        }
+      ],
+      "answer": 0,
+      "solution": {
+        "ko": "분자를 $(x-4)(x+4)$로 인수분해하고 약분한다. 제한 $x\\ne4$는 유지한다.",
+        "en": "Factor and cancel the common factor while retaining $x\\ne4$."
+      },
+      "oracle": "cancel((x**2-16)/(x-4))",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "x + 4",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "D03",
+      "unit": 0,
+      "skill": "Radian trigonometry",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$\\sin(\\pi/6)$의 값은?",
+        "en": "Find $\\sin(\\pi/6)$."
+      },
+      "choices": [
+        {
+          "value": "0"
+        },
+        {
+          "value": "1/2"
+        },
+        {
+          "value": "sqrt(3)/2"
+        },
+        {
+          "value": "1"
+        }
+      ],
+      "answer": 1,
+      "solution": {
+        "ko": "라디안의 특수각 값으로 $1/2$이다.",
+        "en": "The standard radian value is $1/2$."
+      },
+      "oracle": "sin(pi/6)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "1/2",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "D04",
+      "unit": 0,
+      "skill": "Exponentials and logs",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$\\ln(e^3)$의 값은?",
+        "en": "Find $\\ln(e^3)$."
+      },
+      "choices": [
+        {
+          "value": "0"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "exp(3)"
+        },
+        {
+          "value": "1"
+        }
+      ],
+      "answer": 1,
+      "solution": {
+        "ko": "로그와 지수는 역함수이므로 $3$이다.",
+        "en": "Natural log and exponential are inverse functions."
+      },
+      "oracle": "log(exp(3))",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "3",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "D05",
+      "unit": 0,
+      "skill": "Composition",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$f(x)=x^2+1$, $g(x)=2x-3$일 때 $f(g(2))$는?",
+        "en": "If $f(x)=x^2+1$ and $g(x)=2x-3$, find $f(g(2))$."
+      },
+      "choices": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "2"
+        }
+      ],
+      "answer": 3,
+      "solution": {
+        "ko": "$g(2)=1$을 먼저 구하면 $f(1)=2$이다.",
+        "en": "First $g(2)=1$, then $f(1)=2$."
+      },
+      "oracle": "(2*2-3)**2+1",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "2",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "D06",
+      "unit": 0,
+      "skill": "Slope",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$(1,3)$과 $(5,11)$을 지나는 직선의 기울기는?",
+        "en": "Find the slope through $(1,3)$ and $(5,11)$."
+      },
+      "choices": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "1/2"
+        },
+        {
+          "value": "8"
+        },
+        {
+          "value": "4"
+        }
+      ],
+      "answer": 0,
+      "solution": {
+        "ko": "$(11-3)/(5-1)=2$이다.",
+        "en": "Use change in output divided by change in input."
+      },
+      "oracle": "Rational(11-3,5-1)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "2",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "D07",
+      "unit": 0,
+      "skill": "Functions and domain",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$\\ln(x-2)$의 실수 정의역은?",
+        "en": "What is the real domain of $\\ln(x-2)$?"
+      },
+      "choices": [
+        {
+          "text": {
+            "ko": "$x\\ge2$",
+            "en": "$x\\ge2$"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "모든 실수",
+            "en": "All real numbers"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": " $x>2$",
+            "en": " $x>2$"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "$x<2$",
+            "en": "$x<2$"
+          },
+          "value": null
+        }
+      ],
+      "answer": 2,
+      "solution": {
+        "ko": "로그의 입력이 양수여야 하므로 $x-2>0$이다.",
+        "en": "The logarithm argument must be positive: $x-2>0$."
+      },
+      "oracle": null,
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "editorial_reasoning_review"
+      }
+    },
+    {
+      "id": "D08",
+      "unit": 0,
+      "skill": "Inverse functions",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$f(x)=3x+5$일 때 $f^{-1}(11)$은?",
+        "en": "For $f(x)=3x+5$, find $f^{-1}(11)$."
+      },
+      "choices": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "16/3"
+        },
+        {
+          "value": "38"
+        },
+        {
+          "value": "1/11"
+        }
+      ],
+      "answer": 0,
+      "solution": {
+        "ko": "$3x+5=11$을 풀면 $x=2$이다.",
+        "en": "Solve $3x+5=11$."
+      },
+      "oracle": "solve(3*x+5-11,x)[0]",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "2",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "D09",
+      "unit": 0,
+      "skill": "Powers",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$x>0$에서 $x^{3/2}/x^{1/2}$는?",
+        "en": "For $x>0$, simplify $x^{3/2}/x^{1/2}$."
+      },
+      "choices": [
+        {
+          "value": "x"
+        },
+        {
+          "value": "sqrt(x)"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "x**2"
+        }
+      ],
+      "answer": 0,
+      "solution": {
+        "ko": "지수를 빼면 $x^{3/2-1/2}=x$이다.",
+        "en": "Subtract the exponents."
+      },
+      "oracle": "x**(Rational(3,2)-Rational(1,2))",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "x",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "D10",
+      "unit": 0,
+      "skill": "Trigonometric identities",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$\\sin^2x+\\cos^2x$는?",
+        "en": "What is $\\sin^2x+\\cos^2x$?"
+      },
+      "choices": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "sin(2*x)"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "0"
+        }
+      ],
+      "answer": 0,
+      "solution": {
+        "ko": "피타고라스 항등식이다.",
+        "en": "Use the Pythagorean identity."
+      },
+      "oracle": "trigsimp(sin(x)**2+cos(x)**2)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "1",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "D11",
+      "unit": 0,
+      "skill": "Quadratic vertex",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$x^2-6x+11$의 최솟값은?",
+        "en": "Find the minimum of $x^2-6x+11$."
+      },
+      "choices": [
+        {
+          "value": "11"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "-6"
+        }
+      ],
+      "answer": 2,
+      "solution": {
+        "ko": "$(x-3)^2+2$로 쓰면 최솟값은 $2$이다.",
+        "en": "Complete the square: $(x-3)^2+2$."
+      },
+      "oracle": "(x**2-6*x+11).subs(x,3)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "2",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "D12",
+      "unit": 0,
+      "skill": "Absolute value",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$|x-2|=5$의 두 해의 합은?",
+        "en": "Find the sum of the two solutions of $|x-2|=5$."
+      },
+      "choices": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "-3"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "7"
+        }
+      ],
+      "answer": 2,
+      "solution": {
+        "ko": "해는 $7,-3$이므로 합은 $4$이다.",
+        "en": "The solutions are $7$ and $-3$."
+      },
+      "oracle": "(2+5)+(2-5)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "4",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U1-M01",
+      "unit": 1,
+      "skill": "Algebraic limit",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$\\lim_{x\\to3}(x^2-9)/(x-3)$는?",
+        "en": "Evaluate $\\lim_{x\\to3}(x^2-9)/(x-3)$."
+      },
+      "choices": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        },
+        {
+          "value": "6"
+        },
+        {
+          "value": "9"
+        }
+      ],
+      "answer": 2,
+      "solution": {
+        "ko": "주변에서 $x+3$과 같으므로 극한은 $6$이다.",
+        "en": "For nearby inputs simplify to $x+3$, whose limit is $6$."
+      },
+      "oracle": "limit((x**2-9)/(x-3),x,3)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "6",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U1-M02",
+      "unit": 1,
+      "skill": "One-sided limits",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$x<0$에서 $f(x)=2+x$, $x\\ge0$에서 $f(x)=5-x$이다. $x=0$에서 양쪽 극한은?",
+        "en": "Let $f(x)=2+x$ for $x<0$ and $f(x)=5-x$ for $x\\ge0$. What is the two-sided limit at $0$?"
+      },
+      "choices": [
+        {
+          "text": {
+            "ko": "$5$",
+            "en": "$5$"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "$7/2$",
+            "en": "$7/2$"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "존재하지 않는다",
+            "en": "Does not exist"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "$2$",
+            "en": "$2$"
+          },
+          "value": null
+        }
+      ],
+      "answer": 2,
+      "solution": {
+        "ko": "왼쪽 극한은 $2$, 오른쪽 극한은 $5$이므로 일치하지 않는다.",
+        "en": "The left and right limits are $2$ and $5$, so they disagree."
+      },
+      "oracle": null,
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "editorial_reasoning_review"
+      }
+    },
+    {
+      "id": "U1-M03",
+      "unit": 1,
+      "skill": "Continuity parameter",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$x<2$에서 $f(x)=kx+1$, $x\\ge2$에서 $f(x)=x^2+5$이다. 연속이 되게 하는 $k$는?",
+        "en": "For $x<2$, $f(x)=kx+1$; for $x\\ge2$, $f(x)=x^2+5$. Which $k$ makes $f$ continuous?"
+      },
+      "choices": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "9"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "5"
+        }
+      ],
+      "answer": 0,
+      "solution": {
+        "ko": "$2k+1=9$를 풀어 $k=4$이다.",
+        "en": "Match the limiting values: $2k+1=9$."
+      },
+      "oracle": "solve(2*x+1-9,x)[0]",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "4",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U1-M04",
+      "unit": 1,
+      "skill": "Squeeze theorem",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$\\lim_{x\\to0}x^2\\sin(1/x)$는?",
+        "en": "Evaluate $\\lim_{x\\to0}x^2\\sin(1/x)$."
+      },
+      "choices": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "0"
+        },
+        {
+          "value": "-1"
+        }
+      ],
+      "answer": 2,
+      "solution": {
+        "ko": "$-x^2\\le x^2\\sin(1/x)\\le x^2$이고 양 경계가 $0$으로 가므로 조임정리로 $0$이다.",
+        "en": "Squeeze the function between $-x^2$ and $x^2$, both tending to zero."
+      },
+      "oracle": "limit(x**2*sin(1/x),x,0)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "0",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U1-M05",
+      "unit": 1,
+      "skill": "Limits at infinity",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$\\lim_{x\\to\\infty}(3x^2-x)/(2x^2+7)$는?",
+        "en": "Evaluate $\\lim_{x\\to\\infty}(3x^2-x)/(2x^2+7)$."
+      },
+      "choices": [
+        {
+          "value": "2/3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        },
+        {
+          "value": "3/2"
+        }
+      ],
+      "answer": 3,
+      "solution": {
+        "ko": "분자와 분모를 $x^2$으로 나눈 뒤 극한을 취한다.",
+        "en": "Divide numerator and denominator by $x^2$."
+      },
+      "oracle": "limit((3*x**2-x)/(2*x**2+7),x,oo)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "3/2",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U1-M06",
+      "unit": 1,
+      "skill": "Intermediate value theorem",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$f$가 $[0,4]$에서 연속이고 $f(0)=-2$, $f(4)=6$이다. 반드시 참인 것은?",
+        "en": "A continuous $f$ on $[0,4]$ satisfies $f(0)=-2$ and $f(4)=6$. Which must be true?"
+      },
+      "choices": [
+        {
+          "text": {
+            "ko": "$f(c)=1$인 $c\\in(0,4)$가 있다",
+            "en": "There is $c\\in(0,4)$ with $f(c)=1$"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "영점은 정확히 하나이다",
+            "en": "There is exactly one zero"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "$f$는 증가한다",
+            "en": "$f$ is increasing"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "$f(2)=2$",
+            "en": "$f(2)=2$"
+          },
+          "value": null
+        }
+      ],
+      "answer": 0,
+      "solution": {
+        "ko": "$1$은 $-2$와 $6$ 사이에 있으므로 중간값정리를 적용한다. 유일성이나 증가는 보장되지 않는다.",
+        "en": "Apply the intermediate value theorem to the value $1$. Uniqueness and monotonicity do not follow."
+      },
+      "oracle": null,
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "editorial_reasoning_review"
+      }
+    },
+    {
+      "id": "U2-M01",
+      "unit": 2,
+      "skill": "Derivative definition",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$\\lim_{h\\to0}((2+h)^3-8)/h$는?",
+        "en": "Evaluate $\\lim_{h\\to0}((2+h)^3-8)/h$."
+      },
+      "choices": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "12"
+        },
+        {
+          "value": "6"
+        },
+        {
+          "value": "8"
+        }
+      ],
+      "answer": 1,
+      "solution": {
+        "ko": "$f(x)=x^3$의 $f\\prime(2)=3(2)^2=12$이다.",
+        "en": "This is the derivative of $x^3$ at $2$."
+      },
+      "oracle": "limit(((2+h)**3-8)/h,h,0)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "12",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U2-M02",
+      "unit": 2,
+      "skill": "Product rule",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$f(x)=x^2\\sin x$일 때 $f\\prime(\\pi/2)$는?",
+        "en": "If $f(x)=x^2\\sin x$, find $f\\prime(\\pi/2)$."
+      },
+      "choices": [
+        {
+          "value": "0"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "pi"
+        },
+        {
+          "value": "pi**2/4"
+        }
+      ],
+      "answer": 2,
+      "solution": {
+        "ko": "$f\\prime=2x\\sin x+x^2\\cos x$에 $\\pi/2$를 대입한다.",
+        "en": "Apply the product rule, then substitute."
+      },
+      "oracle": "diff(x**2*sin(x),x).subs(x,pi/2)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "pi",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U2-M03",
+      "unit": 2,
+      "skill": "Quotient rule",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$f(x)=(x^2+1)/(x+1)$일 때 $f\\prime(1)$은?",
+        "en": "For $f(x)=(x^2+1)/(x+1)$, find $f\\prime(1)$."
+      },
+      "choices": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1/2"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "0"
+        }
+      ],
+      "answer": 1,
+      "solution": {
+        "ko": "$f\\prime(1)=(2\\cdot1\\cdot2-2)/4=1/2$이다.",
+        "en": "The quotient rule gives $(4-2)/4=1/2$."
+      },
+      "oracle": "diff((x**2+1)/(x+1),x).subs(x,1)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "1/2",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U2-M04",
+      "unit": 2,
+      "skill": "Trigonometric derivative",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$f(x)=\\tan x$일 때 $f\\prime(\\pi/4)$는?",
+        "en": "For $f(x)=\\tan x$, find $f\\prime(\\pi/4)$."
+      },
+      "choices": [
+        {
+          "value": "sqrt(2)"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "0"
+        }
+      ],
+      "answer": 2,
+      "solution": {
+        "ko": "$f\\prime=\\sec^2x$이므로 $2$이다.",
+        "en": "The derivative is secant squared."
+      },
+      "oracle": "diff(tan(x),x).subs(x,pi/4)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "2",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U2-M05",
+      "unit": 2,
+      "skill": "Differentiability",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$f(x)=|x-2|$의 $x=2$에서의 성질은?",
+        "en": "Which describes $f(x)=|x-2|$ at $x=2$?"
+      },
+      "choices": [
+        {
+          "text": {
+            "ko": "연속이지만 미분가능하지 않다",
+            "en": "Continuous but not differentiable"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "미분계수는 $0$이다",
+            "en": "Its derivative is $0$"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "연속이고 미분가능하다",
+            "en": "Continuous and differentiable"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "불연속이다",
+            "en": "Discontinuous"
+          },
+          "value": null
+        }
+      ],
+      "answer": 0,
+      "solution": {
+        "ko": "함숫값과 극한은 $0$으로 일치하지만 좌우 기울기는 $-1,1$로 다르다.",
+        "en": "The function and limit agree, but its one-sided slopes are $-1$ and $1$."
+      },
+      "oracle": null,
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "editorial_reasoning_review"
+      }
+    },
+    {
+      "id": "U2-M06",
+      "unit": 2,
+      "skill": "Derivative estimate",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "표의 $x=1.8,2,2.2$에서 $f(x)=4.1,4.8,5.7$이다. 양옆 점을 쓰는 $f\\prime(2)$의 추정값은?",
+        "en": "The values of $f$ at $x=1.8,2,2.2$ are $4.1,4.8,5.7$. Estimate $f\\prime(2)$ using the outer two points."
+      },
+      "choices": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "0.8"
+        },
+        {
+          "value": "8"
+        },
+        {
+          "value": "2"
+        }
+      ],
+      "answer": 0,
+      "solution": {
+        "ko": "$(5.7-4.1)/(2.2-1.8)=4$이다. 표로 얻은 추정값이다.",
+        "en": "The centered secant estimate is $(5.7-4.1)/0.4=4$."
+      },
+      "oracle": "(Rational(57,10)-Rational(41,10))/(Rational(22,10)-Rational(18,10))",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "4",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U3-M01",
+      "unit": 3,
+      "skill": "Chain rule",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$f(x)=(2x^3+1)^4$일 때 $f\\prime(1)$은?",
+        "en": "If $f(x)=(2x^3+1)^4$, find $f\\prime(1)$."
+      },
+      "choices": [
+        {
+          "value": "108"
+        },
+        {
+          "value": "648"
+        },
+        {
+          "value": "216"
+        },
+        {
+          "value": "72"
+        }
+      ],
+      "answer": 1,
+      "solution": {
+        "ko": "$f\\prime=4(2x^3+1)^3(6x^2)$이므로 $648$이다.",
+        "en": "Include the inner derivative $6x^2$."
+      },
+      "oracle": "diff((2*x**3+1)**4,x).subs(x,1)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "648",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U3-M02",
+      "unit": 3,
+      "skill": "Implicit derivative",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$x^2+xy+y^2=7$에서 점 $(1,2)$의 $dy/dx$는?",
+        "en": "On $x^2+xy+y^2=7$, find $dy/dx$ at $(1,2)$."
+      },
+      "choices": [
+        {
+          "value": "-5/4"
+        },
+        {
+          "value": "-1/2"
+        },
+        {
+          "value": "4/5"
+        },
+        {
+          "value": "-4/5"
+        }
+      ],
+      "answer": 3,
+      "solution": {
+        "ko": "$2x+y+(x+2y)y\\prime=0$이므로 기울기는 $-(2x+y)/(x+2y)=-4/5$이다.",
+        "en": "Implicit differentiation gives $y\\prime=-(2x+y)/(x+2y)$."
+      },
+      "oracle": "(-(2*x+y)/(x+2*y)).subs({x:1,y:2})",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "-4/5",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U3-M03",
+      "unit": 3,
+      "skill": "Inverse derivative",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$f(3)=8$, $f\\prime(3)=4$이고 $f$의 국소 역함수 $g$가 있다. $g\\prime(8)$은?",
+        "en": "If $f(3)=8$, $f\\prime(3)=4$, and $g$ is its local inverse, find $g\\prime(8)$."
+      },
+      "choices": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "1/4"
+        },
+        {
+          "value": "1/8"
+        }
+      ],
+      "answer": 2,
+      "solution": {
+        "ko": "$g(8)=3$이므로 $g\\prime(8)=1/f\\prime(3)=1/4$이다.",
+        "en": "Use the reciprocal derivative at the corresponding input $3$."
+      },
+      "oracle": "1/Integer(4)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "1/4",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U3-M04",
+      "unit": 3,
+      "skill": "Inverse trigonometric derivative",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$f(x)=\\arctan(3x)$일 때 $f\\prime(0)$은?",
+        "en": "For $f(x)=\\arctan(3x)$, find $f\\prime(0)$."
+      },
+      "choices": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "1/3"
+        },
+        {
+          "value": "0"
+        },
+        {
+          "value": "1"
+        }
+      ],
+      "answer": 0,
+      "solution": {
+        "ko": "$f\\prime=3/(1+9x^2)$에 $0$을 대입한다.",
+        "en": "Use the arctangent derivative with a chain factor."
+      },
+      "oracle": "diff(atan(3*x),x).subs(x,0)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "3",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U3-M05",
+      "unit": 3,
+      "skill": "Second derivative",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$f(x)=\\sin(2x)$일 때 $f^{\\prime\\prime}(\\pi/4)$는?",
+        "en": "For $f(x)=\\sin(2x)$, find $f^{\\prime\\prime}(\\pi/4)$."
+      },
+      "choices": [
+        {
+          "value": "-2"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "0"
+        },
+        {
+          "value": "-4"
+        }
+      ],
+      "answer": 3,
+      "solution": {
+        "ko": "$f^{\\prime\\prime}=-4\\sin(2x)$이다.",
+        "en": "Differentiate twice, including a chain factor each time."
+      },
+      "oracle": "diff(sin(2*x),x,2).subs(x,pi/4)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "-4",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U3-M06",
+      "unit": 3,
+      "skill": "Inverse exponential",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$g$가 $f(x)=\\ln x$의 역함수이다. $g\\prime(\\ln5)$는?",
+        "en": "Let $g$ be the inverse of $f(x)=\\ln x$. Find $g\\prime(\\ln5)$."
+      },
+      "choices": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "1/5"
+        },
+        {
+          "value": "log(5)"
+        },
+        {
+          "value": "1"
+        }
+      ],
+      "answer": 0,
+      "solution": {
+        "ko": "$g(x)=e^x$이므로 $g\\prime(\\ln5)=5$이다.",
+        "en": "The inverse is exponential, whose derivative equals itself."
+      },
+      "oracle": "diff(exp(x),x).subs(x,log(5))",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "5",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U4-M01",
+      "unit": 4,
+      "skill": "Speeding up",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "한 입자의 속도가 $v(t)=3t^2-12t+9$이다. $t=3/2$에서 입자는?",
+        "en": "A particle has velocity $v(t)=3t^2-12t+9$. At $t=3/2$ it is:"
+      },
+      "choices": [
+        {
+          "text": {
+            "ko": "음의 방향으로 움직이며 느려진다",
+            "en": "Moving in the negative direction and slowing down"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "정지해 있다",
+            "en": "At rest"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "양의 방향으로 움직이며 빨라진다",
+            "en": "Moving in the positive direction and speeding up"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "음의 방향으로 움직이며 빨라진다",
+            "en": "Moving in the negative direction and speeding up"
+          },
+          "value": null
+        }
+      ],
+      "answer": 3,
+      "solution": {
+        "ko": "$v=-9/4$, $a=6t-12=-3$이다. 둘 다 음수이므로 음의 방향으로 움직이며 속력이 증가한다.",
+        "en": "Both $v=-9/4$ and $a=-3$ are negative, so motion is negative and speed increases."
+      },
+      "oracle": null,
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "editorial_reasoning_review"
+      }
+    },
+    {
+      "id": "U4-M02",
+      "unit": 4,
+      "skill": "Related rates",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "구의 반지름이 $3$ cm일 때 $dr/dt=2$ cm/s이다. $dV/dt$는 몇 cm$^3$/s인가?",
+        "en": "When a sphere has radius $3$ cm, $dr/dt=2$ cm/s. Find $dV/dt$ in cm$^3$/s."
+      },
+      "choices": [
+        {
+          "value": "18*pi"
+        },
+        {
+          "value": "24*pi"
+        },
+        {
+          "value": "36*pi"
+        },
+        {
+          "value": "72*pi"
+        }
+      ],
+      "answer": 3,
+      "solution": {
+        "ko": "$4\\pi r^2r\\prime=4\\pi\\cdot9\\cdot2=72\\pi$이다.",
+        "en": "Differentiate volume with respect to time."
+      },
+      "oracle": "diff(Rational(4,3)*pi*x**3,x).subs(x,3)*2",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "72*pi",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U4-M03",
+      "unit": 4,
+      "skill": "Linearization",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$x=16$에서의 선형근사로 $\\sqrt{16.2}$를 추정하면?",
+        "en": "Use linearization at $x=16$ to estimate $\\sqrt{16.2}$."
+      },
+      "choices": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "41/10"
+        },
+        {
+          "value": "161/40"
+        },
+        {
+          "value": "81/20"
+        }
+      ],
+      "answer": 2,
+      "solution": {
+        "ko": "$4+(1/8)(0.2)=4.025=161/40$이다.",
+        "en": "Use the base value $4$ and derivative $1/8$."
+      },
+      "oracle": "sqrt(16)+diff(sqrt(x),x).subs(x,16)*Rational(1,5)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "161/40",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U4-M04",
+      "unit": 4,
+      "skill": "L Hospital rule",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$\\lim_{x\\to0}(e^{2x}-1)/x$는?",
+        "en": "Evaluate $\\lim_{x\\to0}(e^{2x}-1)/x$."
+      },
+      "choices": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "0"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "2"
+        }
+      ],
+      "answer": 3,
+      "solution": {
+        "ko": "$0/0$형이다. 분자와 분모를 각각 미분한 비의 극한은 $2e^0=2$이다.",
+        "en": "The $0/0$ form allows L Hospital rule; the ratio of derivatives tends to $2$."
+      },
+      "oracle": "limit((exp(2*x)-1)/x,x,0)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "2",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U4-M05",
+      "unit": 4,
+      "skill": "Derivative units",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$W(t)$가 탱크의 물의 양(L), $t$가 시간(h)이다. $W\\prime(3)=-4$의 의미는?",
+        "en": "$W(t)$ is water volume in liters and $t$ is hours. Interpret $W\\prime(3)=-4$."
+      },
+      "choices": [
+        {
+          "text": {
+            "ko": "감소율이 시간당 $4$ L씩 더 커진다",
+            "en": "The rate itself decreases by $4$ liters per hour each hour"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "$3$시간일 때 물의 양이 시간당 $4$ L의 비율로 감소한다",
+            "en": "At hour $3$, water volume decreases at $4$ liters per hour"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "첫 $3$시간 동안 물이 $4$ L 줄었다",
+            "en": "Volume fell by $4$ liters over the first $3$ hours"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "$3$시간일 때 물이 $4$ L이다",
+            "en": "There are $4$ liters at hour $3$"
+          },
+          "value": null
+        }
+      ],
+      "answer": 1,
+      "solution": {
+        "ko": "미분계수는 그 순간의 변화율이며 단위는 L/h이다.",
+        "en": "A first derivative gives the instantaneous volume rate, in liters per hour."
+      },
+      "oracle": null,
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "editorial_reasoning_review"
+      }
+    },
+    {
+      "id": "U4-M06",
+      "unit": 4,
+      "skill": "Ladder rate",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "길이 $10$ m 사다리의 바닥이 벽에서 $6$ m 떨어져 있고 바깥으로 $2$ m/s로 움직인다. 윗부분의 높이 변화율은?",
+        "en": "A $10$ m ladder has its foot $6$ m from a wall, moving outward at $2$ m/s. Find the top height rate in m/s."
+      },
+      "choices": [
+        {
+          "value": "3/2"
+        },
+        {
+          "value": "-2"
+        },
+        {
+          "value": "-8/3"
+        },
+        {
+          "value": "-3/2"
+        }
+      ],
+      "answer": 3,
+      "solution": {
+        "ko": "$y=8$이고 $2xx\\prime+2yy\\prime=0$에서 $y\\prime=-(6/8)2=-3/2$이다.",
+        "en": "Use $x^2+y^2=100$, so $y\\prime=-xx\\prime/y$."
+      },
+      "oracle": "-6*2/sqrt(100-36)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "-3/2",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U5-M01",
+      "unit": 5,
+      "skill": "Mean value theorem",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$f(x)=x^2$의 $[1,5]$에서 평균값정리의 $c$는?",
+        "en": "For $f(x)=x^2$ on $[1,5]$, find the mean-value-theorem point $c$."
+      },
+      "choices": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "6"
+        }
+      ],
+      "answer": 2,
+      "solution": {
+        "ko": "평균변화율은 $(25-1)/4=6$이고 $2c=6$이므로 $c=3$이다.",
+        "en": "Set $2c$ equal to the average rate $6$."
+      },
+      "oracle": "((5**2-1**2)/Integer(5-1))/2",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "3",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U5-M02",
+      "unit": 5,
+      "skill": "Absolute extrema",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$f(x)=x^3-3x$의 $[-2,2]$에서 절대최댓값은?",
+        "en": "Find the absolute maximum value of $f(x)=x^3-3x$ on $[-2,2]$."
+      },
+      "choices": [
+        {
+          "value": "-2"
+        },
+        {
+          "value": "0"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "6"
+        }
+      ],
+      "answer": 2,
+      "solution": {
+        "ko": "임계수 $-1,1$과 양 끝점에서의 값을 비교하면 최대는 $2$이다.",
+        "en": "Compare values at critical numbers and both endpoints."
+      },
+      "oracle": "max([(x**3-3*x).subs(x,a) for a in [-2,-1,1,2]])",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "2",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U5-M03",
+      "unit": 5,
+      "skill": "Stationary inflection",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$f(x)=x^3$의 $x=0$에 대한 설명으로 옳은 것은?",
+        "en": "Which describes $x=0$ for $f(x)=x^3$?"
+      },
+      "choices": [
+        {
+          "text": {
+            "ko": "극소점이다",
+            "en": "A local minimum"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "임계수가 아니다",
+            "en": "Not a critical number"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "변곡점이며 극대나 극소는 아니다",
+            "en": "An inflection point but no local extremum"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "극대점이다",
+            "en": "A local maximum"
+          },
+          "value": null
+        }
+      ],
+      "answer": 2,
+      "solution": {
+        "ko": "$f\\prime=3x^2$는 양쪽에서 양수이고 $f^{\\prime\\prime}=6x$는 부호가 바뀐다.",
+        "en": "The first derivative stays positive on both sides, while the second derivative changes sign."
+      },
+      "oracle": null,
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "editorial_reasoning_review"
+      }
+    },
+    {
+      "id": "U5-M04",
+      "unit": 5,
+      "skill": "Derivative signs",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$f\\prime(x)=(x-1)(x-3)$일 때 $f$가 증가하는 구간은?",
+        "en": "If $f\\prime(x)=(x-1)(x-3)$, where is $f$ increasing?"
+      },
+      "choices": [
+        {
+          "text": {
+            "ko": "$(1,3)$",
+            "en": "$(1,3)$"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": " $(-\\infty,1)$과 $(3,\\infty)$",
+            "en": " $(-\\infty,1)$ and $(3,\\infty)$"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "모든 실수",
+            "en": "All real numbers"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "$(-\\infty,3)$",
+            "en": "$(-\\infty,3)$"
+          },
+          "value": null
+        }
+      ],
+      "answer": 1,
+      "solution": {
+        "ko": "$f\\prime>0$인 바깥 두 구간에서 증가한다.",
+        "en": "The derivative is positive outside the two roots."
+      },
+      "oracle": null,
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "editorial_reasoning_review"
+      }
+    },
+    {
+      "id": "U5-M05",
+      "unit": 5,
+      "skill": "Concavity change",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$f^{\\prime\\prime}(x)=6x-12$이고 $f$가 모든 실수에서 두 번 미분가능하다. 변곡점의 $x$좌표는?",
+        "en": "If $f^{\\prime\\prime}(x)=6x-12$ everywhere, find the inflection input."
+      },
+      "choices": [
+        {
+          "value": "6"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "12"
+        },
+        {
+          "value": "0"
+        }
+      ],
+      "answer": 1,
+      "solution": {
+        "ko": "$x=2$에서 둘째 도함수가 음수에서 양수로 바뀐다.",
+        "en": "The second derivative changes from negative to positive at $2$."
+      },
+      "oracle": "solve(6*x-12,x)[0]",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "2",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U5-M06",
+      "unit": 5,
+      "skill": "Optimization",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "둘레가 $40$ m인 직사각형의 가능한 최대넓이는 몇 m$^2$인가?",
+        "en": "What is the maximum area in m$^2$ of a rectangle with perimeter $40$ m?"
+      },
+      "choices": [
+        {
+          "value": "80"
+        },
+        {
+          "value": "200"
+        },
+        {
+          "value": "400"
+        },
+        {
+          "value": "100"
+        }
+      ],
+      "answer": 3,
+      "solution": {
+        "ko": "$A=x(20-x)$의 꼭짓점 $x=10$에서 넓이는 $100$이다.",
+        "en": "Maximize $A=x(20-x)$ on $0<x<20$."
+      },
+      "oracle": "(x*(20-x)).subs(x,10)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "100",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U6-M01",
+      "unit": 6,
+      "skill": "Definite integral",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$\\int_0^2(3x^2+1)\\,dx$는?",
+        "en": "Evaluate $\\int_0^2(3x^2+1)\\,dx$."
+      },
+      "choices": [
+        {
+          "value": "14"
+        },
+        {
+          "value": "8"
+        },
+        {
+          "value": "6"
+        },
+        {
+          "value": "10"
+        }
+      ],
+      "answer": 3,
+      "solution": {
+        "ko": "원시함수 $x^3+x$의 양 끝 차는 $10$이다.",
+        "en": "Evaluate $x^3+x$ at the endpoints."
+      },
+      "oracle": "integrate(3*x**2+1,(x,0,2))",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "10",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U6-M02",
+      "unit": 6,
+      "skill": "FTC and chain rule",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$F(x)=\\int_0^{x^2}\\sqrt{1+t}\\,dt$일 때 $F\\prime(2)$는?",
+        "en": "If $F(x)=\\int_0^{x^2}\\sqrt{1+t}\\,dt$, find $F\\prime(2)$."
+      },
+      "choices": [
+        {
+          "value": "4*sqrt(5)"
+        },
+        {
+          "value": "2*sqrt(5)"
+        },
+        {
+          "value": "4*sqrt(3)"
+        },
+        {
+          "value": "sqrt(5)"
+        }
+      ],
+      "answer": 0,
+      "solution": {
+        "ko": "$F\\prime(x)=2x\\sqrt{1+x^2}$에 $x=2$를 대입한다.",
+        "en": "Apply the fundamental theorem and the chain rule."
+      },
+      "oracle": "(2*x*sqrt(1+x**2)).subs(x,2)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "4*sqrt(5)",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U6-M03",
+      "unit": 6,
+      "skill": "Unequal trapezoids",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "표의 $t=0,1,3$에서 $r(t)=2,4,8$이다. 두 사다리꼴로 $\\int_0^3r(t)\\,dt$를 추정하면?",
+        "en": "At $t=0,1,3$, the values of $r(t)$ are $2,4,8$. Estimate $\\int_0^3r(t)\\,dt$ with two trapezoids."
+      },
+      "choices": [
+        {
+          "value": "14"
+        },
+        {
+          "value": "18"
+        },
+        {
+          "value": "12"
+        },
+        {
+          "value": "15"
+        }
+      ],
+      "answer": 3,
+      "solution": {
+        "ko": "$1(2+4)/2+2(4+8)/2=15$이다.",
+        "en": "Use each interval width separately."
+      },
+      "oracle": "1*Rational(2+4,2)+2*Rational(4+8,2)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "15",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U6-M04",
+      "unit": 6,
+      "skill": "Substitution",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$\\int_0^1 6x(1+3x^2)^2\\,dx$는?",
+        "en": "Evaluate $\\int_0^1 6x(1+3x^2)^2\\,dx$."
+      },
+      "choices": [
+        {
+          "value": "63"
+        },
+        {
+          "value": "7"
+        },
+        {
+          "value": "21"
+        },
+        {
+          "value": "16"
+        }
+      ],
+      "answer": 2,
+      "solution": {
+        "ko": "$u=1+3x^2$에서 $\\int_1^4u^2\\,du=21$이다.",
+        "en": "Use substitution with new bounds $1$ and $4$."
+      },
+      "oracle": "integrate(6*x*(1+3*x**2)**2,(x,0,1))",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "21",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U6-M05",
+      "unit": 6,
+      "skill": "Algebra before integration",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$x>0$에서 $(x^2+1)/x$의 한 원시함수는?",
+        "en": "For $x>0$, which is an antiderivative of $(x^2+1)/x$?"
+      },
+      "choices": [
+        {
+          "value": "2*x-1/x**2"
+        },
+        {
+          "value": "log(x**2+1)"
+        },
+        {
+          "value": "x**2+log(x)"
+        },
+        {
+          "value": "x**2/2+log(x)"
+        }
+      ],
+      "answer": 3,
+      "solution": {
+        "ko": "식을 $x+1/x$로 나누어 적분한다.",
+        "en": "Divide first, then integrate $x+1/x$."
+      },
+      "oracle": "integrate((x**2+1)/x,x)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "x**2/2 + log(x)",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U6-M06",
+      "unit": 6,
+      "skill": "Graphical accumulation",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "그림은 선분으로 연결된 $f$의 그래프이다. $F(x)=\\int_0^x f(t)\\,dt$일 때 $F(3)$은?",
+        "en": "The graph of $f$ consists of line segments. If $F(x)=\\int_0^x f(t)\\,dt$, find $F(3)$."
+      },
+      "choices": [
+        {
+          "value": "6"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "2"
+        }
+      ],
+      "answer": 2,
+      "solution": {
+        "ko": "밑변 $3$, 높이 $2$인 삼각형의 넓이로 $3$이다.",
+        "en": "The positive triangle has base $3$ and height $2$."
+      },
+      "oracle": "Rational(3*2,2)",
+      "figure": "accumulation",
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "3",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U7-M01",
+      "unit": 7,
+      "skill": "Exponential initial value",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$y\\prime=3y$, $y(0)=2$일 때 $y(\\ln2)$는?",
+        "en": "If $y\\prime=3y$ and $y(0)=2$, find $y(\\ln2)$."
+      },
+      "choices": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "16"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "6"
+        }
+      ],
+      "answer": 1,
+      "solution": {
+        "ko": "$y=2e^{3x}$이므로 $y(\\ln2)=16$이다.",
+        "en": "The initial-value solution is $2e^{3x}$."
+      },
+      "oracle": "(2*exp(3*x)).subs(x,log(2))",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "16",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U7-M02",
+      "unit": 7,
+      "skill": "Slope field",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$y\\prime=x-y$가 주는 점 $(1,3)$의 기울기는?",
+        "en": "For $y\\prime=x-y$, what is the slope at $(1,3)$?"
+      },
+      "choices": [
+        {
+          "value": "-2"
+        },
+        {
+          "value": "-4"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "2"
+        }
+      ],
+      "answer": 0,
+      "solution": {
+        "ko": "$1-3=-2$이다.",
+        "en": "Substitute the coordinates into the rate expression."
+      },
+      "oracle": "(x-y).subs({x:1,y:3})",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "-2",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U7-M03",
+      "unit": 7,
+      "skill": "Separation branch",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$y\\prime=x/y$, $y(0)=2$인 해의 $y(1)$은?",
+        "en": "For $y\\prime=x/y$ with $y(0)=2$, find $y(1)$."
+      },
+      "choices": [
+        {
+          "value": "sqrt(3)"
+        },
+        {
+          "value": "-sqrt(5)"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "sqrt(5)"
+        }
+      ],
+      "answer": 3,
+      "solution": {
+        "ko": "$y^2=x^2+4$이고 초기조건에 따라 양의 가지를 고른다.",
+        "en": "Separation gives $y^2=x^2+4$; the initial value selects the positive branch."
+      },
+      "oracle": "sqrt(1**2+4)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "sqrt(5)",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U7-M04",
+      "unit": 7,
+      "skill": "Equilibrium",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$y\\prime=-2(y-7)$의 평형해는?",
+        "en": "Find the equilibrium solution of $y\\prime=-2(y-7)$."
+      },
+      "choices": [
+        {
+          "value": "-7"
+        },
+        {
+          "value": "7"
+        },
+        {
+          "value": "0"
+        },
+        {
+          "value": "2"
+        }
+      ],
+      "answer": 1,
+      "solution": {
+        "ko": "변화율이 $0$이 되는 상수해는 $y=7$이다.",
+        "en": "Set the right-hand side to zero."
+      },
+      "oracle": "solve(-2*(y-7),y)[0]",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "7",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U7-M05",
+      "unit": 7,
+      "skill": "Solution verification",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$y=Ce^{-2x}$가 모든 상수 $C$에 대해 만족하는 방정식은?",
+        "en": "Which equation is satisfied by $y=Ce^{-2x}$ for every constant $C$?"
+      },
+      "choices": [
+        {
+          "text": {
+            "ko": "$y\\prime=y^2$",
+            "en": "$y\\prime=y^2$"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "$y\\prime=2y$",
+            "en": "$y\\prime=2y$"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "$y\\prime=-2y$",
+            "en": "$y\\prime=-2y$"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "$y\\prime=-2x$",
+            "en": "$y\\prime=-2x$"
+          },
+          "value": null
+        }
+      ],
+      "answer": 2,
+      "solution": {
+        "ko": "미분하면 $y\\prime=-2Ce^{-2x}=-2y$이다.",
+        "en": "Differentiate and rewrite in terms of $y$."
+      },
+      "oracle": null,
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "editorial_reasoning_review"
+      }
+    },
+    {
+      "id": "U7-M06",
+      "unit": 7,
+      "skill": "Cooling model",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$T\\prime=-\\tfrac12(T-20)$, $T(0)=60$이면 $T(2)$는?",
+        "en": "If $T\\prime=-\\tfrac12(T-20)$ and $T(0)=60$, find $T(2)$."
+      },
+      "choices": [
+        {
+          "value": "20+40/exp(1)"
+        },
+        {
+          "value": "40/exp(1)"
+        },
+        {
+          "value": "20+60/exp(1)"
+        },
+        {
+          "value": "60/exp(1)"
+        }
+      ],
+      "answer": 0,
+      "solution": {
+        "ko": "$T=20+40e^{-t/2}$에 $t=2$를 대입한다.",
+        "en": "The excess temperature decays exponentially."
+      },
+      "oracle": "(20+40*exp(-t/2)).subs(t,2)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "40*exp(-1) + 20",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U8-M01",
+      "unit": 8,
+      "skill": "Average value",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$f(x)=x^2$의 $[0,3]$에서 평균값은?",
+        "en": "Find the average value of $f(x)=x^2$ on $[0,3]$."
+      },
+      "choices": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "6"
+        },
+        {
+          "value": "9/2"
+        },
+        {
+          "value": "3"
+        }
+      ],
+      "answer": 3,
+      "solution": {
+        "ko": "$\\frac13\\int_0^3x^2\\,dx=3$이다.",
+        "en": "Divide the integral by the interval length."
+      },
+      "oracle": "integrate(x**2,(x,0,3))/3",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "3",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U8-M02",
+      "unit": 8,
+      "skill": "Total distance",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$v(t)=t-1$ m/s인 입자가 $0\\le t\\le3$에서 이동한 총 거리는 몇 m인가?",
+        "en": "A particle has $v(t)=t-1$ m/s for $0\\le t\\le3$. Find total distance in meters."
+      },
+      "choices": [
+        {
+          "value": "3/2"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "5/2"
+        }
+      ],
+      "answer": 3,
+      "solution": {
+        "ko": "$t=1$에서 나누면 두 삼각형의 넓이는 $1/2$와 $2$이다.",
+        "en": "Split at the velocity zero and add the two positive areas."
+      },
+      "oracle": "-integrate(t-1,(t,0,1))+integrate(t-1,(t,1,3))",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "5/2",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U8-M03",
+      "unit": 8,
+      "skill": "Area between curves",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$y=x$와 $y=x^2$ 사이 $0\\le x\\le1$의 넓이는?",
+        "en": "Find the area between $y=x$ and $y=x^2$ on $0\\le x\\le1$."
+      },
+      "choices": [
+        {
+          "value": "2/3"
+        },
+        {
+          "value": "1/3"
+        },
+        {
+          "value": "1/6"
+        },
+        {
+          "value": "1/2"
+        }
+      ],
+      "answer": 2,
+      "solution": {
+        "ko": "$\\int_0^1(x-x^2)\\,dx=1/6$이다.",
+        "en": "Integrate top minus bottom."
+      },
+      "oracle": "integrate(x-x**2,(x,0,1))",
+      "figure": "area",
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "1/6",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U8-M04",
+      "unit": 8,
+      "skill": "Disk volume",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$y=\\sqrt x$, $x$축 및 $x=4$가 둘러싼 영역을 $x$축 둘레로 회전한 부피는?",
+        "en": "Rotate the region bounded by $y=\\sqrt x$, the $x$-axis, and $x=4$ about the $x$-axis. Find the volume."
+      },
+      "choices": [
+        {
+          "value": "4*pi"
+        },
+        {
+          "value": "32*pi/3"
+        },
+        {
+          "value": "8*pi"
+        },
+        {
+          "value": "16*pi"
+        }
+      ],
+      "answer": 2,
+      "solution": {
+        "ko": "$V=\\pi\\int_0^4x\\,dx=8\\pi$이다.",
+        "en": "Square the radius $\\sqrt x$ in the disk formula."
+      },
+      "oracle": "pi*integrate(x,(x,0,4))",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "8*pi",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U8-M05",
+      "unit": 8,
+      "skill": "Square cross sections",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$y=x$와 $y=x^2$ 사이 영역을 밑면으로 하고 $x$축에 수직인 단면이 정사각형이다. 부피는?",
+        "en": "A solid has base between $y=x$ and $y=x^2$. Cross sections perpendicular to the $x$-axis are squares. Find its volume."
+      },
+      "choices": [
+        {
+          "value": "1/15"
+        },
+        {
+          "value": "1/30"
+        },
+        {
+          "value": "1/6"
+        },
+        {
+          "value": "pi/30"
+        }
+      ],
+      "answer": 1,
+      "solution": {
+        "ko": "단면의 변은 $x-x^2$이므로 $\\int_0^1(x-x^2)^2\\,dx=1/30$이다.",
+        "en": "Integrate the square of the vertical base length."
+      },
+      "oracle": "integrate((x-x**2)**2,(x,0,1))",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "1/30",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U8-M06",
+      "unit": 8,
+      "skill": "Horizontal slices",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$x=y^2$와 $x=2y$가 둘러싼 넓이는?",
+        "en": "Find the area enclosed by $x=y^2$ and $x=2y$."
+      },
+      "choices": [
+        {
+          "value": "8/3"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "4/3"
+        },
+        {
+          "value": "2/3"
+        }
+      ],
+      "answer": 2,
+      "solution": {
+        "ko": "교점은 $y=0,2$이고 넓이는 $\\int_0^2(2y-y^2)\\,dy=4/3$이다.",
+        "en": "Use right minus left with horizontal slices."
+      },
+      "oracle": "integrate(2*y-y**2,(y,0,2))",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "4/3",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "U1-F01",
+      "unit": 1,
+      "skill": "Continuity and IVT",
+      "type": "FRQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "함수 $f$는 $x<1$에서 $x^2+a$, $x=1$에서 $b$, $x>1$에서 $3x-1$로 정의한다.",
+        "en": "Define $f(x)=x^2+a$ for $x<1$, $f(1)=b$, and $f(x)=3x-1$ for $x>1$."
+      },
+      "parts": [
+        {
+          "prompt": {
+            "ko": "$x=1$에서 좌극한과 우극한을 구하라.",
+            "en": "Find the left and right limits at $1$."
+          },
+          "solution": {
+            "ko": "좌극한은 $1+a$, 우극한은 $2$이다. 함숫값 $b$는 이 극한 계산에 영향을 주지 않는다.",
+            "en": "The left limit is $1+a$ and the right limit is $2$. The value $b$ does not determine either nearby limit."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "좌극한 1점; 우극한 1점; 점의 값과 극한 구별 1점",
+            "en": "Left limit 1; right limit 1; distinguish the point value 1"
+          },
+          "oracle": null,
+          "value": null,
+          "verification": {
+            "method": "editorial_reasoning_review"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "$f$가 모든 실수에서 연속이 되게 하는 $a,b$를 구하라.",
+            "en": "Find $a,b$ that make $f$ continuous everywhere."
+          },
+          "solution": {
+            "ko": "$1+a=2=b$이므로 $a=1$, $b=2$이다. 각 조각은 다항함수이므로 다른 점에서는 연속이다.",
+            "en": "Match both limits and the value: $1+a=2=b$. Thus $a=1,b=2$; each polynomial piece is continuous elsewhere."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "세 값 일치 조건 1점; a 값 1점; b 값과 다른 점의 연속성 1점",
+            "en": "Matching condition 1; value of a 1; value of b and remaining continuity 1"
+          },
+          "oracle": null,
+          "value": null,
+          "verification": {
+            "method": "editorial_reasoning_review"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "(b)의 값을 사용하라. $f(c)=3$인 $c\\in(0,2)$의 존재를 정리로 설명하고 한 값을 구하라.",
+            "en": "Use part (b). Justify the existence of $c\\in(0,2)$ with $f(c)=3$, and find one such value."
+          },
+          "solution": {
+            "ko": "$[0,2]$에서 연속이고 $f(0)=1<3<5=f(2)$이므로 중간값정리를 적용한다. 오른쪽 조각에서 $3c-1=3$을 풀면 $c=4/3$이다.",
+            "en": "Continuity on $[0,2]$ and $f(0)=1<3<5=f(2)$ justify IVT. Solving $3c-1=3$ gives $c=4/3$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "연속성 1점; 목표값 사이와 정리 1점; c 계산 1점",
+            "en": "Continuity 1; straddling and IVT 1; computed c 1"
+          },
+          "oracle": "solve(3*x-1-3,x)[0]",
+          "value": "4/3",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "4/3"
+          }
+        }
+      ],
+      "figure": null,
+      "table": null
+    },
+    {
+      "id": "U1-F02",
+      "unit": 1,
+      "skill": "Graph limits and a theorem hypothesis",
+      "type": "FRQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "그림의 그래프는 두 선분 $(-1,0)$에서 $(1,2)$, $(1,2)$에서 $(3,0)$으로 이어지지만 $(1,2)$는 빈 점이고 실제 함숫값은 $g(1)=4$이다.",
+        "en": "The graph follows segments from $(-1,0)$ to $(1,2)$ to $(3,0)$, with a hole at $(1,2)$ and actual value $g(1)=4$."
+      },
+      "parts": [
+        {
+          "prompt": {
+            "ko": "$x=1$에서 양쪽 극한과 함숫값을 각각 구하라.",
+            "en": "Find the two-sided limit and the function value at $1$."
+          },
+          "solution": {
+            "ko": "좌우 극한은 모두 $2$이므로 양쪽 극한은 $2$이다. 채운 점에 의해 $g(1)=4$이다.",
+            "en": "Both one-sided limits are $2$, so the limit is $2$. The filled point gives $g(1)=4$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "좌극한 1점; 우극한과 양쪽 극한 1점; 실제 값 1점",
+            "en": "Left limit 1; right and two-sided limit 1; actual value 1"
+          },
+          "oracle": null,
+          "value": null,
+          "verification": {
+            "method": "editorial_reasoning_review"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "한 점의 값만 바꾸어 $x=1$에서 연속이 되게 하라.",
+            "en": "Redefine one value to make $g$ continuous at $1$."
+          },
+          "solution": {
+            "ko": "$g(1)=2$로 다시 정의한다. 주변의 그래프를 바꾸지 않으면서 극한과 함숫값을 일치시킨다.",
+            "en": "Redefine $g(1)=2$. This matches the existing limit without changing nearby values."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "기존 극한 2 확인 1점; 재정의 1점; 일치 조건 설명 1점",
+            "en": "Identify limit 2 1; redefinition 1; matching explanation 1"
+          },
+          "oracle": null,
+          "value": null,
+          "verification": {
+            "method": "editorial_reasoning_review"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "원래 함수에 대해 $g(0)=1$, $g(1)=4$이다. 중간값정리로 $[0,1]$에서 값 $3$을 가진다고 할 수 있는가? 실제로 그런 점이 있는가?",
+            "en": "For the original function, $g(0)=1$ and $g(1)=4$. Can IVT guarantee the value $3$ on $[0,1]$? Does such a point actually exist?"
+          },
+          "solution": {
+            "ko": "아니다. $x=1$에서 불연속이므로 정리의 가정이 깨진다. $0\\le x<1$에서 $g(x)=x+1<2$이고 끝점에서는 $4$이므로 값 $3$인 점도 없다.",
+            "en": "No. Discontinuity at $1$ violates IVT. For $0\\le x<1$, values are $x+1<2$, and the endpoint value is $4$, so no value equals $3$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "정리 적용 불가 1점; 깨진 연속성 가정 1점; 실제 값 범위로 비존재 설명 1점",
+            "en": "Reject IVT application 1; identify failed hypothesis 1; prove no value 3 1"
+          },
+          "oracle": null,
+          "value": null,
+          "verification": {
+            "method": "editorial_reasoning_review"
+          }
+        }
+      ],
+      "figure": "hole",
+      "table": null
+    },
+    {
+      "id": "U2-F01",
+      "unit": 2,
+      "skill": "Derivative definition and tangent",
+      "type": "FRQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$f(x)=x^3-2x$이다.",
+        "en": "Let $f(x)=x^3-2x$."
+      },
+      "parts": [
+        {
+          "prompt": {
+            "ko": "차분몫의 극한을 직접 전개하여 $f\\prime(-1)$을 구하라.",
+            "en": "Expand the difference quotient to find $f\\prime(-1)$ from the definition."
+          },
+          "solution": {
+            "ko": "$f(-1)=1$이고 $(f(-1+h)-f(-1))/h=1-3h+h^2$이다. 극한은 $1$이다.",
+            "en": "Here $f(-1)=1$ and the quotient simplifies to $1-3h+h^2$. Its limit is $1$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "올바른 차분몫 1점; 전개와 약분 1점; 극한 1점",
+            "en": "Correct quotient 1; expansion and simplification 1; limit 1"
+          },
+          "oracle": "limit((((-1+h)**3-2*(-1+h))-1)/h,h,0)",
+          "value": "1",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "1"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "$x=-1$에서 접선식을 구하라.",
+            "en": "Find the tangent line at $x=-1$."
+          },
+          "solution": {
+            "ko": "점은 $(-1,1)$이고 기울기는 $1$이다. 따라서 $y-1=x+1$, 즉 $y=x+2$이다.",
+            "en": "The point is $(-1,1)$ and slope is $1$, giving $y-1=x+1$, or $y=x+2$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "접점 1점; 기울기 1점; 접선식 1점",
+            "en": "Point 1; slope 1; line equation 1"
+          },
+          "oracle": null,
+          "value": null,
+          "verification": {
+            "method": "editorial_reasoning_review"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "$f^{\\prime\\prime}(-1)$을 구하고 이것이 접선의 기울기와 같은 정보인지 설명하라.",
+            "en": "Find $f^{\\prime\\prime}(-1)$ and explain whether it is the tangent slope."
+          },
+          "solution": {
+            "ko": "$f\\prime=3x^2-2$, $f^{\\prime\\prime}=6x$이므로 값은 $-6$이다. 이는 도함수의 변화율이며 접선 기울기 $f\\prime(-1)=1$과 다른 정보이다.",
+            "en": "The second derivative is $6x$, so its value is $-6$. It measures change in the derivative, not the tangent slope $1$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "첫 도함수 1점; 둘째 도함수와 값 1점; 의미 구별 1점",
+            "en": "First derivative 1; second derivative and value 1; distinguish meanings 1"
+          },
+          "oracle": "diff(x**3-2*x,x,2).subs(x,-1)",
+          "value": "-6",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "-6"
+          }
+        }
+      ],
+      "figure": null,
+      "table": null
+    },
+    {
+      "id": "U2-F02",
+      "unit": 2,
+      "skill": "Rates from a table",
+      "type": "FRQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$P(t)$는 온실 식물의 높이(cm)이며 $t$의 단위는 주이다. $P$는 미분가능하다. 표를 사용하라.",
+        "en": "$P(t)$ is plant height in centimeters, where $t$ is weeks. Assume $P$ is differentiable and use the table."
+      },
+      "parts": [
+        {
+          "prompt": {
+            "ko": "$t=1,3$의 값을 사용하여 $P\\prime(2)$를 추정하고 단위를 쓰라.",
+            "en": "Use $t=1,3$ to estimate $P\\prime(2)$ and give units."
+          },
+          "solution": {
+            "ko": "$(10-3.5)/(3-1)=3.25$ cm/주이다. 정확한 도함수가 아니라 할선으로 얻은 추정이다.",
+            "en": "The estimate is $(10-3.5)/2=3.25$ centimeters per week, a secant estimate rather than an exact derivative."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "차분몫 1점; 계산 1점; 단위와 추정 표시 1점",
+            "en": "Secant expression 1; value 1; units and estimate 1"
+          },
+          "oracle": "(10-Rational(7,2))/2",
+          "value": "13/4",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "13/4"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "$[0,3]$에서 높이의 평균변화율을 구하라.",
+            "en": "Find the average height rate on $[0,3]$."
+          },
+          "solution": {
+            "ko": "$(P(3)-P(0))/3=(10-2)/3=8/3$ cm/주이다.",
+            "en": "The average rate is $(10-2)/3=8/3$ centimeters per week."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "끝점의 변화량 1점; 구간 길이로 나눔 1점; 값과 단위 1점",
+            "en": "Endpoint change 1; divide by interval length 1; result and units 1"
+          },
+          "oracle": "Rational(10-2,3)",
+          "value": "8/3",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "8/3"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "(a)의 추정 기울기로 $P(2.2)$를 근사하라.",
+            "en": "Use the estimated slope in (a) to approximate $P(2.2)$."
+          },
+          "solution": {
+            "ko": "$P(2.2)\\approx6+3.25(0.2)=6.65$ cm이다. 추정 기울기를 사용한 국소 선형근사이다.",
+            "en": "Use $P(2.2)\\approx6+3.25(0.2)=6.65$ centimeters, a local linear estimate."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "기준값 6 1점; 변화량 곱 1점; 근삿값과 단위 1점",
+            "en": "Base value 1; slope times change 1; estimate and units 1"
+          },
+          "oracle": "6+Rational(13,4)*Rational(1,5)",
+          "value": "133/20",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "133/20"
+          }
+        }
+      ],
+      "figure": null,
+      "table": {
+        "headers": [
+          "t",
+          "P(t)"
+        ],
+        "rows": [
+          [
+            "0",
+            "2"
+          ],
+          [
+            "1",
+            "3.5"
+          ],
+          [
+            "2",
+            "6"
+          ],
+          [
+            "3",
+            "10"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "U3-F01",
+      "unit": 3,
+      "skill": "Implicit first and second derivatives",
+      "type": "FRQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "원 $x^2+y^2=25$ 위의 점 $(3,4)$를 생각하라.",
+        "en": "Consider the point $(3,4)$ on $x^2+y^2=25$."
+      },
+      "parts": [
+        {
+          "prompt": {
+            "ko": "$dy/dx$를 $x,y$로 나타내고 해당 점에서 값을 구하라.",
+            "en": "Find $dy/dx$ in terms of $x,y$ and evaluate it at the point."
+          },
+          "solution": {
+            "ko": "$2x+2yy\\prime=0$에서 $y\\prime=-x/y$이다. 점에서 기울기는 $-3/4$이다.",
+            "en": "Implicit differentiation gives $y\\prime=-x/y$, hence $-3/4$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "음함수 미분 1점; y 도함수 고립 1점; 점 대입 1점",
+            "en": "Implicit differentiation 1; isolate derivative 1; evaluation 1"
+          },
+          "oracle": "(-x/y).subs({x:3,y:4})",
+          "value": "-3/4",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "-3/4"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "해당 점에서 접선식을 구하라.",
+            "en": "Find the tangent line at the point."
+          },
+          "solution": {
+            "ko": "$y-4=-(3/4)(x-3)$이다. $x=3$을 대입하면 원래 점을 지난다.",
+            "en": "The tangent line is $y-4=-(3/4)(x-3)$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "접점 1점; 기울기 연결 1점; 직선식 1점",
+            "en": "Point 1; slope 1; line equation 1"
+          },
+          "oracle": null,
+          "value": null,
+          "verification": {
+            "method": "editorial_reasoning_review"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "$d^2y/dx^2$의 해당 점에서의 값을 구하라.",
+            "en": "Find $d^2y/dx^2$ at the point."
+          },
+          "solution": {
+            "ko": "$y^{\\prime\\prime}=-1/y+xy\\prime/y^2=-1/y-x^2/y^3=-(x^2+y^2)/y^3$이다. 따라서 $-25/64$이다.",
+            "en": "Differentiate $-x/y$ to obtain $y^{\\prime\\prime}=-1/y+xy\\prime/y^2=-(x^2+y^2)/y^3$. The value is $-25/64$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "곱 또는 몫 미분 1점; y 의존성 반영 1점; 최종값 1점",
+            "en": "Differentiate quotient 1; include dependence of y 1; result 1"
+          },
+          "oracle": "(-1/y-x**2/y**3).subs({x:3,y:4})",
+          "value": "-25/64",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "-25/64"
+          }
+        }
+      ],
+      "figure": null,
+      "table": null
+    },
+    {
+      "id": "U3-F02",
+      "unit": 3,
+      "skill": "An inverse and a composition",
+      "type": "FRQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$f(x)=x^3+x$이고 $g=f^{-1}$이다.",
+        "en": "Let $f(x)=x^3+x$ and $g=f^{-1}$."
+      },
+      "parts": [
+        {
+          "prompt": {
+            "ko": "역함수가 존재하는 이유를 설명하고 $g(10)$을 구하라.",
+            "en": "Explain why the inverse exists and find $g(10)$."
+          },
+          "solution": {
+            "ko": "$f\\prime=3x^2+1>0$이고 $f$는 양 끝에서 모든 실숫값을 지나므로 실수 전체에서 일대일 대응이다. $f(2)=10$이어서 $g(10)=2$이다.",
+            "en": "The derivative is always positive and the polynomial has unbounded range in both directions, so it is a bijection on the reals. Since $f(2)=10$, $g(10)=2$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "양의 도함수 1점; 역함수 가능성 설명 1점; g 값 1점",
+            "en": "Positive derivative 1; inverse justification 1; value 1"
+          },
+          "oracle": null,
+          "value": null,
+          "verification": {
+            "method": "editorial_reasoning_review"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "$g\\prime(10)$을 구하라.",
+            "en": "Find $g\\prime(10)$."
+          },
+          "solution": {
+            "ko": "$f\\prime(2)=13$이므로 $g\\prime(10)=1/13$이다.",
+            "en": "The corresponding original input is $2$, so $g\\prime(10)=1/f\\prime(2)=1/13$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "대응 입력 2 1점; 원래 도함수 13 1점; 역수 1점",
+            "en": "Corresponding input 1; original derivative 1; reciprocal 1"
+          },
+          "oracle": "1/diff(x**3+x,x).subs(x,2)",
+          "value": "1/13",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "1/13"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "$H(x)=g(5x)$일 때 $H\\prime(2)$를 구하라.",
+            "en": "If $H(x)=g(5x)$, find $H\\prime(2)$."
+          },
+          "solution": {
+            "ko": "연쇄법칙으로 $H\\prime(2)=5g\\prime(10)=5/13$이다.",
+            "en": "The chain rule gives $H\\prime(2)=5g\\prime(10)=5/13$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "연쇄법칙 1점; 입력 10 1점; 값 1점",
+            "en": "Chain factor 1; correct inverse input 1; value 1"
+          },
+          "oracle": "5/diff(x**3+x,x).subs(x,2)",
+          "value": "5/13",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "5/13"
+          }
+        }
+      ],
+      "figure": null,
+      "table": null
+    },
+    {
+      "id": "U4-F01",
+      "unit": 4,
+      "skill": "Motion and local approximation",
+      "type": "FRQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "입자의 위치는 $s(t)=t^3-6t^2+9t$ m이고 $0\\le t\\le4$에서 $t$의 단위는 s이다.",
+        "en": "A particle has position $s(t)=t^3-6t^2+9t$ meters for $0\\le t\\le4$, with time in seconds."
+      },
+      "parts": [
+        {
+          "prompt": {
+            "ko": "속도와 가속도의 식을 구하라.",
+            "en": "Find formulas for velocity and acceleration."
+          },
+          "solution": {
+            "ko": "$v=3t^2-12t+9$ m/s, $a=6t-12$ m/s$^2$이다.",
+            "en": "$v=3t^2-12t+9$ meters per second and $a=6t-12$ meters per second squared."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "위치 미분 1점; 속도 미분 1점; 두 단위 1점",
+            "en": "Position derivative 1; velocity derivative 1; both units 1"
+          },
+          "oracle": null,
+          "value": null,
+          "verification": {
+            "method": "editorial_reasoning_review"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "$t=1.5$에서 움직이는 방향과 빨라지는지를 근거와 함께 설명하라.",
+            "en": "At $t=1.5$, justify the direction and whether the particle is speeding up."
+          },
+          "solution": {
+            "ko": "$v(1.5)=-9/4$, $a(1.5)=-3$이다. 음의 방향으로 움직이고 두 부호가 같아서 빨라진다.",
+            "en": "Here $v=-9/4$ and $a=-3$. Motion is negative and matching signs mean speed increases."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "속도 부호 1점; 가속도 부호 1점; 방향과 속력 결론 1점",
+            "en": "Velocity sign 1; acceleration sign 1; both conclusions 1"
+          },
+          "oracle": null,
+          "value": null,
+          "verification": {
+            "method": "editorial_reasoning_review"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "$t=1.5$에서의 선형근사로 $s(1.6)$을 구하라.",
+            "en": "Use linearization at $1.5$ to estimate $s(1.6)$."
+          },
+          "solution": {
+            "ko": "$s(1.5)=27/8$이므로 $s(1.6)\\approx27/8-(9/4)(0.1)=3.15$ m이다.",
+            "en": "The base value is $27/8$, so $s(1.6)\\approx27/8-(9/4)(0.1)=3.15$ meters."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "기준 위치 1점; 속도 곱하기 시간차 1점; 근삿값과 단위 1점",
+            "en": "Base position 1; velocity times time change 1; estimate and units 1"
+          },
+          "oracle": "(t**3-6*t**2+9*t).subs(t,Rational(3,2))+diff(t**3-6*t**2+9*t,t).subs(t,Rational(3,2))*Rational(1,10)",
+          "value": "63/20",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "63/20"
+          }
+        }
+      ],
+      "figure": null,
+      "table": null
+    },
+    {
+      "id": "U4-F02",
+      "unit": 4,
+      "skill": "Conical tank",
+      "type": "FRQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "꼭짓점이 아래인 원뿔 탱크는 높이 $8$ cm, 윗반지름 $4$ cm이다. 물이 일정하게 $3\\pi$ cm$^3$/s씩 들어온다. 한 순간 물의 높이는 $2$ cm이다.",
+        "en": "An inverted cone has height $8$ cm and top radius $4$ cm. Water enters at $3\\pi$ cm$^3$/s. At a certain instant its water depth is $2$ cm."
+      },
+      "parts": [
+        {
+          "prompt": {
+            "ko": "물의 부피 $V$를 물의 높이 $h$만으로 나타내라.",
+            "en": "Express water volume using only depth $h$."
+          },
+          "solution": {
+            "ko": "닮음에서 $r/h=1/2$이다. $V=\\pi r^2h/3=\\pi h^3/12$이다.",
+            "en": "Similarity gives $r=h/2$, so $V=\\pi h^3/12$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "닮음 비 1점; 원뿔 부피식 1점; 한 변수식 1점",
+            "en": "Similarity ratio 1; cone volume 1; one-variable expression 1"
+          },
+          "oracle": null,
+          "value": null,
+          "verification": {
+            "method": "editorial_reasoning_review"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "해당 순간 $dh/dt$를 구하라.",
+            "en": "Find $dh/dt$ at that instant."
+          },
+          "solution": {
+            "ko": "$V\\prime=(\\pi h^2/4)h\\prime$이다. $3\\pi=\\pi h\\prime$이므로 $h\\prime=3$ cm/s이다.",
+            "en": "Differentiate to get $V\\prime=(\\pi h^2/4)h\\prime$. At $h=2$, the depth rate is $3$ cm/s."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "시간 미분 1점; 값 대입 1점; 값과 단위 1점",
+            "en": "Time differentiation 1; substitution 1; value and units 1"
+          },
+          "oracle": "(3*pi)/(pi*2**2/4)",
+          "value": "3",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "3"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "$0.1$초 뒤의 물 높이를 선형근사하라. 실제 높이에 비해 과대인지 근거를 쓰라.",
+            "en": "Linearly estimate the depth $0.1$ second later. Justify whether it overestimates the actual depth."
+          },
+          "solution": {
+            "ko": "근사는 $2+3(0.1)=2.3$ cm이다. $h\\prime=12/h^2$이므로 $h^{\\prime\\prime}=-24h\\prime/h^3<0$이다. 이 짧은 구간에서 아래로 오목하므로 과대근사이다.",
+            "en": "The estimate is $2.3$ cm. Since $h\\prime=12/h^2$, $h^{\\prime\\prime}=-24h\\prime/h^3<0$, so the tangent overestimates on the interval."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "선형근사 1점; 음의 둘째 도함수 1점; 과대근사 결론 1점",
+            "en": "Linear estimate 1; negative second derivative 1; overestimate conclusion 1"
+          },
+          "oracle": "2+3*Rational(1,10)",
+          "value": "23/10",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "23/10"
+          }
+        }
+      ],
+      "figure": null,
+      "table": null
+    },
+    {
+      "id": "U5-F01",
+      "unit": 5,
+      "skill": "Complete function analysis",
+      "type": "FRQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$f(x)=x^3-6x^2+9x+1$을 $[0,4]$에서 분석하라.",
+        "en": "Analyze $f(x)=x^3-6x^2+9x+1$ on $[0,4]$."
+      },
+      "parts": [
+        {
+          "prompt": {
+            "ko": "증가와 감소 구간 및 내부의 극대와 극소 위치를 근거와 함께 구하라.",
+            "en": "Justify intervals of increase and decrease and locate interior local extrema."
+          },
+          "solution": {
+            "ko": "$f\\prime=3(x-1)(x-3)$이다. $(0,1),(3,4)$에서 증가, $(1,3)$에서 감소한다. 부호가 $+,-,+$로 바뀌어 $x=1$은 극대, $x=3$은 극소이다.",
+            "en": "The derivative is $3(x-1)(x-3)$ with signs $+,-,+$. Increase occurs on $(0,1),(3,4)$ and decrease on $(1,3)$. The local maximum is at $1$ and minimum at $3$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "도함수와 임계수 1점; 증감구간 1점; 부호변화와 극값 1점",
+            "en": "Derivative and critical numbers 1; intervals 1; extrema with sign changes 1"
+          },
+          "oracle": null,
+          "value": null,
+          "verification": {
+            "method": "editorial_reasoning_review"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "절대최댓값과 절대최솟값 및 모든 달성 위치를 구하라.",
+            "en": "Find absolute extreme values and every location attaining them."
+          },
+          "solution": {
+            "ko": "$f(0)=1$, $f(1)=5$, $f(3)=1$, $f(4)=5$이다. 최대는 $5$로 $x=1,4$, 최소는 $1$로 $x=0,3$에서 달성된다.",
+            "en": "Candidate values are $1,5,1,5$. The maximum $5$ occurs at $1,4$ and minimum $1$ at $0,3$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "끝점 포함 후보 1점; 함숫값 비교 1점; 값과 모든 위치 1점",
+            "en": "Include endpoints 1; compare values 1; values and all locations 1"
+          },
+          "oracle": null,
+          "value": null,
+          "verification": {
+            "method": "editorial_reasoning_review"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "변곡점을 구하고 오목성 변화를 설명하라.",
+            "en": "Find the inflection point and explain the concavity change."
+          },
+          "solution": {
+            "ko": "$f^{\\prime\\prime}=6x-12$는 $x=2$에서 음수에서 양수로 바뀐다. $f(2)=3$이므로 변곡점은 $(2,3)$이다.",
+            "en": "The second derivative $6x-12$ changes from negative to positive at $2$. Since $f(2)=3$, the point is $(2,3)$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "둘째 도함수 1점; 부호변화 1점; 좌표 1점",
+            "en": "Second derivative 1; sign change 1; coordinates 1"
+          },
+          "oracle": "(x**3-6*x**2+9*x+1).subs(x,2)",
+          "value": "3",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "3"
+          }
+        }
+      ],
+      "figure": null,
+      "table": null
+    },
+    {
+      "id": "U5-F02",
+      "unit": 5,
+      "skill": "Box optimization",
+      "type": "FRQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "한 변이 $18$ cm인 정사각형 종이의 네 모서리에서 한 변 $x$ cm인 정사각형을 잘라내고 접어 뚜껑 없는 상자를 만든다.",
+        "en": "Cut squares of side $x$ cm from each corner of an $18$ cm square sheet and fold an open-top box."
+      },
+      "parts": [
+        {
+          "prompt": {
+            "ko": "부피함수와 물리적으로 가능한 $x$의 범위를 쓰라.",
+            "en": "Write the volume function and physically feasible domain."
+          },
+          "solution": {
+            "ko": "$V=x(18-2x)^2$이고 양의 높이와 밑변을 위해 $0<x<9$이다.",
+            "en": "The volume is $V=x(18-2x)^2$ on $0<x<9$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "높이 x 1점; 두 밑변과 부피식 1점; 정의역 1점",
+            "en": "Height 1; base dimensions and volume 1; domain 1"
+          },
+          "oracle": null,
+          "value": null,
+          "verification": {
+            "method": "editorial_reasoning_review"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "최대 부피를 만드는 $x$와 그 부피를 근거와 함께 구하라.",
+            "en": "Justify the maximizing cut size and find the maximum volume."
+          },
+          "solution": {
+            "ko": "$V\\prime=(18-2x)(18-6x)$이다. 정의역 내부의 임계수는 $3$이고 양에서 음으로 바뀐다. 양 끝 경계에서 부피는 $0$으로 가므로 최대는 $V(3)=432$ cm$^3$이다.",
+            "en": "The derivative is $(18-2x)(18-6x)$. Its interior critical number $3$ changes derivative sign from positive to negative; boundary volumes tend to zero. Thus the maximum is $432$ cm$^3$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "도함수와 x=3 1점; 최대 근거 1점; 부피와 단위 1점",
+            "en": "Derivative and critical point 1; maximum justification 1; volume and units 1"
+          },
+          "oracle": "(x*(18-2*x)**2).subs(x,3)",
+          "value": "432",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "432"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "제작 장비 때문에 $0<x\\le2$로 제한되면 최대 부피는?",
+            "en": "If equipment restricts cuts to $0<x\\le2$, what is the maximum volume?"
+          },
+          "solution": {
+            "ko": "이 구간에서 $V\\prime>0$이므로 오른쪽 끝 $x=2$에서 최대이다. 부피는 $2(14)^2=392$ cm$^3$이다.",
+            "en": "The volume increases throughout the restricted interval, so the maximum is at $x=2$, giving $392$ cm$^3$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "새 정의역 1점; 증가 근거와 끝점 1점; 부피 1점",
+            "en": "Restricted domain 1; increasing and endpoint 1; volume 1"
+          },
+          "oracle": "(x*(18-2*x)**2).subs(x,2)",
+          "value": "392",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "392"
+          }
+        }
+      ],
+      "figure": null,
+      "table": null
+    },
+    {
+      "id": "U6-F01",
+      "unit": 6,
+      "skill": "Accumulation from a graph",
+      "type": "FRQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "그림은 $f$의 그래프이다. $F(x)=1+\\int_0^x f(t)\\,dt$로 정의하고 $0\\le x\\le4$로 제한한다.",
+        "en": "The graph shows $f$. Define $F(x)=1+\\int_0^x f(t)\\,dt$ on $0\\le x\\le4$."
+      },
+      "parts": [
+        {
+          "prompt": {
+            "ko": "$F(3)$과 $F(4)$를 구하라.",
+            "en": "Find $F(3)$ and $F(4)$."
+          },
+          "solution": {
+            "ko": "$[0,3]$의 양의 삼각형 넓이는 $3$이고 $[3,4]$의 음의 삼각형 기여는 $-1$이다. 따라서 $F(3)=4$, $F(4)=3$이다.",
+            "en": "The positive area is $3$ and the final negative triangle contributes $-1$. Hence $F(3)=4,F(4)=3$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "양의 넓이 1점; 음의 기여 1점; 초기값 포함 두 값 1점",
+            "en": "Positive area 1; negative contribution 1; both values with initial constant 1"
+          },
+          "oracle": null,
+          "value": null,
+          "verification": {
+            "method": "editorial_reasoning_review"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "$F\\prime(2)$와 $F^{\\prime\\prime}(2)$를 구하라.",
+            "en": "Find $F\\prime(2)$ and $F^{\\prime\\prime}(2)$."
+          },
+          "solution": {
+            "ko": "$F\\prime=f$이므로 $F\\prime(2)=1$이다. 해당 선분 기울기는 $-1$이므로 $F^{\\prime\\prime}(2)=-1$이다.",
+            "en": "FTC gives $F\\prime(2)=f(2)=1$ and $F^{\\prime\\prime}(2)=f\\prime(2)=-1$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "기본정리 연결 1점; 함수 높이 1점; 그래프 기울기 1점",
+            "en": "FTC connection 1; graph height 1; graph slope 1"
+          },
+          "oracle": null,
+          "value": null,
+          "verification": {
+            "method": "editorial_reasoning_review"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "$F$의 절대최댓값과 그 위치를 근거와 함께 구하라.",
+            "en": "Justify the absolute maximum of $F$ and its location."
+          },
+          "solution": {
+            "ko": "$f>0$인 $(0,3)$에서 $F$는 증가하고 $f<0$인 $(3,4)$에서 감소한다. 따라서 $x=3$에서 절대최댓값 $4$를 가진다.",
+            "en": "Because $F\\prime=f$, $F$ increases before $3$ and decreases afterward. Its absolute maximum is $4$ at $3$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "도함수 연결 1점; 부호에 따른 증감 1점; 위치와 최댓값 1점",
+            "en": "Derivative connection 1; sign-based monotonicity 1; location and value 1"
+          },
+          "oracle": null,
+          "value": null,
+          "verification": {
+            "method": "editorial_reasoning_review"
+          }
+        }
+      ],
+      "figure": "accumulation",
+      "table": null
+    },
+    {
+      "id": "U6-F02",
+      "unit": 6,
+      "skill": "Tabular integration and units",
+      "type": "FRQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$r(t)$는 물의 유입률(L/min)이다. 처음에 물이 $20$ L 있다. 표에 없는 시간에도 $r$는 연속이며, 구간 전체에서 물은 유입만 된다.",
+        "en": "$r(t)$ is inflow in liters per minute. Initially a tank contains $20$ liters. Assume $r$ is continuous and water only enters."
+      },
+      "parts": [
+        {
+          "prompt": {
+            "ko": "표의 세 구간에 대해 왼쪽 리만합으로 $\\int_0^6r(t)\\,dt$를 추정하라.",
+            "en": "Estimate $\\int_0^6r(t)\\,dt$ with a left Riemann sum on the three tabulated intervals."
+          },
+          "solution": {
+            "ko": "$2\\cdot3+3\\cdot5+1\\cdot4=25$ L이다. 구간 폭은 각각 $2,3,1$이다.",
+            "en": "The unequal-width sum is $2(3)+3(5)+1(4)=25$ liters."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "각 구간 폭 1점; 왼쪽 높이 선택 1점; 합과 단위 1점",
+            "en": "Interval widths 1; left heights 1; result and units 1"
+          },
+          "oracle": "2*3+3*5+1*4",
+          "value": "25",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "25"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "같은 구간들에 사다리꼴합을 사용하라.",
+            "en": "Use trapezoids over the same intervals."
+          },
+          "solution": {
+            "ko": "$2(3+5)/2+3(5+4)/2+(4+7)/2=27$ L이다.",
+            "en": "The trapezoidal estimate is $8+13.5+5.5=27$ liters."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "평균 높이들 1점; 폭 적용 1점; 결과와 단위 1점",
+            "en": "Averaged heights 1; apply widths 1; result and units 1"
+          },
+          "oracle": "2*Rational(3+5,2)+3*Rational(5+4,2)+Rational(4+7,2)",
+          "value": "27",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "27"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "(b)로 $t=6$의 물의 양과 $[0,6]$에서 평균유입률을 추정하라.",
+            "en": "Use (b) to estimate volume at $6$ and average inflow on $[0,6]$."
+          },
+          "solution": {
+            "ko": "물의 양은 $20+27=47$ L, 평균유입률은 $27/6=4.5$ L/min이다.",
+            "en": "Estimated final volume is $47$ liters and average inflow is $4.5$ liters per minute."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "초기량 더하기 1점; 구간 길이로 나눔 1점; 두 단위 1점",
+            "en": "Add initial amount 1; divide by duration 1; both units 1"
+          },
+          "oracle": null,
+          "value": null,
+          "verification": {
+            "method": "editorial_reasoning_review"
+          }
+        }
+      ],
+      "figure": null,
+      "table": {
+        "headers": [
+          "t",
+          "r(t)"
+        ],
+        "rows": [
+          [
+            "0",
+            "3"
+          ],
+          [
+            "2",
+            "5"
+          ],
+          [
+            "5",
+            "4"
+          ],
+          [
+            "6",
+            "7"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "U7-F01",
+      "unit": 7,
+      "skill": "Separation and concavity",
+      "type": "FRQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$y\\prime=x(y-1)$이고 $y(0)=3$이다.",
+        "en": "Consider $y\\prime=x(y-1)$ with $y(0)=3$."
+      },
+      "parts": [
+        {
+          "prompt": {
+            "ko": "기울기가 0인 점들의 집합을 설명하고 초기점의 접선 기울기를 구하라.",
+            "en": "Describe where the slope field has zero slope and find the initial tangent slope."
+          },
+          "solution": {
+            "ko": "$x(y-1)=0$이므로 $x=0$ 또는 $y=1$에서 기울기가 0이다. 초기점 $(0,3)$의 기울기도 $0$이다.",
+            "en": "Zero slope occurs when $x=0$ or $y=1$. The initial point therefore has slope $0$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "x=0 1점; y=1 1점; 초기 기울기 1점",
+            "en": "Vertical zero-slope line 1; horizontal line 1; initial slope 1"
+          },
+          "oracle": null,
+          "value": null,
+          "verification": {
+            "method": "editorial_reasoning_review"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "초기조건을 만족하는 해를 구하라.",
+            "en": "Solve the initial-value problem."
+          },
+          "solution": {
+            "ko": "$dy/(y-1)=x\\,dx$이므로 $\\ln|y-1|=x^2/2+C$이다. $y(0)=3$으로부터 $y=1+2e^{x^2/2}$이다.",
+            "en": "Separate and integrate to get $y-1=Ce^{x^2/2}$. The initial value gives $C=2$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "변수분리 1점; 적분과 상수 결정 1점; 명시적 해 1점",
+            "en": "Separation 1; integration and constant 1; explicit solution 1"
+          },
+          "oracle": "diff(1+2*exp(x**2/2),x)-x*((1+2*exp(x**2/2))-1)",
+          "value": "0",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "0"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "이 해의 오목성을 모든 실수에서 설명하라.",
+            "en": "Determine the solution concavity on the real line."
+          },
+          "solution": {
+            "ko": "$y^{\\prime\\prime}=(y-1)+xy\\prime=(y-1)(1+x^2)$이다. 해에서 $y-1>0$이므로 모든 실수에서 위로 오목하다.",
+            "en": "Differentiating gives $y^{\\prime\\prime}=(y-1)(1+x^2)$. Both factors are positive on this solution, so it is concave up everywhere."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "다시 미분 1점; 식 정리 1점; 양의 부호와 결론 1점",
+            "en": "Differentiate again 1; simplify 1; sign and conclusion 1"
+          },
+          "oracle": null,
+          "value": null,
+          "verification": {
+            "method": "editorial_reasoning_review"
+          }
+        }
+      ],
+      "figure": null,
+      "table": null
+    },
+    {
+      "id": "U7-F02",
+      "unit": 7,
+      "skill": "Temperature model",
+      "type": "FRQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "물체의 온도는 $T\\prime=-k(T-18)$, $k>0$을 만족한다. $T(0)=82$, $T(10)=50$이며 시간은 분, 온도는 섭씨이다.",
+        "en": "Temperature satisfies $T\\prime=-k(T-18)$ with $k>0$, $T(0)=82$, and $T(10)=50$. Time is in minutes and temperature in degrees Celsius."
+      },
+      "parts": [
+        {
+          "prompt": {
+            "ko": "$T$를 $k,t$로 나타내라.",
+            "en": "Express $T$ in terms of $k,t$."
+          },
+          "solution": {
+            "ko": "$T-18=Ce^{-kt}$이고 초기조건으로 $C=64$이다. $T=18+64e^{-kt}$이다.",
+            "en": "Solving gives $T-18=Ce^{-kt}$. The initial condition sets $C=64$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "지수 형태 1점; 기준온도 반영 1점; 초기 상수 1점",
+            "en": "Exponential form 1; baseline temperature 1; initial constant 1"
+          },
+          "oracle": null,
+          "value": null,
+          "verification": {
+            "method": "editorial_reasoning_review"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "$k$를 정확히 구하라.",
+            "en": "Find the exact value of $k$."
+          },
+          "solution": {
+            "ko": "$50=18+64e^{-10k}$에서 $e^{-10k}=1/2$이므로 $k=(\\ln2)/10$이다.",
+            "en": "The measurement gives $e^{-10k}=1/2$, so $k=(\\ln2)/10$ per minute."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "측정값 대입 1점; 로그를 취함 1점; k와 단위 1점",
+            "en": "Substitute measurement 1; logarithm 1; k and units 1"
+          },
+          "oracle": "-log(Rational(1,2))/10",
+          "value": "log(2)/10",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "log(2)/10"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "온도가 $26$이 되는 시각을 구하라.",
+            "en": "Find the time when temperature reaches $26$."
+          },
+          "solution": {
+            "ko": "주변온도와의 차이는 $8$로 처음 $64$의 $1/8$이다. 반감기 $10$분이 세 번 지나므로 $t=30$분이다.",
+            "en": "The excess temperature falls from $64$ to $8$, or three halvings. Thus $t=30$ minutes."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "온도차 비율 1점; 지수식 또는 반감기 풀이 1점; 시각과 단위 1점",
+            "en": "Excess-temperature ratio 1; exponential or half-life solution 1; time and units 1"
+          },
+          "oracle": "-log(Rational(8,64))/(log(2)/10)",
+          "value": "30",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "10*log(8)/log(2)"
+          }
+        }
+      ],
+      "figure": null,
+      "table": null
+    },
+    {
+      "id": "U8-F01",
+      "unit": 8,
+      "skill": "Distance and position extrema",
+      "type": "FRQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$v(t)=(t-1)(t-3)$ m/s, $s(0)=2$ m이고 $0\\le t\\le4$이다.",
+        "en": "A particle has $v(t)=(t-1)(t-3)$ m/s, $s(0)=2$ meters, and $0\\le t\\le4$."
+      },
+      "parts": [
+        {
+          "prompt": {
+            "ko": "$s(4)$를 구하라.",
+            "en": "Find $s(4)$."
+          },
+          "solution": {
+            "ko": "변위는 $\\int_0^4(t^2-4t+3)\\,dt=4/3$이다. 초기위치를 더해 $s(4)=10/3$ m이다.",
+            "en": "Displacement is $4/3$, so adding the initial position gives $s(4)=10/3$ meters."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "속도 적분 1점; 변위 계산 1점; 초기위치와 단위 1점",
+            "en": "Velocity integral 1; displacement 1; initial position and units 1"
+          },
+          "oracle": "2+integrate((t-1)*(t-3),(t,0,4))",
+          "value": "10/3",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "10/3"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "총 이동거리를 구하라.",
+            "en": "Find total distance traveled."
+          },
+          "solution": {
+            "ko": "속도는 $+,-,+$의 부호를 가지며 $1,3$에서 바뀐다. 세 구간 절댓값 적분의 합은 $4/3+4/3+4/3=4$ m이다.",
+            "en": "Split at $1,3$ and sum absolute signed integrals: $4/3+4/3+4/3=4$ meters."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "영점과 부호 1점; 절댓값 구간 분할 1점; 거리와 단위 1점",
+            "en": "Zeros and signs 1; absolute-value split 1; distance and units 1"
+          },
+          "oracle": "integrate((t-1)*(t-3),(t,0,1))-integrate((t-1)*(t-3),(t,1,3))+integrate((t-1)*(t-3),(t,3,4))",
+          "value": "4",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "4"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "$s$의 절대최댓값 및 모든 달성 시각을 구하라.",
+            "en": "Find the absolute maximum position and all times attaining it."
+          },
+          "solution": {
+            "ko": "후보 $t=0,1,3,4$에서 위치는 각각 $2,10/3,2,10/3$이다. 최대위치는 $10/3$ m이고 시각은 $t=1,4$이다.",
+            "en": "At candidate times $0,1,3,4$, positions are $2,10/3,2,10/3$. The maximum $10/3$ occurs at $1$ and $4$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "끝점 포함 후보 1점; 위치 비교 1점; 최댓값과 모든 시각 1점",
+            "en": "Candidates including endpoints 1; position comparison 1; value and all times 1"
+          },
+          "oracle": null,
+          "value": null,
+          "verification": {
+            "method": "editorial_reasoning_review"
+          }
+        }
+      ],
+      "figure": null,
+      "table": null
+    },
+    {
+      "id": "U8-F02",
+      "unit": 8,
+      "skill": "Area and two rotation axes",
+      "type": "FRQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$R$은 $y=x$와 $y=x^2$로 둘러싸인 유계영역이다.",
+        "en": "Let $R$ be the bounded region between $y=x$ and $y=x^2$."
+      },
+      "parts": [
+        {
+          "prompt": {
+            "ko": "교점과 영역의 넓이를 구하라.",
+            "en": "Find the intersection inputs and area."
+          },
+          "solution": {
+            "ko": "교점 입력은 $0,1$이다. 넓이는 $\\int_0^1(x-x^2)\\,dx=1/6$이다.",
+            "en": "Intersections occur at $0,1$ and area is $\\int_0^1(x-x^2)\\,dx=1/6$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "교점 1점; 위아래 순서와 적분 1점; 넓이 1점",
+            "en": "Intersections 1; ordered integrand 1; area 1"
+          },
+          "oracle": "integrate(x-x**2,(x,0,1))",
+          "value": "1/6",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "1/6"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "$R$을 $x$축 둘레로 회전한 부피를 구하라.",
+            "en": "Find the volume when $R$ revolves about the $x$-axis."
+          },
+          "solution": {
+            "ko": "$R_{out}=x$, $R_{in}=x^2$이다. $V=\\pi\\int_0^1(x^2-x^4)\\,dx=2\\pi/15$이다.",
+            "en": "Outer and inner radii are $x$ and $x^2$. The washer integral is $2\\pi/15$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "반지름 두 개 1점; 제곱의 차 적분 1점; 부피 1점",
+            "en": "Both radii 1; difference-of-squares integral 1; volume 1"
+          },
+          "oracle": "pi*integrate(x**2-x**4,(x,0,1))",
+          "value": "2*pi/15",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "2*pi/15"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "$R$을 직선 $y=2$ 둘레로 회전한 부피를 구하라.",
+            "en": "Find the volume when $R$ revolves about $y=2$."
+          },
+          "solution": {
+            "ko": "바깥 반지름은 $2-x^2$, 안쪽은 $2-x$이다. $V=\\pi\\int_0^1((2-x^2)^2-(2-x)^2)\\,dx=8\\pi/15$이다.",
+            "en": "The outer radius is $2-x^2$ and inner radius is $2-x$. The washer integral evaluates to $8\\pi/15$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "이동한 축까지 거리 1점; 와셔 적분 1점; 계산 1점",
+            "en": "Distances from shifted axis 1; washer integral 1; evaluation 1"
+          },
+          "oracle": "pi*integrate((2-x**2)**2-(2-x)**2,(x,0,1))",
+          "value": "8*pi/15",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "8*pi/15"
+          }
+        }
+      ],
+      "figure": "area",
+      "table": null
+    },
+    {
+      "id": "E01",
+      "unit": 1,
+      "skill": "Conjugate limit",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$\\lim_{x\\to4}(\\sqrt{x+5}-3)/(x-4)$를 구하라.",
+        "en": "Evaluate $\\lim_{x\\to4}(\\sqrt{x+5}-3)/(x-4)$."
+      },
+      "choices": [
+        {
+          "value": "1/3"
+        },
+        {
+          "value": "1/6"
+        },
+        {
+          "value": "0"
+        },
+        {
+          "value": "3"
+        }
+      ],
+      "answer": 1,
+      "solution": {
+        "ko": "켤레식으로 유리화하면 $1/(\\sqrt{x+5}+3)$이므로 극한은 $1/6$이다.",
+        "en": "Rationalize to get $1/(\\sqrt{x+5}+3)$."
+      },
+      "oracle": "limit((sqrt(x+5)-3)/(x-4),x,4)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "1/6",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "E02",
+      "unit": 2,
+      "skill": "Basic derivatives",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$f(x)=e^x+x^{-2}$일 때 $f\\prime(1)$은?",
+        "en": "For $f(x)=e^x+x^{-2}$, find $f\\prime(1)$."
+      },
+      "choices": [
+        {
+          "value": "exp(1)"
+        },
+        {
+          "value": "exp(1)-2"
+        },
+        {
+          "value": "exp(1)-1"
+        },
+        {
+          "value": "exp(1)+2"
+        }
+      ],
+      "answer": 1,
+      "solution": {
+        "ko": "$f\\prime=e^x-2x^{-3}$이다.",
+        "en": "Apply the exponential and power rules."
+      },
+      "oracle": "diff(exp(x)+x**(-2),x).subs(x,1)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "-2 + E",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "E03",
+      "unit": 3,
+      "skill": "Implicit slope",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$xy+y^2=6$ 위의 점 $(1,2)$에서 접선 기울기는?",
+        "en": "Find the tangent slope at $(1,2)$ on $xy+y^2=6$."
+      },
+      "choices": [
+        {
+          "value": "-2/5"
+        },
+        {
+          "value": "-5/2"
+        },
+        {
+          "value": "-1/2"
+        },
+        {
+          "value": "2/5"
+        }
+      ],
+      "answer": 0,
+      "solution": {
+        "ko": "$y+(x+2y)y\\prime=0$이므로 $y\\prime=-2/5$이다.",
+        "en": "Differentiate implicitly and substitute the point."
+      },
+      "oracle": "(-y/(x+2*y)).subs({x:1,y:2})",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "-2/5",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "E04",
+      "unit": 4,
+      "skill": "Rate interpretation",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$T(t)$는 섭씨 온도이고 $t$는 분이다. $T\\prime(5)=3.2$는 무엇을 뜻하는가?",
+        "en": "$T(t)$ is degrees Celsius and $t$ is minutes. What does $T\\prime(5)=3.2$ mean?"
+      },
+      "choices": [
+        {
+          "text": {
+            "ko": "$5$분 동안 $3.2$도 올랐다",
+            "en": "It rose $3.2$ degrees over five minutes"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "온도 증가율이 분당 $3.2$씩 증가한다",
+            "en": "The temperature rate increases by $3.2$ each minute"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "$5$분일 때 온도가 $3.2$도이다",
+            "en": "The temperature at minute $5$ is $3.2$ degrees"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "$5$분일 때 온도가 분당 $3.2$도씩 오른다",
+            "en": "At minute $5$, temperature rises at $3.2$ degrees per minute"
+          },
+          "value": null
+        }
+      ],
+      "answer": 3,
+      "solution": {
+        "ko": "일차 도함수는 그 순간의 온도 변화율이다.",
+        "en": "The first derivative gives instantaneous temperature rate."
+      },
+      "oracle": null,
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "editorial_reasoning_review"
+      }
+    },
+    {
+      "id": "E05",
+      "unit": 5,
+      "skill": "MVT with logarithms",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$f(x)=\\ln x$의 $[1,e^2]$에서 평균값정리를 만족하는 $c$는?",
+        "en": "For $f(x)=\\ln x$ on $[1,e^2]$, find the MVT point $c$."
+      },
+      "choices": [
+        {
+          "value": "2/(exp(2)-1)"
+        },
+        {
+          "value": "(exp(2)+1)/2"
+        },
+        {
+          "value": "exp(1)"
+        },
+        {
+          "value": "(exp(2)-1)/2"
+        }
+      ],
+      "answer": 3,
+      "solution": {
+        "ko": "$1/c=2/(e^2-1)$을 풀면 $c=(e^2-1)/2$이다. 이 함수는 필요한 구간에서 연속이고 미분가능하다.",
+        "en": "Set the derivative $1/c$ equal to the average rate $2/(e^2-1)$."
+      },
+      "oracle": "(exp(2)-1)/2",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "-1/2 + exp(2)/2",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "E06",
+      "unit": 6,
+      "skill": "Symmetric integration",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$\\int_{-1}^1(3x^2+2x)\\,dx$는?",
+        "en": "Evaluate $\\int_{-1}^1(3x^2+2x)\\,dx$."
+      },
+      "choices": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "0"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "6"
+        }
+      ],
+      "answer": 2,
+      "solution": {
+        "ko": "홀함수 부분은 상쇄되고 짝함수 부분의 적분은 $2$이다.",
+        "en": "The odd term integrates to zero and the even term contributes $2$."
+      },
+      "oracle": "integrate(3*x**2+2*x,(x,-1,1))",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "2",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "E07",
+      "unit": 7,
+      "skill": "Exponential solution",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$y\\prime=2y$, $y(0)=5$일 때 $y(1)$은?",
+        "en": "If $y\\prime=2y$ and $y(0)=5$, find $y(1)$."
+      },
+      "choices": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "5*exp(2)"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "5*exp(1)"
+        }
+      ],
+      "answer": 1,
+      "solution": {
+        "ko": "$y=5e^{2x}$이므로 값은 $5e^2$이다.",
+        "en": "Solve the exponential initial-value problem."
+      },
+      "oracle": "(5*exp(2*x)).subs(x,1)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "5*exp(2)",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "E08",
+      "unit": 8,
+      "skill": "Area from intersections",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$y=2x-x^2$와 $x$축으로 둘러싸인 넓이는?",
+        "en": "Find the area bounded by $y=2x-x^2$ and the $x$-axis."
+      },
+      "choices": [
+        {
+          "value": "2/3"
+        },
+        {
+          "value": "8/3"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "4/3"
+        }
+      ],
+      "answer": 3,
+      "solution": {
+        "ko": "영점 $0,2$ 사이에서 함수는 양수이므로 적분은 $4/3$이다.",
+        "en": "Integrate the positive function from $0$ to $2$."
+      },
+      "oracle": "integrate(2*x-x**2,(x,0,2))",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "4/3",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "E09",
+      "unit": 1,
+      "skill": "Infinite limit",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$\\lim_{x\\to2}1/(x-2)^2$는?",
+        "en": "Evaluate $\\lim_{x\\to2}1/(x-2)^2$."
+      },
+      "choices": [
+        {
+          "value": "0"
+        },
+        {
+          "value": "oo"
+        },
+        {
+          "value": "-oo"
+        },
+        {
+          "value": "1"
+        }
+      ],
+      "answer": 1,
+      "solution": {
+        "ko": "양쪽에서 분모가 양수로 0에 가까워져 양의 무한대로 발산한다.",
+        "en": "The denominator tends to zero through positive values from both sides."
+      },
+      "oracle": "limit(1/(x-2)**2,x,2)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "oo",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "E10",
+      "unit": 2,
+      "skill": "Table derivative",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$x=1,2,3$에서 $f(x)=5,8,15$이다. $x=1,3$으로 $f\\prime(2)$를 추정하면?",
+        "en": "At $x=1,2,3$, $f(x)=5,8,15$. Estimate $f\\prime(2)$ using $x=1,3$."
+      },
+      "choices": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "7"
+        }
+      ],
+      "answer": 2,
+      "solution": {
+        "ko": "$(15-5)/(3-1)=5$이다.",
+        "en": "Take the centered secant slope."
+      },
+      "oracle": "Rational(15-5,3-1)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "5",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "E11",
+      "unit": 3,
+      "skill": "Arcsine chain rule",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$f(x)=\\arcsin(x/2)$일 때 $f\\prime(1)$은?",
+        "en": "For $f(x)=\\arcsin(x/2)$, find $f\\prime(1)$."
+      },
+      "choices": [
+        {
+          "value": "2/sqrt(3)"
+        },
+        {
+          "value": "sqrt(3)"
+        },
+        {
+          "value": "1/2"
+        },
+        {
+          "value": "1/sqrt(3)"
+        }
+      ],
+      "answer": 3,
+      "solution": {
+        "ko": "$f\\prime=(1/2)/\\sqrt{1-x^2/4}$에 대입한다.",
+        "en": "Include the inner derivative $1/2$."
+      },
+      "oracle": "diff(asin(x/2),x).subs(x,1)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "sqrt(3)/3",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "E12",
+      "unit": 4,
+      "skill": "Indeterminate form",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$\\lim_{x\\to0}\\ln(1+3x)/\\sin(2x)$는?",
+        "en": "Evaluate $\\lim_{x\\to0}\\ln(1+3x)/\\sin(2x)$."
+      },
+      "choices": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        },
+        {
+          "value": "3/2"
+        },
+        {
+          "value": "2/3"
+        }
+      ],
+      "answer": 2,
+      "solution": {
+        "ko": "$0/0$형에서 로피탈의 정리를 적용하면 $3/2$이다.",
+        "en": "Apply L Hospital rule after checking the $0/0$ form."
+      },
+      "oracle": "limit(log(1+3*x)/sin(2*x),x,0)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "3/2",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "E13",
+      "unit": 5,
+      "skill": "Derivative graph concavity",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "그림은 $f\\prime$의 그래프이다. $f$가 위로 오목한 열린 구간은?",
+        "en": "The graph shows $f\\prime$. On which open intervals is $f$ concave up?"
+      },
+      "choices": [
+        {
+          "text": {
+            "ko": "$(1,3)$",
+            "en": "$(1,3)$"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "$(0,2)$",
+            "en": "$(0,2)$"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "$(2,4)$",
+            "en": "$(2,4)$"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "$(0,1)$과 $(3,4)$",
+            "en": "$(0,1)$ and $(3,4)$"
+          },
+          "value": null
+        }
+      ],
+      "answer": 3,
+      "solution": {
+        "ko": "$f\\prime$가 증가하는 두 구간에서 $f^{\\prime\\prime}>0$이다.",
+        "en": "Concavity is positive where the first derivative increases."
+      },
+      "oracle": null,
+      "figure": "derivative",
+      "table": null,
+      "verification": {
+        "method": "editorial_reasoning_review"
+      }
+    },
+    {
+      "id": "E14",
+      "unit": 6,
+      "skill": "Riemann notation",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$\\lim_{n\\to\\infty}\\sum_{i=1}^n(2/n)(1+2i/n)^2$는?",
+        "en": "Evaluate $\\lim_{n\\to\\infty}\\sum_{i=1}^n(2/n)(1+2i/n)^2$."
+      },
+      "choices": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "8/3"
+        },
+        {
+          "value": "26/3"
+        },
+        {
+          "value": "13/3"
+        }
+      ],
+      "answer": 2,
+      "solution": {
+        "ko": "구간 $[1,3]$에서 $x^2$의 적분이므로 $26/3$이다.",
+        "en": "This is $\\int_1^3x^2\\,dx$."
+      },
+      "oracle": "integrate(x**2,(x,1,3))",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "26/3",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "E15",
+      "unit": 7,
+      "skill": "Lost equilibrium",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$y\\prime=x(y+4)$를 변수분리하며 $y+4$로 나누었다. 따로 확인해야 하는 상수해는?",
+        "en": "When separating $y\\prime=x(y+4)$, one divides by $y+4$. Which constant solution must be checked separately?"
+      },
+      "choices": [
+        {
+          "value": "0"
+        },
+        {
+          "value": "-4"
+        },
+        {
+          "value": "-x"
+        },
+        {
+          "value": "4"
+        }
+      ],
+      "answer": 1,
+      "solution": {
+        "ko": "$y=-4$는 양변을 0으로 만들고 나눗셈 과정에서 제외되었다.",
+        "en": "The constant $-4$ satisfies the original equation but is excluded by division."
+      },
+      "oracle": "solve(y+4,y)[0]",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "-4",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "E16",
+      "unit": 8,
+      "skill": "Trigonometric average",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$\\sin x$의 $[0,\\pi]$에서 평균값은?",
+        "en": "Find the average value of $\\sin x$ on $[0,\\pi]$."
+      },
+      "choices": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "pi/2"
+        },
+        {
+          "value": "2/pi"
+        }
+      ],
+      "answer": 3,
+      "solution": {
+        "ko": "적분 $2$를 구간 길이 $\\pi$로 나눈다.",
+        "en": "Divide the integral $2$ by the interval length $\\pi$."
+      },
+      "oracle": "integrate(sin(x),(x,0,pi))/pi",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "2/pi",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "E17",
+      "unit": 1,
+      "skill": "Existence argument",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$p(x)=x^3+2x-1$이다. $(0,1)$에 영점이 있다는 올바른 근거는?",
+        "en": "Which correctly justifies a zero of $p(x)=x^3+2x-1$ in $(0,1)$?"
+      },
+      "choices": [
+        {
+          "text": {
+            "ko": "연속이고 $p(0)=-1<0<2=p(1)$이므로 중간값정리",
+            "en": "Continuity and $p(0)=-1<0<2=p(1)$ allow IVT"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "$p(0)+p(1)>0$이기 때문이다",
+            "en": "Because $p(0)+p(1)>0$"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "끝점의 부호만 반대이면 연속성은 필요 없다",
+            "en": "Opposite endpoint signs suffice without continuity"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "모든 삼차식의 영점은 $(0,1)$에 있다",
+            "en": "Every cubic has a zero in $(0,1)$"
+          },
+          "value": null
+        }
+      ],
+      "answer": 0,
+      "solution": {
+        "ko": "다항함수의 연속성과 목표값을 사이에 두는 끝점 값이 모두 필요하다.",
+        "en": "Use polynomial continuity and endpoint values on opposite sides of zero."
+      },
+      "oracle": null,
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "editorial_reasoning_review"
+      }
+    },
+    {
+      "id": "E18",
+      "unit": 2,
+      "skill": "Product and trig",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$f(x)=x\\sin x$일 때 $f\\prime(\\pi)$는?",
+        "en": "For $f(x)=x\\sin x$, find $f\\prime(\\pi)$."
+      },
+      "choices": [
+        {
+          "value": "pi"
+        },
+        {
+          "value": "-1"
+        },
+        {
+          "value": "0"
+        },
+        {
+          "value": "-pi"
+        }
+      ],
+      "answer": 3,
+      "solution": {
+        "ko": "$f\\prime=\\sin x+x\\cos x$이므로 $-\\pi$이다.",
+        "en": "Apply the product rule before substituting."
+      },
+      "oracle": "diff(x*sin(x),x).subs(x,pi)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "-pi",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "E19",
+      "unit": 4,
+      "skill": "Cylindrical rate",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "반지름이 고정된 $2$ m 원통에서 물 높이가 $3$ m/min씩 증가한다. 부피 변화율은 몇 m$^3$/min인가?",
+        "en": "Water depth rises at $3$ m/min in a cylinder of fixed radius $2$ m. Find the volume rate in m$^3$/min."
+      },
+      "choices": [
+        {
+          "value": "24*pi"
+        },
+        {
+          "value": "12*pi"
+        },
+        {
+          "value": "4*pi"
+        },
+        {
+          "value": "6*pi"
+        }
+      ],
+      "answer": 1,
+      "solution": {
+        "ko": "$V=4\\pi h$이므로 $V\\prime=4\\pi\\cdot3=12\\pi$이다.",
+        "en": "Multiply the fixed cross-sectional area by the height rate."
+      },
+      "oracle": "pi*2**2*3",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "12*pi",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "E20",
+      "unit": 5,
+      "skill": "Candidate test",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$f(x)=x^4-4x^2$의 $[-2,2]$에서 절대최솟값은?",
+        "en": "Find the absolute minimum of $f(x)=x^4-4x^2$ on $[-2,2]$."
+      },
+      "choices": [
+        {
+          "value": "-4"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "0"
+        },
+        {
+          "value": "-8"
+        }
+      ],
+      "answer": 0,
+      "solution": {
+        "ko": "후보 $-2,-\\sqrt2,0,\\sqrt2,2$의 값을 비교하면 최소는 $-4$이다.",
+        "en": "Compare endpoints and critical numbers $0,\\pm\\sqrt2$."
+      },
+      "oracle": "min([(x**4-4*x**2).subs(x,a) for a in [-2,-sqrt(2),0,sqrt(2),2]])",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "-4",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "E21",
+      "unit": 6,
+      "skill": "Inverse trig integral",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$\\int_0^1 1/(1+x^2)\\,dx$는?",
+        "en": "Evaluate $\\int_0^1 1/(1+x^2)\\,dx$."
+      },
+      "choices": [
+        {
+          "value": "pi/4"
+        },
+        {
+          "value": "1/2"
+        },
+        {
+          "value": "pi/2"
+        },
+        {
+          "value": "log(2)"
+        }
+      ],
+      "answer": 0,
+      "solution": {
+        "ko": "원시함수는 $\\arctan x$이다.",
+        "en": "Use the arctangent antiderivative."
+      },
+      "oracle": "integrate(1/(1+x**2),(x,0,1))",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "pi/4",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "E22",
+      "unit": 8,
+      "skill": "Rotation about y axis",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$x=\\sqrt y$, $y$축, $y=4$가 둘러싼 영역을 $y$축 둘레로 회전한 부피는?",
+        "en": "Rotate the region bounded by $x=\\sqrt y$, the $y$-axis, and $y=4$ about the $y$-axis. Find the volume."
+      },
+      "choices": [
+        {
+          "value": "8*pi"
+        },
+        {
+          "value": "16*pi"
+        },
+        {
+          "value": "32*pi/3"
+        },
+        {
+          "value": "4*pi"
+        }
+      ],
+      "answer": 0,
+      "solution": {
+        "ko": "가로 원판을 쓰면 $V=\\pi\\int_0^4y\\,dy=8\\pi$이다.",
+        "en": "Use horizontal disks with radius $\\sqrt y$."
+      },
+      "oracle": "pi*integrate(y,(y,0,4))",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "8*pi",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "E23",
+      "unit": 1,
+      "skill": "Trigonometric limit",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$\\lim_{x\\to0}\\sin(5x)/(3x)$는?",
+        "en": "Evaluate $\\lim_{x\\to0}\\sin(5x)/(3x)$."
+      },
+      "choices": [
+        {
+          "value": "3/5"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "5/3"
+        },
+        {
+          "value": "0"
+        }
+      ],
+      "answer": 2,
+      "solution": {
+        "ko": "$5/3$을 밖으로 빼면 기본 삼각극한이 남는다.",
+        "en": "Factor out $5/3$ and use the standard sine limit."
+      },
+      "oracle": "limit(sin(5*x)/(3*x),x,0)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "5/3",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "E24",
+      "unit": 2,
+      "skill": "Piecewise differentiability",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$x<1$에서는 $f(x)=ax+b$, $x\\ge1$에서는 $f(x)=x^2$이다. $x=1$에서 미분가능할 때 $b$는?",
+        "en": "Let $f(x)=ax+b$ for $x<1$ and $f(x)=x^2$ for $x\\ge1$. If $f$ is differentiable at $1$, find $b$."
+      },
+      "choices": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "0"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "-1"
+        }
+      ],
+      "answer": 3,
+      "solution": {
+        "ko": "연속성으로 $a+b=1$, 기울기 일치로 $a=2$이다. 따라서 $b=-1$이다.",
+        "en": "Continuity requires $a+b=1$ and matching slopes require $a=2$."
+      },
+      "oracle": "1-diff(x**2,x).subs(x,1)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "-1",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "E25",
+      "unit": 5,
+      "skill": "Implicit concavity",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$y=\\sqrt{9-x^2}$의 $-3<x<3$에서 오목성은?",
+        "en": "What is the concavity of $y=\\sqrt{9-x^2}$ on $-3<x<3$?"
+      },
+      "choices": [
+        {
+          "text": {
+            "ko": "구간 전체에서 위로 오목하다",
+            "en": "Concave up throughout"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "$x=0$에서 오목성이 바뀐다",
+            "en": "Concavity changes at zero"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "선형이다",
+            "en": "Linear"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "구간 전체에서 아래로 오목하다",
+            "en": "Concave down throughout"
+          },
+          "value": null
+        }
+      ],
+      "answer": 3,
+      "solution": {
+        "ko": "$y^{\\prime\\prime}=-9/(9-x^2)^{3/2}<0$이다.",
+        "en": "The second derivative is $-9/(9-x^2)^{3/2}<0$."
+      },
+      "oracle": null,
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "editorial_reasoning_review"
+      }
+    },
+    {
+      "id": "E26",
+      "unit": 6,
+      "skill": "Completing the square",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$1/(x^2-2x+5)$의 한 원시함수는?",
+        "en": "Which is an antiderivative of $1/(x^2-2x+5)$?"
+      },
+      "choices": [
+        {
+          "value": "atan(x-1)"
+        },
+        {
+          "value": "log(x**2-2*x+5)"
+        },
+        {
+          "value": "2*atan((x-1)/2)"
+        },
+        {
+          "value": "atan((x-1)/2)/2"
+        }
+      ],
+      "answer": 3,
+      "solution": {
+        "ko": "분모를 $(x-1)^2+4$로 쓰면 $\\frac12\\arctan((x-1)/2)$이다. 미분해서 확인할 수 있다.",
+        "en": "Complete the square and use the scaled arctangent form."
+      },
+      "oracle": "integrate(1/(x**2-2*x+5),x)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "atan(x/2 - 1/2)/2",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "E27",
+      "unit": 8,
+      "skill": "Semicircular cross sections",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$0\\le x\\le2$에서 단면이 지름 $2-x$인 반원이다. 부피는?",
+        "en": "Cross sections are semicircles of diameter $2-x$ for $0\\le x\\le2$. Find the volume."
+      },
+      "choices": [
+        {
+          "value": "4*pi/3"
+        },
+        {
+          "value": "2*pi/3"
+        },
+        {
+          "value": "pi/3"
+        },
+        {
+          "value": "8/3"
+        }
+      ],
+      "answer": 2,
+      "solution": {
+        "ko": "단면 넓이는 $\\pi(2-x)^2/8$이다. 적분하면 $\\pi/3$이다.",
+        "en": "The cross-sectional area is $\\pi(2-x)^2/8$."
+      },
+      "oracle": "pi*integrate((2-x)**2,(x,0,2))/8",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "pi/3",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "E28",
+      "unit": 5,
+      "skill": "First derivative test",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$f\\prime(x)=x^2(x+1)$이다. 극값에 대한 옳은 설명은?",
+        "en": "If $f\\prime(x)=x^2(x+1)$, which statement about local extrema is correct?"
+      },
+      "choices": [
+        {
+          "text": {
+            "ko": "$x=-1$에서 극소이고 $x=0$에서는 극값이 없다",
+            "en": "A local minimum at $-1$ and no extremum at $0$"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "$x=-1$에서 극대이다",
+            "en": "There is a maximum at $-1$"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "두 점 모두 극소이다",
+            "en": "Both points are minima"
+          },
+          "value": null
+        },
+        {
+          "text": {
+            "ko": "$x=0$에서만 극대이다",
+            "en": "Only $0$ is a maximum"
+          },
+          "value": null
+        }
+      ],
+      "answer": 0,
+      "solution": {
+        "ko": "$-1$에서 부호가 음에서 양으로 바뀌고 $0$에서는 양의 부호가 유지된다.",
+        "en": "The derivative changes from negative to positive at $-1$ and stays positive across $0$."
+      },
+      "oracle": null,
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "editorial_reasoning_review"
+      }
+    },
+    {
+      "id": "E29",
+      "unit": 6,
+      "skill": "Two variable endpoints",
+      "type": "MCQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$F(x)=\\int_x^{2x}\\cos(t^2)\\,dt$일 때 $F\\prime(0)$은?",
+        "en": "If $F(x)=\\int_x^{2x}\\cos(t^2)\\,dt$, find $F\\prime(0)$."
+      },
+      "choices": [
+        {
+          "value": "0"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "-1"
+        }
+      ],
+      "answer": 1,
+      "solution": {
+        "ko": "$F\\prime(x)=2\\cos(4x^2)-\\cos(x^2)$이므로 $F\\prime(0)=1$이다.",
+        "en": "Apply FTC to both endpoints with their chain factors."
+      },
+      "oracle": "(2*cos(4*x**2)-cos(x**2)).subs(x,0)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "1",
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "id": "E30",
+      "unit": 1,
+      "skill": "Numerical zero",
+      "type": "MCQ",
+      "calculator": true,
+      "prompt": {
+        "ko": "$p(x)=x^3+x-4$의 $[1,2]$ 안의 영점을 세 자리 소수로 구하라.",
+        "en": "Find the zero of $p(x)=x^3+x-4$ in $[1,2]$ to three decimal places."
+      },
+      "choices": [
+        {
+          "value": "1.812"
+        },
+        {
+          "value": "1.379"
+        },
+        {
+          "value": "1.587"
+        },
+        {
+          "value": "1.213"
+        }
+      ],
+      "answer": 1,
+      "solution": {
+        "ko": "연속성과 끝점 부호로 해가 있고 $p\\prime=3x^2+1>0$이므로 유일하다. 수치적으로 $x=1.378796700\\ldots$이다.",
+        "en": "Continuity gives existence and a positive derivative gives uniqueness. Numerical solving gives $1.378796700\\ldots$."
+      },
+      "oracle": "nroot(x**3+x-4,x,1,2)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "1.37879670012955086014413323083994072250652771",
+        "tolerance": 0.0005000001
+      }
+    },
+    {
+      "id": "E31",
+      "unit": 2,
+      "skill": "Numerical product derivative",
+      "type": "MCQ",
+      "calculator": true,
+      "prompt": {
+        "ko": "$f(x)=x^2e^x$일 때 $f\\prime(0.7)$을 구하라.",
+        "en": "For $f(x)=x^2e^x$, find $f\\prime(0.7)$."
+      },
+      "choices": [
+        {
+          "value": "0.987"
+        },
+        {
+          "value": "3.806"
+        },
+        {
+          "value": "1.904"
+        },
+        {
+          "value": "2.819"
+        }
+      ],
+      "answer": 1,
+      "solution": {
+        "ko": "$f\\prime=e^x(x^2+2x)$를 계산하면 $3.805992617\\ldots$이다.",
+        "en": "Apply the product rule and evaluate $e^x(x^2+2x)$."
+      },
+      "oracle": "diff(x**2*exp(x),x).subs(x,Rational(7,10))",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "189*exp(7/10)/100",
+        "tolerance": 0.0005000001
+      }
+    },
+    {
+      "id": "E32",
+      "unit": 3,
+      "skill": "Numerical inverse slope",
+      "type": "MCQ",
+      "calculator": true,
+      "prompt": {
+        "ko": "$f(x)=x+e^x$, $g=f^{-1}$이다. $b=1.2+e^{1.2}$일 때 $g\\prime(b)$는?",
+        "en": "Let $f(x)=x+e^x$ and $g=f^{-1}$. If $b=1.2+e^{1.2}$, find $g\\prime(b)$."
+      },
+      "choices": [
+        {
+          "value": "0.432"
+        },
+        {
+          "value": "0.231"
+        },
+        {
+          "value": "4.320"
+        },
+        {
+          "value": "0.301"
+        }
+      ],
+      "answer": 1,
+      "solution": {
+        "ko": "대응 입력은 $1.2$이다. $g\\prime(b)=1/(1+e^{1.2})=0.231475216\\ldots$이다.",
+        "en": "Use the reciprocal of $f\\prime(1.2)$, not of $f\\prime(b)$."
+      },
+      "oracle": "1/(1+exp(Rational(6,5)))",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "1/(1 + exp(6/5))",
+        "tolerance": 0.0005000001
+      }
+    },
+    {
+      "id": "E33",
+      "unit": 4,
+      "skill": "Acceleration value",
+      "type": "MCQ",
+      "calculator": true,
+      "prompt": {
+        "ko": "$v(t)=\\sin(t^2)+0.2t$ m/s이다. $t=1.4$에서 가속도는 몇 m/s$^2$인가?",
+        "en": "If $v(t)=\\sin(t^2)+0.2t$ m/s, find acceleration at $t=1.4$ in m/s$^2$."
+      },
+      "choices": [
+        {
+          "value": "0.862"
+        },
+        {
+          "value": "-0.862"
+        },
+        {
+          "value": "-0.379"
+        },
+        {
+          "value": "1.205"
+        }
+      ],
+      "answer": 1,
+      "solution": {
+        "ko": "$a(t)=2t\\cos(t^2)+0.2$이므로 $a(1.4)=-0.862464941\\ldots$이다.",
+        "en": "Differentiate velocity before evaluating."
+      },
+      "oracle": "diff(sin(t**2)+t/5,t).subs(t,Rational(7,5))",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "14*cos(49/25)/5 + 1/5",
+        "tolerance": 0.0005000001
+      }
+    },
+    {
+      "id": "E34",
+      "unit": 5,
+      "skill": "Numerical optimization",
+      "type": "MCQ",
+      "calculator": true,
+      "prompt": {
+        "ko": "$f(x)=x^2+e^{-x}$가 $[0,2]$에서 절대최소를 갖는 $x$는?",
+        "en": "Where does $f(x)=x^2+e^{-x}$ attain its absolute minimum on $[0,2]$?"
+      },
+      "choices": [
+        {
+          "value": "0.693"
+        },
+        {
+          "value": "1.000"
+        },
+        {
+          "value": "1.256"
+        },
+        {
+          "value": "0.352"
+        }
+      ],
+      "answer": 3,
+      "solution": {
+        "ko": "$f\\prime=2x-e^{-x}=0$의 해는 $0.351733711\\ldots$이다. $f^{\\prime\\prime}=2+e^{-x}>0$이므로 구간에서 유일한 최소이다.",
+        "en": "Solve $2x-e^{-x}=0$. The positive second derivative confirms the unique minimum."
+      },
+      "oracle": "nroot(2*x-exp(-x),x,0,1)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "0.351733711249195826024909300929951065171464216",
+        "tolerance": 0.0005000001
+      }
+    },
+    {
+      "id": "E35",
+      "unit": 5,
+      "skill": "Numerical maximum value",
+      "type": "MCQ",
+      "calculator": true,
+      "prompt": {
+        "ko": "$f(x)=2\\sin x-x^2/2$의 $[0,\\pi]$에서 절대최댓값은?",
+        "en": "Find the absolute maximum value of $f(x)=2\\sin x-x^2/2$ on $[0,\\pi]$."
+      },
+      "choices": [
+        {
+          "value": "1.030"
+        },
+        {
+          "value": "2.000"
+        },
+        {
+          "value": "0.816"
+        },
+        {
+          "value": "1.184"
+        }
+      ],
+      "answer": 3,
+      "solution": {
+        "ko": "$f\\prime=2\\cos x-x=0$에서 $x=1.029866529\\ldots$이다. 끝점과 비교하면 최대 함숫값은 $1.184148003\\ldots$이다.",
+        "en": "The critical input is about $1.029866529$. Comparing with endpoints gives maximum value $1.184148003\\ldots$."
+      },
+      "oracle": "(2*sin(x)-x**2/2).subs(x,nroot(2*cos(x)-x,x,0,2))",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "1.18414800255588734352169978208739799286570281",
+        "tolerance": 0.0005000001
+      }
+    },
+    {
+      "id": "E36",
+      "unit": 6,
+      "skill": "Numerical definite integral",
+      "type": "MCQ",
+      "calculator": true,
+      "prompt": {
+        "ko": "$\\int_0^1e^{-x^2}\\,dx$를 구하라.",
+        "en": "Evaluate $\\int_0^1e^{-x^2}\\,dx$ numerically."
+      },
+      "choices": [
+        {
+          "value": "0.842"
+        },
+        {
+          "value": "0.632"
+        },
+        {
+          "value": "1.128"
+        },
+        {
+          "value": "0.747"
+        }
+      ],
+      "answer": 3,
+      "solution": {
+        "ko": "수치적분하면 $0.746824133\\ldots$이다. $e^{-x^2}$의 초등 원시함수를 억지로 만들지 않는다.",
+        "en": "Numerical integration gives $0.746824133\\ldots$; no elementary antiderivative is needed."
+      },
+      "oracle": "nint(exp(-x**2),x,0,1)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "0.746824132812427025399467436131853005354499687",
+        "tolerance": 0.0005000001
+      }
+    },
+    {
+      "id": "E37",
+      "unit": 6,
+      "skill": "Accumulation derivative value",
+      "type": "MCQ",
+      "calculator": true,
+      "prompt": {
+        "ko": "$F(x)=\\int_0^{\\ln x}e^{-t^2}\\,dt$일 때 $F\\prime(2)$는?",
+        "en": "For $F(x)=\\int_0^{\\ln x}e^{-t^2}\\,dt$, find $F\\prime(2)$."
+      },
+      "choices": [
+        {
+          "value": "0.240"
+        },
+        {
+          "value": "0.309"
+        },
+        {
+          "value": "0.619"
+        },
+        {
+          "value": "0.347"
+        }
+      ],
+      "answer": 1,
+      "solution": {
+        "ko": "$F\\prime(x)=e^{-(\\ln x)^2}/x$이므로 $0.309251569\\ldots$이다.",
+        "en": "Apply FTC and multiply by the derivative of the logarithmic endpoint."
+      },
+      "oracle": "exp(-log(2)**2)/2",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "exp(-log(2)**2)/2",
+        "tolerance": 0.0005000001
+      }
+    },
+    {
+      "id": "E38",
+      "unit": 6,
+      "skill": "Decimal trapezoids",
+      "type": "MCQ",
+      "calculator": true,
+      "prompt": {
+        "ko": "표의 세 구간에 사다리꼴합을 적용해 $\\int_0^2 f(x)\\,dx$를 추정하라.",
+        "en": "Use three trapezoids from the table to estimate $\\int_0^2f(x)\\,dx$."
+      },
+      "choices": [
+        {
+          "value": "3.450"
+        },
+        {
+          "value": "4.100"
+        },
+        {
+          "value": "3.800"
+        },
+        {
+          "value": "3.625"
+        }
+      ],
+      "answer": 3,
+      "solution": {
+        "ko": "$0.5(1+1.6)/2+1(1.6+2.1)/2+0.5(2.1+2.4)/2=3.625$이다.",
+        "en": "Use the separate widths $0.5,1,0.5$."
+      },
+      "oracle": "Rational(1,2)*Rational(26,10)/2+Rational(37,10)/2+Rational(1,2)*Rational(45,10)/2",
+      "figure": null,
+      "table": {
+        "headers": [
+          "x",
+          "f(x)"
+        ],
+        "rows": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0.5",
+            "1.6"
+          ],
+          [
+            "1.5",
+            "2.1"
+          ],
+          [
+            "2",
+            "2.4"
+          ]
+        ]
+      },
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "29/8",
+        "tolerance": 0.0005000001
+      }
+    },
+    {
+      "id": "E39",
+      "unit": 7,
+      "skill": "Time to a target",
+      "type": "MCQ",
+      "calculator": true,
+      "prompt": {
+        "ko": "$y\\prime=0.4(10-y)$, $y(0)=2$이다. 처음 $y=8$이 되는 시간은?",
+        "en": "If $y\\prime=0.4(10-y)$ and $y(0)=2$, when does $y$ first reach $8$?"
+      },
+      "choices": [
+        {
+          "value": "3.466"
+        },
+        {
+          "value": "1.733"
+        },
+        {
+          "value": "2.500"
+        },
+        {
+          "value": "5.198"
+        }
+      ],
+      "answer": 0,
+      "solution": {
+        "ko": "$y=10-8e^{-0.4t}$에서 $e^{-0.4t}=1/4$이므로 $t=(\\ln4)/0.4$이다.",
+        "en": "Solve the initial-value model, then solve the target equation."
+      },
+      "oracle": "log(4)/Rational(2,5)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "5*log(4)/2",
+        "tolerance": 0.0005000001
+      }
+    },
+    {
+      "id": "E40",
+      "unit": 8,
+      "skill": "Area with a numerical intersection",
+      "type": "MCQ",
+      "calculator": true,
+      "prompt": {
+        "ko": "$y=e^{-x}$, $y=x/2$, $y$축으로 둘러싸인 넓이는?",
+        "en": "Find the area enclosed by $y=e^{-x}$, $y=x/2$, and the $y$-axis."
+      },
+      "choices": [
+        {
+          "value": "0.574"
+        },
+        {
+          "value": "0.853"
+        },
+        {
+          "value": "0.608"
+        },
+        {
+          "value": "0.392"
+        }
+      ],
+      "answer": 3,
+      "solution": {
+        "ko": "교점은 $a=0.852605502\\ldots$이다. 넓이는 $\\int_0^a(e^{-x}-x/2)\\,dx=0.391963213\\ldots$이다.",
+        "en": "Find the intersection numerically, then integrate top minus bottom."
+      },
+      "oracle": "nint(exp(-x)-x/2,x,0,nroot(exp(-x)-x/2,x,0,2))",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "0.391963213477118038606888810843939081308776063",
+        "tolerance": 0.0005000001
+      }
+    },
+    {
+      "id": "E41",
+      "unit": 8,
+      "skill": "Numerical distance",
+      "type": "MCQ",
+      "calculator": true,
+      "prompt": {
+        "ko": "$v(t)=\\cos t-0.2$ m/s인 입자의 $[0,4]$에서 총 이동거리는 몇 m인가?",
+        "en": "For $v(t)=\\cos t-0.2$ m/s, find total distance on $[0,4]$ in meters."
+      },
+      "choices": [
+        {
+          "value": "3.517"
+        },
+        {
+          "value": "2.969"
+        },
+        {
+          "value": "0.757"
+        },
+        {
+          "value": "1.557"
+        }
+      ],
+      "answer": 1,
+      "solution": {
+        "ko": "부호는 $c=\\arccos(0.2)$에서 바뀐다. $\\int_0^c v\\,dt-\\int_c^4v\\,dt=2.968618927\\ldots$이다.",
+        "en": "Split the absolute-velocity integral at $c=\\arccos(0.2)$."
+      },
+      "oracle": "2*(sin(acos(Rational(1,5)))-acos(Rational(1,5))/5)-(sin(4)-Rational(4,5))",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "-2*acos(1/5)/5 - sin(4) + 4/5 + 4*sqrt(6)/5",
+        "tolerance": 0.0005000001
+      }
+    },
+    {
+      "id": "E42",
+      "unit": 4,
+      "skill": "Temperature rate",
+      "type": "MCQ",
+      "calculator": true,
+      "prompt": {
+        "ko": "$T(t)=20+80e^{-0.3t}$일 때 $T\\prime(4)$는?",
+        "en": "If $T(t)=20+80e^{-0.3t}$, find $T\\prime(4)$."
+      },
+      "choices": [
+        {
+          "value": "44.096"
+        },
+        {
+          "value": "-7.229"
+        },
+        {
+          "value": "-24.096"
+        },
+        {
+          "value": "7.229"
+        }
+      ],
+      "answer": 1,
+      "solution": {
+        "ko": "$T\\prime=-24e^{-0.3t}$이므로 값은 $-7.228661086\\ldots$이다.",
+        "en": "Include the inner exponential factor $-0.3$."
+      },
+      "oracle": "diff(20+80*exp(-3*t/10),t).subs(t,4)",
+      "figure": null,
+      "table": null,
+      "verification": {
+        "method": "symbolic_or_numeric_oracle",
+        "result": "-24*exp(-6/5)",
+        "tolerance": 0.0005000001
+      }
+    },
+    {
+      "id": "EF01",
+      "unit": 8,
+      "skill": "Calculator accumulation",
+      "type": "FRQ",
+      "calculator": true,
+      "prompt": {
+        "ko": "탱크에 처음 $40$ L의 물이 있다. $0\\le t\\le4$분에서 유입률은 $R(t)=12+3\\sin(t^2/4)$ L/min, 유출률은 $D(t)=8+t$ L/min이다.",
+        "en": "A tank initially contains $40$ liters. For $0\\le t\\le4$ minutes, inflow is $R(t)=12+3\\sin(t^2/4)$ L/min and outflow is $D(t)=8+t$ L/min."
+      },
+      "parts": [
+        {
+          "prompt": {
+            "ko": "$t=4$에서 물의 양을 소수 셋째 자리까지 구하라.",
+            "en": "Find the volume at $t=4$ to three decimal places."
+          },
+          "solution": {
+            "ko": "$W(4)=40+\\int_0^4(4-t+3\\sin(t^2/4))\\,dt=52.828658936\\ldots$ L이다. 반올림하면 $52.829$ L이다.",
+            "en": "The volume is $40+\\int_0^4(4-t+3\\sin(t^2/4))\\,dt=52.828658936\\ldots$, or $52.829$ liters."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "순변화율 적분 1점; 초기량 40 더하기 1점; 수치와 L 단위 1점",
+            "en": "Net-rate integral 1; initial amount 1; number and liters 1"
+          },
+          "oracle": "40+nint(4-t+3*sin(t**2/4),t,0,4)",
+          "value": "52.8286589360625",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "52.8286589360625366617776536107557955653415097"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "$[0,4]$에서 물의 양이 최대가 되는 시각을 근거와 함께 구하라.",
+            "en": "Justify the time when water volume is greatest on $[0,4]$."
+          },
+          "solution": {
+            "ko": "$W\\prime=4-t+3\\sin(t^2/4)$이다. $(3,4)$의 유일한 영점은 $t=3.616504044\\ldots$분이다. 처음부터 이 점까지 순변화율이 양수이며 이후 음수이므로 $t\\approx3.617$분에서 최대이다.",
+            "en": "The net rate $4-t+3\\sin(t^2/4)$ has its unique zero in $(3,4)$ at $3.616504044\\ldots$. Its change from positive to negative gives the maximum at about $3.617$ minutes."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "도함수인 순변화율 1점; 영점 수치 1점; 부호와 끝점 근거 1점",
+            "en": "Net derivative 1; numerical root 1; signs and endpoint reasoning 1"
+          },
+          "oracle": "nroot(4-t+3*sin(t**2/4),t,3,4)",
+          "value": "3.61650404395937",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "3.61650404395937335657211891202610000179415732"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "$t=2$에서 물의 양의 증가율이 커지고 있는지 설명하라.",
+            "en": "At $t=2$, is the water-volume rate increasing? Justify."
+          },
+          "solution": {
+            "ko": "$W^{\\prime\\prime}(2)=3\\cos1-1\\approx0.621>0$이므로 순유입률이 증가한다. 물의 양의 증가와 증가율의 증가는 서로 다른 질문이다.",
+            "en": "The second derivative is $W^{\\prime\\prime}(2)=3\\cos1-1\\approx0.621>0$, so the net-volume rate is increasing."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "둘째 도함수 식 1점; 값과 양의 부호 1점; 증가율 해석 1점",
+            "en": "Second derivative 1; positive evaluated sign 1; rate interpretation 1"
+          },
+          "oracle": "3*cos(1)-1",
+          "value": "0.620906917604419",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "-1 + 3*cos(1)"
+          }
+        }
+      ],
+      "figure": null,
+      "table": null
+    },
+    {
+      "id": "EF02",
+      "unit": 6,
+      "skill": "Calculator integral model",
+      "type": "FRQ",
+      "calculator": true,
+      "prompt": {
+        "ko": "$f(x)=e^{-x^2}+x/4$이고 $F(x)=\\int_0^x f(t)\\,dt$이다. $0\\le x\\le2$이다.",
+        "en": "Let $f(x)=e^{-x^2}+x/4$ and $F(x)=\\int_0^x f(t)\\,dt$ for $0\\le x\\le2$."
+      },
+      "parts": [
+        {
+          "prompt": {
+            "ko": "$F(2)$와 $f$의 구간 평균값을 구하라.",
+            "en": "Find $F(2)$ and the average value of $f$ on the interval."
+          },
+          "solution": {
+            "ko": "$F(2)=\\int_0^2(e^{-x^2}+x/4)\\,dx=1.382081391\\ldots$이다. 평균은 $F(2)/2=0.691040695\\ldots$이다.",
+            "en": "The numerical integral is $F(2)=1.382081391\\ldots$. The average is $F(2)/2=0.691040695\\ldots$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "정적분 식 1점; F 수치 1점; 평균을 위한 나눗셈 1점",
+            "en": "Integral setup 1; numerical F 1; divide for average 1"
+          },
+          "oracle": "nint(exp(-x**2)+x/4,x,0,2)",
+          "value": "1.38208139076242",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "1.38208139076242167996748103591405403722405177"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "$f$의 절대최댓값을 구하고 후보 비교를 제시하라.",
+            "en": "Find the absolute maximum value of $f$ and show candidate comparisons."
+          },
+          "solution": {
+            "ko": "임계수는 $0.127033555\\ldots$, $1.595893206\\ldots$이다. 양 끝점과 이 두 점의 함숫값은 각각 $1$, $0.518315639\\ldots$, $1.015750377\\ldots$, $0.477299345\\ldots$이다. 따라서 최대는 $x\\approx0.127$에서 $f\\approx1.016$이다.",
+            "en": "Critical inputs are $0.127033555\\ldots$ and $1.595893206\\ldots$. At $0,2$ and those critical inputs, values are $1$, $0.518315639\\ldots$, $1.015750377\\ldots$, and $0.477299345\\ldots$. The maximum is about $1.016$ at $x\\approx0.127$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "두 내부 임계수 1점; 끝점 포함 비교 1점; 최대 함숫값 1점",
+            "en": "Both interior critical numbers 1; endpoint comparison 1; maximum value 1"
+          },
+          "oracle": "(exp(-x**2)+x/4).subs(x,nroot(-2*x*exp(-x**2)+Rational(1,4),x,0,Rational(1,2)))",
+          "value": "1.01575037689122",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "1.01575037689121946056854802188766643788196469"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "$F$가 구간 전체에서 증가하는지 근거와 함께 설명하라.",
+            "en": "Justify whether $F$ increases throughout the interval."
+          },
+          "solution": {
+            "ko": "기본정리로 $F\\prime=f$이다. $e^{-x^2}>0$이고 $x/4\\ge0$이므로 구간에서 $F\\prime>0$이다. 따라서 증가한다.",
+            "en": "FTC gives $F\\prime=f$. Since the exponential term is positive and $x/4\\ge0$, the derivative is positive and $F$ increases throughout."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "기본정리 1점; 적분함수 양의 부호 1점; 증감 결론 1점",
+            "en": "FTC 1; positive integrand argument 1; conclusion 1"
+          },
+          "oracle": null,
+          "value": null,
+          "verification": {
+            "method": "editorial_reasoning_review"
+          }
+        }
+      ],
+      "figure": null,
+      "table": null
+    },
+    {
+      "id": "EF03",
+      "unit": 5,
+      "skill": "Graph and accumulation",
+      "type": "FRQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "그림은 연속함수 $f$의 그래프이며 $G(x)=\\int_0^x f(t)\\,dt$이다. 정의역은 $[0,4]$이다.",
+        "en": "The graph shows a continuous $f$ and $G(x)=\\int_0^x f(t)\\,dt$ on $[0,4]$."
+      },
+      "parts": [
+        {
+          "prompt": {
+            "ko": "$G(4)$와 $G\\prime(2)$를 구하라.",
+            "en": "Find $G(4)$ and $G\\prime(2)$."
+          },
+          "solution": {
+            "ko": "삼각형의 양의 넓이 $3$에서 음의 기여 $1$을 빼면 $G(4)=2$이다. $G\\prime(2)=f(2)=1$이다.",
+            "en": "The signed area is $3-1=2$, and FTC gives $G\\prime(2)=1$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "부호 있는 넓이 1점; G 값 1점; 도함수 값 1점",
+            "en": "Signed-area calculation 1; G value 1; derivative value 1"
+          },
+          "oracle": null,
+          "value": null,
+          "verification": {
+            "method": "editorial_reasoning_review"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "$G$의 절대최대와 달성 위치를 근거와 함께 구하라.",
+            "en": "Justify the absolute maximum of $G$ and its location."
+          },
+          "solution": {
+            "ko": "$G\\prime=f$는 $(0,3)$에서 양수, $(3,4)$에서 음수이다. 최대는 $x=3$에서 $G(3)=3$이다.",
+            "en": "The derivative is positive before $3$ and negative after. The maximum is $G(3)=3$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "도함수 연결 1점; 부호변화 1점; 위치와 값 1점",
+            "en": "Derivative connection 1; sign change 1; location and value 1"
+          },
+          "oracle": null,
+          "value": null,
+          "verification": {
+            "method": "editorial_reasoning_review"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "$G$의 변곡점 입력을 모두 찾고, 왜 $x=1$도 포함되는지 설명하라.",
+            "en": "Find all inflection inputs of $G$ and explain why $x=1$ is included."
+          },
+          "solution": {
+            "ko": "$G\\prime=f$는 $(0,1)$에서 증가하고 $(1,4)$에서 감소한다. 따라서 $G$는 $x=1$에서 위로 오목에서 아래로 오목으로 바뀐다. $x=3$에서는 $f$의 기울기가 $-1$에서 $-2$로 바뀌어도 둘 다 음수라 오목성은 바뀌지 않는다. 유일한 입력은 $1$이다.",
+            "en": "Since $f$ increases before $1$ and decreases after, $G$ changes from concave up to down there. At $3$, the slopes of $f$ remain negative, so there is no concavity change. Only $1$ is an inflection input."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "f의 증감 읽기 1점; x=1의 오목성 변화 1점; 다른 후보 제외 1점",
+            "en": "Monotonicity of f 1; concavity change at 1 1; exclude other candidates 1"
+          },
+          "oracle": null,
+          "value": null,
+          "verification": {
+            "method": "editorial_reasoning_review"
+          }
+        }
+      ],
+      "figure": "accumulation",
+      "table": null
+    },
+    {
+      "id": "EF04",
+      "unit": 7,
+      "skill": "Separable initial value and tangent",
+      "type": "FRQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$y\\prime=2x(y+2)$이고 $y(0)=1$이다.",
+        "en": "Consider $y\\prime=2x(y+2)$ with $y(0)=1$."
+      },
+      "parts": [
+        {
+          "prompt": {
+            "ko": "초기점에서의 접선을 구하고 그 접선으로 $y(0.1)$을 추정하라.",
+            "en": "Find the initial tangent line and use it to estimate $y(0.1)$."
+          },
+          "solution": {
+            "ko": "초기 기울기는 $0$이므로 접선은 $y=1$, 근삿값도 $1$이다.",
+            "en": "The initial slope is zero, so the tangent line is $y=1$ and the estimate is $1$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "초기 기울기 1점; 접선식 1점; 근삿값 1점",
+            "en": "Initial slope 1; tangent line 1; estimate 1"
+          },
+          "oracle": null,
+          "value": null,
+          "verification": {
+            "method": "editorial_reasoning_review"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "변수분리로 명시적 해를 구하라.",
+            "en": "Find an explicit solution by separation."
+          },
+          "solution": {
+            "ko": "$dy/(y+2)=2x\\,dx$에서 $\\ln|y+2|=x^2+C$이다. 초기조건으로 $y+2=3e^{x^2}$, 즉 $y=3e^{x^2}-2$이다.",
+            "en": "Separate and integrate to get $y+2=Ce^{x^2}$. The initial condition gives $y=3e^{x^2}-2$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "변수분리 1점; 적분 1점; 초기조건과 해 1점",
+            "en": "Separation 1; integration 1; initial condition and solution 1"
+          },
+          "oracle": "diff(3*exp(x**2)-2,x)-2*x*((3*exp(x**2)-2)+2)",
+          "value": "0",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "0"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "(a)의 근사가 과대인지 과소인지 둘째 도함수로 설명하라.",
+            "en": "Use the second derivative to decide whether the estimate in (a) is high or low."
+          },
+          "solution": {
+            "ko": "$y^{\\prime\\prime}=2(y+2)+2xy\\prime=2(y+2)(1+2x^2)>0$이다. 해가 위로 오목하므로 접선 근사 $1$은 과소근사이다.",
+            "en": "The solution has $y+2>0$, so $y^{\\prime\\prime}=2(y+2)(1+2x^2)>0$. The tangent estimate is an underestimate."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "둘째 도함수 1점; 구간의 양의 부호 1점; 과소근사 결론 1점",
+            "en": "Second derivative 1; positive sign on interval 1; underestimate conclusion 1"
+          },
+          "oracle": null,
+          "value": null,
+          "verification": {
+            "method": "editorial_reasoning_review"
+          }
+        }
+      ],
+      "figure": null,
+      "table": null
+    },
+    {
+      "id": "EF05",
+      "unit": 8,
+      "skill": "Three dimensional cross sections",
+      "type": "FRQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$R$은 $y=4-x^2$와 $x$축으로 둘러싸인 영역이다.",
+        "en": "Let $R$ be the region bounded by $y=4-x^2$ and the $x$-axis."
+      },
+      "parts": [
+        {
+          "prompt": {
+            "ko": "$R$의 넓이를 구하라.",
+            "en": "Find the area of $R$."
+          },
+          "solution": {
+            "ko": "교점은 $x=\\pm2$이고 넓이는 $\\int_{-2}^2(4-x^2)\\,dx=32/3$이다.",
+            "en": "Intersections are $\\pm2$; integrating the height gives $32/3$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "교점 1점; 넓이 적분 1점; 결과 1점",
+            "en": "Intersections 1; area integral 1; result 1"
+          },
+          "oracle": "integrate(4-x**2,(x,-2,2))",
+          "value": "32/3",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "32/3"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "$R$을 $x$축 둘레로 회전한 부피를 구하라.",
+            "en": "Find the volume when $R$ revolves about the $x$-axis."
+          },
+          "solution": {
+            "ko": "$V=\\pi\\int_{-2}^2(4-x^2)^2\\,dx=512\\pi/15$이다.",
+            "en": "The disk integral is $512\\pi/15$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "반지름 1점; 제곱한 적분 1점; 부피 1점",
+            "en": "Radius 1; squared-radius integral 1; volume 1"
+          },
+          "oracle": "pi*integrate((4-x**2)**2,(x,-2,2))",
+          "value": "512*pi/15",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "512*pi/15"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "밑면이 $R$이고 $x$축에 수직인 단면이 정삼각형인 입체의 부피를 구하라.",
+            "en": "A different solid has base $R$ and equilateral-triangle cross sections perpendicular to the $x$-axis. Find its volume."
+          },
+          "solution": {
+            "ko": "한 변은 $4-x^2$이다. $V=(\\sqrt3/4)\\int_{-2}^2(4-x^2)^2\\,dx=128\\sqrt3/15$이다.",
+            "en": "Each triangle has side $4-x^2$. Its area factor is $\\sqrt3/4$, giving volume $128\\sqrt3/15$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "단면 변과 넓이 공식 1점; 적분 1점; 결과 1점",
+            "en": "Side and triangle formula 1; integral 1; result 1"
+          },
+          "oracle": "sqrt(3)*integrate((4-x**2)**2,(x,-2,2))/4",
+          "value": "128*sqrt(3)/15",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "128*sqrt(3)/15"
+          }
+        }
+      ],
+      "figure": null,
+      "table": null
+    },
+    {
+      "id": "EF06",
+      "unit": 2,
+      "skill": "Piecewise matching and theorem",
+      "type": "FRQ",
+      "calculator": false,
+      "prompt": {
+        "ko": "$x<1$에서 $f(x)=ax+b$이고 $x\\ge1$에서 $f(x)=x^2+1$이다. 함수가 $x=1$에서 미분가능하도록 정한다.",
+        "en": "Let $f(x)=ax+b$ for $x<1$ and $f(x)=x^2+1$ for $x\\ge1$. Choose parameters so that $f$ is differentiable at $1$."
+      },
+      "parts": [
+        {
+          "prompt": {
+            "ko": "$a,b$를 구하고 두 조건을 각각 제시하라.",
+            "en": "Find $a,b$ and state both matching conditions."
+          },
+          "solution": {
+            "ko": "연속성으로 $a+b=2$, 좌우 도함수 일치로 $a=2$이다. 따라서 $a=2,b=0$이다.",
+            "en": "Continuity requires $a+b=2$ and matching one-sided derivatives require $a=2$. Thus $b=0$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "연속성 조건 1점; 미분 조건 1점; 두 값 1점",
+            "en": "Continuity condition 1; derivative condition 1; both parameters 1"
+          },
+          "oracle": null,
+          "value": null,
+          "verification": {
+            "method": "editorial_reasoning_review"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "$[0,2]$에서 평균값정리를 적용할 수 있는 이유를 쓰고, 정리를 만족하는 $c\\in(0,2)$를 구하라.",
+            "en": "Justify MVT on $[0,2]$ and find a point $c\\in(0,2)$ satisfying it."
+          },
+          "solution": {
+            "ko": "정한 함수는 $[0,2]$에서 연속이고 $(0,2)$에서 미분가능하다. 평균변화율은 $(5-0)/2=5/2$이다. 왼쪽 도함수는 $2$이며 오른쪽 $2c=5/2$를 풀면 $c=5/4$이다.",
+            "en": "The matching conditions give continuity and differentiability. The average rate is $5/2$. The left derivative is $2$; on the right, $2c=5/2$ gives $c=5/4$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "두 정리 가정 1점; 평균변화율 1점; 올바른 조각에서 c 1점",
+            "en": "Both hypotheses 1; average rate 1; c in correct piece 1"
+          },
+          "oracle": "Rational(5,2)/2",
+          "value": "5/4",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "5/4"
+          }
+        },
+        {
+          "prompt": {
+            "ko": "$f$의 $[0,2]$에서 평균값을 구하라.",
+            "en": "Find the average value of $f$ on $[0,2]$."
+          },
+          "solution": {
+            "ko": "$\\frac12(\\int_0^1 2x\\,dx+\\int_1^2(x^2+1)\\,dx)=\\frac12(1+10/3)=13/6$이다.",
+            "en": "Split the integral at $1$ and divide by $2$ to obtain $13/6$."
+          },
+          "points": 3,
+          "criteria": {
+            "ko": "조각별 적분 1점; 적분 계산 1점; 구간 길이로 나눔 1점",
+            "en": "Piecewise integral 1; evaluation 1; divide by interval length 1"
+          },
+          "oracle": "(integrate(2*x,(x,0,1))+integrate(x**2+1,(x,1,2)))/2",
+          "value": "13/6",
+          "verification": {
+            "method": "symbolic_or_numeric_oracle",
+            "result": "13/6"
+          }
+        }
+      ],
+      "figure": null,
+      "table": null
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "korean": {
+    "pages": 81,
+    "all_question_ids_present": true,
+    "no_split_questions": true,
+    "no_unrendered_placeholders": true,
+    "safe_content_bounds": true,
+    "native_equation_word_source": true,
+    "cjk_font_embedded": true,
+    "contact_sheets": 7,
+    "visual_review": "All rendered pages reviewed in contact sheets, with focused full-page checks of dense notes, equations, graphs and FRQ solutions.",
+    "visual_review_date": "2026-10-28"
+  },
+  "english": {
+    "pages": 81,
+    "all_question_ids_present": true,
+    "no_split_questions": true,
+    "no_unrendered_placeholders": true,
+    "safe_content_bounds": true,
+    "native_equation_word_source": true,
+    "cjk_font_embedded": true,
+    "contact_sheets": 7,
+    "visual_review": "All rendered pages reviewed in contact sheets, with focused full-page checks of dense notes, equations, graphs and FRQ solutions.",
+    "visual_review_date": "2026-10-28"
+  },
+  "teacher": {
+    "pages": 56,
+    "all_question_ids_present": true,
+    "no_split_questions": true,
+    "no_unrendered_placeholders": true,
+    "safe_content_bounds": true,
+    "native_equation_word_source": true,
+    "cjk_font_embedded": true,
+    "contact_sheets": 5,
+    "visual_review": "All rendered pages reviewed in contact sheets, with focused full-page checks of dense notes, equations, graphs and FRQ solutions.",
+    "visual_review_date": "2026-10-28"
+  }
+}

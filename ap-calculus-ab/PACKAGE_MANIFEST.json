@@ -1,0 +1,181 @@
+{
+  "created_on": "2026-10-28",
+  "edition": "AP Calculus AB first edition for 2027",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 73,
+      "sha256": "dee88bb0a9e658bd12b4f7829fbac137d3d0dedbfa5c8a28a43828830848c260"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4747,
+      "sha256": "07fd2900e0c4f1fb26c9c7e2200bc5b23cd50dd4b9809ea4d8456cccabc2e1bb"
+    },
+    {
+      "path": "assets/accumulation.png",
+      "bytes": 32248,
+      "sha256": "34e206f1538e3b843312d1ca6a3d5c8f695f6859724078e21e8b602b0cf17f0b"
+    },
+    {
+      "path": "assets/area.png",
+      "bytes": 46235,
+      "sha256": "7a9dd8edfc3aa8d57790ab51465d0288cb4985f4c96421cb06ff402ad8456f79"
+    },
+    {
+      "path": "assets/derivative.png",
+      "bytes": 35508,
+      "sha256": "75fac07c63ea4c87eb5b74709157ef5b6882df1263e9fe05a6a5739b8087bc30"
+    },
+    {
+      "path": "assets/fonts/NotoSansCJKkr-BookSubset.otf",
+      "bytes": 76980,
+      "sha256": "45c611e52af5215f42ab2f57dd96d275bb533ebb9716ee5c84c8e76b2a6376a5"
+    },
+    {
+      "path": "assets/fonts/OFL.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "path": "assets/hole.png",
+      "bytes": 28059,
+      "sha256": "86025705b1521745e527a14fd81668c749d862c1cbdf99f7a5ea321090837f1c"
+    },
+    {
+      "path": "assets/inverse.png",
+      "bytes": 41129,
+      "sha256": "87ccd0014610b4e5447d3a5ec63976c904f51d9cf9f0315587f8e8c685f82724"
+    },
+    {
+      "path": "assets/motion.png",
+      "bytes": 50454,
+      "sha256": "9f63c45bd21bfb60f7e11a3cfff54d3b84293669c33aad665c3528d344592a90"
+    },
+    {
+      "path": "assets/slopefield.png",
+      "bytes": 75412,
+      "sha256": "c64f0f58377d9bfcb00103aa8d7aaaf9963a3eb1870687bce2de85f24aefaa6d"
+    },
+    {
+      "path": "assets/tangent.png",
+      "bytes": 45968,
+      "sha256": "ffcdccbf4a15e0a787509aeb143b58e9982fd7f6262516effab110f66a3b5909"
+    },
+    {
+      "path": "content/curriculum.json",
+      "bytes": 48699,
+      "sha256": "351b6f2a414437611b4ebf806701ee32720eb912e7249ebb886897abf1ba263a"
+    },
+    {
+      "path": "content/layout_report.json",
+      "bytes": 1411,
+      "sha256": "b2290138b588f26efb829f178ee234783137d5aa95840c739392d932c2a14356"
+    },
+    {
+      "path": "content/question_bank.json",
+      "bytes": 174112,
+      "sha256": "da6c58943e7bf9a5bc17dcc7afa27ace859d04b6f9f656ad762e17946eb4d849"
+    },
+    {
+      "path": "content/student_en.md",
+      "bytes": 38108,
+      "sha256": "bf724d1746e437624b397ac31aa17e0c86ec75881fc48b6c59a903b2fe038823"
+    },
+    {
+      "path": "content/student_ko.md",
+      "bytes": 40685,
+      "sha256": "9decc74b72319937e4e6bd2fff041a0b7c1157ca9848504534d676bc6529e71c"
+    },
+    {
+      "path": "content/teacher_blueprint.csv",
+      "bytes": 8244,
+      "sha256": "5be5d97f204f8402f09dbcfcd02aa8e9433df35d7877e4c29fd8940af481f9b9"
+    },
+    {
+      "path": "content/teacher_solutions.md",
+      "bytes": 37336,
+      "sha256": "b78c00bae23015de7b20808fcfc46305f9d239ea2c2121393016a7c0d23c5f4e"
+    },
+    {
+      "path": "content/validation_report.json",
+      "bytes": 3076,
+      "sha256": "f28f175c8244c3b729f7d2bb76540010cad635074a4bf4e713eadd1307e91931"
+    },
+    {
+      "path": "deliverables/AP_Calculus_AB_Student_English.docx",
+      "bytes": 473594,
+      "sha256": "a1408d291604e2e436701ab5fab520fa931d160b89bf5bba4b312ef61df117b8"
+    },
+    {
+      "path": "deliverables/AP_Calculus_AB_Student_English.pdf",
+      "bytes": 1181828,
+      "sha256": "693ca6ceab905af47400adbe21416001b8fa9848011216e619ddb7f6dc7d90b4"
+    },
+    {
+      "path": "deliverables/AP_Calculus_AB_교사용_해설.docx",
+      "bytes": 143050,
+      "sha256": "fb456cbdfc0f7e5fc3d4c0cda01dc74965621e84852b3f87366f5c1ed7356d54"
+    },
+    {
+      "path": "deliverables/AP_Calculus_AB_교사용_해설.pdf",
+      "bytes": 1238284,
+      "sha256": "6d7ebbeefb661e479047327633f45b7ca11b0685b054c1f2847c8d5af3cbaeb8"
+    },
+    {
+      "path": "deliverables/AP_Calculus_AB_학생용_한글.docx",
+      "bytes": 476377,
+      "sha256": "ed6ce345dba2e8ff14a2315d95d25e9dda173ddc34fba6507e20d76a0e74dfab"
+    },
+    {
+      "path": "deliverables/AP_Calculus_AB_학생용_한글.pdf",
+      "bytes": 1556961,
+      "sha256": "df5d0e64c1f7822c7d9910d4d783fd4e6e0a36e38b4c4bf3e89456279ecc427c"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 185,
+      "sha256": "07668dcaf785973bd731564dfcc2e3be5f7cfe3353a134a509dc8246e0571d6f"
+    },
+    {
+      "path": "scripts/build_books.py",
+      "bytes": 34858,
+      "sha256": "97e61deead39f7ec1757132ef1ea4f60b44e81bc085a41d0cd164346f96a5049"
+    },
+    {
+      "path": "scripts/curriculum.py",
+      "bytes": 38609,
+      "sha256": "7ba91ed7617a7b9279ba977e79d41507e639b579b31af55d4a79d274fb56d070"
+    },
+    {
+      "path": "scripts/exam.py",
+      "bytes": 28008,
+      "sha256": "feab016bd7694e5660a7ad8a04fa35c9dee8cbf6d226177c4a27b9534bf6ebdd"
+    },
+    {
+      "path": "scripts/package.py",
+      "bytes": 2794,
+      "sha256": "054e19e4cc43212388864e63998f2eeea6c571142788f8de6420049bfc6a0a38"
+    },
+    {
+      "path": "scripts/questions.py",
+      "bytes": 22087,
+      "sha256": "9d165c782dd308ced43bf892d89b045a3f83a37f7968e94cb24d7d503d5b9d9f"
+    },
+    {
+      "path": "scripts/unit_frq.py",
+      "bytes": 26926,
+      "sha256": "4617a0e5ef7e18a7cdc6fc614ac0ff27febe3a26ca84a9c5d2adde4800fc7273"
+    },
+    {
+      "path": "scripts/validate_artifacts.py",
+      "bytes": 3558,
+      "sha256": "c7ff73f5d76c11fe8b2967df165f1d8b1f26297885f9b68610760bdc8bec1986"
+    },
+    {
+      "path": "scripts/validate_content.py",
+      "bytes": 8095,
+      "sha256": "f28737986172a59a70ffb6d5b2ddbf2a0955278a2c32dd46fdb9b3462a78ccd0"
+    }
+  ]
+}
