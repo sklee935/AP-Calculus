@@ -22,7 +22,7 @@
   "alt_text_join": " | ",
   "facebook_crosspost": false,
   "user_authorized_manual_publication": true,
-  "publication_pending_reason": "Target account login is confirmed. Webpage click control remains unavailable; awaiting the user to open Select from computer so native file-chooser control can be attempted. No upload or Share action was performed.",
+  "publication_pending_reason": "Target account login is confirmed, but browser input control remains unavailable. An alternative publishing connector has not returned a connected Instagram target. The user requests agent-managed completion without further manual UI steps. No media upload or publication was confirmed.",
   "verification": {
     "local_read_only_validator": {
       "slides": 8,
