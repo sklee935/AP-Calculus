@@ -19,7 +19,9 @@ For **L03 and L04**, each post uses the original eight PNGs in numerical order, 
 
 ## Continue safely
 
+**Pending request, 2026-11-12:** the user authorized one additional post including actual Instagram publication. [L05 caption](L05-caption.txt) and [prepared manifest](L05-post.json) are ready. The 1,151-character caption preserves both canonical language bodies and supplements the radians, x≠0 and squeeze-inequality conditions. Local validation passed 8 cards, 2 math checks and 8 PNGs; the eight-card contact sheet was reviewed. Browser input/tab control could not be restored, so no upload or Share action was performed and no L05 post URL is confirmed. The user has been asked to reconnect browser control and select @logoscrest.math. On recovery, check the account's current posts to avoid duplication, then complete this already-authorized publication. Do not describe the prepared record as a published post.
+
 - `../lessons/Lxx.json` remains the editable teaching-script and answer authority. `Lxx-caption.txt` records the published branded caption, not a competing math source. If a lesson changes, update the generated assets and explicitly record any later post correction.
 - `Lxx-post.json` records actual publication status, public URL and selected city. All asset paths are relative to that manifest's directory.
-- Future posting, editing, cross-posting and dated scheduling require a separate user request. L05–L60 remain prepared assets; do not post them just because they are ready.
+- L05 is currently authorized for one manual publication, pending browser recovery. Subsequent posting, editing, cross-posting and dated scheduling require a separate user request. L06–L60 remain prepared assets; do not post them just because they are ready.
 - The 20-week course schedule remains relative. There is no posting daemon, login token or account password in this repository.

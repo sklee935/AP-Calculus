@@ -1,0 +1,35 @@
+{
+  "lesson_id": "L05",
+  "account": "logoscrest.math",
+  "status": "prepared",
+  "prepared_local_date": "2026-11-12",
+  "timezone": "America/New_York",
+  "location_requested": "Suwanee, Georgia",
+  "caption_file": "L05-caption.txt",
+  "cards": [
+    "../exports/L05/01.png",
+    "../exports/L05/02.png",
+    "../exports/L05/03.png",
+    "../exports/L05/04.png",
+    "../exports/L05/05.png",
+    "../exports/L05/06.png",
+    "../exports/L05/07.png",
+    "../exports/L05/08.png"
+  ],
+  "alt_text_file": "../exports/L05/alt-text.json",
+  "aspect_ratio": "4:5",
+  "carousel_count": 8,
+  "alt_text_join": " | ",
+  "facebook_crosspost": false,
+  "user_authorized_manual_publication": true,
+  "publication_pending_reason": "Browser control must be restored and target account selected. No upload or Share action was performed.",
+  "verification": {
+    "local_read_only_validator": {
+      "slides": 8,
+      "math_checks": 2,
+      "pngs": 8
+    },
+    "contact_sheet_reviewed": true,
+    "live_post_verified": false
+  }
+}

@@ -1,6 +1,14 @@
 # Current handoff
 
-Updated 2026-11-08. **AP Calculus AB: 60 lessons, 480 bilingual Instagram cards completed.** Repository: https://github.com/sklee935/AP-Calculus.
+Updated 2026-11-12. **AP Calculus AB: 60 lessons, 480 bilingual Instagram cards completed.** Repository: https://github.com/sklee935/AP-Calculus.
+
+## Active publication request
+
+The user requested **one additional Instagram post**, explicitly including actual publication. L05 is prepared under that existing authorization; publication is **pending**. Chrome's account/tabs could be read, but account-switch clicks and keyboard actions did not take effect, direct tab control failed, and native coordinate input reported no available window. No upload or Share action was performed in this attempt. The user has been asked to restore the browser connection and select @logoscrest.math. Do not ask for publishing permission again after recovery; the request already authorizes one post.
+
+Prepared files: `instagram/publishing/L05-caption.txt` (1,151 characters) and `L05-post.json`. The eight existing `instagram/exports/L05/01.png`–`08.png` are the upload assets. The branded caption preserves both canonical language bodies and adds explicit radians/x≠0/squeeze-inequality conditions. Lesson source/CSS/exports remain unchanged. `python instagram/scripts/validate.py --lessons L05 --exports` passed (8 cards, 2 math checks, 8 PNGs); the eight-card contact sheet was visually reviewed. The graph shows the oscillating curve between ±x²; check answer is 3/2. There is no live-post review or confirmed post URL for L05.
+
+After browser control is restored, verify the target account and inspect its current posts to avoid duplicates, upload L05 once in 01–08 order at 4:5, add the prepared caption, eight bilingual alt texts joined by ` | `, and the Suwanee, Georgia city tag. Keep Facebook cross-post off. Verify sharing, location/caption and all eight indices, save a UI proof, then update the manifest/publication log, commit/push and confirm CI. Further posts after this one require a new user request.
 
 ## Delivered
 
@@ -41,7 +49,7 @@ Second-post checkpoint: `python instagram/scripts/validate.py --lessons L02 --ex
 
 Two-additional-post checkpoint: the user's request for two more posts was fulfilled with L03 and L04. `python instagram/scripts/validate.py --lessons L03,L04 --exports` passed (16 cards, 4 math checks, 16 PNGs). Both contact sheets were reviewed; metadata inspection checked all image paths/dimensions, eight bilingual alt texts per post, and preservation of both canonical caption bodies. Actual branded caption lengths are 1,031 and 929 characters. Instagram confirmed sharing each post and the profile count rose to three, then four. Both live carousels were traversed through index 8. Live cards reviewed: L03 1/3/8 (including open (1,2), filled (1,4)); L04 1/5/8 (including the x≠4 cancellation condition). Actual URLs, selected city and review scope are recorded in `instagram/publishing/L03-post.json` and `L04-post.json`. Teaching source/CSS/exports are unchanged. L05 is the next unposted prepared lesson; wait for a new user request before publishing it.
 
-No required AB implementation or requested publication action remains. The logo and four posts were completed under the user's separate requests. Actual UI verification for L01: profile photo/bio saved, profile showed one post, published caption and Suwanee location were visible, carousel advanced through all eight indices; live cards 1 and 8 were visually reviewed. The later verification records above supplement this scope. No additional visual certification of every middle card is implied. No street address or trademark clearance is available. Next optional work is student feedback-based revisions, new branded lesson variants, or the separate BC extension described in the textbook. Do not invent credentials, publish additional content, or assign real posting dates without a new user request.
+No required AB implementation remains; the current L05 publication request is pending as described above. The logo and four earlier posts were completed under the user's separate requests. Actual UI verification for L01: profile photo/bio saved, profile showed one post, published caption and Suwanee location were visible, carousel advanced through all eight indices; live cards 1 and 8 were visually reviewed. The later verification records above supplement this scope. No additional visual certification of every middle card is implied. No street address or trademark clearance is available. Optional work is student feedback-based revisions, new branded lesson variants, or the separate BC extension described in the textbook. Do not invent credentials or assign real posting dates without a new user request.
 
 ## Source ownership and commit procedure
 

@@ -12,6 +12,8 @@
 
 카드는 1080×1350px이며 모두 영어와 한국어를 함께 제공합니다. 각 강의 폴더에는 `01.png`–`08.png`, 정답·풀이가 포함된 한영 `caption.txt`, 카드별 `alt-text.json`, `preview.jpg`, 편집 가능한 `lesson.html`, 검증용 `manifest.json`이 있습니다. 사용자 요청에 따라 2026-11-08에 L01–L04를 각 8장씩 수동 게시했습니다. 최근 게시물: [L03 표·그래프의 극한](https://www.instagram.com/p/DffwVVDmwZf/) · [L04 인수분해와 켤레식](https://www.instagram.com/p/DffwrPmGwgb/). 전체 편성표는 상대 주차를 유지하며 자동 게시는 설정하지 않았습니다.
 
+2026-11-12 추가 요청: **[L05 삼각극한과 조임정리](instagram/exports/L05/preview.jpg)**의 [게시용 캡션](instagram/publishing/L05-caption.txt)과 [작업 상태](instagram/publishing/L05-post.json)를 준비했습니다. 브라우저 제어 연결 복구가 필요해 실제 게시는 대기 중입니다. 이미 승인된 게시 요청과 재개 절차는 [인수인계](docs/HANDOFF.md)에 기록했습니다.
+
 HTML 갤러리는 저장소를 복제한 뒤 `python -m http.server 8000`을 실행하고 `http://localhost:8000/instagram/exports/`에서 열 수 있습니다. GitHub에서는 위 목록의 이미지 링크를 사용하세요.
 
 ## 교재 / Textbooks
